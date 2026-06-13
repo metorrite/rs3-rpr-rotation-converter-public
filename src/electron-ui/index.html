@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>RSAnalysis to RotationMaster JSON export converter</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+<div class="app">
+    <h1>RSAnalysis to RotationMaster JSON export converter</h1>
+    <p class="subtitle">
+        Select the .json file exported from RSAnalysis website to convert to a readable format for Rotation Master Alt1 app.
+    </p>
+
+    <div class="field-group">
+        <label>Input file</label>
+        <div class="row">
+            <input id="inputFile" type="text" readonly />
+            <button id="browseInputBtn">Browse</button>
+        </div>
+    </div>
+
+    <div class="field-group">
+        <label>Output folder</label>
+        <div class="row">
+            <input id="outputFolder" type="text" readonly />
+            <button id="browseOutputBtn">Browse</button>
+        </div>
+    </div>
+
+    <div class="actions">
+        <button id="convertBtn">Convert</button>
+    </div>
+
+    <div id="status" class="status"></div>
+</div>
+
+<script src="./renderer.js"></script>
+</body>
+</html>

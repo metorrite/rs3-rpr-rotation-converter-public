@@ -1,0 +1,233 @@
+[
+  {
+    "tick": 0,
+    "anchor": {
+      "rawName": "greater ricochet",
+      "pvmeName": "grico"
+    },
+    "sameTickOverlays": [
+      {
+        "tick": 0,
+        "rawName": "Vulnerability bomb",
+        "pvmeName": "vulnerabilitybomb",
+        "title": "Vulnerability bomb",
+        "itemType": "ability",
+        "sameTick": true,
+        "delayFromAnchor": 0
+      }
+    ],
+    "delayedOverlays": []
+  },
+  {
+    "tick": 3,
+    "anchor": {
+      "rawName": "greater death's swiftness",
+      "pvmeName": "gdeathsswift"
+    },
+    "sameTickOverlays": [],
+    "delayedOverlays": []
+  },
+  {
+    "tick": 6,
+    "anchor": {
+      "rawName": "imbue shadows",
+      "pvmeName": "imbueshadows"
+    },
+    "sameTickOverlays": [
+      {
+        "tick": 6,
+        "rawName": "jas arrows",
+        "pvmeName": "jasarrows",
+        "title": "Jas Arrows",
+        "itemType": "gear",
+        "sameTick": true,
+        "delayFromAnchor": 0
+      }
+    ],
+    "delayedOverlays": []
+  },
+  {
+    "tick": 9,
+    "anchor": {
+      "rawName": "balance by force",
+      "pvmeName": "balancebyforce"
+    },
+    "sameTickOverlays": [],
+    "delayedOverlays": []
+  },
+  {
+    "tick": 12,
+    "anchor": {
+      "rawName": "galeshot",
+      "pvmeName": "galeshot"
+    },
+    "sameTickOverlays": [],
+    "delayedOverlays": []
+  },
+  {
+    "tick": 15,
+    "anchor": {
+      "rawName": "rapid fire",
+      "pvmeName": "rapid"
+    },
+    "sameTickOverlays": [],
+    "delayedOverlays": [
+      {
+        "tick": 21,
+        "rawName": "undead slayer ability",
+        "pvmeName": "undeadslayer",
+        "title": "Undead Slayer",
+        "itemType": "ability",
+        "sameTick": false,
+        "delayFromAnchor": 6
+      }
+    ]
+  },
+  {
+    "tick": 23,
+    "anchor": {
+      "rawName": "deadshot",
+      "pvmeName": "deadshot"
+    },
+    "sameTickOverlays": [],
+    "delayedOverlays": []
+  },
+  {
+    "tick": 26,
+    "anchor": {
+      "rawName": "shadowfall",
+      "pvmeName": "shadowfall"
+    },
+    "sameTickOverlays": [
+      {
+        "tick": 26,
+        "rawName": "essence of finality amulet (or)",
+        "pvmeName": "essenceoffinalityamulet(or)",
+        "title": "Essence of Finality Amulet (Or)",
+        "itemType": "gear",
+        "sameTick": true,
+        "delayFromAnchor": 0
+      }
+    ],
+    "delayedOverlays": []
+  },
+  {
+    "tick": 29,
+    "anchor": {
+      "rawName": "crystal rain",
+      "pvmeName": "crystalrain"
+    },
+    "sameTickOverlays": [],
+    "delayedOverlays": []
+  },
+  {
+    "tick": 32,
+    "anchor": {
+      "rawName": "shadowfall",
+      "pvmeName": "shadowfall"
+    },
+    "sameTickOverlays": [],
+    "delayedOverlays": []
+  },
+  {
+    "tick": 35,
+    "anchor": {
+      "rawName": "greater ricochet",
+      "pvmeName": "grico"
+    },
+    "sameTickOverlays": [
+      {
+        "tick": 35,
+        "rawName": "salve amulet (e)",
+        "pvmeName": "salveamulet(e)",
+        "title": "Salve Amulet (E)",
+        "itemType": "gear",
+        "sameTick": true,
+        "delayFromAnchor": 0
+      }
+    ],
+    "delayedOverlays": []
+  },
+  {
+    "tick": 38,
+    "anchor": {
+      "rawName": "snap shot",
+      "pvmeName": "snapshot"
+    },
+    "sameTickOverlays": [],
+    "delayedOverlays": []
+  },
+  {
+    "tick": 41,
+    "anchor": {
+      "rawName": "shadowfall",
+      "pvmeName": "shadowfall"
+    },
+    "sameTickOverlays": [],
+    "delayedOverlays": []
+  },
+  {
+    "tick": 44,
+    "anchor": {
+      "rawName": "piercing shot",
+      "pvmeName": "piercingshot"
+    },
+    "sameTickOverlays": [],
+    "delayedOverlays": [
+      {
+        "tick": 46,
+        "rawName": "salve amulet (e)",
+        "pvmeName": "salveamulet(e)",
+        "title": "Salve Amulet (E)",
+        "itemType": "gear",
+        "sameTick": false,
+        "delayFromAnchor": 2
+      }
+    ]
+  },
+  {
+    "tick": 47,
+    "anchor": {
+      "rawName": "galeshot",
+      "pvmeName": "galeshot"
+    },
+    "sameTickOverlays": [],
+    "delayedOverlays": []
+  },
+  {
+    "tick": 50,
+    "anchor": {
+      "rawName": "rapid fire",
+      "pvmeName": "rapid"
+    },
+    "sameTickOverlays": [],
+    "delayedOverlays": []
+  },
+  {
+    "tick": 58,
+    "anchor": {
+      "rawName": "balance by force",
+      "pvmeName": "balancebyforce"
+    },
+    "sameTickOverlays": [],
+    "delayedOverlays": []
+  },
+  {
+    "tick": 61,
+    "anchor": {
+      "rawName": "greater ricochet",
+      "pvmeName": "grico"
+    },
+    "sameTickOverlays": [],
+    "delayedOverlays": []
+  },
+  {
+    "tick": 65,
+    "anchor": {
+      "rawName": "snipe",
+      "pvmeName": "snipe"
+    },
+    "sameTickOverlays": [],
+    "delayedOverlays": []
+  }
+]

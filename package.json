@@ -1,0 +1,41 @@
+{
+  "name": "rs3-rotation-converter",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "main": "dist/electron/main.js",
+  "scripts": {
+    "dev": "tsx src/cli.ts",
+    "build": "tsc",
+    "gui": "npm run build && npx electron dist/electron/main.js",
+    "dist": "npm run build && electron-builder",
+    "dist:win": "npm run build && electron-builder --win nsis portable"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  },
+  "build": {
+    "appId": "com.drake.rsanalysis.rotationmaster.converter",
+    "productName": "RSAnalysis to RotationMaster Converter",
+    "artifactName": "${productName}-${version}-${os}-${arch}.${ext}",
+    "files": [
+      "dist/**/*",
+      "src/electron-ui/**/*",
+      "assets/**/*",
+      "package.json"
+    ],
+    "directories": {
+      "output": "release",
+      "buildResources": "build"
+    },
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ]
+    }
+  }
+}

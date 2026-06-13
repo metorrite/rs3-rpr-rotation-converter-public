@@ -1,0 +1,525 @@
+{
+  "Name": "Seriyu GM",
+  "Data": [
+    {
+      "Id": 0,
+      "Name": "PreBuild",
+      "Data": [
+        {
+          "Separator": "→",
+          "SelectedAbility": {
+            "Title": "grico",
+            "Emoji": "Greater ricochet",
+            "EmojiId": "787904334812807238",
+            "Category": "Ranged Abilities",
+            "Src": "./assets/resource/abilities/grico.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "→",
+          "SelectedAbility": {
+            "Title": "grico",
+            "Emoji": "Greater ricochet",
+            "EmojiId": "787904334812807238",
+            "Category": "Ranged Abilities",
+            "Src": "./assets/resource/abilities/grico.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "→",
+          "SelectedAbility": {
+            "Title": "gdeathsswift",
+            "Emoji": "Greater Death's Swiftness",
+            "EmojiId": "994644354536837121",
+            "Category": "Ranged Abilities",
+            "Src": "./assets/resource/abilities/gdeathsswift.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "→",
+          "SelectedAbility": {
+            "Title": "wenarrows",
+            "Emoji": "Wen arrows",
+            "EmojiId": "971025697046925362",
+            "Category": "Uncategorised",
+            "Src": "./assets/resource/abilities/wenarrows.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "+",
+          "SelectedAbility": {
+            "Title": "imbue_shadows",
+            "Emoji": "imbue_shadows",
+            "EmojiId": "1478061866193518744",
+            "Category": "Ranged Abilities",
+            "Src": "./assets/resource/abilities/imbue_shadows.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "→",
+          "SelectedAbility": {
+            "Title": "piercing_shot",
+            "Emoji": "piercing_shot",
+            "EmojiId": "1478061863723073636",
+            "Category": "Ranged Abilities",
+            "Src": "./assets/resource/abilities/piercing_shot.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "→",
+          "SelectedAbility": {
+            "Title": "bolg",
+            "Emoji": "Bow of the Last Guardian",
+            "EmojiId": "994189289623662702",
+            "Category": "Ranged Gear",
+            "Src": "./assets/resource/abilities/bolg.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "",
+          "SelectedAbility": {
+            "Title": "spec",
+            "Emoji": "Special attack",
+            "EmojiId": "537340400273195028",
+            "Category": "Defence and Constitution Abilities",
+            "Src": "./assets/resource/abilities/spec.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "→",
+          "SelectedAbility": {
+            "Title": "piercing_shot",
+            "Emoji": "piercing_shot",
+            "EmojiId": "1478061863723073636",
+            "Category": "Ranged Abilities",
+            "Src": "./assets/resource/abilities/piercing_shot.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "→",
+          "SelectedAbility": {
+            "Title": "anti",
+            "Emoji": "Anticipate",
+            "EmojiId": "535541306475151390",
+            "Category": "Defence and Constitution Abilities",
+            "Src": "./assets/resource/abilities/anti.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "→",
+          "SelectedAbility": {
+            "Title": "dba",
+            "Emoji": "Dragon battleaxe",
+            "EmojiId": "603979368850653216",
+            "Category": "Melee Gear",
+            "Src": "./assets/resource/abilities/dba.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "",
+          "SelectedAbility": {
+            "Title": "spec",
+            "Emoji": "Special attack",
+            "EmojiId": "537340400273195028",
+            "Category": "Defence and Constitution Abilities",
+            "Src": "./assets/resource/abilities/spec.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "→",
+          "SelectedAbility": {
+            "Title": "piercing_shot",
+            "Emoji": "piercing_shot",
+            "EmojiId": "1478061863723073636",
+            "Category": "Ranged Abilities",
+            "Src": "./assets/resource/abilities/piercing_shot.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "→",
+          "SelectedAbility": {
+            "Title": "grico",
+            "Emoji": "Greater ricochet",
+            "EmojiId": "787904334812807238",
+            "Category": "Ranged Abilities",
+            "Src": "./assets/resource/abilities/grico.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "→",
+          "SelectedAbility": {
+            "Title": "ecb",
+            "Emoji": "Eldritch crossbow",
+            "EmojiId": "615618531937222657",
+            "Category": "Ranged Gear",
+            "Src": "./assets/resource/abilities/ecb.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "",
+          "SelectedAbility": {
+            "Title": "eofspec",
+            "Emoji": "Essence of Finality (Ability)",
+            "EmojiId": "1257438999794946099",
+            "Category": "Defence and Constitution Abilities",
+            "Src": "./assets/resource/abilities/eofspec.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "→",
+          "SelectedAbility": {
+            "Title": "galeshot",
+            "Emoji": "galeshot",
+            "EmojiId": "1478061864943616122",
+            "Category": "Ranged Abilities",
+            "Src": "./assets/resource/abilities/galeshot.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "→",
+          "SelectedAbility": {
+            "Title": "surge",
+            "Emoji": "Surge",
+            "EmojiId": "535533810004262912",
+            "Category": "Magic Abilities",
+            "Src": "./assets/resource/abilities/surge.webp"
+          },
+          "Notes": "2T"
+        },
+        {
+          "Separator": "→",
+          "SelectedAbility": {
+            "Title": "dive",
+            "Emoji": "Dive",
+            "EmojiId": "1049378668197195808",
+            "Category": "Melee abilities",
+            "Src": "./assets/resource/abilities/dive.webp"
+          },
+          "Notes": null
+        }
+      ],
+      "Wave": null
+    },
+    {
+      "Id": 1,
+      "Name": "FUCK EM",
+      "Data": [
+        {
+          "Separator": "→",
+          "SelectedAbility": {
+            "Title": "surge",
+            "Emoji": "Surge",
+            "EmojiId": "535533810004262912",
+            "Category": "Magic Abilities",
+            "Src": "./assets/resource/abilities/surge.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "tc",
+          "SelectedAbility": {
+            "Title": "rapid",
+            "Emoji": "Rapid fire",
+            "EmojiId": "535541270521708566",
+            "Category": "Ranged Abilities",
+            "Src": "./assets/resource/abilities/rapid.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "→",
+          "SelectedAbility": {
+            "Title": "deadshot",
+            "Emoji": "deadshot",
+            "EmojiId": "1478061860371828929",
+            "Category": "Ranged Abilities",
+            "Src": "./assets/resource/abilities/deadshot.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "→",
+          "SelectedAbility": {
+            "Title": "gloomfirebow",
+            "Emoji": "Gloomfire bow",
+            "EmojiId": "1446178203608809472",
+            "Category": "Ranged Gear",
+            "Src": "./assets/resource/abilities/gloomfirebow.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "",
+          "SelectedAbility": {
+            "Title": "eofspec",
+            "Emoji": "Essence of Finality (Ability)",
+            "EmojiId": "1257438999794946099",
+            "Category": "Defence and Constitution Abilities",
+            "Src": "./assets/resource/abilities/eofspec.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "→",
+          "SelectedAbility": {
+            "Title": "grico",
+            "Emoji": "Greater ricochet",
+            "EmojiId": "787904334812807238",
+            "Category": "Ranged Abilities",
+            "Src": "./assets/resource/abilities/grico.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "→",
+          "SelectedAbility": {
+            "Title": "smoketendrils",
+            "Emoji": "Smoke tendrils",
+            "EmojiId": "536257336130404372",
+            "Category": "Magic Abilities",
+            "Src": "./assets/resource/abilities/smoketendrils.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "→",
+          "SelectedAbility": {
+            "Title": "meteor_strike",
+            "Emoji": "meteor_strike",
+            "EmojiId": "1478070401702821938",
+            "Category": "Melee abilities",
+            "Src": "./assets/resource/abilities/meteor_strike.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "+",
+          "SelectedAbility": {
+            "Title": "dive",
+            "Emoji": "Dive",
+            "EmojiId": "1049378668197195808",
+            "Category": "Melee abilities",
+            "Src": "./assets/resource/abilities/dive.webp"
+          },
+          "Notes": "climb"
+        },
+        {
+          "Separator": "↵",
+          "SelectedAbility": {
+            "Title": "berserk",
+            "Emoji": "Berserk",
+            "EmojiId": "535532854004678657",
+            "Category": "Uncategorised",
+            "Src": "./assets/resource/abilities/berserk.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "+",
+          "SelectedAbility": {
+            "Title": "adrenrenewal",
+            "Emoji": "Adrenaline renewal",
+            "EmojiId": "736298121704767538",
+            "Category": "Consumables, Currencies, and Combat Support Items",
+            "Src": "./assets/resource/abilities/adrenrenewal.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "→",
+          "SelectedAbility": {
+            "Title": "gbarge",
+            "Emoji": "Greater barge",
+            "EmojiId": "535532879250456578",
+            "Category": "Melee abilities",
+            "Src": "./assets/resource/abilities/gbarge.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "→",
+          "SelectedAbility": {
+            "Title": "dommine",
+            "Emoji": "Dominion mine",
+            "EmojiId": "662249620579155968",
+            "Category": "Consumables, Currencies, and Combat Support Items",
+            "Src": "./assets/resource/abilities/dommine.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "→",
+          "SelectedAbility": {
+            "Title": "assault",
+            "Emoji": "Assault",
+            "EmojiId": "535532855191928842",
+            "Category": "Melee abilities",
+            "Src": "./assets/resource/abilities/assault.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "→",
+          "SelectedAbility": {
+            "Title": "overpower",
+            "Emoji": "Overpower",
+            "EmojiId": "535532879334080517",
+            "Category": "Melee abilities",
+            "Src": "./assets/resource/abilities/overpower.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "→",
+          "SelectedAbility": {
+            "Title": "OLDchaosroar",
+            "Emoji": "OLDChaos Roar",
+            "EmojiId": "994644356671737966",
+            "Category": "Melee abilities",
+            "Src": "./assets/resource/abilities/OLDchaosroar.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "↵",
+          "SelectedAbility": {
+            "Title": "OLDchaosroar",
+            "Emoji": "OLDChaos Roar",
+            "EmojiId": "994644356671737966",
+            "Category": "Melee abilities",
+            "Src": "./assets/resource/abilities/OLDchaosroar.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "→",
+          "SelectedAbility": {
+            "Title": "varanussmercy",
+            "Emoji": "Varanus's Mercy",
+            "EmojiId": "1448697873603498045",
+            "Category": "Uncategorised",
+            "Src": "./assets/resource/abilities/varanussmercy.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "",
+          "SelectedAbility": {
+            "Title": "eofspec",
+            "Emoji": "Essence of Finality (Ability)",
+            "EmojiId": "1257438999794946099",
+            "Category": "Defence and Constitution Abilities",
+            "Src": "./assets/resource/abilities/eofspec.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "→",
+          "SelectedAbility": {
+            "Title": "varanussmercy",
+            "Emoji": "Varanus's Mercy",
+            "EmojiId": "1448697873603498045",
+            "Category": "Uncategorised",
+            "Src": "./assets/resource/abilities/varanussmercy.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "",
+          "SelectedAbility": {
+            "Title": "eofspec",
+            "Emoji": "Essence of Finality (Ability)",
+            "EmojiId": "1257438999794946099",
+            "Category": "Defence and Constitution Abilities",
+            "Src": "./assets/resource/abilities/eofspec.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "→",
+          "SelectedAbility": {
+            "Title": "lengmh",
+            "Emoji": "Dark Shard of Leng",
+            "EmojiId": "883134308146098227",
+            "Category": "Melee Gear",
+            "Src": "./assets/resource/abilities/lengmh.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "",
+          "SelectedAbility": {
+            "Title": "spec",
+            "Emoji": "Special attack",
+            "EmojiId": "537340400273195028",
+            "Category": "Defence and Constitution Abilities",
+            "Src": "./assets/resource/abilities/spec.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "→",
+          "SelectedAbility": {
+            "Title": "punish",
+            "Emoji": "Punish",
+            "EmojiId": "535532879439069184",
+            "Category": "Melee abilities",
+            "Src": "./assets/resource/abilities/punish.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "↵",
+          "SelectedAbility": {
+            "Title": "overpower",
+            "Emoji": "Overpower",
+            "EmojiId": "535532879334080517",
+            "Category": "Melee abilities",
+            "Src": "./assets/resource/abilities/overpower.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "→",
+          "SelectedAbility": {
+            "Title": "varanussmercy",
+            "Emoji": "Varanus's Mercy",
+            "EmojiId": "1448697873603498045",
+            "Category": "Uncategorised",
+            "Src": "./assets/resource/abilities/varanussmercy.webp"
+          },
+          "Notes": null
+        },
+        {
+          "Separator": "→",
+          "SelectedAbility": {
+            "Title": "cane",
+            "Emoji": "Hurricane",
+            "EmojiId": "535532878969438210",
+            "Category": "Melee abilities",
+            "Src": "./assets/resource/abilities/cane.webp"
+          },
+          "Notes": null
+        }
+      ],
+      "Wave": null
+    }
+  ]
+}

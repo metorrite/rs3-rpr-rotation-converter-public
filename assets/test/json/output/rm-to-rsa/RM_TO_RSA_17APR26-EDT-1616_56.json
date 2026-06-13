@@ -1,0 +1,87 @@
+{
+  "name": "Seriyu GM Reverse Test",
+  "timestamp": 1776457016225,
+  "data": {
+    "a": [
+      "Greater ricochet",
+      "Greater ricochet",
+      "Greater Death's Swiftness",
+      "Wen arrows",
+      "piercing_shot",
+      "balance by force",
+      "piercing_shot",
+      "Anticipate",
+      "Dragon battleaxe",
+      "piercing_shot",
+      "Greater ricochet",
+      "Essence of Finality (Ability)",
+      "galeshot",
+      "Surge",
+      "Dive"
+    ],
+    "e": [
+      [],
+      [],
+      [],
+      [
+        {
+          "type": "gear",
+          "value": "imbue_shadows",
+          "title": "imbue_shadows"
+        }
+      ],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        {
+          "type": "gear",
+          "value": "eldritch crossbow",
+          "title": "Eldritch crossbow"
+        }
+      ],
+      [],
+      [],
+      []
+    ],
+    "n": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "t": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "s": {}
+  }
+}
