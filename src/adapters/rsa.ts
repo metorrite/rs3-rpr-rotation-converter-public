@@ -167,17 +167,29 @@ export function serializeRsa(
             continue;
         }
         if (ev.primary) {
-            base.data.a[ev.tick] = rsaDisplayName(ev.primary);
-            if (ev.primary.kind === "spec" && ev.primary.weaponId) {
-                const weapon = catalog.get(ev.primary.weaponId);
-                const name = weapon ? cleanRsaName(weapon.pvmeName ?? weapon.display) : ev.primary.weaponId;
-                base.data.e[ev.tick]!.push({ type: "gear", value: name, title: name });
+            const p = ev.primary;
+            const name = rsaDisplayName(p);
+            if (p.kind === "gear") {
+                // a bare weapon / gear swap belongs in the extras row, not the
+                // ability bar (RSA's damage calc only understands abilities in `a`)
+                base.data.e[ev.tick]!.push(extraEntry(p));
+            } else if (p.kind === "marker") {
+                if (base.data.t && !base.data.t[ev.tick]) base.data.t[ev.tick] = p.display;
+            } else {
+                base.data.a[ev.tick] = name;
+                if (p.kind === "spec" && !name && p.weaponId) {
+                    // RSA has no action for this weapon's special — record the
+                    // swap in the extras row + a note instead of a name it can't calc
+                    const weapon = catalog.get(p.weaponId);
+                    const w = weapon ? cleanRsaName(weapon.pvmeName ?? weapon.display) : p.weaponId;
+                    base.data.e[ev.tick]!.push({ type: "gear", value: w, title: w });
+                }
             }
         }
         for (const ov of ev.overlays) {
             base.data.e[ev.tick]!.push(extraEntry(ov));
         }
-        if (ev.note && base.data.t) base.data.t[ev.tick] = ev.note;
+        if (ev.note && base.data.t && !base.data.t[ev.tick]) base.data.t[ev.tick] = ev.note;
     }
 
     return base;

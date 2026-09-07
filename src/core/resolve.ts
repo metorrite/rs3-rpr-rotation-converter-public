@@ -89,7 +89,8 @@ export function entryForOutput(
 /** Preferred RSA action name for a resolved ActionRef. */
 export function rsaDisplayName(ref: ActionRef): string {
     // A spec carries its RSA action name (e.g. "balance by force") in `display`.
-    if (ref.kind === "spec") return cleanRsaName(ref.display || ref.rawName);
+    // An empty display means RSA has no action for this weapon's spec.
+    if (ref.kind === "spec") return ref.display ? cleanRsaName(ref.display) : "";
     if (!ref.canonicalId) return ref.rawName;
     const curated = rsaNameFor(ref.canonicalId);
     if (curated) return curated;

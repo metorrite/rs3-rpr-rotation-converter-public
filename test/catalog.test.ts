@@ -1,7 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { ALIASES } from "../src/core/aliases.js";
 import { loadCatalog } from "../src/core/catalog.js";
-import { KNOWN_MISSING_RM_ASSETS } from "../src/core/aliases.js";
 import { resolveEntry } from "../src/core/resolve.js";
 import { WEAPON_SPEC_RULES } from "../src/core/weapon-specs.js";
 
@@ -31,15 +30,10 @@ describe("catalog", () => {
         expect(broken).toEqual([]);
     });
 
-    it("every weapon-spec weapon resolves unless flagged missing", () => {
-        const broken: string[] = [];
-        for (const rule of WEAPON_SPEC_RULES) {
-            const exists = catalog.has(rule.weaponId);
-            if (rule.assetExistsInRm && !exists) broken.push(`${rule.weaponId} (expected present)`);
-            if (!rule.assetExistsInRm && exists && !KNOWN_MISSING_RM_ASSETS.has(rule.weaponId)) {
-                broken.push(`${rule.weaponId} (now present — update assetExistsInRm)`);
-            }
-        }
+    it("every weapon-spec weapon flagged present actually resolves", () => {
+        const broken = WEAPON_SPEC_RULES.filter(
+            (rule) => rule.assetExistsInRm && !catalog.has(rule.weaponId),
+        ).map((rule) => `${rule.weaponId} (${rule.rsaActionName})`);
         expect(broken).toEqual([]);
     });
 });

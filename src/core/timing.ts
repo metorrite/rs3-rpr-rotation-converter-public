@@ -8,29 +8,19 @@
 
 import type { ActionRef, SequenceIR, Step, TimelineEvent, TimelineIR } from "./ir.js";
 import type { ConversionReport } from "./report.js";
+import { CHANNEL_TICKS } from "./weapon-specs.js";
 
 const DEFAULT_GCD_TICKS = 3;
 
-// Known non-standard cadences (ticks the action occupies before the next anchor).
-// Conservative: only entries we're reasonably sure of. Everything else is 3t.
-const GCD_TICKS: Record<string, number> = {
-    // channelled / bound
-    rapid: 6, // Rapid Fire
-    gdeathsswift: 3,
-    deathskulls: 3,
-    livingdeath: 0, // off-GCD
-    adrenrenewal: 0,
-    vulnbomb: 0,
-    spec: 0, // spec itself shares the weapon's tick
-    surge: 0,
-    dive: 0,
-    anti: 0,
-    bladeddive: 0,
-};
-
+// Every ability that triggers the global cooldown occupies 3 ticks (1.8s) before
+// the next is input. Channelled abilities run longer (CHANNEL_TICKS in
+// weapon-specs.ts). Off-GCD actions (`+` groups in RM) don't advance the cursor
+// at all and are handled as same-tick overlays, not here.
 export function gcdTicks(ref: ActionRef | null): number {
-    if (!ref?.canonicalId) return DEFAULT_GCD_TICKS;
-    return GCD_TICKS[ref.canonicalId] ?? DEFAULT_GCD_TICKS;
+    if (ref?.canonicalId && ref.canonicalId in CHANNEL_TICKS) {
+        return CHANNEL_TICKS[ref.canonicalId]!;
+    }
+    return DEFAULT_GCD_TICKS;
 }
 
 // ---------------------------------------------------------------------------

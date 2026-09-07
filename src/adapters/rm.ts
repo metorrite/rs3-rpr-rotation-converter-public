@@ -68,17 +68,30 @@ export function parseRm(
 
         // weapon + "" + (spec | eofspec)  ->  a single spec step
         if (next && next.Separator === "" && (isSpec(next) || isEofSpec(next))) {
-            const rule = findWeaponSpecRule(abilityLike(current));
             const weaponRef = toActionRef(catalog, abilityLike(current), { report, at: stepIndex, kindHint: "gear" });
+            const rule = findWeaponSpecRule(abilityLike(current), weaponRef.canonicalId ?? "");
             const primary: ActionRef = {
                 canonicalId: "spec",
-                rawName: rule?.rsaActionName ?? `${abilityLike(current)} spec`,
-                display: rule?.rsaActionName ?? "special attack",
+                rawName: rule?.rsaActionName ?? weaponRef.display,
+                // `display` is what RM→RSA writes into data.a. Only use a real RSA
+                // action name; otherwise leave it blank so the RSA side falls back
+                // to a weapon-swap + note (RSA has no generic "special attack").
+                display: rule?.rsaActionName ?? "",
                 kind: "spec",
                 weaponId: weaponRef.canonicalId ?? undefined,
             };
-            if (rule) report?.weaponSpec(primary.display, rule.weaponDisplayName, stepIndex);
-            steps.push({ primary, sameTick: [], delayTicks, lineBreakBefore, note });
+            report?.weaponSpec(
+                rule?.rsaActionName ?? weaponRef.display,
+                rule?.weaponDisplayName ?? weaponRef.display,
+                stepIndex,
+            );
+            steps.push({
+                primary,
+                sameTick: [],
+                delayTicks,
+                lineBreakBefore,
+                note: note ?? (rule ? undefined : `${weaponRef.display} special attack`),
+            });
             i += 2;
             stepIndex++;
             continue;
@@ -124,7 +137,10 @@ export function parseRm(
 }
 
 function pickPrimary(members: RmAbilitySelection[]): RmAbilitySelection | null {
-    const isAbility = (s: RmAbilitySelection) => /abilit/i.test(s.SelectedAbility?.Category ?? "");
+    // Same rule the PVME adapter uses for a "+" group: first real ability wins,
+    // so a round trip keeps the group's members in the same order.
+    const isAbility = (s: RmAbilitySelection) =>
+        classify(s.SelectedAbility?.Category ?? "") === "ability";
     return members.find(isAbility) ?? members.find((s) => !!s.SelectedAbility) ?? members[0] ?? null;
 }
 

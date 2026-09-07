@@ -80,22 +80,22 @@ export function classify(category: string): ActionKind {
     ) {
         return "gear";
     }
-    // NPC / drop / perk / cosmetic icons that show up in guides as labels, not actions
+    // NPC / drop / cosmetic / cursor icons that show up in guides as labels, not actions.
+    // (Keep "Miscellaneous" / "Uncategorised" out of this — real abilities land there.)
     if (
         c.includes("boss") ||
+        c === "npcs" ||
         c.includes("npc") ||
-        c.includes("pet") ||
+        c.includes(" pet") ||
+        c.includes("pets") ||
         c.includes("drop") ||
         c.includes("creature") ||
-        c.includes("slayer") ||
+        c.includes("slayer creature") ||
         c.includes("teleport") ||
         c.includes("clue") ||
-        c.includes("misc") ||
-        c.includes("uncategor") ||
-        c.includes("target") ||
-        c.includes("invention") ||
-        c.includes("perk") ||
-        c.includes("component") ||
+        c === "ability targetting" ||
+        c.includes("invention perk") ||
+        c.includes("invention component") ||
         c.includes("gizmo")
     ) {
         return "marker";
