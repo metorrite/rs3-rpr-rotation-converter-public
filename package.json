@@ -9,7 +9,7 @@
     "rs3rot": "dist/cli/index.js"
   },
   "engines": {
-    "node": ">=20.19"
+    "node": ">=22.12"
   },
   "scripts": {
     "clean": "node scripts/clean.mjs",

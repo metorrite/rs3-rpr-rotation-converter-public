@@ -20,7 +20,12 @@ npm ci
 npm run build
 ```
 
-Requires Node 20.19+ (see `.nvmrc`).
+**Requires Node 22.12+** (see `.nvmrc`). Electron 44's install script `require()`s
+an ESM module, which only works on Node ≥ 22.12 (the 22 LTS line). On Node 22.11
+`npm install` fails with `ERR_REQUIRE_ESM` from `@electron/get`; either upgrade
+Node, or run the install once as
+`NODE_OPTIONS=--experimental-require-module npm install`. The CLI, library and
+tests don't use Electron and run on older Node fine.
 
 ## CLI
 
