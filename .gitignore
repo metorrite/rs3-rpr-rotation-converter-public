@@ -23,6 +23,7 @@ Thumbs.db
 *.log
 npm-debug.log*
 
-# Generated reports
+# Generated reports / outputs
 test/corpus-report.md
 corpus-report.md
+samples/
