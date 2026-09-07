@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="GUI (Electron)" type="js.build_tools.npm" nameIsGenerated="false" folderName="App">
+    <description value="Build, then launch the desktop converter (Electron). Pick a file + direction (RSA / RM / PVME) and convert; the report panel lists anything to check." />
+    <package-json value="$PROJECT_DIR$/package.json" />
+    <command value="run" />
+    <scripts>
+      <script value="gui" />
+    </scripts>
+    <node-interpreter value="project" />
+    <package-manager value="project" />
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>

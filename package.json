@@ -16,7 +16,7 @@
     "clean:all": "node scripts/clean.mjs --all",
     "rebuild": "npm run clean && npm run build && npm test",
     "build": "tsc && node scripts/copy-data.mjs",
-    "samples": "node scripts/make-samples.mjs",
+    "samples": "npm run build && node scripts/make-samples.mjs",
     "cli": "tsx src/cli/index.ts",
     "gui": "npm run build && electron dist/electron/main.js",
     "test": "vitest run",

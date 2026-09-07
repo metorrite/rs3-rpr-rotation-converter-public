@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { spawnSync } from "node:child_process";
-import { readdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
+import { mkdirSync, readdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { Command } from "commander";
@@ -59,6 +59,7 @@ program
             process.stdout.write(serialized.endsWith("\n") ? serialized : serialized + "\n");
         } else {
             const dest = outPath(input, result.to, opts.out);
+            ensureDir(path.dirname(dest));
             writeFileSync(dest, serialized);
             console.log(`${result.from.toUpperCase()} -> ${result.to.toUpperCase()}  ${dest}`);
         }
@@ -68,6 +69,10 @@ program
         }
         if (!result.report.ok) process.exitCode = 1;
     });
+
+function ensureDir(p: string): void {
+    mkdirSync(p, { recursive: true });
+}
 
 function safeName(s: string): string {
     return s.replace(/[^\w .()—-]+/g, " ").replace(/\s+/g, " ").trim().slice(0, 120);
@@ -109,6 +114,7 @@ program
         if (!list.length) return console.log("No matching rotations.");
 
         const dir = opts.out ?? path.dirname(guide);
+        ensureDir(dir);
         const ext = to === "pvme" ? "txt" : "json";
         let bad = 0;
         for (const r of list) {

@@ -65,6 +65,31 @@ npm run gui          # build + launch Electron
 npm run dist:win     # package a Windows installer + portable exe into release/
 ```
 
+## Running in an IDE (WebStorm / IntelliJ)
+
+Shared run configurations live in `.idea/runConfigurations/` and appear in the
+Run/Debug dropdown, grouped:
+
+| Group | Config | Runs |
+| --- | --- | --- |
+| Build & Test | **build** | `tsc` + copy data into `dist/` |
+| | **rebuild (clean + build + test)** | full reset then rebuild + test |
+| | **test** / **test (watch)** / **All tests (Vitest)** | the Vitest suite |
+| | **typecheck** | `tsc --noEmit` |
+| | **clean** | remove `dist/`, `release/`, reports |
+| App | **GUI (Electron)** | build + launch the desktop converter |
+| | **Package Windows app** | `electron-builder` → `release/` |
+| Convert | **CLI: convert (edit args)** | one file — edit the path + `--to` |
+| | **CLI: extract Rasial guide** | pull rotations out of a PVME guide |
+| | **CLI: corpus report** | run the whole guide corpus |
+| | **Generate samples/** | every corpus rotation → `samples/` (RM+RSA+PVME) |
+| Data | **Data: update ability data** | refresh `src/data/` from upstream |
+| | **Data: fetch PVME guides** | re-download the guide corpus |
+
+Any `package.json` script also runs directly from the **npm** tool window. The
+build/rebuild/gui/samples configs handle their own compile step; `test` and the
+CLI configs run the TypeScript directly via `tsx` / Vitest and need no build.
+
 ## Ability data
 
 `src/data/` holds vendored, pinned copies of:

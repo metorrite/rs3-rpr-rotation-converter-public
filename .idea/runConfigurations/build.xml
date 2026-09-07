@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="build" type="js.build_tools.npm" nameIsGenerated="false" folderName="Build &amp; Test">
+    <description value="Compile TypeScript (tsc) and copy src/data into dist/. Run this before gui / samples / packaging." />
+    <package-json value="$PROJECT_DIR$/package.json" />
+    <command value="run" />
+    <scripts>
+      <script value="build" />
+    </scripts>
+    <node-interpreter value="project" />
+    <package-manager value="project" />
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>

@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="CLI: convert (edit args)" type="js.build_tools.npm" nameIsGenerated="false" folderName="Convert">
+    <description value="Convert one rotation file. EDIT the arguments: replace the path and choose --to rsa|rm|pvme. Input format is auto-detected. Output is written next to the input unless you pass -o &lt;dir&gt;." />
+    <package-json value="$PROJECT_DIR$/package.json" />
+    <command value="run" />
+    <scripts>
+      <script value="cli" />
+    </scripts>
+    <arguments value="-- convert samples/rm/your-rotation.json --to rsa --report" />
+    <node-interpreter value="project" />
+    <package-manager value="project" />
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>

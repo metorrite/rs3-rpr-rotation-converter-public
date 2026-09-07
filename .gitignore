@@ -5,8 +5,9 @@ node_modules/
 dist/
 release/
 
-# IDE
-.idea/
+# IDE — ignore all of .idea except shared run configurations
+.idea/*
+!.idea/runConfigurations/
 .vscode/
 
 # Archives / local snapshots
@@ -27,3 +28,4 @@ npm-debug.log*
 test/corpus-report.md
 corpus-report.md
 samples/
+out/

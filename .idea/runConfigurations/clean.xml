@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="clean" type="js.build_tools.npm" nameIsGenerated="false" folderName="Build &amp; Test">
+    <description value="Remove dist/, release/, coverage/, *.tsbuildinfo and generated reports. Use clean:all from the npm tool window to also remove node_modules/." />
+    <package-json value="$PROJECT_DIR$/package.json" />
+    <command value="run" />
+    <scripts>
+      <script value="clean" />
+    </scripts>
+    <node-interpreter value="project" />
+    <package-manager value="project" />
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>

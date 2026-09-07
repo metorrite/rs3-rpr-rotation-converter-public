@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Data: update ability data" type="js.build_tools.npm" nameIsGenerated="false" folderName="Data">
+    <description value="Pull the latest ability/emoji data from RotationMaster + pvme-settings into src/data/ and refresh ASSETS_MANIFEST.json. Prints an added/removed diff. Add -- --dry-run from the npm tool window to preview." />
+    <package-json value="$PROJECT_DIR$/package.json" />
+    <command value="run" />
+    <scripts>
+      <script value="update-assets" />
+    </scripts>
+    <node-interpreter value="project" />
+    <package-manager value="project" />
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>
