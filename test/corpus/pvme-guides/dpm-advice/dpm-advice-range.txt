@@ -1,0 +1,449 @@
+# > __Ranged DPM Advice__ <:range:580168050121113623>
+.tag:intro
+*Note: a **Table of Contents** can be found in the pins.*
+
+This channel will go over general damage output lessons, ability prioritisation, a learning path, and style-specific solutions for common PvM concerns
+⬥ Knowledge of in-game ability/item descriptions is assumed, this guide aims to tie the tools together rather than list what they do
+⬥ For general PvM terminology, damage tips, and revolution bars, check out their respective sections in <#1252196386452144249>
+⬥ To compare abilities, use [RS Analysis' Ranged Page](<https://tools.runescape.wiki/rs-rot/ranged>), and add your gear
+
+.
+## > __Core Ranged Rotation__ <:range:580168050121113623>
+.tag:rotation
+This section covers rotations using core style abilities before later unlocks are obtained
+*See __**Advanced Ranged Rotations**__ section further down for info on ranged rotations using best-in-slot gear*
+
+.
+⬥ **A typical Ranged rotation uses the strongest Basic Abilities available to build adrenaline, and spends it on the strongest available Enhanced Abilities, Ultimate Abilities, or Special Attacks**
+    • To achieve this, we must think about the following **key considerations:**
+        ⬩ Basic ability patterns <:ricochet:1478061867288100885>
+        ⬩ Buff usage <:gdeathsswift:994644354536837121>
+        ⬩ Ammo effects <:deathsporearrows:900758234527301642>
+
+.
+### __Basic Pattern__
+⬥ **The basic pattern comboes Galeshot <:galeshot:1478061864943616122> into Rapid Fire <:rapid:535541270521708566> when both cooldowns are available**
+⬥ <:galeshot:1478061864943616122> can be thought of as **buffing <:rapid:535541270521708566> + 3 abilities of your choice**, adding additional damage onto each hit
+    • Therefore, try to follow <:rapid:535541270521708566> with strong multi-hit abilities <:ricochet:1478061867288100885> <:snapshot:1478061855732666439> <:deadshot:1478061860371828929>
+    • [<:galeshot:1478061864943616122> → <:rapid:535541270521708566> → 3 Abilities] → [Filler] → [<:galeshot:1478061864943616122> → <:rapid:535541270521708566> → 3 Abilities] → repeat
+⬥ Ranged has other rotational synergies that help to fill empty ability slots
+    • Snipe <:snipe:1478061857486143498> + Piercing Shot <:piercingshot:1478061863723073636>
+    • Imbue: Shadows <:imbueshadows:1478061866193518744> + Shadow Tendrils <:shadowtend:642713547142332416>
+
+⬥ When building adrenaline, fill with available Basic Abilities:
+    • Ricochet <:ricochet:1478061867288100885>
+    • Piercing Shot <:piercingshot:1478061863723073636>
+    • Basic Attack <:rangedbasic:1478061858622537809>
+⬥ Then spend adrenaline on Enhanced Abilites, Ultimate Abilities, and Special Attacks:
+    • Such abilities are often categorically referred to as **spenders**
+    • Snap Shot <:snapshot:1478061855732666439>
+    • Deadshot <:deadshot:1478061860371828929>
+    • Snipe <:snipe:1478061857486143498> + Shadow Tendrils <:shadowtend:642713547142332416> don't spend adrenaline but are still considered Enhanced Abilities
+    • If adrenaline is limited, prioritise having enough adrenaline for your next <:galeshot:1478061864943616122> → <:rapid:535541270521708566> combo
+⬥ With these considerations, we can ensure that cooldowns are always cycling to allow for a consistent flow of strong abilities
+
+.
+### __Death's Swiftness__
+*It is assumed that either the Planted Feet perk <:deathsswiftpf:994921597813137518> or Greater Death's Swiftness unlock has been obtained <:gdeathsswift:994644354536837121> for the purposes of this guide.*
+
+.
+⬥ **Death's Swiftness <:gdeathsswift:994644354536837121> is the main buff to prioritise whenever there is an opportunity to deal damage**
+    • The exception to this is when the fight would end too quickly, or mechanics occur, and you can't benefit from the full duration
+    • Ideally, enter boss fights and important phases with 100% adrenaline so you can activate it immediately
+⬥ In Death's Swiftness <:gdeathsswift:994644354536837121>, continue following the basic pattern while fitting in your most powerful abilities:
+    • [<:galeshot:1478061864943616122> → <:rapid:535541270521708566> → <:ricochet:1478061867288100885> → <:deadshot:1478061860371828929> → <:snapshot:1478061855732666439>] → [Fill w/ Basics and Spenders] → [<:galeshot:1478061864943616122> → <:rapid:535541270521708566> → ...]
+⬥ While waiting for <:gdeathsswift:994644354536837121> cooldown, you do not want to needlessly camp 100% adrenaline, and can start building when <:gdeathsswift:994644354536837121> is nearly ready to use again
+
+.
+### __Other Buffs__
+*Besides Death's Swiftness, Ranged has multiple supportive buffs that are meant to supplement and enhance its core rotation*
+
+.
+⬥ **Imbue Shadows** <:imbueshadows:1478061866193518744> grants adrenaline per hit and is extremely important to pair with <:gdeathsswift:994644354536837121>
+    • Synergises with multi-hit abilities <:ricochet:1478061867288100885> / <:rapid:535541270521708566> / <:deadshot:1478061860371828929> and is vital to maintain a consistent flow of adrenaline during your damage buffs
+    • Keep in mind that Damage-over-Time (DoT) <:corruptshot:535541306294796299> does not count as a hit for the purposes of <:imbueshadows:1478061866193518744>
+
+⬥ **Shadow Tendrils** <:shadowtend:642713547142332416> extends <:imbueshadows:1478061866193518744> duration and should always be used once during a full <:gdeathsswift:994644354536837121>
+
+⬥ **Deathspore Arrows** <:deathsporearrows:900758234527301642> should be used to get a free <:gdeathsswift:994644354536837121>, allowing for tremendously accelerated rotational setup
+    • 12 stacks can be obtained through a combination of <:ricochet:1478061867288100885> + <:piercingshot:1478061863723073636> or with <:rapid:535541270521708566> if necessary
+    • Start building <:deathsporearrows:900758234527301642> in advance of <:gdeathsswift:994644354536837121> cooldown so as to not waste time once it's available
+    • Rare situations may not allow enough time to stack <:deathsporearrows:900758234527301642>, in which case a form of adrenaline potion <:adrenrenewal:736298121704767538> can help with buff setup
+
+⬥ Because of ranged's reliance on multi-hit abilities for both damage and adrenaline, it is highly recommended to prioritise obtaining Greater Ricochet <:grico:787904334812807238> and Igneous Kal-Xil <:igneouskalxil:902209626404171786> upgrades as early as possible in the style's progression
+
+.
+### __Ammo Effects__
+*Due to having considerably stronger and more consistent effects, **it is recommended to use bows + arrows** over crossbows + bolts in the current state of the game. The information in this guide will assume that the highest available tier of bow + arrows are being used.*
+
+.
+⬥ **When using abilities, stronger ammunition can increase your ability damage and provide additional effects**
+    • Use Ful Arrows <:fularrow:971025696958853180> and Deathspore Arrows <:deathsporearrows:900758234527301642> together for general use
+    • Use Black Stone Arrows <:blackstonearrow:785031580149743617> or Wen Arrows <:wenarrows:971025697046925362> when hit chance is needed
+        ⬩ <:wenarrows:971025697046925362> are otherwise equal to or worse than <:fularrow:971025696958853180> unless boss mechanics provide downtime to build stacks for free
+    • Otherwise, use the highest tier of generic ammunition available or Jas Bane arrows <:jasdragonbanearrow:971025697042755584> if applicable
+
+⬥ When using Pernix's Quiver <:pernixsquiver:902209626450296892>, multiple keybind options are available that make ammo cycling easier
+    • (1) **Quiver Slot:** Drag the __empty__ quiver slot from your gear interface onto an action bar to **cycle ammo in any currently equipped quiver**
+    • (2) **Specific Quiver:** Drag a specific quiver onto an action bar to **either equip the quiver or, if already equipped, cycles its ammo**
+    • (3) **Quiver ammo slot 1 + Quiver ammo slot 2:** Utility Abilities in the ranged ability book which **cycles ammo to the selected slot**
+.img:https://img.pvme.io/images/DKjsxOkobI.png
+
+.
+## > __Rotation Examples__ <:gdeathsswift:994644354536837121>
+.tag:ds
+These are only suggestions to work from, and will not necessarily be applicable at all bosses or situations. For boss-specific rotations, see their respective guides.
+
+.
+### __Starting Unlocks:__
+⬥ Ring of Vigour <:rov:513201065877831680> or its passive effect after [Extinction quest](<https://runescape.wiki/w/Extinction>)
+⬥ Greater Death's Swiftness <:gdeathsswiftcodex:1095409580420374568> or Planted Feet perk <:pf:689501925770919981>
+⬥ Shadow Tendrils <:shadowtend:642713547142332416>
+⬥ Greater Ricochet <:gricocodex:1095409587110293665> in later examples
+.
+### __1 Minute Examples__
+
+**Example**:
+⬥ <:imbueshadows:1478061866193518744> → <:ricochet:1478061867288100885> → <:piercingshot:1478061863723073636> → <:gdeathsswift:994644354536837121> → <:piercingshot:1478061863723073636> → <:galeshot:1478061864943616122> → <:rapid:535541270521708566> → <:ricochet:1478061867288100885> → <:deadshot:1478061860371828929> → <:snapshot:1478061855732666439> → <:shadowtend:642713547142332416> → <:snapshot:1478061855732666439> → <:snipe:1478061857486143498> → <:ricochet:1478061867288100885> → <:piercingshot:1478061863723073636> → <:galeshot:1478061864943616122> → <:rapid:535541270521708566> → <:snapshot:1478061855732666439> → <:ricochet:1478061867288100885> → <:snapshot:1478061855732666439> → <:piercingshot:1478061863723073636> (<:gdeathsswift:994644354536837121> ends) → <:rangedbasic:1478061858622537809> → <:piercingshot:1478061863723073636> → <:rangedbasic:1478061858622537809> → <:piercingshot:1478061863723073636> → <:galeshot:1478061864943616122> → <:rapid:535541270521708566> → <:piercingshot:1478061863723073636> → <:rangedbasic:1478061858622537809> → <:imbueshadows:1478061866193518744> → <:ricochet:1478061867288100885> → <:piercingshot:1478061863723073636> → <:gdeathsswift:994644354536837121>
+
+.
+**Notes:**
+⬥ Breaking down this example into blocks:
+    • Buffs start + build adrenaline: <:imbueshadows:1478061866193518744> → <:ricochet:1478061867288100885> → <:piercingshot:1478061863723073636> → <:gdeathsswift:994644354536837121> → <:piercingshot:1478061863723073636>
+    • Basic pattern 1: <:galeshot:1478061864943616122> → <:rapid:535541270521708566> → <:ricochet:1478061867288100885> → <:deadshot:1478061860371828929> → <:snapshot:1478061855732666439>
+    • Fill w/ basics + spenders: <:shadowtend:642713547142332416> → <:snapshot:1478061855732666439> → <:snipe:1478061857486143498> → <:ricochet:1478061867288100885> → <:piercingshot:1478061863723073636>
+    • Basic pattern 2: <:galeshot:1478061864943616122> → <:rapid:535541270521708566> → <:snapshot:1478061855732666439> → <:ricochet:1478061867288100885> → <:snapshot:1478061855732666439>
+    • Buffs end + build adrenaline: <:piercingshot:1478061863723073636> (<:gdeathsswift:994644354536837121> ends) → <:rangedbasic:1478061858622537809> → <:piercingshot:1478061863723073636> → <:rangedbasic:1478061858622537809> → <:piercingshot:1478061863723073636>
+    • Basic pattern 3: <:galeshot:1478061864943616122> → <:rapid:535541270521708566> → <:piercingshot:1478061863723073636> → <:rangedbasic:1478061858622537809>
+        ⬩ We cut this one off short since <:imbueshadows:1478061866193518744> comes back up
+    • Buffs come off cooldown: <:imbueshadows:1478061866193518744> → <:ricochet:1478061867288100885> → <:piercingshot:1478061863723073636> → <:gdeathsswift:994644354536837121>
+⬥ Most rotations will follow this overarching pattern, though each block may be executed differently depending on available upgrades
+
+.
+**Deathspore Arrows Example**
+*Arrow swaps during rotations are denoted with the arrow before the ability <:fularrow:971025696958853180> <:galeshot:1478061864943616122>*
+
+⬥ 12 <:deathsporearrows:900758234527301642> stacks (<:ricochet:1478061867288100885> / <:piercingshot:1478061863723073636> / <:rapid:535541270521708566>) → <:gdeathsswift:994644354536837121> → <:imbueshadows:1478061866193518744> → <:fularrow:971025696958853180> <:galeshot:1478061864943616122> → <:rapid:535541270521708566> → <:deadshot:1478061860371828929> → <:ricochet:1478061867288100885> → <:snapshot:1478061855732666439> → <:snapshot:1478061855732666439> → <:shadowtend:642713547142332416> → <:snipe:1478061857486143498> → <:snapshot:1478061855732666439> → <:ricochet:1478061867288100885> → <:galeshot:1478061864943616122> → <:rapid:535541270521708566> → <:snapshot:1478061855732666439> → <:ricochet:1478061867288100885> → <:snapshot:1478061855732666439> → <:snapshot:1478061855732666439> (<:gdeathsswift:994644354536837121> ends) → <:piercingshot:1478061863723073636> → <:rangedbasic:1478061858622537809> → <:piercingshot:1478061863723073636> → <:ricochet:1478061867288100885> → <:galeshot:1478061864943616122> → (start building stacks) <:deathsporearrows:900758234527301642> <:rapid:535541270521708566> → <:piercingshot:1478061863723073636> → <:ricochet:1478061867288100885> → <:piercingshot:1478061863723073636> → <:rangedbasic:1478061858622537809> → <:piercingshot:1478061863723073636> → <:gdeathsswift:994644354536837121> → <:imbueshadows:1478061866193518744>
+
+.
+**Greater Ricochet Example**
+*Once <:grico:787904334812807238> is obtained, <:deathsporearrows:900758234527301642> can be quickly stacked with a simple combo of <:piercingshot:1478061863723073636> → <:grico:787904334812807238> → <:piercingshot:1478061863723073636> → <:rangedbasic:1478061858622537809>*
+
+⬥ 12 <:deathsporearrows:900758234527301642> stacks → <:gdeathsswift:994644354536837121> → <:imbueshadows:1478061866193518744> → <:fularrow:971025696958853180> <:galeshot:1478061864943616122> → <:rapid:535541270521708566> → <:deadshot:1478061860371828929> → <:snapshot:1478061855732666439> → <:grico:787904334812807238> → <:snapshot:1478061855732666439> → <:snapshot:1478061855732666439> → <:shadowtend:642713547142332416> → <:snipe:1478061857486143498> → <:snapshot:1478061855732666439> → <:galeshot:1478061864943616122> → <:rapid:535541270521708566> → <:snapshot:1478061855732666439> → <:snapshot:1478061855732666439> → <:grico:787904334812807238> → <:snapshot:1478061855732666439> (<:gdeathsswift:994644354536837121> ends) → <:snapshot:1478061855732666439> → <:piercingshot:1478061863723073636> → <:rangedbasic:1478061858622537809> → <:piercingshot:1478061863723073636> → <:galeshot:1478061864943616122> → <:rapid:535541270521708566> → <:piercingshot:1478061863723073636> → <:deathsporearrows:900758234527301642> <:grico:787904334812807238> → <:piercingshot:1478061863723073636> → <:rangedbasic:1478061858622537809> → <:piercingshot:1478061863723073636> → <:gdeathsswift:994644354536837121> → <:imbueshadows:1478061866193518744>
+
+.
+**Notes:**
+⬥ <:grico:787904334812807238> Greatly increases the availability of adrenaline during <:imbueshadows:1478061866193518744>, allowing us to minimise basic ability usage
+⬥ Outside of <:gdeathsswift:994644354536837121>, we spend some adrenaline sparingly and make sure to have enough to <:gdeathsswift:994644354536837121> on time with <:deathsporearrows:900758234527301642>
+
+.
+These rotations demonstrate typical ways of setting up the initial round of buffs <:gdeathsswift:994644354536837121> <:imbueshadows:1478061866193518744> while sticking to the basic pattern. With further upgrades, this rotation can be progressively iterated upon, with increasing availability of adrenaline allowing for more powerful spenders to be incorporated.
+
+.
+## > __PvM Decision Making__ <:snapshot:1478061855732666439>
+.tag:specifictools
+Next, we explore some challenges that ranged commonly runs into during PvM and the tools and decisions it uses to solve them
+
+.
+### __Area-of-Effect (AoE)__
+⬥ **Decimation Special Attack <:decimation:643848618477879328> <:spec:537340400273195028> is ranged's most powerful and versatile AoE tool**
+    • Moderate 3-tile AoE search range with no cooldown, a minor adrenaline cost, and can be set up before enemies spawn
+    • Combo with powerful abilities like <:rapid:535541270521708566> / <:deadshot:1478061860371828929> / <:gloomfirebow:1446178203608809472> <:eofspec:1257438999794946099> to quickly deal with AoE scenarios
+    • Every additional hit counts for the purposes of <:imbueshadows:1478061866193518744> adrenaline gain, <:deathsporearrows:900758234527301642> <:bolg:994189289623662702> stack generation, and <:piercingshot:1478061863723073636> reduction on <:snipe:1478061857486143498> cooldown
+        ⬩ If <:imbueshadows:1478061866193518744> is not active, <:snipe:1478061857486143498> + <:piercingshot:1478061863723073636> can be an adrenaline-efficient way to make use of the effect
+    • Most often used from an Essence of Finality amulet (EoF) <:eof:745279787471470713> to allow use with higher tier weapons
+
+.
+⬥ **Bombardment <:bombard:535541306391265284> can be used to quickly deal with low life point targets**
+    • Upfront damage that doesn't require a prior ability cast to set up, but has more restrictive 2-tile AoE search range
+    • Outclassed by <:decimation:643848618477879328> <:eofspec:1257438999794946099> if enemies would live for 3 or more abilities, or are spread further apart from each other
+
+.
+⬥ **Low Priority or Highly Situational**
+    • Ricochet <:ricochet:1478061867288100885> / <:grico:787904334812807238> has a large 5-tile AoE search range, but does low damage and is generally not used for AoE purposes
+    • Corruption Shot <:corruptshot:535541306294796299> also has a 5-tile AoE search range, but should only ever be used for that specific aspect of it
+        ⬩ Due to being DoT, does not benefit from damage buffs <:gdeathsswift:994644354536837121>, but can deal moderate damage while under <:ecb:615618531937222657> <:eofspec:1257438999794946099>
+
+.
+### __Spending Excess Adrenaline__
+⬥ **High-level ranged spenders involve various stored EoF special attacks <:eofspec:1257438999794946099> in order to optimise away from just spamming <:snapshot:1478061855732666439>**
+    • Gloomfire Bow <:gloomfirebow:1446178203608809472> and Dark Bow <:dbow:643848618553507843> are used as the main <:eof:745279787471470713> options
+        ⬩ <:gloomfirebow:1446178203608809472> <:eofspec:1257438999794946099> is overall better in most cases, but <:dbow:643848618553507843> <:eofspec:1257438999794946099> is a cheaper early pickup and has a faster hit timing
+        ⬩ Some endgame rotations may be written using both for their respective advantages
+    • Eldritch Crossbow <:ecb:615618531937222657> <:eof:745279787471470713> provides a significant damage buff anywhere you're able to pray <:splitsoul:1137809168368148490> (~15-30% depending on ability)
+    • Seren Godbow <:sgb:626466665848242186> <:eof:745279787471470713> is a high-damage, low-cost spender against any 5x5 or larger targets
+        ⬩ Comparable damage even to <:deadshot:1478061860371828929> when it can be used to its full effectiveness
+    • If physical <:gloomfirebow:1446178203608809472> or <:sgb:626466665848242186> is your highest tier weapon, using their special attacks <:spec:537340400273195028> directly is also a powerful option
+⬥ Aim to replace most instances of <:snapshot:1478061855732666439> during <:gdeathsswift:994644354536837121> with these spenders
+
+.
+### __Short Damage Checks__
+⬥ **Some PvM scenarios emphasise short phases and quick damage checks rather than keeping up a consistent flow of damage**
+⬥ In such cases, ranged has some of the following options:
+    • Stacking <:wenarrows:971025697046925362> ahead of time for a temporary stronger damage + hit chance buff than <:fularrow:971025696958853180>
+    • Abilities and buffs that can be used ahead of time <:snipe:1478061857486143498> / <:ecb:615618531937222657> <:eofspec:1257438999794946099> / <:galeshot:1478061864943616122> / <:imbueshadows:1478061866193518744> / <:gdeathsswift:994644354536837121>
+    • Once <:bolg:994189289623662702> is obtained, lining up high-damage <:perfectequilibrium:1006119102814887957> procs can significantly contribute to your burst damage
+    • On 5x5+ targets <:sgb:626466665848242186> <:eofspec:1257438999794946099> can be used flexibly for high on-demand damage
+    • Stalling abilities to release them with other spenders once these phases begin
+
+.
+### __Sustaining with Ranged__
+⬥ **Ranged has to frequently lock itself out of healing <:ecb:615618531937222657> <:eofspec:1257438999794946099> or inflict self-damage <:shadowtend:642713547142332416> in order to maximise damage output**
+⬥ To plan around a lack of sustain, consider the following:
+    • Prioritise lossless defensive and healing tools <:powerburstofvitality:654618235097972737> / <:disrupt:535614336207552523> / <:excal:641337999170207763> as your first resort
+    • Familiarise yourself with boss mechanics to anticipate periods of heavy or little incoming damage
+        ⬩ Optionally introduce <:ecb:615618531937222657> <:eofspec:1257438999794946099> into rotations *after* becoming comfortable at a boss
+    • Leave a few abilities of downtime in between <:ecb:615618531937222657> <:eofspec:1257438999794946099> to give yourself a chance to heal up
+        ⬩ It is mainly important that it overlaps with your <:galeshot:1478061864943616122> + <:rapid:535541270521708566> pattern
+    • Drop <:ecb:615618531937222657> <:eofspec:1257438999794946099> if unable to maintain sufficient <:splitsoul:1137809168368148490> uptime for it to be worthwhile i.e. during <:zamorak:994914159969976440> twinshot
+    • Replace <:shadowtend:642713547142332416> with a better spender if you don't actually need the extension on <:imbueshadows:1478061866193518744>
+
+.
+## > __Advanced Ranged Rotations__ <:bolg:994189289623662702>
+.tag:advanced
+This section focuses on tactics that make full use of endgame tools available to ranged <:range:580168050121113623>. Players looking to optimise around Bow of the Last Guardian <:bolg:994189289623662702> and Elite Dracolich <:edracobody:1179717430436704306> should use this section as reference.
+
+**Assumed Unlocks:**
+⬥ Greater Ricochet <:grico:787904334812807238>
+⬥ Igneous Kal-Xil <:igneouskalxil:902209626404171786>
+⬥ Gloomfire Bow EoF <:gloomfirebow:1446178203608809472> <:eof:745279787471470713>
+    • Interchangeable with <:dbow:643848618553507843> <:eof:745279787471470713> before <:bolg:994189289623662702> is obtained, though adrenaline will differ due to the lower hit-count
+⬥ Conservation of Energy relic <:conservationofenergy:697808773711921195>
+⬥ Fury of the Small relic <:furyofthesmall:697808773917573233>
+    • Used while testing listed rotations but it may not be necessary for all of them
+    • Berserker's Fury relic <:berserkersfury:697808774106185768> is the stronger damage option when adrenaline isn't an issue
+
+.
+### __Eldritch Crossbow__ <:ecb:615618531937222657>
+⬥ **Split Soul <:splitsoul:1137809168368148490> Special Attack acts as another buff in ranged's rotation that synergises with its main ability patterns**
+    • Since <:soulsplit:615613924506599497> heals more from powerful multi-hit abilities <:rapid:535541270521708566> <:deadshot:1478061860371828929> <:grico:787904334812807238>, <:splitsoul:1137809168368148490> similarly scales well off those same abilities
+    • Therefore it's important to maintain high uptime on <:splitsoul:1137809168368148490> especially during your <:galeshot:1478061864943616122> → <:rapid:535541270521708566> + 3 abilities pattern
+    • <:grico:787904334812807238> which was mainly used for adrenaline and rotational filler becomes a powerful ability when comboed with <:ecb:615618531937222657> <:eofspec:1257438999794946099> + <:galeshot:1478061864943616122>
+
+.
+**Example (1 minute):**
+⬥ 12 <:deathsporearrows:900758234527301642> <:gdeathsswift:994644354536837121> → <:imbueshadows:1478061866193518744> → <:ecb:615618531937222657> <:eofspec:1257438999794946099> → <:fularrow:971025696958853180> <:galeshot:1478061864943616122> → <:rapid:535541270521708566> → <:deadshot:1478061860371828929> → <:gloomfirebow:1446178203608809472> <:eofspec:1257438999794946099> → <:grico:787904334812807238> → <:gloomfirebow:1446178203608809472> <:eofspec:1257438999794946099> → <:snipe:1478061857486143498> → <:shadowtend:642713547142332416> → <:ecb:615618531937222657> <:eofspec:1257438999794946099> → <:piercingshot:1478061863723073636> → <:galeshot:1478061864943616122> → <:rapid:535541270521708566> → <:gloomfirebow:1446178203608809472> <:eofspec:1257438999794946099> → <:grico:787904334812807238> → <:piercingshot:1478061863723073636> (<:gdeathsswift:994644354536837121> ends) → <:rangedbasic:1478061858622537809> → <:piercingshot:1478061863723073636> → <:ecb:615618531937222657> <:eofspec:1257438999794946099> → <:piercingshot:1478061863723073636> → <:grico:787904334812807238> → <:galeshot:1478061864943616122> → <:rapid:535541270521708566> → <:deathsporearrows:900758234527301642> <:piercingshot:1478061863723073636> → <:grico:787904334812807238> → <:piercingshot:1478061863723073636> → <:rangedbasic:1478061858622537809> → <:gdeathsswift:994644354536837121> → <:imbueshadows:1478061866193518744>
+
+.
+**Notes:**
+⬥ Breaking down this example into blocks:
+    • Buffs start: <:gdeathsswift:994644354536837121> → <:imbueshadows:1478061866193518744> → <:ecb:615618531937222657> <:eofspec:1257438999794946099>
+    • Basic pattern 1: <:galeshot:1478061864943616122> → <:rapid:535541270521708566> → <:deadshot:1478061860371828929> → <:gloomfirebow:1446178203608809472> <:eofspec:1257438999794946099> → <:grico:787904334812807238>
+    • Fill w/ basics + spenders: <:gloomfirebow:1446178203608809472> <:eofspec:1257438999794946099> → <:snipe:1478061857486143498> → <:shadowtend:642713547142332416> → <:ecb:615618531937222657> <:eofspec:1257438999794946099> → <:piercingshot:1478061863723073636>
+        ⬩ Prepare <:ecb:615618531937222657> <:eofspec:1257438999794946099> for basic pattern 2
+    • Basic pattern 2: <:galeshot:1478061864943616122> → <:rapid:535541270521708566> → <:gloomfirebow:1446178203608809472> <:eofspec:1257438999794946099> → <:grico:787904334812807238> → <:piercingshot:1478061863723073636>
+    • Buffs end + build adrenaline: (<:gdeathsswift:994644354536837121> ends) → <:rangedbasic:1478061858622537809> → <:piercingshot:1478061863723073636> → <:ecb:615618531937222657> <:eofspec:1257438999794946099> → <:piercingshot:1478061863723073636> → <:grico:787904334812807238>
+        ⬩ Prepare <:ecb:615618531937222657> <:eofspec:1257438999794946099> for basic pattern 3
+    • Basic pattern 3: <:galeshot:1478061864943616122> → <:rapid:535541270521708566> → <:deathsporearrows:900758234527301642> <:piercingshot:1478061863723073636> → <:grico:787904334812807238> → <:piercingshot:1478061863723073636>
+    • Buffs come off cooldown: <:rangedbasic:1478061858622537809> → <:gdeathsswift:994644354536837121> → <:imbueshadows:1478061866193518744>
+
+.
+### __Bow of the Last Guardian__ <:bolg:994189289623662702>
+⬥ **Optimising Perfect Equilibrium <:perfectequilibrium:1006119102814887957> procs can result in some of the largest possible DPS increases for ranged. To understand how to plan around this effect, it's important to keep in mind hit-counts for common abilities:**
+    • **1 stack:** <:shadowtend:642713547142332416> / <:bolg:994189289623662702> <:spec:537340400273195028> / <:sgb:626466665848242186> <:eofspec:1257438999794946099> / <:galeshot:1478061864943616122>
+        ⬩ <:sgb:626466665848242186> <:eofspec:1257438999794946099> only generates 1 <:perfectequilibrium:1006119102814887957> stack no matter how many secondary arrows land
+    • **2 stacks:** <:dbow:643848618553507843> <:eofspec:1257438999794946099> / <:snapshot:1478061855732666439> / <:piercingshot:1478061863723073636>
+    • **3 stacks**: <:gloomfirebow:1446178203608809472> <:eofspec:1257438999794946099>
+    • **7 (-1) stacks:** <:grico:787904334812807238>
+        ⬩ It may be helpful to think of <:grico:787904334812807238> as **generating -1 stacks** (since it leaves you with 1 less <:perfectequilibrium:1006119102814887957> stack than you started)
+    • **8 (0) stacks: **<:rapid:535541270521708566> / <:deadshot:1478061860371828929>
+        ⬩ Will put you back at the same number of stacks you had before
+
+.
+⬥ **Proc Priorities:**
+    • **Gloomfire Bow Special Attack** <:gloomfirebow:1446178203608809472> <:eofspec:1257438999794946099> should be used at 1 <:perfectequilibrium:1006119102814887957> stack if <:bolg:994189289623662702> <:spec:537340400273195028> is active or 5 <:perfectequilibrium:1006119102814887957> stacks if not
+        ⬩ <:bolg:994189289623662702> is sensitive to the order that hits occur, so this ensures that the <:perfectequilibrium:1006119102814887957> proc uses the powerful 3rd hit of <:gloomfirebow:1446178203608809472> <:eofspec:1257438999794946099>
+    • **Dark Bow Special Attack <:dbow:643848618553507843> <:eofspec:1257438999794946099>** is more flexible than <:gloomfirebow:1446178203608809472> <:eofspec:1257438999794946099> around starting stacks but deals less overall damage
+    • **Snipe** <:snipe:1478061857486143498> is an extremely powerful single hit and can usually be fit in between <:rapid:535541270521708566> uses
+    • **Snap Shot** <:snapshot:1478061855732666439> is typically only used as filler to increment stacks since its damage is strictly worse than other options
+
+.
+⬥ **BoLG Special Attack **<:bolg:994189289623662702> <:spec:537340400273195028> should always be used at least once early during <:gdeathsswift:994644354536837121> to activate its buff
+    • The attack in itself does not deal tremendous damage and should not be heavily prioritised once the buff is active
+    • When used from anywhere between 3-7 <:perfectequilibrium:1006119102814887957> stacks, will proc <:perfectequilibrium:1006119102814887957> and reset stacks to 0
+        ⬩ This detail can be useful for setting up consistent rotations, since you can treat <:bolg:994189289623662702> <:spec:537340400273195028> as a stack reset at the beginning of <:gdeathsswift:994644354536837121>
+
+.
+**Building a Rotation**
+⬥ Plan <:perfectequilibrium:1006119102814887957> stacks around the structure of abilities that are used regardless of <:perfectequilibrium:1006119102814887957> stacks
+    • Keep to the basic pattern of <:galeshot:1478061864943616122> → <:rapid:535541270521708566> and <:deadshot:1478061860371828929>, **these abilities don't care about <:perfectequilibrium:1006119102814887957> stacks to be strong**
+    • <:shadowtend:642713547142332416> should still be primarily used to extend <:imbueshadows:1478061866193518744> rather than as a proc since <:perfectequilibrium:1006119102814887957> is calculated using pre-critical strike damage
+
+.
+⬥ Plan around using ability sequences that line up multiple strong procs, the following are some suggestions:
+    • **1 <:perfectequilibrium:1006119102814887957> stack start:**
+        ⬩ <:gloomfirebow:1446178203608809472> <:eofspec:1257438999794946099> → <:grico:787904334812807238> → <:snapshot:1478061855732666439> → <:gloomfirebow:1446178203608809472> <:eofspec:1257438999794946099>
+        ⬩ <:gloomfirebow:1446178203608809472> <:eofspec:1257438999794946099> → <:shadowtend:642713547142332416> → <:gloomfirebow:1446178203608809472> <:eofspec:1257438999794946099>
+
+    • **2 <:perfectequilibrium:1006119102814887957> stack start:**
+        ⬩ <:dbow:643848618553507843> <:eofspec:1257438999794946099> → <:grico:787904334812807238> → <:dbow:643848618553507843> <:eofspec:1257438999794946099> → <:snapshot:1478061855732666439> → <:snipe:1478061857486143498>
+        ⬩ <:grico:787904334812807238> → <:gloomfirebow:1446178203608809472> <:eofspec:1257438999794946099> → <:snapshot:1478061855732666439> → <:shadowtend:642713547142332416> → <:snipe:1478061857486143498>
+
+    • **3 <:perfectequilibrium:1006119102814887957> stack start:**
+        ⬩ <:snapshot:1478061855732666439> → <:gloomfirebow:1446178203608809472> <:eofspec:1257438999794946099> → <:grico:787904334812807238> → <:snipe:1478061857486143498>
+        ⬩ <:dbow:643848618553507843> <:eofspec:1257438999794946099> → <:snapshot:1478061855732666439> → <:snipe:1478061857486143498>
+
+    • **0 <:perfectequilibrium:1006119102814887957> stack start:**
+        ⬩ <:snapshot:1478061855732666439> → <:dbow:643848618553507843> <:eofspec:1257438999794946099> → <:grico:787904334812807238> → <:snipe:1478061857486143498>
+        ⬩ <:sgb:626466665848242186> <:eofspec:1257438999794946099> → <:gloomfirebow:1446178203608809472> <:eofspec:1257438999794946099> → <:grico:787904334812807238> → <:snipe:1478061857486143498>
+
+.
+⬥ A strong rotation will fit these ability sequences into the overall structure that the basic patterns provide
+    • i.e. <:galeshot:1478061864943616122> → <:rapid:535541270521708566> → <:deadshot:1478061860371828929> → [line up <:perfectequilibrium:1006119102814887957> procs] → <:shadowtend:642713547142332416> to extend <:imbueshadows:1478061866193518744> → <:galeshot:1478061864943616122> → <:rapid:535541270521708566> → [line up <:perfectequilibrium:1006119102814887957> procs]
+
+.
+**Example (1 minute):**
+*Any rotation examples from here on will also account for <:perfectequilibrium:1006119102814887957> stacks, it is encouraged to count the stacks as you read the rotations. Most <:bolg:994189289623662702> <:spec:537340400273195028> will be used at 3-7 stacks, leaving you at 0, and all <:gloomfirebow:1446178203608809472> <:eofspec:1257438999794946099> will be used at 1 stack.*
+
+⬥ 12 <:deathsporearrows:900758234527301642> <:gdeathsswift:994644354536837121> → <:imbueshadows:1478061866193518744> → <:bolg:994189289623662702> <:spec:537340400273195028> → <:ecb:615618531937222657> <:eofspec:1257438999794946099> → <:fularrow:971025696958853180> <:galeshot:1478061864943616122> → <:rapid:535541270521708566> → <:deadshot:1478061860371828929> → <:gloomfirebow:1446178203608809472> <:eofspec:1257438999794946099> → <:grico:787904334812807238> → <:dbow:643848618553507843> <:eofspec:1257438999794946099> → <:snapshot:1478061855732666439> → <:ecb:615618531937222657> <:eofspec:1257438999794946099> → <:snipe:1478061857486143498> → <:shadowtend:642713547142332416> → <:galeshot:1478061864943616122> → <:rapid:535541270521708566> → <:snapshot:1478061855732666439> → <:grico:787904334812807238> (<:gdeathsswift:994644354536837121> ends) → <:piercingshot:1478061863723073636> → <:ecb:615618531937222657> <:eofspec:1257438999794946099> → <:piercingshot:1478061863723073636> → <:rangedbasic:1478061858622537809> → <:piercingshot:1478061863723073636> → <:grico:787904334812807238> → <:galeshot:1478061864943616122> → <:rapid:535541270521708566> → <:deathsporearrows:900758234527301642> <:piercingshot:1478061863723073636> → <:grico:787904334812807238> → <:piercingshot:1478061863723073636> → <:gdeathsswift:994644354536837121> → <:imbueshadows:1478061866193518744> → <:bolg:994189289623662702> <:spec:537340400273195028>
+
+.
+**Notes:**
+⬥ <:perfectequilibrium:1006119102814887957> procs count as hits for <:imbueshadows:1478061866193518744> so we now have more adrenaline to work with
+⬥ <:deathsporearrows:900758234527301642> can now be stacked using only <:piercingshot:1478061863723073636> → <:grico:787904334812807238> → <:piercingshot:1478061863723073636> since <:perfectequilibrium:1006119102814887957> procs count towards <:deathsporearrows:900758234527301642> stacks
+
+.
+### __Elite Dracolich Armour__ <:edracobody:1179717430436704306>
+*Elite Dracolich boosts ranged's basic pattern <:galeshot:1478061864943616122> → <:rapid:535541270521708566> into a burst window to deal massive damage with spenders*
+
+.
+⬥ **With the full 5-set equipped, there will be a 4-ability window** after <:rapid:535541270521708566> to make use of <:edracobody:1179717430436704306> buff
+⬥ A common use of this window is **3 high damage spenders** <:deadshot:1478061860371828929> / <:gloomfirebow:1446178203608809472> <:eofspec:1257438999794946099> + <:grico:787904334812807238> to generate adrenaline to continue your rotation
+    • Often times this only applies to the first <:rapid:535541270521708566> during <:gdeathsswift:994644354536837121>, as there is not enough adrenaline to fully utilise the second one
+    • There are cases where 4 spenders can be used to maximise damage output instead, often when <:deadshot:1478061860371828929> + <:sgb:626466665848242186> <:eofspec:1257438999794946099> are both available
+⬥ This meshes nicely with existing ability sequences that line up <:perfectequilibrium:1006119102814887957> procs
+
+**Example:**
+⬥ 12 <:deathsporearrows:900758234527301642> <:gdeathsswift:994644354536837121> → <:imbueshadows:1478061866193518744> → <:bolg:994189289623662702> <:spec:537340400273195028> → <:ecb:615618531937222657> <:eofspec:1257438999794946099> → <:fularrow:971025696958853180> <:galeshot:1478061864943616122> → <:rapid:535541270521708566> → <:deadshot:1478061860371828929> → <:gloomfirebow:1446178203608809472> <:eofspec:1257438999794946099> → <:grico:787904334812807238> → <:snapshot:1478061855732666439> → <:gloomfirebow:1446178203608809472> <:eofspec:1257438999794946099> → <:shadowtend:642713547142332416> → <:bolg:994189289623662702> <:spec:537340400273195028> → <:ecb:615618531937222657> <:eofspec:1257438999794946099> → <:galeshot:1478061864943616122> → <:rapid:535541270521708566> → <:snipe:1478061857486143498> → <:grico:787904334812807238> → <:snapshot:1478061855732666439> → <:snapshot:1478061855732666439>
+
+.
+**Notes:**
+⬥ Outside of <:gdeathsswift:994644354536837121> + <:imbueshadows:1478061866193518744> does not change much as there is not enough adrenaline to fully utilise the critical strike chance buff
+    • The extra adrenaline from <:edracobody:1179717430436704306> generally means an extra <:snapshot:1478061855732666439> or <:bolg:994189289623662702> <:spec:537340400273195028> while waiting on <:gdeathsswift:994644354536837121> cooldown
+⬥ This specific example uses a 2nd <:bolg:994189289623662702> <:spec:537340400273195028> to refresh its buff for a larger proc <:snipe:1478061857486143498> during <:edracobody:1179717430436704306> buff later
+
+.
+### __Advanced Arrow Usage__
+*This guide up to this point only covers basic usage of <:fularrow:971025696958853180> + <:deathsporearrows:900758234527301642>, but there are additional considerations for other options as well as tricks to gain stacks more efficiently*
+
+.
+**Using Deathspore Arrows <:deathsporearrows:900758234527301642>**
+⬥ **A tip to quickly stack 12 <:deathsporearrows:900758234527301642> at the start of a fight** is to stall either <:grico:787904334812807238> or <:deadshot:1478061860371828929> in War's Retreat, then releasing with <:grico:787904334812807238> in the boss instance
+    • This most often shows up in rotations as s<:grico:787904334812807238> → r<:grico:787904334812807238> + <:grico:787904334812807238>
+    • This instantly maxes out <:deathsporearrows:900758234527301642> stacks without having to do the slower <:piercingshot:1478061863723073636> → <:grico:787904334812807238> → <:piercingshot:1478061863723073636> build
+    • Alternate versions of this can exist that stall <:bolg:994189289623662702> <:spec:537340400273195028> to be able to skip a setup ability before <:rapid:535541270521708566>
+
+⬥ Stacking <:deathsporearrows:900758234527301642> mid-fight can also be accelerated by using 2x <:deathsporearrows:900758234527301642> <:grico:787904334812807238> as its cooldown comes back up
+    • This allows you to stay on your primary damage-boosting arrow <:fularrow:971025696958853180> for more abilities
+    • <:deathsporearrows:900758234527301642> <:grico:787904334812807238> → [<:fularrow:971025696958853180> abilities] → <:deathsporearrows:900758234527301642> <:grico:787904334812807238>
+
+.
+**Using Wen Arrows <:wenarrows:971025697046925362>**
+⬥ **Wen Arrows <:wenarrows:971025697046925362> are considered when facing severe hit chance issues and/or downtime exists to build stacks for free**
+⬥ Note that throughout the example rotations in this section, **not enough Basic Abilities are used to stack 10 <:wenarrows:971025697046925362> between <:rapid:535541270521708566>**
+    • We would have to give up a spender to stack <:wenarrows:971025697046925362> during active uptime, as well as the damage boost from <:fularrow:971025696958853180> on multiple abilities
+        ⬩ Therefore, the general recommendation is to **only use <:wenarrows:971025697046925362> when downtime exists to build stacks for free**
+        ⬩ This can also be extended to time before a boss has spawned if other targets are available to attack <:zamorak:994914159969976440>
+        ⬩ Black Stone Arrows <:blackstonearrow:785031580149743617> are a simpler way to solve mild hit chance issues
+⬥ The most common ways of building <:wenarrows:971025697046925362> stacks is by either swapping to them for <:grico:787904334812807238> / <:piercingshot:1478061863723073636> / <:galeshot:1478061864943616122> or 2x <:wenarrows:971025697046925362> <:grico:787904334812807238> in a similar fashion to <:deathsporearrows:900758234527301642>
+⬥ Stack <:icychill:1240756221024403526> consumption can be prevented by swapping to a different ammo <:fularrow:971025696958853180>, allowing for use of other spenders before the intended buff <:icyprecision:1240756219187171419> timing
+    • Even if the correct conditions exist for <:wenarrows:971025697046925362> usage, it is still likely that a <:fularrow:971025696958853180> swap is needed for sections of <:icyprecision:1240756219187171419> downtime
+
+.
+⬥ **The resulting buff <:icyprecision:1240756219187171419> lasts for 15 ticks, or 6 abilities** upon consumption. However, it's usually unfeasible to find the adrenaline for 6 consecutive spenders, so a <:grico:787904334812807238> during the buff may be necessary
+    • i.e. <:wenarrow:971025697046925362> <:deadshot:1478061860371828929> → <:sgb:626466665848242186> <:eofspec:1257438999794946099> → <:gloomfirebow:1446178203608809472> <:eofspec:1257438999794946099> → <:grico:787904334812807238> → <:snapshot:1478061855732666439> → <:gloomfirebow:1446178203608809472> <:eofspec:1257438999794946099> (<:icyprecision:1240756219187171419> ends)
+⬥ Alternatively the buff can be activated on any hit of <:rapid:535541270521708566> by switching to <:wenarrows:971025697046925362> during the channel
+    • This allows you to fill part of <:icyprecision:1240756219187171419> duration with <:rapid:535541270521708566> depending on your available adrenaline and spenders
+
+.
+### __Utilising Stalls in Combat__
+*Multiple ranged abilities provide a duration-based buff that starts counting down when they are cast/released. Therefore, we can stall these abilities and release with the next ability to "extend" their buffs and gain other benefits.*
+
+.
+⬥ Ranged usually has to exit its attack range in order to stall, which can be challenging depending on the situation
+    • Therefore, it will typically only be recommended to use these tricks if the boss allows you to
+    • <:escape:535541258832052231> and <:surge:535533810004262912> make it easier to temporarily exit attack range
+    • Against stationary bosses <:amascuthead:1400943309576470589>, you can simply find where your maximum attack range is and take a step back to stall abilities
+
+.
+⬥ **Galeshot** <:galeshot:1478061864943616122> can be stalled and released with <:rapid:535541270521708566> to extend its buff duration to <:rapid:535541270521708566> + 4 abilities rather than 3
+    • This is useful to gain a bit of extra damage, or a lot if you are planning to use <:grico:787904334812807238> as the 4th ability
+
+.
+⬥ **BoLG Special Attack** <:bolg:994189289623662702> <:spec:537340400273195028> can be stalled to extend the tail-end on its duration by an extra ability
+    • This allows time for <:perfectequilibrium:1006119102814887957> alignment usually in the second <:rapid:535541270521708566> of <:gdeathsswift:994644354536837121>
+    • Otherwise, rotations typically have to pick between using <:bolg:994189289623662702> <:spec:537340400273195028> or <:ecb:615618531937222657> <:eofspec:1257438999794946099> first in <:gdeathsswift:994644354536837121>, which each have their tradeoffs
+
+.
+⬥ **ECB Special Attack** <:ecb:615618531937222657> <:eofspec:1257438999794946099> can be **__stalled into__** by another ability to gain <:splitsoul:1137809168368148490> damage from that ability without sacrificing <:splitsoul:1137809168368148490> duration
+    • Good candidates usually include <:bolg:994189289623662702> <:spec:537340400273195028> or <:sgb:626466665848242186> <:eofspec:1257438999794946099>
+
+.
+**Example:**
+⬥ <:deathsporearrows:900758234527301642> s<:grico:787904334812807238> → r<:grico:787904334812807238> + <:grico:787904334812807238> →  <:gdeathsswift:994644354536837121> → <:imbueshadows:1478061866193518744> → s<:bolg:994189289623662702> <:spec:537340400273195028> → r<:bolg:994189289623662702> <:spec:537340400273195028> + <:ecb:615618531937222657> <:eofspec:1257438999794946099> → <:fularrow:971025696958853180> s<:galeshot:1478061864943616122> → r<:galeshot:1478061864943616122> + <:rapid:535541270521708566> → <:deadshot:1478061860371828929> → <:gloomfirebow:1446178203608809472> <:eofspec:1257438999794946099> → <:grico:787904334812807238> → <:dbow:643848618553507843> <:eofspec:1257438999794946099> → s<:sgb:626466665848242186> <:eofspec:1257438999794946099> → r<:sgb:626466665848242186> <:eofspec:1257438999794946099> + <:ecb:615618531937222657> <:eofspec:1257438999794946099> → <:shadowtend:642713547142332416> → <:snipe:1478061857486143498> → <:escape:535541258832052231> + s<:galeshot:1478061864943616122> → r<:galeshot:1478061864943616122> + <:rapid:535541270521708566> → <:snapshot:1478061855732666439> → <:bolg:994189289623662702> <:spec:537340400273195028> → <:grico:787904334812807238> → <:snapshot:1478061855732666439>
+
+.
+**Notes:**
+⬥ This is a relatively extreme example just to showcase all the above tricks
+⬥ Stalling can also be used to prepare during boss immune phases and downtime
+    • In these cases you may prefer to stall high-damage abilities such as <:deadshot:1478061860371828929> / <:bolg:994189289623662702> <:spec:537340400273195028> to carry in as much burst as possible
+
+.
+## __Related Channels__
+.tag:related
+For further information and reading, you can refer to the following resources.
+.
+{
+  "embed": {
+    "title": "__Quick Navigation Links__",
+    "description": "Links to related channels and resources for more information about PvM and DPS.",
+    "color": 3066993,
+    "fields": [
+      {
+      "name": "__Upgrades and Gearing__",
+      "value": "⬥ <#1250862461003895025>\n ⬥ <#1020550560551813131>\n ⬥ <#1137497209303220344> ",
+      "inline": true
+      },
+      {
+      "name": "__Invention__",
+      "value": "⬥ <#553632787639435284>\n⬥ <#689236234912137266>",
+      "inline": true
+      },
+      {
+      "name": "__Misc. Info__",
+      "value": "⬥ <#1280395458652672042>\n⬥ <#1020550599248466050>",
+      "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+*Note: If you have any difficulties in using the tools or understanding what the information means, you can always ask in <#656898197561802760>*.
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Overview__",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Related Channels]($linkmsg_related$)",
+        "inline": true
+      },
+      {
+      "name": "__Core DPM Advice__",
+      "value": "⬥ [Core Ranged Rotation]($linkmsg_rotation$)\n⬥ [Rotation Examples]($linkmsg_ds$)",
+      "inline": true
+      },
+      {
+      "name": "__Advanced DPM Advice__",
+      "value": "⬥ [PvM Decision Making]($linkmsg_specifictools$)\n⬥ [Advanced Ranged Rotations]($linkmsg_advanced$)",
+      "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete

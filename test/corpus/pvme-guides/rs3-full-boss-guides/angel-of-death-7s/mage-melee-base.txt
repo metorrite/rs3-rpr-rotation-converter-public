@@ -1,0 +1,88 @@
+.
+> ## ⚠️ Disclaimer
+> **Some methods in this guide may not work after the combat beta changes in March 2026**
+> Know of a newer method/rotation? Got a video? Share it in <#1020853673317908500>!
+
+.
+# Mage Melee Base
+.img:https://img.pvme.io/images/JChZfA1i4S.png
+
+.
+## __Presets and Relics__
+.tag:presets
+⬥ [Magic / Melee Hybrid preset](https://presets.pvme.io/?id=TF2Gt8tZWhnfL569hd89) <:magic:689504724159823906> <:melee:1096130867279171706>
+
+.
+## __Rotation__
+.
+### Prefight
+.tag:pre
+<:gconc:869285393223254107> → <:dbreath:535533833391702017> to indicate start → <:kalgscroll:841409588954923049> <:nat:535541258131865633> → <:voke:535541259465392143> → <:anti:535541306475151390> → <:freedom:535541258240786434> → <:meteorstrike:535532879359377439> → <:gricocaroming:867678153966878740> → <:fsoa:869284271595069451> <:spec:537340400273195028> → <:gconc:869285393223254107> → <:gchain:1257440278512537740> → <:gsunshine:994644352871714836> → <:gconc:869285393223254107> → <:gricocaroming:867678153966878740> → <:magmatempesttarget:924741973858996284> → <:deto:535533833358016512>
+
+_Notes: Defensive use in builds should include an auto for adren gain via Invigorating <:invig4:712073087859949570>_
+
+.
+### Phase 1
+.tag:p1
+<:aod:580167371365548042> <:kalgscroll:841409588954923049> <:vulnbomb:655341074235129858> <:smokecloud:856635090641879050> <:deto:535533833358016512> + <:gconc:869285393223254107> → <:omni:535533809664262179> → <:smoketendrils:536257336130404372> (7t) → <:kalgscroll:841409588954923049> <:dbreath:535533833391702017>
+
+_Note: Cancel <:smoketendrils:536257336130404372> with <:dbreath:535533833391702017> at 2.2m HP_
+
+.
+### Phase 2
+.tag:p2
+<:stormshards:536256663641128971> → <:comb:535533833098100745> → <:corruptblast:513190159194259467> → <:magmatempesttarget:924741973858996284> (on <:deto:535533833358016512> spot for <:bloodamalg:878739232447938670>) → <:kalgscroll:841409588954923049> <:lengmh:883134308146098227> <:spec:537340400273195028> → <:bloodbarrage:537338981747261446> <:wm:535533809978966037> → <:iceamalg:878739231785222154> <:tsunami:535533809995874304> → <:dbreath:535533833391702017> → <:bloodamalg:878739232447938670> <:gconc:869285393223254107> → <:wrackandruin:1257439387474722836> (if not dead)
+
+.
+### Phase 3
+.tag:p3
+<:cease:864235458464186418> <:zerk:535532854004678657> → <:divert:787904334377648130> → <:gbarge:535532879250456578> → <:cleave:535532878616985610> → <:deci:535532879325822986> → <:kalgscroll:841409588954923049> <:assault:535532855191928842> → <:overpowerigneous:959089455640215633> → <:cane:535532878969438210> → <:kalgscroll:841409588954923049> <:Shatter:536256673904328704> → <:destroy:535532879330148352> → cancel with <:deci:535532879325822986> if about to phase
+
+_Notes:
+    • Replace phasing <:deci:535532879325822986> with <:meteorstrike:535532879359377439> if high adren
+    • Use <:noxscythe:513190159341322240> for <:cleave:535532878616985610> and <:cane:535532878969438210>_
+
+.
+### Lure
+.tag:lure
+<:surge:535533810004262912> → <:surge:535533810004262912> → <:dive:1049378668197195808> → <:stormshards:536256663641128971> → <:vulnbomb:655341074235129858> <:swh:641670143197446182> <:eofspec:1257438999794946099> → <:divert:787904334377648130> → <:fsoa:869284271595069451> <:spec:537340400273195028> → <:gricocaroming:867678153966878740> → <:gsunshine:994644352871714836>
+
+_Note: <:adrenrenewal:736298121704767538> if needed, otherwise use after <:gsunshine:994644352871714836>_
+
+.
+### Zaros
+.tag:p4
+<:vulnbomb:655341074235129858> <:magmatempesttarget:924741973858996284> (Pillar) → (target pillar) <:kalgscroll:841409588954923049> <:gconc:869285393223254107> → → <:wm:535533809978966037> → <:dbreath:535533833391702017> → <:aod:580167371365548042> <:kalgscroll:841409588954923049> <:omni:535533809664262179> → <:smoketendrils:536257336130404372> (7t) → <:asphyx:535533833072672778> (3t) → <:dbreath:535533833391702017> → <:gstaff:513203008608141314> <:eofspec:1257438999794946099>
+.
+.tag:eg
+{
+  "embed": {
+    "title": "__Example Kills__",
+    "description": "28/08/2022 - Grico - [Link](<https://youtu.be/Do6BUeHti_E>)",
+    "color": 39423
+  }
+}
+.embed:json
+.
+{
+  "embed": {
+    "title": "__Nex, Angel of Death__",
+    "description": "This guide is made and upkept in collaboration with the [Nex, Angel of Death discord](https://discord.gg/2rd8Vqe).\n\nFor those interested in a non-toxic and friendly environment for ‘Small’ team AoD, with team sizes varying from 4 to 7. We accept all experience levels, from Learners to Experts and Teachers. We offer teams running throughout the day.",
+    "color": 14335185,
+    "thumbnail": {
+    "url": "https://img.pvme.io/images/52ArNgViKL.png"
+    }
+  }
+}
+.embed:json
+Formatting Maintained by: <@240563415808999424>
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Preset]($linkmsg_presets$)\n⬥ [Prefight]($linkmsg_pre$)\n⬥ [Phase 1]($linkmsg_p1$)\n⬥ [Phase 2]($linkmsg_p2$)\n⬥ [Phase 3]($linkmsg_p3$)\n⬥ [Lure]($linkmsg_lure$)\n⬥ [Phase 4]($linkmsg_p4$)\n⬥ [Example Kills]($linkmsg_eg$)",
+    "color": 39423
+  }
+}
+.embed:json
+.pin:delete

@@ -1,0 +1,212 @@
+# 4000% Solo Zamorak
+.img:https://img.pvme.io/images/E9HmNuzAe2.png
+
+.
+## __Intro__
+.tag:intro
+*Note: a **Table of Contents** can be found in the pins.*
+This guide contains information for players doing Zamorak at **4000% enrage solo** with <:magic:689504724159823906> <:melee:1096130867279171706> hybrid.
+
+⬥ The rotations in this guide will help you achieve ~8 kph. This guide expects strong knowledge from <#1251104929599455263> and <#1251104943566491710>. BiS gear is highly recommended.
+
+⬥ **This guide uses edict order 2-3-1-6-4-5.**
+
+.
+## __Presets and Relics__
+.tag:preset
+⬥ [Magic / Melee Hybrid](https://presets.pvme.io/?id=6f073a09-a4ee-49b8-b5a1-fd33ad8ceb32)
+
+
+.
+{
+  "embed": {
+    "title": "__Other Unlocks__",
+    "description": "⬥ <:eof:787526151978614824> EoF with <:legatusemberstaff:1451134746280329357>\n⬥ <:demonslayer:641339921675845633> **Demon Slayer Sigil** unlocked\n⬥ <:powderofpenance:928221126360969226> **Penance Powder** active\n⬥ <:magiccape:1043953726341267606> **120 Magic perk** in your Max cape\n⬥ <:bolg:994189289623662702> **Bow of the Last Guardian** to proc <:deathsporearrows:900758234527301642> earlier\n⬥ <:demonslayerperk:689502842653900818> A **Demon slayer combo perk** is used\n⬥ **Thermal spa HP boost is active** ",
+    "color": 39423
+  }
+}
+.embed:json
+.
+## __Special attack order__
+.tag:specs
+⬥ The following special attack order assumes decent DPS pacing to skip all mechanics in red HP. If struggling to meet this, refer to alternative orders in <#1251104943566491710>.
+.img:https://img.pvme.io/images/ilNPOrOYlr.png
+.
+## __Handling Grey HP__
+.tag:grey
+⬥ **Tips to reduce grey HP regeneration:**
+    • Grey HP healing is based on the total amount of time spent in grey HP over the course of the entire fight. As such, you should always focus on **charging the next pad as soon as possible**.
+    • Using <:ezk:903244090953588787> <:spec:537340400273195028> in combination with <:chaosroar:1478062908767211640> should keep grey HP below 150k at all times.
+        ⬩ DoT abilities (<:combust:1478063107908702482> / <:dismember:1478062910113714297>) will partially prevent healing if grey HP is above 150k
+
+.
+## __The Fight__
+.tag:fight
+### Rotations
+.tag:rotations
+⬥ You may opt to replace <:divert:787904334377648130> with <:res:535541258844635148> while charging pads to reduce damage taken.
+    • For charging pads, you can use <:runic_charge:1478063122345361562> + <:gsonic:1478063117211668584> to get <:fsoa:869284271595069451> <:spec:537340400273195028> off earlier.
+
+⬥ <:disrupt:535614336207552523> can be used freely, but is assumed to cover the <:omni:535533809664262179> from the witch.
+.
+## __Phase 1__
+.tag:p1
+### Phase overview:
+⬥ In order to do this phase correctly, aim for the following:
+    • Zamorak uses **Flames of Zamorak** in green HP.
+    • You phase Zamorak immediately before being teleported by **Infernal Tomb** at 1344k HP
+        ⬩ Allows you to deal with the demon + witch at the same time, removing the need to re-enter Infernus again
+⬥ The P1 ability rotation requires some adaptation to not phase Zamorak too quickly. In general, aim to be at around 1400k HP before the Flames of Zamorak bomb goes off.
+.
+### Phase 1 Rotation:
+⬥ Build 10 <:deathsporearrows:900758234527301642> before the last witch, use <:piercingshot:1478061863723073636> with <:deathsporearrows:900758234527301642> on the last witch to proc them, then use <:naturalinstinct:535541258131865633> → <:gconc:1478063111104757760> → <:reflect:535541258786177064> → <:divert:787904334377648130>
+⬥ tc + <:vulnbomb:655341074235129858> + <:fsoa:869284271595069451> <:spec:537340400273195028> + <:dive:1049378668197195808> to pad → s <:gsonic:1478063117211668584> → r <:gsonic:1478063117211668584> + <:gsunshine:994644352871714836> → <:tsunami:535533809995874304> → <:gconc:1478063111104757760> → <:asphyx:535533833072672778> (refund) → <:wm:535533809978966037> → <:devo:513190158728953857> → <:runic_charge:1478063122345361562> + <:gconc:1478063111104757760> → <:omni:535533809664262179> → <:wm:535533809978966037> → <:ezk:903244090953588787> <:spec:537340400273195028> → <:gconc:1478063111104757760> → <:smoketendrils:536257336130404372> → <:smokecloud:856635090641879050> → <:res:535541258844635148> or <:divert:787904334377648130> the tick after 2nd auto while swapping to 4p <:vestmentsofhavoctop:994189295592161291> → <:prep:535541258546970624> → <:berserk:535532854004678657> + <:adrenrenewal:736298121704767538> → <:anti:535541306475151390> + <:disrupt:535614336207552523> → <:barge:535532853916860437> → <:meteorstrike:1478070401702821938> → <:assault:535532855191928842> → <:overpower:535532879334080517> → <:backhand:535532854302605333>
+    • <:surge:535533810004262912> or <:dive:1049378668197195808> towards pad 3 and position yourself south-west on the pad during the rotation, for <:barge:535532853916860437> to keep you on the pad
+
+.
+⬥ Infernal Tomb: <:freedom:535541258240786434> + <:surge:535533810004262912> + <:dive:1049378668197195808> to the witch → <:shielddome:537341954392850442> → <:vulnbomb:655341074235129858> + target witch <:assault:535532855191928842> → <:demonslayer:641339921675845633> + <:cane:535532878969438210> → target demon <:overpower:535532879334080517> → <:adaptivestrike:1478062906057949417> → <:punish:535532879439069184> anything still alive → <:dive:1049378668197195808> to rune → <:divert:787904334377648130>
+        ⬩ <:chaosroar:1478062908767211640> should be saved to <:ezk:903244090953588787> <:spec:537340400273195028> grey HP
+.
+## __Phase 2__
+.tag:p2
+### Phase overview:
+⬥ The phase should proceed as follows:
+    • Skip the mechanic in red HP and get Adrenaline Cage in green HP
+    • Surge out from the pad as it fills and <:gsunshine:994644352871714836> + focus down the protector
+    • Phase before receiving the next mechanic (Flames of Zamorak), preferably in ~2 autos
+.
+### Phase 2 Rotation:
+⬥ tc + <:fsoa:869284271595069451> <:spec:537340400273195028> → <:gconc:1478063111104757760> → <:tsunami:535533809995874304> → <:runic_charge:1478063122345361562> + <:gsonic:1478063117211668584> + <:surge:535533810004262912> to protector → <:gsunshine:994644352871714836> → target protector + <:roarofawakening:1266417538045317121> <:spec:537340400273195028> → <:devo:513190158728953857> → <:gconc:1478063111104757760> → target Zamorak + <:asphyx:535533833072672778> → <:wm:535533809978966037> → <:gconc:1478063111104757760> → <:omni:535533809664262179> → <:wm:535533809978966037> + <:powerburstofvitality:654618235097972737> → <:reflect:535541258786177064> → <:gconc:1478063111104757760> → <:wm:535533809978966037> (improvise if not phased) → <:chaosroar:1478062908767211640> → <:ezk:903244090953588787> <:spec:537340400273195028> → <:res:535541258844635148> + <:realmmovement:1073955377537876089>
+    • if <:fsoa:869284271595069451> is still on cooldown coming out, use: tc + <:tsunami:535533809995874304> → <:fsoa:869284271595069451> <:spec:537340400273195028> → <:gconc:1478063111104757760> → <:runic_charge:1478063122345361562> + <:gsonic:1478063117211668584> → <:gsunshine:994644352871714836> instead
+.
+⬥ Witch: <:surge:535533810004262912> + <:freedom:535541258240786434> → <:barge:535532853916860437> → <:meteorstrike:1478070401702821938> → <:assault:535532855191928842> → <:gfury:535532879334080527> → <:overpower:535532879334080517> → <:punish:535532879439069184> → <:realmmovement:1073955377537876089> → <:reflect:535541258786177064> (without target)
+
+.
+## __Phase 3__
+.tag:p3
+### Phase overview:
+⬥ The phase should proceed as follows:
+    • Skip the mechanic in red HP and get Chaos Blast in green HP
+    • <:immort:535541258538582017> to deal with Chaos Blast and deal as much damage as possible to phase Zamorak as he completes the charge
+    • Do not stun (<:asphyx:535533833072672778>) Zamorak during Chaos Blast
+
+.
+### Phase 3 Rotation:
+⬥ tc + <:gsonic:1478063117211668584> → <:combust:1478063107908702482> (filler if waiting for cooldowns) → <:gsunshine:994644352871714836> → <:gconc:1478063111104757760> → <:fsoa:869284271595069451> <:spec:537340400273195028> → <:smoketendrils:536257336130404372> (refund) → <:tsunami:535533809995874304> → <:wm:535533809978966037> → <:runic_charge:1478063122345361562> + <:gconc:1478063111104757760> → <:omni:535533809664262179> → <:wm:535533809978966037> → <:gconc:1478063111104757760> → <:immort:535541258538582017> → <:gconc:1478063111104757760> → <:wm:535533809978966037> → <:dbreath:535533833391702017> → <:gconc:1478063111104757760> → <:wm:535533809978966037> → <:combust:1478063107908702482> → <:roarofawakening:1266417538045317121> <:spec:537340400273195028> → <:res:535541258844635148> + <:realmmovement:1073955377537876089>
+    • Ideally get a big prephase with <:roarofawakening:1266417538045317121> <:spec:537340400273195028>, but it may be needed just to phase Zamorak
+        ⬩ <:ezk:903244090953588787> <:spec:537340400273195028> will not be off cooldown here, but should not be necessary either
+    • <:immort:535541258538582017> timing can vary, use it when most convenient for your adrenaline
+    • Can <:surge:535533810004262912> + <:dive:1049378668197195808> towards pad 6 right before you press <:realmmovement:1073955377537876089> to help deal with the upcoming long movement from pad 1 to pad 6
+.
+⬥ Witch: <:surge:535533810004262912> + <:freedom:535541258240786434> → <:barge:535532853916860437> → <:meteorstrike:1478070401702821938> → <:assault:535532855191928842> → <:gfury:535532879334080527> → <:overpower:535532879334080517> → <:punish:535532879439069184> → <:realmmovement:1073955377537876089> → <:reflect:535541258786177064> (without target)
+.
+## __Phase 4__
+.tag:p4
+### Phase overview:
+⬥ The phase should proceed as follows:
+    • Skip mechanic in red HP and get Rune of Destruction in green HP
+    • Wait for Adrenaline Cage before phasing, building <:deathsporearrows:900758234527301642> for <:cade:535541306353778689> during Rune of Destruction
+
+.
+### Phase 4 Rotation:
+⬥ target Zamorak + <:combust:1478063107908702482> → <:dbreath:535533833391702017> → <:gsunshine:994644352871714836> → <:divert:787904334377648130> + <:adrenrenewal:736298121704767538> → <:tsunami:535533809995874304> → <:gconc:1478063111104757760> → <:fsoa:869284271595069451> <:spec:537340400273195028> → <:wm:535533809978966037> (refund) → <:runic_charge:1478063122345361562> + <:gconc:1478063111104757760> → <:omni:535533809664262179> → <:wm:535533809978966037> → <:gconc:1478063111104757760> → <:wm:535533809978966037> / <:legatusemberstaff:1451134746280329357> <:eofspec:1257438999794946099> → <:asphyx:535533833072672778> → <:wm:535533809978966037> → <:deathsporearrows:900758234527301642> <:piercingshot:1478061863723073636> → <:grico:787904334812807238> → <:piercingshot:1478061863723073636> → <:smokecloud:856635090641879050> → <:res:535541258844635148> → <:cade:535541306353778689> + <:dive:1049378668197195808> md → <:runic_charge:1478063122345361562> + <:gconc:1478063111104757760> → <:omni:535533809664262179> as Adrenaline Cage starts → <:roarofawakening:1266417538045317121> <:spec:537340400273195028> → <:dbreath:535533833391702017> → <:chaosroar:1478062908767211640> → <:ezk:903244090953588787> <:spec:537340400273195028> → <:prep:535541258546970624> + <:surge:535533810004262912> to pad 4 + <:realmmovement:1073955377537876089>
+    • <:cadeturtling:867678153883516958> can be used instead for an even safer phase
+.
+⬥ Witch: <:surge:535533810004262912> + <:freedom:535541258240786434> → <:barge:535532853916860437> → <:meteorstrike:1478070401702821938> → <:assault:535532855191928842> → <:gfury:535532879334080527> → <:overpower:535532879334080517> → <:punish:535532879439069184> → <:realmmovement:1073955377537876089> → <:reflect:535541258786177064> (without target)
+
+.
+## __Phase 5__
+.tag:p5
+### Phase overview:
+⬥ The phase should proceed as follows:
+    • Skip the mechanic in red HP and get Chaos Blast in green HP
+    • <:immort:535541258538582017> to deal with Chaos Blast and deal as much damage as possible to phase Zamorak as he completes the charge
+    • Do not stun (<:asphyx:535533833072672778>) Zamorak during Chaos Blast
+
+.
+### Phase 5 Rotation:
+⬥ target Zamorak + <:combust:1478063107908702482> → <:gsonic:1478063117211668584> → <:gsunshine:994644352871714836> → <:divert:787904334377648130> → <:fsoa:869284271595069451> <:spec:537340400273195028> → <:asphyx:535533833072672778> (refund) → <:runic_charge:1478063122345361562> + <:gconc:1478063111104757760> + <:powerburstofvitality:654618235097972737> → <:omni:535533809664262179> → <:tsunami:535533809995874304> → <:gconc:1478063111104757760> → <:wm:535533809978966037> → <:gconc:1478063111104757760> → <:immort:535541258538582017> → <:smoketendrils:536257336130404372> → <:dbreath:535533833391702017> → <:runic_charge:1478063122345361562> + <:gconc:1478063111104757760> → <:omni:535533809664262179> → <:wm:535533809978966037> → <:combust:1478063107908702482> →  <:chaosroar:1478062908767211640> → <:ezk:903244090953588787> <:spec:537340400273195028> → <:res:535541258844635148> + <:realmmovement:1073955377537876089>
+    • Can weave in <:legatusemberstaff:1451134746280329357> <:eofspec:1257438999794946099> when high on adrenaline
+    • If you are late on your setup, focus on getting <:fsoa:869284271595069451> <:spec:537340400273195028> off asap and use <:smoketendrils:536257336130404372> until refund, then follow the rot like normal
+    • <:immort:535541258538582017> timing can vary, use it when most convenient for your adrenaline
+    • <:dive:1049378668197195808> + <:surge:535533810004262912> north before <:realmmovement:1073955377537876089> to lure Zamorak north, **this is necessary for phase 6**
+
+.
+⬥ Witch: <:surge:535533810004262912> + <:freedom:535541258240786434> → <:barge:535532853916860437> → <:meteorstrike:1478070401702821938> → <:assault:535532855191928842> → <:gfury:535532879334080527> → <:overpower:535532879334080517> → <:punish:535532879439069184> → <:realmmovement:1073955377537876089> → <:reflect:535541258786177064> (without target)
+
+.
+## __Phase 6__
+.tag:p6
+### Phase overview:
+⬥ The phase should proceed as follows:
+    • Skip mechanic in red HP and get Rune of Destruction in green HP
+    • Phase Zamorak as soon as possible
+
+.
+### P6 rotation:
+⬥ target Zamorak + <:combust:1478063107908702482> → <:dbreath:535533833391702017> + <:surge:535533810004262912> + <:dive:1049378668197195808> to pad 5 → <:res:535541258844635148> → <:gsunshine:994644352871714836> + <:adrenrenewal:736298121704767538> → <:gconc:1478063111104757760> → <:fsoa:869284271595069451> <:spec:537340400273195028> → <:dbreath:535533833391702017> → <:runic_charge:1478063122345361562> + <:gconc:1478063111104757760> → <:omni:535533809664262179> (refund) → <:tsunami:535533809995874304> → <:gconc:1478063111104757760> → <:wm:535533809978966037> → <:roarofawakening:1266417538045317121> <:spec:537340400273195028> and <:dive:1049378668197195808> south of sun as Rune of Destruction starts → <:asphyx:535533833072672778> → <:devo:513190158728953857> (optional) → <:runic_charge:1478063122345361562> + <:gconc:1478063111104757760> → <:omni:535533809664262179> → <:wm:535533809978966037> → improvise with <:asphyx:535533833072672778> and <:gconc:1478063111104757760> → <:wm:535533809978966037>
+    • Step off the pad as it finishes charging to avoid getting hit by Chaos Traps <:chaostrapsrune:994206002658431016>
+    • Should aim to finish above 30% adrenaline to have enough for <:tsunami:535533809995874304>
+    • If Zamorak was not lured far enough north at the end of phase 5 you may lose your <:gsunshine:994644352871714836> as Rune of Destruction starts
+
+.
+## __Phase 7__
+.tag:p7
+⬥ For this phase its important to note your defensives will be very weak because of Disintegrate <:disintegraterune:994206018680668171>, this includes <:disrupt:535614336207552523>.
+.
+⬥ Demon: s <:icebarrage:537340400185245701> during cutscene → r <:icebarrage:537340400185245701> + <:tsunami:535533809995874304> + <:demonslayer:641339921675845633> → <:devo:513190158728953857> / <:reflect:535541258786177064> → <:runic_charge:1478063122345361562> + <:gconc:1478063111104757760> → <:omni:535533809664262179> → filler if not dead → <:meteorstrike:1478070401702821938> Zamorak → <:smokecloud:856635090641879050> → <:berserk:535532854004678657> + <:disrupt:535614336207552523> + <:veng:543478434953822208>
+.
+⬥ Runes: <:cane:535532878969438210> first rune → <:anti:535541306475151390> while waiting for barge cooldown → <:barge:535532853916860437> second rune → <:chaosroar:1478062908767211640> → <:surge:535533810004262912> + <:dive:1049378668197195808> to Zamorak
+.
+⬥ Zamorak: <:ezk:903244090953588787> <:spec:537340400273195028> → <:assault:535532855191928842> → <:overpower:535532879334080517> → <:cane:535532878969438210> → <:punish:535532879439069184>
+    • You need to be above ~50% HP to live the Melee Slam with <:deflectmelee:544195488447201300> and <:disrupt:535614336207552523>
+    • Equip <:rod:513190159462825984> before the large bomb hits
+    • If your <:igneouskalzuk:902209626479685734> has a sign, unequip it **after** using <:overpower:535532879334080517>
+.
+## __Troubleshooting__
+.tag:troubleshooting
+⬥ Struggling to get the desired spec order while following the listed rotations is usually an indication that too much time is spent inbetween phases
+    • Aim to get the next pad charged as quickly as possible from the moment Zamorak enters grey HP, allowing time for <:fsoa:869284271595069451> <:spec:537340400273195028> to finish and using <:chaosroar:1478062908767211640> → <:ezk:903244090953588787> <:spec:537340400273195028>
+    • Efficient movement between pads is important, on some phases it's possible to already be on the next pad by the time you phase Zamorak and use <:realmmovement:1073955377537876089>
+.
+⬥ You may want to flick <:arcanespiritshield:690976219612708954> as you set up on each pad. Once the pad is charged you should be able to burst down Zamorak's red HP within 1-2 autos, keeping the incoming damage within manageable ranges.
+.
+⬥ If you fail to skip red HP mechs on phase 5 or 6, focus on following the alternative spec order from <#1251104943566491710>
+    • You can <:cade:535541306353778689> Flames of Zamorak on phase 5, and then <:reflect:535541258786177064> → <:res:535541258844635148> the smoke with <:devo:513190158728953857> active
+    • If you get Chaos Blast on phase 6 red HP, you should be able to kill Zamorak before he releases the bomb, otherwise simply <:immort:535541258538582017>
+.
+⬥ Once entering phase 7, the kill is basically guaranteed, take it slow and safe if necessary
+    • You can take as long as you want setting up on phase 7 as the red HP bar is completely irrelevant
+    • Avoid getting close to the Chaos Demon, you could get hit by his melee swipe as you get hit by Zamorak's mage autos
+    • There is almost no benefit from staying below 60% HP as you will already overkill Zamorak with the listed rotation
+.
+## __Example Kill__
+.tag:example
+⬥ [6:38 4000%](https://youtu.be/GbBRJMs8lZo)
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Introduction__",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Preset]($linkmsg_preset$)\n⬥ [Special attack order]($linkmsg_specs$)\n⬥ [Grey HP]($linkmsg_grey$)",
+        "inline": true
+      },
+      {
+        "name": "__The Fight__",
+        "value": "⬥ [Rotations]($linkmsg_rotations$)\n⬥ [Phase 1]($linkmsg_p1$)\n⬥ [Phase 2]($linkmsg_p2$)\n⬥ [Phase 3]($linkmsg_p3$)\n⬥ [Phase 4]($linkmsg_p7$)\n⬥ [Phase 5]($linkmsg_p5$)\n⬥ [Phase 6]($linkmsg_p6$)\n⬥ [Phase 7]($linkmsg_p7$)",
+        "inline": true
+
+      },
+      {
+        "name": "__Miscellaneous__",
+        "value": "[Troubleshooting]($linkmsg_troubleshooting$)\n[Example Kills]($linkmsg_example$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete

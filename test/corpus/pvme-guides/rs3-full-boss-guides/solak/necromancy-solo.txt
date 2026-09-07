@@ -1,0 +1,104 @@
+# Solo Solak Necro Camp
+*Note: a **Table of Contents** can be found in the pins.*
+.img:https://img.pvme.io/images/gmrKIcfK2P.png
+
+.
+## __Introduction__
+.tag:intro
+Necromancy <:necromancy:1148995625896120460> has the benefit of conjures, good aoe abilities, and high hitcaps to make quick work of Solak. The rotation as written has an element of RNG from critical strikes, Impatient perk procs and general boss mechanics.
+This is an advanced <:necromancy:1148995625896120460> guide to Grandmaster role (sub 5:15) solo Solak, assuming strong underlying knowledge of all Solak mechanics.
+
+.
+## __Presets and Relics__
+.tag:preset
+⬥ [Preset](https://presets.pvme.io/?id=oPrfSUYvrHKVBzsZ0jTh)
+
+⬥ It is assumed that the Spirit Weed <:SpiritSticks:565726489136463894>, Kwuarm <:KwuarmSticks:565726489341984779>, and Lantadyme incense sticks <:lantasticks:565726489404899368> are used at bank.
+⬥ <:bloodreaver:929773044296216666> with <:reaverscroll:1022562484378419284> are presummoned, autofire set to 3-6.
+    • Optionally: bring an extra <:reaverpouch:839903693837959228>
+⬥ The <:dummy:656844963522281473> is for building at the start of Phase 4.
+⬥ Runes for <:smokecloud:856635090641879050>, <:prismofrestoration:938475261366784070>, <:veng:543478434953822208>, <:disrupt:535614336207552523>, <:SBSLunars:565726489467682816> to use as needed.
+
+.
+## __The Fight__
+.tag:fight
+### Prefight:
+<:conjurearmy:1166094935066423348> → <:lifetransfer:1137809128136388819> → <:commandghost:1159434409913634816> → <:invokedeath:1137809121983336548> → <:commandskeleton:1137809194423160883> → <:splitsoul:1137809168368148490> + start fight
+
+.
+### Phase 1:
+(tc) + <:vulnbomb:655341074235129858> → <:deathskulls:1159434663903899728> → <:bloat:1159433682403201044> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:necrobasic:1482849360462086244> → <:soulsap:1137809140476031057> (+run pad if close) → <:commandskeleton:1137809194423160883> → <:necrobasic:1482849360462086244> → <:soulsap:1137809140476031057> → <:livingdeath:1159434908486357072> + <:adrenrenewal:736298121704767538> → <:touchofdeath:1137809175980810380> (run east to rootlings spawn) → <:deathskulls:1159434663903899728> (last two hits should hit rootlings) → <:necrobasic:1482849360462086244> <:fingerofdeath:1159434801938432010> and <:deathskulls:1159434663903899728> off cooldown and <:touchofdeath:1137809175980810380> when off cd after <:deathskulls:1159434663903899728> (3x <:deathskulls:1159434663903899728> in <:livingdeath:1159434908486357072>) as you run solak to rootlings. One <:deathskulls:1159434663903899728> bounce + basic should kill rootling.
+
+After <:livingdeath:1159434908486357072> ends, clear remaining rootlings with <:soulsap:1137809140476031057> and <:necrobasic:1482849360462086244>, you can do a 4th <:deathskulls:1159434663903899728> if solak still high hp or any rootlings alive.
+
+.
+*Notes phase 1:*
+⬥ If <:relentless5:712244800920748092> proc, either ignore it or <:omniguard:1138809234922934282> <:spec:537340400273195028>. Do __not__ <:livingdeath:1159434908486357072> early because we rely on <:deathskulls:1159434663903899728> bounces to clear rootlings.
+⬥ <:deathskulls:1159434663903899728> crits will always clear a rootling in one bounce, very rarely will a non crit clear it in one hit.
+⬥ Use <:lifetransfer:1137809128136388819> once as you're clearing rootlings.
+⬥ Keep 4+ <:necrosis:1139452791878856805> <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099> and 5 <:residualsoul:1139453152169558046> for arms.
+
+.
+__Arms:__
+Target Solak's main body (targeted <:vulnbomb:655341074235129858> helps, or tc multiple times) → <:threadsoffate:1137809172335951933> → <:volleyofsouls:1159435029592686642> → <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099> → <:soulsap:1137809140476031057> + move under solak + <:vulnbomb:655341074235129858> (targeted, see vid).
+
+__Legs:__
+(tc) left leg <:splitsoul:1137809168368148490> → <:spectralscythe:1137809145706319892> → <:spectralscythe2:1137809149690916945> → <:spectralscythe3:1137809152043925505> → <:lifetransfer:1137809128136388819> → filler (<:soulsap:1137809140476031057> / <:touchofdeath:1137809175980810380> ) → <:invokedeath:1137809121983336548>
+
+__Core:__
+(tc) core → <:bloat:1159433682403201044> (or <:soulsap:1137809140476031057> → <:bloat:1159433682403201044>) → <:commandskeleton:1137809194423160883> → <:volleyofsouls:1159435029592686642> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:necrobasic:1482849360462086244> → filler to kill core → dismiss conjures + <:conjurearmy:1166094935066423348> → filler ability → <:commandghost:1159434409913634816>
+
+.
+### Phase 2:
+__Eruptions:__
+southwest: <:soulsap:1137809140476031057> → <:soulstrikeflank:1156683164593430579> → <:commandskeleton:1137809194423160883> + <:surge:535533810004262912> southeast → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:soulstrikeflank:1156683164593430579> + <:surge:535533810004262912> northeast → (have 8 <:necrosis:1139452791878856805>) <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099> + <:dive:1049378668197195808> northwest → <:commandskeleton:1137809194423160883> → <:soulsap:1137809140476031057> → <:soulstrikeflank:1156683164593430579>
+
+__Solak:__
+(tc) + <:vulnbomb:655341074235129858> → <:bloat:1159433682403201044> → <:commandzombie:1137809191231295549> → <:deathskulls:1159434663903899728> → <:conjurearmy:1166094935066423348> → <:lifetransfer:1137809128136388819> → <:commandghost:1159434409913634816> → <:commandskeleton:1137809194423160883> → <:praeswand:643166769518739477> (4tick) <:smokecloud:856635090641879050> + <:omniguard:1138809234922934282> → <:soulsap:1137809140476031057> → build to 100% → <:livingdeath:1159434908486357072> + <:adrenrenewal:736298121704767538> → <:touchofdeath:1137809175980810380> → <:deathskulls:1159434663903899728> → <:soulsap:1137809140476031057> → <:splitsoul:1137809168368148490> → <:divert:787904334377648130> → <:soulsap:1137809140476031057> → <:bloat:1159433682403201044> → 5 <:residualsoul:1139453152169558046> <:volleyofsouls:1159435029592686642> → <:livingdeath:1159434908486357072> rotation, use <:deathskulls:1159434663903899728> and keep <:bloat:1159433682403201044> active.
+post-<:livingdeath:1159434908486357072>: use <:deathskulls:1159434663903899728> / <:volleyofsouls:1159435029592686642> / <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099> / <:omniguard:1138809234922934282> <:spec:537340400273195028> till phased.
+
+.
+### Phase 3:
+Charge pad #1 + <:omniguard:1138809234922934282> <:spec:537340400273195028> (if available) → build to 3 <:residualsoul:1139453152169558046> and <:bloat:1159433682403201044> → <:commandzombie:1137809191231295549> at 4s timer →  <:conjurearmy:1166094935066423348>
+Solak down → <:splitsoul:1137809168368148490> → <:soulstrikeflank:1156683164593430579> → <:soulstrikeflank:1156683164593430579> → <:soulstrikeflank:1156683164593430579>
+Charge pad #2 (preferably <500k lp Solak) → <:anti:535541306475151390> → build 3 <:residualsoul:1139453152169558046> → <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099> to <:stunicon:841419289428492369> (voiceline: `give me the life...`) → <:omniguard:1138809234922934282> <:spec:537340400273195028> (if available) → <:bloat:1159433682403201044> / <:commandskeleton:1137809194423160883> → Solak down → <:soulstrikeflank:1156683164593430579> repeats depending on lp → <:bloat:1159433682403201044>
+
+__Elf:__
+<:deflectrange:544195488317046812> + <:invokedeath:1137809121983336548> + <:vulnbomb:655341074235129858> → <:soulsap:1137809140476031057> → <:bloat:1159433682403201044> → <:commandskeleton:1137809194423160883> → build 5 <:residualsoul:1139453152169558046> +100% adren.
+
+__*Notes Phase 3:*__
+⬥ Can fit in 4 abilities as Solak goes down before you go elf.
+⬥ after <:omniguard:1138809234922934282> <:spec:537340400273195028>  use a rot such as  <:touchofdeath:1137809175980810380> → <:necrobasic:1482849360462086244> → <:fingerofdeath:1159434801938432010> → <:necrobasic:1482849360462086244> → <:deathskulls:1159434663903899728> → <:necrobasic:1482849360462086244> to utilise <:deathsparkorsoulreave:1143642264850141205>
+⬥ If high lp: <:fingerofdeath:1159434801938432010> if 4+ <:necrosis:1139452791878856805> to finish.
+⬥ <:lifetransfer:1137809128136388819> if <:conjurearmy:1166094935066423348> < 35s upon exit.
+
+.
+### Phase 4:
+<:dummy:656844963522281473> (optional: build 100% adren + 12 <:necrosis:1139452791878856805>).
+<:livingdeath:1159434908486357072> + <:adrenrenewal:736298121704767538> target Solak + <:vulnbomb:655341074235129858> → build <:residualsoul:1139453152169558046> / <:necrosis:1139452791878856805> and adren
+
+__If 100% adren early:__
+<:bloat:1159433682403201044> → <:splitsoul:1137809168368148490> → <:commandskeleton:1137809194423160883> → (damageable) <:deathskulls:1159434663903899728> → <:volleyofsouls:1159435029592686642> → <:fingerofdeath:1159434801938432010> → <:fingerofdeath:1159434801938432010> → <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099>
+
+__If <100% adren:__
+<:splitsoul:1137809168368148490> → (damageable) <:deathskulls:1159434663903899728> → <:bloat:1159433682403201044> → <:commandskeleton:1137809194423160883> → <:volleyofsouls:1159435029592686642> → <:fingerofdeath:1159434801938432010> → <:fingerofdeath:1159434801938432010> → <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099> → build for <:omniguard:1138809234922934282> <:spec:537340400273195028> if not dead.
+
+__If ≤3__ <:residualsoul:1139453152169558046>:
+<:bloat:1159433682403201044> → <:splitsoul:1137809168368148490> → <:commandskeleton:1137809194423160883> → (damageable) <:deathskulls:1159434663903899728> → <:fingerofdeath:1159434801938432010> → <:fingerofdeath:1159434801938432010> → <:soulstrikeflank:1156683164593430579> → repeat <:soulstrikeflank:1156683164593430579> till < 60k lp → <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099>
+
+.
+## __Video Example__
+.tag:example
+[Solo Solak GM Necromancy example](<https://youtu.be/oCev3AnBwFE>)
+.
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Preset]($linkmsg_preset$)\n⬥ [The Fight]($linkmsg_fight$)\n⬥ [Example Kills]($linkmsg_example$)",
+    "color": 39423
+  }
+}
+.embed:json
+.pin:delete

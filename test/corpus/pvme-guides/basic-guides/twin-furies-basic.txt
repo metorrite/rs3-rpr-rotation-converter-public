@@ -1,0 +1,127 @@
+# Twin Furies – Boss Guide
+.img:https://img.pvme.io/images/gaIHwzHbTa.png
+
+.
+## __General Information__
+.tag:generalInfo
+⬥ The Twin Furies are located in the Heart of Gielinor.
+⬥ The duo consists of **Nymora** in the East and **Avaryss** in the West.
+⬥ Entering the encounter requires 40 kill count, or 20 kill count with enough reputation.
+⬥ Level 80 Ranged <:range:580168050121113623> is required to create an instance, which you can boost with any ranged potion / overload <:overload:689554436179361864>
+⬥ The Twin Furies share one health pool of 200,000 LP.
+⬥ In Hard Mode, the fight adds lava bombs alongside the standard mechanics.
+
+Other guides: <#1157399338293670000> <#1251377267746275509> <#1251209160071319572>
+
+.
+## __Gear, Relics and Familiars__
+.tag:GearRelicsFamiliars
+The following presets are based on Stage 1 <#1020045708746833930>:
+⬥ <:magic:689504724159823906> [Magic](<https://presets.pvme.io/?id=36ec3ebe-379d-4350-a3ff-ce7a88f7525a>)
+⬥ <:range:580168050121113623> [Ranged](<https://presets.pvme.io/?id=50e03e24-37ad-4be8-abf5-a4bb22c0aa09>)
+⬥ <:melee:1096130867279171706> [Melee](<https://presets.pvme.io/?id=de7d0a00-3300-4607-ad6f-0c98f839c560>)
+⬥ <:necromancy:1148995625896120460> [Necromancy](https://presets.pvme.io/?id=0d30907b-8f74-4b10-9335-335d98008918)
+
+.
+## __Fight Mechanics__
+.tag:fightMechanics
+⬥ Poison <:poisonicon:944649693500154006> splats may appear, but they do **not** deal damage.
+
+.
+### __Attack Rotation__
+⬥ Normal Mode: *Avaryss' Surge* → auto attacks → *Rain Death* → auto attacks → *Burn Phase* → auto attacks → Repeat
+⬥ Hard Mode: 2 auto attacks → *Avaryss' Surge + Lava Bombs* → auto attacks → *Ceiling Collapse + Lava Bombs* → auto attacks → *Channeled Bomb + Lava Bombs* → auto attacks → *Blue Lava Bomb + Lava Bombs* → auto attacks → Repeat
+.
+### __Shared Health Pool__
+**Mechanic:**
+⬥ Avaryss and Nymora share one health pool
+⬥ When they are close together, AoE abilities can hit both twins and effectively damage the shared health pool twice
+⬥ Hit caps do **not** apply to the Twin Furies' health pool, so some high-damage hits may deal more damage than the visible hitsplats suggest
+
+**Solution:**
+⬥ Use AoE abilities when both twins are close together e.g., <:cane:535532878969438210> <:bombard:535541306391265284> <:spectralscythe:1137809145706319892> <:gchain:1478063106914779166>
+⬥ High-damage combinations such as Chaos Roar <:chaosroar:994644356671737966> → Overpower <:overpowerigneous:959089455640215633> will also go through the hit cap
+
+.
+### __Avaryss' Surge__ [(Example)](<https://img.pvme.io/images/NWTHSDg.mp4>)
+**Mechanic:**
+⬥ Avaryss jumps to a wall, then charges across the arena
+⬥ This repeats 4 times
+⬥ Avaryss always travels in cardinal directions, such as north to south or west to east
+⬥ In Hard Mode, the dive can hit up to around 4,000 Melee damage, stun for 3 seconds, and disable overhead prayers
+⬥ In Hard Mode, attacking Avaryss mid-jump can reflect 90% of the damage taken
+
+**Solution:**
+⬥ Move out of Avaryss' path after she jumps to a new wall
+⬥ In Hard Mode, continually move to avoid being pushed and stunned
+⬥ Avoid attacking Avaryss mid-jump in Hard Mode
+
+.
+### __Ceiling Collapse__ [(Example)](<https://img.pvme.io/images/QIMa9WS.mp4>)
+**Mechanic:**
+⬥ Nymora jumps to a random square and causes a ceiling collapse
+⬥ In Hard Mode, Nymora yells "we will purge them all!" before the collapse
+⬥ In Hard Mode, this deals rapid Ranged damage up to around 1,000 damage every 1.8 seconds
+
+**Solution:**
+⬥ Stand in the 3x3 area around Nymora to negate the mechanic
+⬥ Use defensive abilities if needed while moving into position
+
+.
+### __Channeled Bomb__ [(Examples)](<https://img.pvme.io/images/N7ceSRh.mp4>) [(Explosion)](<https://img.pvme.io/images/CJkO32O.mp4>)
+**Mechanic:**
+⬥ The twins move to the centre of the arena and channel an attack
+⬥ If the channel finishes, it deals 4,500 damage in Normal Mode
+⬥ In Hard Mode, this can deal up to around 8,000 damage
+⬥ During this mechanic, the twins take 2x damage
+⬥ You take typeless damage during the channel, which can be offset by Soul Split <:soulsplit:615613924506599497>
+
+**Solution:**
+⬥ Use AoE abilities while the twins are close together
+⬥ Melee can use Cleave <:cleave:535532878616985610>, Hurricane <:cane:535532878969438210> and Quake <:quake:535532879506309150>
+⬥ Necromancy can use Spectral Scythe <:spectralscythe:1137809145706319892>, Spectral Scythe II <:spectralscythe2:1137809149690916945> and Spectral Scythe III <:spectralscythe3:1137809152043925505>
+⬥ Move or Surge <:surge:535533810004262912> to the edge of the arena before the explosion **or**
+⬥ Block the explosion with defensive abilities
+
+.
+### __Lava Bombs (HM Only)__
+**Mechanic:**
+⬥ A lava bomb spawns alongside each main mechanic
+⬥ Lava bombs bounce around the arena 5 times before disappearing
+⬥ Green arrows show where the lava bomb will land
+⬥ If you are within the 5x5 landing area, you take 3,000-4,000 hard typeless damage
+⬥ After 2 bounces, a second lava bomb spawns
+
+**Solution:**
+⬥ Watch the green arrows and move away from the landing area
+⬥ Keep moving while handling the main mechanic
+⬥ Avoid pathing into Avaryss' jump path while dodging lava bombs
+
+.
+### __Blue Lava Bomb (HM Only)__
+**Mechanic:**
+⬥ A blue lava bomb bounces around the arena 3 times
+⬥ Green arrows show where the blue lava bomb will land
+⬥ If avoided, it homes in on the player and deals 6,000-7,000 hard typeless damage
+⬥ If the player takes the bomb, it also hits both twins for the same damage
+
+**Solution:**
+⬥ Intentionally take the blue lava bomb to damage both twins
+⬥ Prepare defensives or healing before taking the hit
+⬥ Avoid overlapping the blue bomb with other dangerous mechanics where possible
+.
+## __Videos__
+.tag:videos
+⬥ Normal Mode examples: [Melee](<https://youtu.be/9XD2MutZKFo>) <:melee:1096130867279171706> / [Necromancy](<https://youtu.be/lag84Kr6CP8>) <:necromancy:1148995625896120460>
+⬥ Hard Mode examples: [Melee](<https://www.youtube.com/watch?v=6veyQTUV76A>) <:melee:1096130867279171706> / [Necromancy](<https://www.youtube.com/watch?v=Ri0umfL65Ms>) <:necromancy:1148995625896120460>
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [General Info]($linkmsg_generalInfo$)\n⬥ [Gear, Relics & Familiars]($linkmsg_GearRelicsFamiliars$)\n⬥ [Fight Mechanics]($linkmsg_fightMechanics$)\n⬥ [Videos]($linkmsg_videos$)",
+    "color": 39423
+  }
+}
+.embed:json
+.pin:delete

@@ -146,7 +146,14 @@ export function serializeRsa(
             ? (structuredClone(timeline.carrier) as RsaExport)
             : blankTemplate();
 
-    const len = base.data.a?.length ?? 300;
+    const templateLen = base.data.a?.length ?? 300;
+    const maxTick = timeline.events.reduce((m, ev) => Math.max(m, ev.tick), 0);
+    // grow the grid to fit long rotations instead of dropping their tail
+    const len = Math.max(templateLen, maxTick + 6);
+    if (len > templateLen) {
+        report?.note(`extended the RS Analysis grid to ${len} ticks (template is ${templateLen})`);
+    }
+
     base.name = timeline.name;
     base.timestamp = Date.now();
     base.data.a = new Array<string>(len).fill("");

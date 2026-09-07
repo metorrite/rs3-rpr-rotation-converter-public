@@ -10,7 +10,7 @@ const catalog = loadCatalog();
 describe("catalog", () => {
     it("loads the vendored ability data", () => {
         expect(catalog.entries.length).toBeGreaterThan(2000);
-        expect(catalog.manifest?.repo).toBe("Ellamental2/RotationMaster");
+        expect(catalog.manifest?.rotationMaster.repo).toBe("Ellamental2/RotationMaster");
     });
 
     it("every alias canonical id exists in the catalog", () => {

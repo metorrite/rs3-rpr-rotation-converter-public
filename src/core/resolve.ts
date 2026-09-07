@@ -55,9 +55,24 @@ export function toActionRef(
         canonicalId,
         rawName: raw,
         display: entry.display,
+        pvmeName: entry.pvmeName,
         kind: opts.kindHint ?? entry.kind,
         emojiId: entry.emojiId || opts.emojiId,
     };
+}
+
+/**
+ * Tidy a catalog/RM label into an RS Analysis-style action name:
+ * drop a leading "OLD" tag, turn underscores into spaces, lowercase.
+ * "OLDChaos Roar" -> "chaos roar", "meteor_strike" -> "meteor strike".
+ */
+export function cleanRsaName(name: string): string {
+    return name
+        .replace(/^OLD/i, "")
+        .replace(/_/g, " ")
+        .replace(/\s+/g, " ")
+        .trim()
+        .toLowerCase();
 }
 
 /** Canonical id -> the CatalogEntry to write, substituting a placeholder when RM lacks the icon. */
@@ -74,7 +89,14 @@ export function entryForOutput(
 /** Preferred RSA action name for a resolved ActionRef. */
 export function rsaDisplayName(ref: ActionRef): string {
     // A spec carries its RSA action name (e.g. "balance by force") in `display`.
-    if (ref.kind === "spec") return ref.display || ref.rawName;
-    if (ref.canonicalId) return rsaNameFor(ref.canonicalId) ?? ref.display;
-    return ref.rawName;
+    if (ref.kind === "spec") return cleanRsaName(ref.display || ref.rawName);
+    if (!ref.canonicalId) return ref.rawName;
+    const curated = rsaNameFor(ref.canonicalId);
+    if (curated) return curated;
+    // Prefer whichever label reads like a real name (has a word break) once cleaned.
+    const fromRm = cleanRsaName(ref.display);
+    const fromPvme = ref.pvmeName ? cleanRsaName(ref.pvmeName) : "";
+    if (fromRm.includes(" ")) return fromRm;
+    if (fromPvme.includes(" ")) return fromPvme;
+    return fromRm || fromPvme || ref.rawName;
 }

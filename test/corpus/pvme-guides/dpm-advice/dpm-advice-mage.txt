@@ -1,0 +1,364 @@
+# > __Magic DPM Advice__ <:magic:689504724159823906>
+.tag:intro
+*Note: a **Table of Contents** can be found in the pins.*
+
+This channel will go over general damage output lessons, ability prioritisation, a learning path, and style-specific solutions for common PvM concerns
+⬥ Knowledge of in-game ability/item descriptions is assumed, this guide aims to tie the tools together rather than list what they do
+⬥ For general PvM terminology, damage tips, and revolution bars, check out their respective sections in <#1252196386452144249>
+⬥ To compare abilities, use [RS Analysis' Magic Page](<https://tools.runescape.wiki/rs-rot/magic>), and add your gear
+
+.
+## > __Core Magic Rotation__ <:magic:689504724159823906>
+.tag:rotation
+This section covers rotations using core style abilities before later unlocks are obtained
+*See __**Advanced Magic Rotations**__ section further down for info on magic rotations using best-in-slot gear*
+
+.
+⬥ **A typical Magic rotation uses the strongest Basic Abilities available to build adrenaline, and spends it on the strongest available Enhanced Abilities, Ultimate Abilities, or Special Attacks**
+    • While doing this, we must think about the following **key considerations:**
+        ⬩ Basic ability patterns <:gconc:1478063111104757760>
+        ⬩ Buff usage <:gsunshine:994644352871714836>
+        ⬩ Spell effects <:incitefear:856635090783567902>
+
+.
+### __Basic Pattern__
+*If Greater Concentrated Blast <:gconc:869285393223254107> is not unlocked, use the regular version <:conc:1087373968731811880> instead*
+
+.
+⬥ **Greater Concentrated Blast <:gconc:869285393223254107> should form the foundation of your rotation**
+    • Try to follow <:gconc:1478063111104757760> with strong abilities that can critically strike <:dbreath:535533833391702017> <:wm:535533809978966037> <:omni:535533809664262179>
+⬥ **The basic pattern uses <:gconc:869285393223254107> often in blocks of 3 abilities**:
+    • **[** <:gconc:869285393223254107> → Ability → Ability **]** → Repeat
+
+⬥ When building adrenaline, fill the empty slots with strong Basic Abilities:
+    • Dragon Breath <:dbreath:535533833391702017>
+    • Sonic Wave <:sonic:1478063115709972651>
+    • Combust <:combust:1478063107908702482>
+⬥ Then spend adrenaline on Enhanced Abilites, Ultimate Abilities, and Special Attacks:
+    • Such abilities are often categorically referred to as **spenders**
+    • Omnipower <:omni:535533809664262179>
+    • Wild Magic <:wm:535533809978966037>
+    • Asphyxiate <:asphyx:535533833072672778>
+        ⬩ Lasts long enough to fill both empty slots between <:gconc:1478063111104757760> uses
+⬥ This pattern helps ensure that your cooldowns are always cycling to allow for a consistent flow of strong abilities
+
+.
+### __Sunshine__
+*It is assumed that either the Planted Feet perk <:sunshinepf:994921595489488927> or Greater Sunshine unlock has been obtained <:gsunshine:994644352871714836> for the purposes of this guide*
+
+.
+⬥ **Sunshine <:gsunshine:994644352871714836> is the main buff to prioritise whenever there is an opportunity to deal damage**
+    • The exception to this is when the fight would end too quickly, or mechanics occur, and you can't benefit from the full duration
+    • Ideally, enter boss fights and important phases with 100% adrenaline so you can activate it immediately
+⬥ In Sunshine <:gsunshine:994644352871714836>, continue following the basic pattern while fitting in your most powerful spenders:
+    ● Omnipower <:omni:535533809664262179>
+    ● Wild Magic <:wm:535533809978966037>
+    ● Asphyxiate <:asphyx:535533833072672778>
+⬥ Keep in mind that Damage-over-Time (DoT) abilities such as Combust <:combust:1478063107908702482> are not affected by <:gsunshine:994644352871714836> and most other damage buffs
+⬥ While waiting for <:gsunshine:994644352871714836> cooldown, you do not want to needlessly camp 100% adrenaline, and can start building when <:gsunshine:994644352871714836> is nearly ready to use again
+
+.
+### __Other Buffs__
+*Besides Sunshine, Magic has multiple buffing abilities that are meant to supplement and enhance its core rotation*
+
+.
+⬥ **Tsunami** <:tsunami:535533809995874304> grants adrenaline per critical strike and is most often used alongside <:gsunshine:994644352871714836>
+    • Synergises with abilities that have built-in critical strike chance boosts <:gconc:1478063111104757760> / <:wm:535533809978966037> / <:smoketendrils:536257336130404372>
+
+⬥ **Sonic Wave** <:gsonic:1478063117211668584> is typically used to save adrenaline while setting up <:gsunshine:994644352871714836> + <:tsunami:535533809995874304>
+    • It can also be used on spenders <:wm:535533809978966037> to help maintain high adrenaline while waiting on <:gsunshine:994644352871714836> cooldown
+
+⬥ **Runic Charge** <:runic_charge:1478063122345361562> can flexibly enhance different basic abilities but is most commonly used for:
+    • (1) <:runic_charge:1478063122345361562> + <:gsonic:1478063117211668584> on either <:gsunshine:994644352871714836> or <:tsunami:535533809995874304> to allow for more immediate adrenaline during the buff window
+    • (2) <:runic_charge:1478063122345361562> + <:gconc:1478063111104757760> on either <:omni:535533809664262179> or <:wm:535533809978966037> for consistent critical strikes on your highest damaging abilities
+
+⬥ **Asphyxiate** <:asphyx:535533833072672778> provides a critical strike damage boost after its full channel, often stacked with other buffs to maximise burst damage
+
+.
+### __Spell Effects__
+*Magic spells can be clicked in the spellbook or right-clicked on an ability bar to be set to autocast, which 'selects' them to use with your abilities, like picking your ammo for a ranged weapon*
+
+.
+⬥ **When using abilities, stronger autocast spells can increase your ability damage and provide additional effects**
+    • Autocast either Exsanguinate <:exsanguinate:856635090745950258> or alternatively Incite Fear <:incitefear:856635090783567902> if you plan to use Tsunami <:tsunami:535533809995874304>
+    • Otherwise, use the highest rank of blood <:bloodbarrage:537338981747261446> / air <:airsurge:543465115870035999> spell available or Crumble Undead <:crumbleundead:1351696446646390824> if applicable
+⬥ Any damaging spell can be dragged onto a hotbar slot to act as <:magicbasic:1478063104146411713> although you will gain the secondary effect of that spell when used rather than the secondary effect of your autocast
+    • It is recommended to do so to maintain a consistent hit timing for your <:magicbasic:1478063104146411713>, as certain spells such as <:incitefear:856635090783567902> hit slower than others
+    • This guide will use <:magicbasic:1478063104146411713> to denote basic attacks, although typically <:bloodbarrage:537338981747261446> / <:emeraldaurora:914077639784935424> / <:rubyaurora:574292444791963659> are chosen for faster hit timing and useful effects
+⬥ Smoke Cloud <:smokecloud:856635090641879050> should be prioritised on bosses that last over a minute, especially once further critical strike boosts are unlocked
+
+.
+## > __Rotation Examples__ <:gsunshine:994644352871714836>
+.tag:sun
+These are only suggestions to work from, and will not necessarily be applicable at all bosses or situations. For boss-specific rotations, see their respective guides.
+
+.
+### __Starting Unlocks__
+⬥ Ring of Vigour <:rov:513201065877831680> or its passive effect after [Extinction quest](<https://runescape.wiki/w/Extinction>)
+⬥ Super Adrenaline or Enhanced Replenishment Potions <:enhreplen:634350450887622656>
+    • Adrenaline potion rotations can be looped with the corresponding non-adrenaline potion rotation
+⬥ Greater Sunshine <:gsunshinecodex:1095409577014599701> or Planted Feet perk <:pf:689501925770919981>
+⬥ Greater Concentrated Blast <:gconccodex:1095411706395635782> and Greater Sonic Wave <:gsoniccodex:1095411830207299654>
+⬥ Incite Fear <:incitefear:856635090783567902> and Smoke Tendrils <:smoketendrils:536257336130404372> in examples with Tsunami <:tsunami:535533809995874304>
+
+.
+### __1 Minute Examples__
+.
+**Example**
+⬥ <:runic_charge:1478063122345361562> + <:gsonic:1478063117211668584> → <:gsunshine:994644352871714836> + <:enhreplen:634350450887622656> → <:gconc:1478063111104757760> → <:asphyx:535533833072672778> → <:gconc:1478063111104757760> → <:omni:535533809664262179> → <:dbreath:535533833391702017> → <:gconc:1478063111104757760> → <:wm:535533809978966037> → <:gsonic:1478063117211668584> → <:gconc:1478063111104757760> → <:wm:535533809978966037> → <:dbreath:535533833391702017> → <:gconc:1478063111104757760> → <:asphyx:535533833072672778> → <:runic_charge:1478063122345361562> + <:gconc:1478063111104757760> → <:wm:535533809978966037> → <:gsonic:1478063117211668584> → <:gconc:1478063111104757760> → <:wm:535533809978966037> (<:gsunshine:994644352871714836> ends) → <:combust:1478063107908702482> → <:gconc:1478063111104757760> → <:dbreath:535533833391702017> → <:magicbasic:1478063104146411713> → <:gconc:1478063111104757760> → <:magicbasic:1478063104146411713> → <:dbreath:535533833391702017> → <:gconc:1478063111104757760> → <:wm:535533809978966037> → <:magicbasic:1478063104146411713> → <:gconc:1478063111104757760> → <:runic_charge:1478063122345361562> + <:gsonic:1478063117211668584> → <:combust:1478063107908702482> → <:gsunshine:994644352871714836>
+
+.
+**Example w/out Adrenaline Potion**
+⬥ <:runic_charge:1478063122345361562> + <:gsonic:1478063117211668584> → <:gsunshine:994644352871714836> → <:gconc:1478063111104757760> → <:asphyx:535533833072672778> → <:gconc:1478063111104757760> → <:wm:535533809978966037> → <:dbreath:535533833391702017> → <:gconc:1478063111104757760> → <:gsonic:1478063117211668584> → <:combust:1478063107908702482> → <:gconc:1478063111104757760> → <:wm:535533809978966037> → <:dbreath:535533833391702017> → <:gconc:1478063111104757760> → <:asphyx:535533833072672778> → <:runic_charge:1478063122345361562> + <:gconc:1478063111104757760> → <:omni:535533809664262179> → <:gsonic:1478063117211668584> → <:gconc:1478063111104757760> → <:wm:535533809978966037> (<:gsunshine:994644352871714836> ends) → <:combust:1478063107908702482> → <:gconc:1478063111104757760> → <:dbreath:535533833391702017> → <:magicbasic:1478063104146411713> → <:gconc:1478063111104757760> → <:magicbasic:1478063104146411713> → <:dbreath:535533833391702017> → <:gconc:1478063111104757760> → <:wm:535533809978966037> → <:magicbasic:1478063104146411713> → <:gconc:1478063111104757760> → <:runic_charge:1478063122345361562> + <:gsonic:1478063117211668584> → <:gsunshine:994644352871714836>
+
+.
+**Tsunami Example**
+⬥ <:gsunshine:994644352871714836> + <:enhreplen:634350450887622656> → <:runic_charge:1478063122345361562> + <:gsonic:1478063117211668584> → <:gconc:1478063111104757760> → <:dbreath:535533833391702017> → <:tsunami:535533809995874304> → <:gconc:1478063111104757760> → <:asphyx:535533833072672778> → <:gconc:1478063111104757760> → <:omni:535533809664262179> → <:wm:535533809978966037> → <:smoketendrils:536257336130404372> → <:wm:535533809978966037> → <:gconc:1478063111104757760> → <:gsonic:1478063117211668584> → <:wm:535533809978966037> → <:asphyx:535533833072672778> → <:runic_charge:1478063122345361562> + <:gconc:1478063111104757760> → <:wm:535533809978966037> (<:gsunshine:994644352871714836> ends) → <:combust:1478063107908702482> → <:gconc:1478063111104757760> → <:dbreath:535533833391702017> → <:wm:535533809978966037> → <:gconc:1478063111104757760> → <:magicbasic:1478063104146411713> → <:dbreath:535533833391702017> → <:gconc:1478063111104757760> → <:wm:535533809978966037> → <:magicbasic:1478063104146411713> → <:gconc:1478063111104757760> → <:combust:1478063107908702482> → <:gsunshine:994644352871714836>
+
+.
+**Tsunami Example w/out Adrenaline Potion**
+⬥ <:gsunshine:994644352871714836> → <:runic_charge:1478063122345361562> + <:gsonic:1478063117211668584> → <:gconc:1478063111104757760> → <:dbreath:535533833391702017> → <:tsunami:535533809995874304> → <:gconc:1478063111104757760> → <:asphyx:535533833072672778> → <:gconc:1478063111104757760> → <:wm:535533809978966037> → <:smoketendrils:536257336130404372> → <:wm:535533809978966037> → <:gconc:1478063111104757760> → <:gsonic:1478063117211668584> → <:wm:535533809978966037> → <:gconc:1478063111104757760> → <:asphyx:535533833072672778> → <:runic_charge:1478063122345361562> + <:gconc:1478063111104757760> → <:omni:535533809664262179> (<:gsunshine:994644352871714836> ends) → <:combust:1478063107908702482> → <:gconc:1478063111104757760> → <:dbreath:535533833391702017> → <:magicbasic:1478063104146411713> → <:gconc:1478063111104757760> → <:magicbasic:1478063104146411713> → <:dbreath:535533833391702017> → <:gconc:1478063111104757760> → <:wm:535533809978966037> → <:magicbasic:1478063104146411713> → <:gconc:1478063111104757760> → <:combust:1478063107908702482> → <:gsunshine:994644352871714836>
+
+*Note: Rotations with Tsunami <:tsunami:535533809995874304> were tested with Reaver's Ring <:reaverring:839903943018283050> + Biting 4 <:biting4:712073087809617931> at 23% critical strike chance*
+
+.
+These rotations demonstrate the fundamental structure of magic's core rotation, and show typical ways of setting up the initial round of buffs <:gsunshine:994644352871714836> <:tsunami:535533809995874304> while sticking to the basic pattern. With further upgrades, this rotation can be progressively iterated upon even through endgame upgrades.
+
+.
+## > __PvM Decision Making__ <:wm:535533809978966037>
+.tag:specifictools
+Next, we explore how magic solves common PvM scenarios and other style-specific decisions it has to make
+
+.
+### __Area-of-Effect (AoE)__
+⬥ **Chain <:chain:1478063105182269460> / Greater Chain <:gchain:1257440278512537740> is the default option for dealing with AoE scenarios as magic**
+    • Longer range AoE targeting than other options while being flexible in terms of adrenaline management
+    • Use a powerful ability on the main target like <:gchain:1257440278512537740> → <:omni:535533809664262179> or high hitting special attacks such as <:roarofawakening:1266417538045317121> <:spec:537340400273195028>
+        ⬩ If the main target dies before the followup ability is cast, the effect will be lost
+    • Can be used to briefly stun multiple targets with stun abilities such as <:impact:535533809655873556> / <:asphyx:535533833072672778>
+
+.
+⬥ **Magma Tempest <:magmatempest:902209626509025290> deals high damage when targets are expected to survive for a longer period of time**
+    • Targeted variant <:magmatempesttarget:924741973858996284> is good for setting up damage before enemies have spawned
+    • Is not classified as DoT damage, allowing it to benefit from Sunshine <:gsunshine:994644352871714836> and other damage buffs
+    • Can mostly finish ticking if used between <:gchain:1478063106914779166> cooldown
+        ⬩ <:gchain:1478063106914779166> can also help with tagging and luring enemies into <:magmatemptest:1478063454173532242> 5x5 area
+
+.
+⬥ **Low Priority or Highly Situational**
+    • Barrage Spells <:bloodbarrage:537338981747261446> provide a spammable AoE option but have restrictive 3x3 area and low damage
+        ⬩ Can be used for AoE healing <:bloodbarrage:537338981747261446> or freeze <:icebarrage:537340400185245701>
+    • Tsunami <:tsunami:535533809995874304> is usually only used for AoE when the timing lines up with when you would normally use it
+    • Dragon Breath <:dbreath:535533833391702017> may be used for lower target counts (<= 4) and can be boosted further with <:runic_charge:1478063122345361562>
+    • Corruption Blast <:corruptionblast:1478063113659093075> has higher multipliers than <:bloodbarrage:537338981747261446> and <:dbreath:535533833391702017> but is restrictive due to being classified as DoT and costing adrenaline
+
+.
+### __Spending Excess Adrenaline__
+⬥ **Wild Magic <:wm:535533809978966037> is your go-to spender and deals more damage than other options under most circumstances**
+⬥ Essence of Finality Special Attacks <:eofspec:1257438999794946099> are rarely needed for magic rotations due to the extremely low cooldown on <:wm:535533809978966037>
+    • <:gconc:1478063111104757760> + <:wm:535533809978966037> can automatically fill up to 2/3 of your rotation on their own
+    • Iban's Staff <:ibansstaff:1215929543068618752> and Legatus's Emberstaff <:legatusemberstaff:1451134746280329357> can be used as the main <:eof:745279787471470713> options
+        ⬩ For situations where you have adrenaline but no strong cooldowns available, or when fishing for high immediate burst damage
+    • Guthix Staff <:gstaff:513203008608141314> <:eofspec:1257438999794946099> is used only when a hit chance boost is needed
+
+.
+### __Dealing with Movement__
+⬥ **Bosses may require you to move for mechanics during Sunshine <:gsunshine:994644352871714836> and/or mid-channel <:asphyx:535533833072672778>**
+    • <:gsunshine:994644352871714836> occupies a 7x7 area, it is often possible to pre-position it to fit into any movement requirements a boss has
+    • Prioritise movement abilities <:surge:535533810004262912> / <:dive:1049378668197195808> to quickly deal with mechanics and get back into <:gsunshine:994644352871714836> rather than running normally
+        ⬩ It's possible to input <:surge:535533810004262912> / <:dive:1049378668197195808> on the same tick as the next ability to allow seamless repositions even after channels
+    • Simply tanking damage (with <:disrupt:535614336207552523> / <:powerburstofvitality:654618235097972737> if needed) is viable for expected and non-lethal amounts of damage
+    • For extremely movement intensive phases it may be ideal to not use <:gsunshine:994644352871714836>, in which case DoT such as <:combust:1478063107908702482> / <:roarofawakening:1266417538045317121> <:spec:537340400273195028> may go up in priority
+
+.
+### __Short Damage Checks__
+⬥ **Some PvM scenarios emphasise short phases and quick damage checks rather than keeping up a consistent flow of damage**
+⬥ In such cases, we have some of the following options:
+    • Shift <:runic_charge:1478063122345361562> timing to be used on <:gconc:1478063111104757760> → <:omni:535533809664262179> / <:wm:535533809978966037> precisely when required
+    • Pre-<:asphyx:535533833072672778> / <:gconc:1478063111104757760> purely for the buff before these scenarios begin if time allows
+    • Sources of damage that can be used ahead of time <:magmatemptest:1478063454173532242> / <:combust:1478063107908702482> / <:roarofawakening:1266417538045317121> <:spec:537340400273195028>
+        ⬩ <:combust:1478063107908702482> → <:gconc:1478063111104757760> → <:runic_charge:1478063122345361562> + <:dbreath:535533833391702017> can deal heavy damage while being completely adrenaline positive
+    • Utilising stalls and abilities with late hit timings <:omni:535533809664262179> to clip into the start of the next phase
+        ⬩ Equip a magic main-hand <:roarofawakening:1266417538045317121> + melee off-hand <:excal:641337999170207763> and click under yourself to make stalling at short range easier
+        ⬩ Freely switch back to any magic weapon, then click the target to release the stall
+
+.
+### __Reaver's Ring vs Channeller's Ring__ <:reaverring:839903943018283050> <:channellerring:839903943404027914>
+⬥ **It may seem that Channeller's Ring pulls ahead due to the abundance of channelled abilities available to magic <:magic:689504724159823906>. However, the following should be considered:**
+    • <:channellersring:839903943404027914> does not boost some of magic's strongest abilities <:omni:535533809664262179> / <:wm:535533809978966037> or Lightning Surge attacks during FSoA's special attack <:fsoa:869284271595069451> <:spec:537340400273195028>
+    • <:channellersring:839903943404027914> has incredible synergy with Tumeken's Resplendence <:tumekenrobetop:1400500746377625790> 4-piece effect that buffs <:asphyx:535533833072672778>
+⬥ Therefore, the general recommendation is Channeller's Ring <:channellerring:839903943404027914> when using <:tumekenrobetop:1400500746377625790> (4-piece+), and otherwise Reaver's Ring <:reaverring:839903943018283050> when hit chance is not an issue
+    • However, it is also possible to actively swap between both rings, using <:channellersring:839903943404027914> for <:asphyx:535533833072672778> and <:reaverring:839903943018283050> otherwise
+
+.
+## > __Advanced Magic Rotations__ <:fsoa:869284271595069451>
+.tag:advanced
+This section focuses on tactics that make full use of endgame tools available to magic <:magic:689504724159823906>. Players looking to optimise around Fractured Staff of Armadyl <:fsoa:869284271595069451> and Tumeken's Resplendence <:tumekenrobetop:1400500746377625790> should use this section as reference.
+
+.
+### __Sanctum Dual Wield Weapons__ <:roarofawakening:1266417538045317121> <:odetodeceit:1266417683058917517>
+.tag:sanctdw
+*These weapons generally become outclassed as a camp weapon once <:fsoa:869284271595069451> is obtained, skip ahead if past this point of gear progression*
+
+.
+⬥ Building <:essencecorruption:1266418936820404295> stacks during <:gsunshine:994644352871714836> is inefficient, but a single DoT use is required to keep stacks from expiring
+    • The best option for this is <:roarofawakening:1266417538045317121> <:spec:537340400273195028> itself, since the first hit is not a DoT and is boosted by <:gsunshine:994644352871714836>
+⬥ Using Combust <:combust:1478063107908702482> immediately before <:gsunshine:994644352871714836> allows us to refresh <:essencecorruption:1266418936820404295> at around 10s remaining on <:gsunshine:994644352871714836>
+⬥ The Conflagrate buff granted by <:roarofawakening:1266417538045317121> <:spec:537340400273195028> can be held until <:gsunshine:994644352871714836> ends to make use of it without overlapping on <:gsunshine:994644352871714836> duration
+
+.
+**Example:**
+⬥ <:combust:1478063107908702482> → <:gsunshine:994644352871714836> → <:runic_charge:1478063122345361562> + <:gsonic:1478063117211668584> → <:gconc:869285393223254107> → <:tsunami:535533809995874304> → <:asphyx:535533833072672778> → <:gconc:1478063111104757760> → <:omni:535533809664262179> → <:wm:535533809978966037> → <:smoketendrils:536257336130404372> → <:wm:535533809978966037> → <:gconc:1478063111104757760> → <:roarofawakening:1266417538045317121> <:spec:537340400273195028> → <:wm:535533809978966037> → <:gconc:1478063111104757760> → <:asphyx:535533833072672778> → <:gconc:1478063111104757760> → <:wm:535533809978966037> (<:gsunshine:994644352871714836> ends) → <:combust:1478063107908702482> → <:gconc:1478063111104757760> → <:roarofawakening:1266417538045317121> <:spec:537340400273195028> (if it reset) → <:dbreath:535533833391702017> (strong filler while <:combust:1478063107908702482> is running)
+
+.
+**Notes:**
+⬥ Resets on <:roarofawakening:1266417538045317121> <:spec:537340400273195028> during <:gsunshine:994644352871714836> can be optionally held until after <:gsunshine:994644352871714836> ends to have a strong filler option while waiting for <:gsunshine:994644352871714836> cooldown
+⬥ <:combust:1478063107908702482> becomes a strong very strong ability while maintaining 10+ <:essencecorruption:1266418936820404295> stacks, but better options are usually available during <:gsunshine:994644352871714836>
+⬥ Prebuilding with <:gchain:1257440278512537740> → <:comb:535533833098100745> at the Wars dummies allows you to quickly build 30 stacks of <:essencecorruption:1266418936820404295> between boss kills
+
+.
+### __Fractured Staff of Armadyl__ <:fsoa:869284271595069451>
+.tag:fsoa
+.
+⬥ **An effective <:fsoa:869284271595069451> rotation relies on landing critical strikes as often and reliably as possible**
+⬥ Passive critical strike damage boost generally overtakes <:essencecorruption:1266418936820404295> at ~30%+ critical strike chance, making <:fsoa:869284271595069451> the primary camp weapon for endgame magic rotations
+    • <:roarofawakening:1266417538045317121> + <:odetodeceit:1266417683058917517> should still be kept for the special attack <:spec:537340400273195028>
+⬥ Where possible, you will overlap <:gsunshine:994644352871714836> + <:tsunami:535533809995874304> + <:fsoa:869284271595069451> <:spec:537340400273195028> to get the most out of each effect
+⬥ Critical strike chance checklist:
+    • Biting 4 <:biting4:712073087809617931>
+    • Erethdor's Grimoire <:grim:568262896375824385>
+    • Either Reaver's Ring <:reaverring:839903943018283050> or Channeller's Ring <:channellerring:839903943404027914>
+    • Kal'gerion demon familiar <:kalgpouch:921410226484301925> with scrolls <:kalgscroll:841409588954923049>
+    • Tectonic <:tectmask:643849283199696917>, Elite Tectonic <:elitetectmask:556582803014418432>, or Tumeken's Resplendance <:tumekenrobetop:1400500746377625790> armour
+    • Eclipsed Soul <:eclipsedsoul:1285372688457797672>
+
+.
+**Example:**
+<:gsunshine:994644352871714836> → <:runic_charge:1478063122345361562> + <:gsonic:1478063117211668584> → <:gconc:869285393223254107> → <:tsunami:535533809995874304> → <:fsoa:869284271595069451> <:spec:537340400273195028> → <:gconc:869285393223254107> → <:asphyx:535533833072672778> → <:gconc:1478063111104757760> → <:omni:535533809664262179> → <:wm:535533809978966037> → <:smoketendrils:536257336130404372> (5-tick) → <:gconc:1478063111104757760> → <:wm:535533809978966037> → <:roarofawakening:1266417538045317121> <:spec:537340400273195028> → <:gconc:1478063111104757760> → <:asphyx:535533833072672778> → <:runic_charge:1478063122345361562> + <:gconc:1478063111104757760> → <:wm:535533809978966037> (<:gsunshine:994644352871714836> ends) → <:combust:1478063107908702482> (you may still opt to fill with <:combust:1478063107908702482> between <:gsunshine:994644352871714836> cooldown) → <:gconc:1478063111104757760> → <:wm:535533809978966037>
+
+.
+**Notes:**
+⬥ Ability priorities don't change much since much of magic's strongest abilities already synergise well with critical strikes
+⬥ When running into adrenaline issues, <:smoketendrils:536257336130404372> guarantees at least 4 critical strikes and that <:gconc:1478063111104757760> will be available immediately after
+    • 5-tick <:smoketendrils:536257336130404372> helps to line up the next <:asphyx:535533833072672778> cooldown perfectly, a useful trick for when <:tumekenrobetop:1400500746377625790> is obtained
+⬥ Make sure to set your autocast to <:incitefear:856635090783567902> before <:gsunshine:994644352871714836> if stacks were not maintained
+
+.
+### __Tumeken's Resplendence__ <:tumekenrobetop:1400500746377625790>
+.tag:tumeken
+*Although Tumekens <:tumekenrobetop:1400500746377625790> is almost always better than running 3-piece Elite Tectonic <:elitetectbody:552955120707698699>, there may be situations where very short-term critical strike burst requirements make the latter set slightly better*
+
+.
+⬥ **This armour set is primarily used for its 4-piece and 5-piece effects that substantially buff <:asphyx:535533833072672778>**
+⬥ We will prioritise pushing out <:asphyx:535533833072672778> as quickly as possible after <:gsunshine:994644352871714836> + <:tsunami:535533809995874304> + <:fsoa:869284271595069451> <:spec:537340400273195028>
+⬥ We have 9s of critical strike damage buff to work with now, changing our priorities for the next few abilities after <:asphyx:535533833072672778>
+⬥ <:asphyx:535533833072672778> with <:channellerring:839903943404027914> can generate a massive amount of critical strikes under <:critbuff:1279516151423963166>, making it another reliable source of adrenaline similar to <:gconc:1478063111104757760> and <:smoketendrils:536257336130404372>
+⬥ <:asphyx:535533833072672778> is now an excellent way to stack up <:exsanguinate:856635090745950258> / <:incitefear:856635090783567902> quickly. For example, <:fsoa:869284271595069451> <:spec:537340400273195028> → <:gconc:869285393223254107> → <:asphyx:535533833072672778> can fully stack up <:exsanguinate:856635090745950258> near the start of <:gsunshine:994644352871714836>
+
+.
+**Example (1 minute):**
+<:gsunshine:994644352871714836> → <:runic_charge:1478063122345361562> + <:gsonic:1478063117211668584> → <:gconc:1478063111104757760> → <:dbreath:535533833391702017> → <:tsunami:535533809995874304> → <:fsoa:869284271595069451> <:spec:537340400273195028> → <:asphyx:535533833072672778> → <:wm:535533809978966037> → <:smoketendrils:536257336130404372> (5-tick) → <:gconc:1478063111104757760> → <:omni:535533809664262179> → <:wm:535533809978966037> → <:roarofawakening:1266417538045317121> <:spec:537340400273195028> → <:gconc:1478063111104757760> → <:wm:535533809978966037> → <:asphyx:535533833072672778> → <:runic_charge:1478063122345361562> + <:gconc:1478063111104757760> → <:wm:535533809978966037> (<:gsunshine:994644352871714836> ends) → <:combust:1478063107908702482> → <:gconc:1478063111104757760> → <:wm:535533809978966037> → <:dbreath:535533833391702017> → <:gconc:1478063111104757760> → <:gsonic:1478063117211668584> → <:wm:535533809978966037> → <:asphyx:535533833072672778> → <:gconc:1478063111104757760> → <:combust:1478063107908702482> → <:dbreath:535533833391702017> → <:gsunshine:994644352871714836> (loops)
+
+.
+**Notes:**
+⬥ We can now fit more abilities into each <:asphyx:535533833072672778> buff, allowing us to aim for <:omni:535533809664262179> + 2x <:wm:535533809978966037> under the buff
+⬥ We actively utilise 5-tick <:smoketendrils:536257336130404372> to line up the second <:asphyx:535533833072672778> as early as possible
+    • Applicability of this can change from boss to boss
+⬥ We still have a slot to fill in with <:roarofawakening:1266417538045317121> <:spec:537340400273195028>, but can be replaced with any other <:eofspec:1257438999794946099> if doing group bosses
+⬥ <:asphyx:535533833072672778> itself becomes a solid damage ability while waiting for <:gsunshine:994644352871714836> cooldown
+
+.
+### __Runic Charge and Adrenaline Renewal__ <:runic_charge:1478063122345361562> <:adrenrenewal:736298121704767538>
+.
+⬥ **In previous example rotations we have been using <:runic_charge:1478063122345361562> on <:gsonic:1478063117211668584> to guarantee more adrenaline after <:tsunami:535533809995874304>**
+    • This sacrifices a use on <:gconc:1478063111104757760> that we're unable to use on <:omni:535533809664262179> during the first <:asphyx:535533833072672778> buff
+⬥ **In reality, there are multiple considerations that allow us to optimise our <:runic_charge:1478063122345361562> uses**
+    • Both <:runic_charge:1478063122345361562> and <:dbreath:535533833391702017> can be consistently skipped in the opener when <:adrenrenewal:736298121704767538> is available
+    • Preparing <:runic_charge:1478063122345361562> ~10s before <:gsunshine:994644352871714836> allows it to be used on <:gsonic:1478063117211668584> as usual while having it come up back up soon after the first <:asphyx:535533833072672778>
+⬥ In general, plan to use <:runic_charge:1478063122345361562> **as early as possible** as long as it won't be consumed on the wrong ability
+    • This allows you to potentially find spots to squeeze in additional uses
+
+.
+**Example (1 minute+):**
+⬥ <:gsunshine:994644352871714836> + <:adrenrenewal:736298121704767538> → <:gsonic:1478063117211668584> → <:gconc:1478063111104757760> + <:runic_charge:1478063122345361562> (as early as possible) → <:tsunami:535533809995874304> → <:fsoa:869284271595069451> <:spec:537340400273195028> → <:asphyx:535533833072672778> → <:wm:535533809978966037> → <:smoketendrils:536257336130404372> (5-tick) → <:gconc:1478063111104757760> → <:omni:535533809664262179> → <:wm:535533809978966037> → <:roarofawakening:1266417538045317121> <:spec:537340400273195028> → <:gconc:1478063111104757760> → <:wm:535533809978966037> → <:asphyx:535533833072672778> → <:runic_charge:1478063122345361562> + <:gconc:1478063111104757760> → <:wm:535533809978966037> (<:gsunshine:994644352871714836> ends) → <:combust:1478063107908702482> → <:gconc:1478063111104757760> → <:wm:535533809978966037> → <:dbreath:535533833391702017> → <:gconc:1478063111104757760> → <:wm:535533809978966037> → <:gsonic:1478063117211668584> → <:asphyx:535533833072672778> → <:gconc:1478063111104757760> → <:combust:1478063107908702482> → <:dbreath:535533833391702017> → <:gsunshine:994644352871714836> → <:gconc:1478063111104757760> → <:runic_charge:1478063122345361562> + <:gsonic:1478063117211668584> → <:tsunami:535533809995874304> → <:fsoa:869284271595069451> <:spec:537340400273195028> → <:gconc:1478063111104757760> → <:asphyx:535533833072672778>
+
+.
+**Notes:**
+⬥ Uses <:adrenrenewal:736298121704767538> to get 2x <:runic_charge:1478063122345361562> + <:gconc:1478063111104757760> uses during first <:gsunshine:994644352871714836>
+⬥ Goes back to <:runic_charge:1478063122345361562> + <:gsonic:1478063117211668584> for second sun since <:adrenrenewal:736298121704767538> is now on cooldown
+
+.
+### __Temporal Anomaly__ <:temporalanomaly:1357545000577011782>
+.tag:ta
+⬥ **Due to its random nature, Temporal Anomaly (TA) <:temporalanomaly:1357545000577011782> is typically not written into rotations. However, using TA resets correctly can still result in improved kill times on average, even if the base rotation you work with is relatively static.**
+⬥ The value of most resets primarily comes down to the cooldown of the ability were you to use it again
+    • For example, a <:tsunami:535533809995874304> reset is not particularly useful because it needs to be back up by the next <:gsunshine:994644352871714836> (which cannot reset off TA), and casting it again runs the risk of de-syncing your major cooldowns
+
+⬥ **TA reset considerations**
+    • <:omni:535533809664262179> Best reset, allows additional casts during <:fsoa:869284271595069451> <:spec:537340400273195028> that isn't otherwise possible
+    • <:asphyx:535533833072672778> With 4-piece <:tumekenrobetop:1400500746377625790>, can do the second cast earlier to get extra abilities under the buff near the end of <:gsunshine:994644352871714836>
+    • <:wm:535533809978966037> Deals good damage, can replace the next <:gconc:1478063111104757760> or filler ability if a reset occurs
+    • <:smoketendrils:536257336130404372> Also allows additional casts under <:fsoa:869284271595069451> <:spec:537340400273195028> that isn't otherwise possible, though generally un-needed
+    • <:gchain:1257440278512537740> in AoE-heavy scenarios
+.
+⬥ It's important to recognize that many TA resets will not be particularly useful in the context that they occur, don't feel obligated to use every one immediately. Often times, just prioritizing <:omni:535533809664262179> leads to the most **consistent** gains from TA, though fishing for more resets from abilities like <:asphyx:535533833072672778> can lead to higher peaks.
+
+.
+## __Related Channels__
+.tag:related
+For further information and reading, you can refer to the following resources.
+.
+{
+  "embed": {
+    "title": "__Quick Navigation Links__",
+    "description": "Links to related channels and resources for more information about PvM and DPS.",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Upgrades and Gearing__",
+        "value": "⬥ <#1250862463788908637>\n⬥ <#1020550560551813131>",
+        "inline": true
+      },
+            {
+        "name": "__Invention__",
+        "value": "⬥ <#553632787639435284>\n⬥ <#689236234912137266>",
+        "inline": true
+      },
+      {
+        "name": "__Misc. Info__",
+        "value": "⬥ <#1280388070142644255>\n⬥ <#1020550599248466050>",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+*Note: If you have any difficulties in using the tools or understanding what the information means, you can always ask in <#656898197561802760>*.
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Overview__",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Related Channels]($linkmsg_related$)",
+        "inline": true
+      },
+      {
+        "name": "__Core DPM Advice__",
+        "value": "⬥ [Core Magic Rotation]($linkmsg_rotation$)\n⬥ [Rotation Examples]($linkmsg_sun$) ",
+        "inline": true
+      },
+      {
+        "name": "__Advanced DPM Advice__",
+        "value": "⬥ [PvM Decision Making]($linkmsg_specifictools$)\n⬥ [Advanced Magic Rotations]($linkmsg_advanced$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete

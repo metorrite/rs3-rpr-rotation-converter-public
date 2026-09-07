@@ -1,0 +1,354 @@
+# Vorago Duo Basic - Vitalis
+.tag:Intro
+.img:https://img.pvme.io/images/sY7JVkg9No.png
+.
+### Introduction
+
+This basic guide is designed to streamline players who are starting Vorago duos, and contains some information for Trio, such as the TL5 responsibilities. The strategies in this guide are safe and easy relative to Vorago. With good execution, players following this guide can reach up to 5 kills per hour.
+
+**Vitalis week is significantly more challenging than any other week. It is strongly recommended to familiarise yourself with Vorago on other weeks first, or trio instead of duo this week when learning.** Each weekly rotation can be found as its own thread in the channel. The channel itself contains information related to the current weekly rotation.
+
+.
+## __Cheat Sheet__
+.tag:CheatSheet
+.img:https://img.pvme.io/images/cSDFvYN.png
+
+.
+## __Preset and Relics__
+.tag:presets
+⬥ [Necromancy](<https://presets.pvme.io/?id=Ptk4BlYo3OuUkiRRreK8>)
+⬥ [Magic](<https://presets.pvme.io/?id=6hgD1ErTzdDnbh1WUjBK>)
+⬥ [Ranged](https://presets.pvme.io/?id=2e5ydkylK7zMGmzAS82x)
+.
+### Additional Preset Information
+.
+⬥ With the use of <:greaterboneshield:1137809118283976814> the preset places <:turtling3:974504834394898522> onto an armour piece.
+    • Note: That is greater bone shield, and turtling 3, not their more common counterparts.
+⬥ Melee is significantly more challenging than the other combat styles, and is thus omitted.
+⬥ The last relic slot does not have a clear "best." Use what you find is most comfortable.
+.
+### __Misc Important Vorago Facts__
+.tag:MiscInfo
+⬥ BT refers to Bomb Tank, not Base Tank. Stands furthest away from Vorago to take bombs.
+⬥ Base refers to Base tank, stands in melee distance of Vorago and holds aggression during most of the fight.
+⬥ TL5 refers to the Top Lure 5.
+    • This is a trio+ role.
+    • They perform the climb in Phase 1, and take the 5th bleed when applicable during Phase 2 and Phase 4.
+⬥ Commonly used abilities/spells unique to Vorago: <:cadeturtling:867678153883516958>, <:cept:543478434509357098>, <:voke:535541259465392143>, <:freedom:535541258240786434>
+    • To <:cadeturtling:867678153883516958> equip the <:turtling3:974504834394898522> item in your inventory and then cade.
+        ⬩ As long as the <:turtling3:974504834394898522> isn't on a weapon/shield, you can switch back immediately.
+.
+### __Face/Phase 0__
+.tag:P0
+.
+⬥ Vorago deals 70% of your maximum life points upon entry into Phase 1.
+⬥ Challenge takes 12s. A bar charges above Vorago's head to indicate when the fight will start.
+⬥ Optionally to save on hp, right before the bar fills up, click your <:powerburstofvitality:654618235097972737>
+.img:https://img.pvme.io/images/mqcrUBFaKz.mp4
+
+.
+## __Phase 1__
+.tag:P1
+.
+### For Both Players
+⬥ Vorago's attack rotation
+.
+.img:https://img.pvme.io/images/EOpDHbN.png
+.
+⬥ Three types of auto attack at random: Melee swipe, magic Blue Bomb, or both at the same time
+    • Auto attack blue bombs home in on the furthest player from Vorago, deal AoE magic damage, and always hit.
+    • Melee swipes deal AoE melee damage around Vorago and around the Base Tank. They can splash.
+    • Vorago does not melee swipe if the player with aggro is not in melee distance.
+⬥ Red Bomb deals 2000 damage, comes with a non-homing Blue Bomb, clears defensives and puts them on cooldown
+    • Thrown at the furthest player similar to Blue Bombs
+    • For each player that is close to the bomb tank when the red bomb hits, an additional 1k damage occurs
+    • Move at least 4 tiles away from where you were stood to avoid the non-homing blue.
+⬥ The phase can only end when someone has successfully jumped on Vorago to release the piece of the Maul of Omens.
+    • If Vorago's hp goes under about 13k before this, his HP will "reset" somewhere between 80-100k
+.
+### Base Tank
+⬥ Prioritise tagging Vorago ASAP.
+    • If Trio, <:voke:535541259465392143> as you tag.
+⬥ Bring Vorago to the east of the red line in the image below. Once he is there use your main damaging abilities <:livingdeath:1159434908486357072> / <:sunshine:994921119381463070> / <:deathsswift:994921434633744455>
+.
+.img:https://img.pvme.io/images/yhVlG5p6no.png
+.
+⬥ Expect a few blue bombs. Prayer flick and use defensives as necessary. <:res:535541258844635148> provides a big heal.
+⬥ Once the BT has voked, stand directly south of the middle of Vorago and voke back at around 50k HP left.
+.
+### Top Lure (The Bomb Tank in duo)
+⬥ Climb speed is paramount to survival
+    • Less damage is taken by you and your base on faster climbs.
+    • Use surge and dive as frequently as possible.
+.
+⬥ <:voke:535541259465392143> Vorago from two north and two west of the jump spot and do not move until Vorago has finished moving.
+    • There is no leniency on what tile to stand on for this mechanic. If you mess up, the base must revoke vorago to the east and you must try again.
+.
+.img:https://img.pvme.io/images/gXlab4c.png
+.
+⬥  Once Vorago stops moving, do a basic DPS rotation
+⬥  You must have at least one inventory space free for the Maul of Omens piece to be able to jump.
+⬥  Jump at <50k HP. Make sure to be high/full HP.
+⬥ Food cannot be eaten during climb animations, but bombs can continue to land and stack damage upon animation finish. Make sure to maintain high HP.
+    • Do not risk death trying to save food. It is expected to use some this phase.
+
+.
+## __Phase 2__
+.tag:P2
+### For Both Players
+⬥ Vorago's attack rotation:
+.
+.img:https://img.pvme.io/images/pPNE2a2.png
+.
+⬥ Phase 2 is largely time gated. Focus on mechanics.
+    • One gravity orb spawns every reflect. Two are needed to progress. Missing orbs will result in additional cycles.
+⬥ Use defensives to avoid food usage.
+⬥ More advanced Vorago guides will minimise Vorago's movement on this phase, but while learning the focus should be on surviving and dealing with mechanics properly.
+⬥ Vorago's Bleeds break defensives (i.e. take them off. So if you have resonance / cade up, it will remove them + you will receive damage.)
+    • Appears as <:dismember:535532879376023572> on debuff bar
+    • First bleed of the phase has no animation; it occurs during Vorago's spawning animation.
+⬥ Reflect (Link)
+    • **DO NOT ATTACK ON REFLECT**
+    • Vorago is immune to damage during this time
+    • Damage dealt to Vorago instead goes to someone on the team
+⬥ Spam click Vorago during Bring Him Down (BHD), then deal damage to free the maul piece.
+    • BHD damage threshold is a collective 50k.
+    • Use high damaging thresholds, but refrain from using <:livingdeath:1159434908486357072> / <:sunshine:994921119381463070> / <:deathsswift:994921434633744455> as you will want them for next phase.
+.
+### Base Tank
+⬥ Clear the first two bleeds with <:freedom:535541258240786434> and <:escape:535541258832052231>
+    • Use <:voke:535541259465392143> between the first and second bleeds to ensure aggro for the second bleed
+.
+.img:https://img.pvme.io/images/u56A12qwwv.mp4
+.
+⬥ You will tank the blue bomb that comes with the third bleed. <:res:535541258844635148> is recommended.
+⬥ <:voke:535541259465392143> Vorago after the fifth bleed.
+⬥ It is recommended to <:cadeturtling:867678153883516958> + <:cept:543478434509357098> the BT on red bomb release.
+.
+### Bomb Tank
+⬥ Use <:voke:535541259465392143> after the second bleed.
+⬥ <:freedom:535541258240786434> the third, <:escape:535541258832052231> the fourth, and stand still for the fifth. The Base Tank will <:voke:535541259465392143> and lure the boss away to clear the fifth bleed.
+    • You will likely take at least one hit of bleed damage on the 5th bleed while learning.
+⬥ Use any number of defensives against the Blue Bombs.
+.
+### TL5 (if trio+)
+⬥ Use <:voke:535541259465392143> after the fourth bleed.
+⬥ Use <:freedom:535541258240786434> to clear the 5th bleed when it is applied.
+⬥ Step back out of melee distance after the Base vokes Vorago.
+⬥ Tag red gravity orbs when they spawn.
+
+.
+## __Phase 3__
+.tag:P3
+{
+  "embed": {
+    "title": "Weekly Special - Vitalis",
+    "color": 16777215,
+    "fields": [
+      {
+        "name": "Mechanic",
+        "value": "⬥ Vorago launches an orb to an adjacent 1/9th section of the arena.\n\u00a0\u00a0\u00a0\u00a0• Deals 2k damage to every player standing on the orb when it lands.\n\u00a0\u00a0\u00a0\u00a0• Spawns 5 Vitali, minus the number of players hit by the orb.\n⬥ Vitalis minions:\n\u00a0\u00a0\u00a0\u00a0• 20k hp each and attack with rapid melee hits.\n\u00a0\u00a0\u00a0\u00a0• **Blocking entities** that can interrupt movement and line of sight.\n\u00a0\u00a0\u00a0\u00a0• Change targets randomly and frequently, regardless of player aggression."
+      },
+      {
+      "name": "General Notes",
+      "value": "⬥ **Stand in melee distance of Vorago.** If you do not, Vitali can block your line of sight and prevent you from attacking.\n⬥ If everyone is MD, everyone will be hit by melee swipes and bombs will go to a random person. You will need to prayer flick between <:DeflectMelee:544195488447201300> and <:DeflectMage:544195487926845462>."
+      }
+    ]
+  }
+}
+.embed:json
+### For Both Players
+⬥ Vorago's attack rotation:
+.img:https://img.pvme.io/images/Io1Uwms.png
+⬥ Stand in melee distance (MD) and <:DeflectMelee:544195488447201300>.
+    • Bombs can target any player
+    • Bombs land one tick before the next potential melee swipe. Be prepared to flick <:DeflectMage:544195487926845462> if Vorago throws a bomb.
+⬥ Alternatively:
+    • BT starts phase out of MD, tanking bombs.
+    • Move into melee distance when vitalis orb explodes, prepare to prayer flick during reflect.
+
+⬥ This phase is very painful with missed prayer flicks, and especially if Vorago isn't phased by bleeds.
+    • Vitali can block and prevent you from escaping to clear bleeds, or prevent you from attacking after <:escape:535541258832052231>.
+    • If not phasing before bleeds, players must stand directly next to each other in order to have line of sight for <:cade:535541306353778689> + <:Cept:543478434509357098> during bleeds.
+⬥ If phasing before bleeds, players can stand on opposite sides of Vorago to not share AoE blues.
+    • Alternatively, BT can stand out for the whole phase to avoid needing to prayer flick
+    • Base (+TL5/DPS in larger teams) would need to finish off remaining damage if line of sight is lost.
+
+.
+### Suggested Rotations (Both Players)
+⬥ <:sunshine:994921119381463070> / <:deathsswift:994921434633744455> + <:adrenrenewal:736298121704767538> directly next to (not on top of) each other in MD of Vorago.
+    • This ensures players maintain line of sight with both Vorago and each other
+    • If necro, do not use <:deathskulls:1159434663903899728> to start with as the last hit will generally be during reflect
+⬥ <:DeflectMelee:544195488447201300> + <:devo:513190158728953857> during reflect so you can <:res:535541258844635148> a blue bomb without it getting sniped.
+⬥ If using necro <:livingdeath:1159434908486357072> + <:adrenrenewal:736298121704767538> during reflect
+⬥ If not phasing before bleeds, Base should <:voke:535541259465392143> Vorago while BT builds adrenaline to <:cade:535541306353778689> + <:Cept:543478434509357098> during bleeds.
+    • Base can <:freedom:535541258240786434> after the 4th bleed while BT <:voke:535541259465392143> and <:freedom:535541258240786434> the 5th bleed.
+    • If confident you can phase before the 3rd bleed, BT can skip <:cade:535541306353778689> + <:Cept:543478434509357098> and instead <:voke:535541259465392143> and <:freedom:535541258240786434> the 2nd bleed.
+
+⬥ Vitali remain after phasing and continue attacking
+
+.
+## __Phase 4__
+.tag:P4
+### For Both Players
+⬥ Vorago's attack rotation:
+.img:https://img.pvme.io/images/eQbF2nG.png
+⬥ Phase 4 is time gated. Focus on mechanics.
+    • 3 Waterfalls are required to progress the phase. Lower Vorago's HP to under 30k before the last Waterfall.
+⬥ Waterfall
+    • Spawns in one of the four corners. Run behind it quickly, or take up to 10k damage.
+    • Some tiles look safe but are not. If unsure, run all the way into the corner.
+    • Clears active defensives and puts them on cooldown.
+⬥ Clone skip
+    • Massive time save if done both times
+    • See role sections below for each player's responsibilities
+
+⬥ Vitalis mechanic is the same as Phase Three
+    • All players should move to stand on the orb, blocking Vitalis spawns and using <:cade:535541306353778689> + <:Cept:543478434509357098> to mitigate damage
+    • Dominion mines <:dommine:662249620579155968> may be dropped where the orb explodes to help clear Vitalis spawns more quickly
+
+⬥ Bleeds may begin before all Vitali are dead.
+⬥ Prioritise clearing bleeds with <:freedom:535541258240786434> and <:escape:535541258832052231> (may need to <:surge:535533810004262912> / <:dive:1049378668197195808> if blocked) before finishing off remaining Vitali
+⬥ If Vitali are still alive during reflect, be careful of using AoEs that may hit Vorago, or randomly losing Vitali as your target and hitting Vorago
+
+⬥ If using necro <:threadsoffate:1137809172335951933> is really good at clearing vits. Prioritise high hitting abilities during it such as <:spec:537340400273195028> or <:volleyofsouls:1159435029592686642>
+    • <:deathskulls:1159434663903899728> also bounces between vitalis and can be extremely useful while clearing them but do not use it close to reflect
+.
+### Base Tank
+⬥ Clone skip
+    • Base Tank walks Vorago to the wall
+        ⬩ Turn run off, spam click Vorago + surge out of the Waterfall, <:voke:535541259465392143>, walk under Vorago, click near the wall in the direction that Vorago walks
+    • The BT may be out of bomb range, which means any potential bombs go to the Base Tank instead.
+        ⬩ Eat to high HP in the Waterfall, prayer flick <:deflectmage:544195487926845462> for Blue Bombs, and use <:res:535541258844635148> / <:reflect:535541258786177064> as needed.
+⬥ After the skip, Vorago goes straight into the Vitalis special.
+    • <:dive:1049378668197195808> to where the orb is being launched to block spawns, drop <:dommine:662249620579155968>
+
+
+.
+### Bomb Tank
+⬥ Clone skip
+    • Surge to the wall opposite of Vorago
+        ⬩ Move in when Vorago does the clone animation (fake melee swipe)
+⬥ If Clone Skip fails, BT should use <:devo:513190158728953857> against the Blue Bombs.
+⬥ After the skip, Vorago goes straight into the Vitalis special.
+⬥ <:dive:1049378668197195808> to where the orb is being launched to block spawns, drop <:dommine:662249620579155968>, and <:cade:535541306353778689> + <:Cept:543478434509357098> the Base.
+⬥ <:cade:535541306353778689> cooldown is relevant so do not use <:turtling4:712073737377284146>
+⬥ Bleeds may begin before all Vitali are dead. Prioritise moving to get line of sight with Vorago and <:voke:535541259465392143> for the 3rd bleed.
+
+.
+## __Phase 5__
+.tag:P5
+### For Both Players
+⬥ Vorago's attack rotation:
+.
+.img:https://img.pvme.io/images/0e1FP8H.png
+.
+⬥ Reverse tug-of-war mechanic
+    • 20k damage against Vorago pushes him east 1 square
+    • Each tick of damage received from Vorago he pushes west 1 square
+    • Any damage mitigated from <:cadeturtling:867678153883516958> negates any pushback
+    • Push Vorago all the way to the east, move melee distance, and click the Maul of Omens
+
+.
+⬥ Vitalis orb can randomly spawn 2–4 Vitali (instead of 5 as it does on Phase 3/4).
+⬥ Number of Vitali spawned is reduced for each player standing on it when it explodes.
+    • Vitalis orb **always** causes pushback (even under <:cade:535541306353778689>) if at least one person is blocking spawns.
+    • Vitalis melee attacks also cause pushback
+    • Players should prioritise blocking vitalis orb and quickly killing spawned Vitali.
+
+⬥ Base Tank hugs south wall, while BT hugs north wall. Players should only move away from their respective walls to clear Vorago's bleeds.
+
+⬥ Bleeds
+    • 3 bleeds with that are randomly assigned
+    • Vorago does not throw blue bombs during bleeds.
+    • Taking damage from bleeds results in Vorago pushing further west. Prioritise clearing them over DPS.
+    • Bleeds are cleared by distance from the tile the bleed was received, not distance from Vorago in this phase.
+    • Move melee distance + go to the center of the arena. That way you can properly <:escape:535541258832052231> to remove bleeds
+    • The safest way to clear bleeds in case you get all 3 is to <:escape:535541258832052231>  the first bleed and then run back melee distance, <:freedom:535541258240786434> second bleed. <:escape:535541258832052231> the third bleed.
+
+⬥ If the phase lasts longer than one Vitalis orb, the Base Tank and BT swap roles after every set of Vorago's Bleeds.
+    • The player who is stood furthest out should build adrenaline to use <:cade:535541306353778689> for the Vitalis orb.
+
+.
+### Suggested Rotations (Base Tank)
+⬥ Place <:dommine:662249620579155968> as soon as you drop down.
+⬥ Use <:sunshine:994921119381463070> / <:deathsswift:994921434633744455> / <:livingdeath:1159434908486357072> + <:adrenrenewal:736298121704767538> at phase start
+⬥ Step back to cover the Vitalis orb and block spawns. Clear minions ASAP with AoE abilities
+    • Be careful of randomly changing targets when attacking Vitali, which can be very detrimental during reflect
+⬥ Use <:cade:535541306353778689> + <:Cept:543478434509357098> for every Vitalis orb when fulfilling BT during this phase.
+⬥ After <:cade:535541306353778689>, build to 100% and <:sunshine:994921119381463070> / <:deathsswift:994921434633744455> during Reflect.
+
+.
+### Suggested Rotations (Bomb Tank)
+⬥ Place <:dommine:662249620579155968> as soon as you drop down.
+⬥ <:cade:535541306353778689> + <:Cept:543478434509357098> when Vitalis orb lands and clear spawns with AoEs.
+⬥ Build to 100% and <:sunshine:994921119381463070> / <:deathsswift:994921434633744455> / <:livingdeath:1159434908486357072> + <:adrenrenewal:736298121704767538> ASAP.
+    • Your big damage window is during bleeds as you will be under your ultimate
+⬥ Use <:cade:535541306353778689> + <:Cept:543478434509357098> for every Vitalis orb when fulfilling BT during this phase.
+
+.
+### Phase End Notes
+⬥ This phase can be extremely difficult in duos. Teams may struggle to counteract pushback from the Vitalis orb and melee attacks. Focus on blocking/clearing Vitalis spawns, and proper <:cade:535541306353778689> and <:sunshine:994921119381463070> / <:deathsswift:994921434633744455> / <:livingdeath:1159434908486357072> timings.
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Introduction__",
+        "value": "[Link]($linkmsg_Intro$)",
+        "inline": true
+      },
+      {
+        "name": "__Cheat Sheet__",
+        "value": "[Link]($linkmsg_CheatSheet$)",
+        "inline": true
+      },
+      {
+        "name": "__Presets__",
+        "value": "[Link]($linkmsg_presets$)",
+        "inline": true
+      },
+      {
+        "name": "__Misc. Info__",
+        "value": "[Link]($linkmsg_MiscInfo$)",
+        "inline": true
+      },
+      {
+        "name": "__Face (Phase 0)__",
+        "value": "[Link]($linkmsg_P0$)",
+        "inline": true
+      },
+      {
+        "name": "__Phase 1__",
+        "value": "[Link]($linkmsg_P1$)",
+        "inline": true
+      },
+      {
+        "name": "__Phase 2__",
+        "value": "[Link]($linkmsg_P2$)",
+        "inline": true
+      },
+      {
+        "name": "__Phase 3__",
+        "value": "[Link]($linkmsg_P3$)",
+        "inline": true
+      },
+      {
+        "name": "__Phase 4__",
+        "value": "[Link]($linkmsg_P4$)",
+        "inline": true
+      },
+      {
+        "name": "__Phase 5__",
+        "value": "[Link]($linkmsg_P5$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete

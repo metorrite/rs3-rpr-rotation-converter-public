@@ -19,6 +19,7 @@
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit",
     "update-assets": "node scripts/update-assets.mjs",
+    "fetch-guides": "node scripts/fetch-guides.mjs",
     "dist": "npm run build && electron-builder",
     "dist:win": "npm run build && electron-builder --win nsis portable"
   },

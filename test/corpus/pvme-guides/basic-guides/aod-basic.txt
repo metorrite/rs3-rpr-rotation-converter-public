@@ -1,0 +1,469 @@
+# Nex, Angel of Death Basic
+.img:https://img.pvme.io/images/JChZfA1i4S.png
+.
+## __Introduction__
+.tag:intro
+The aim of this guide is provide a basic overview of how to get consistent kills at Nex, Angel of Death with a low-tier geared team. While writing this guide, we aimed to keep each preset within the confines of tier 1 of <#1020045708746833930>. However due to the endgame nature of the boss, this has not been totally possible. Keeping this in mind, we have instead aimed to provide presets that are as low-tiered as possible without consistent strategies becoming unviable.
+
+### Disclaimer
+This guide is made with the idea of getting started at AoD, and does not cover meta strategies. For those please refer to the main guides in <#1020025399079600178>. For a detailed description of mechanics, please refer to <#1252553011474206780>.
+
+.
+## __Magic <:Magic:689504724159823906>__
+.tag:Magic
+Magic is both the cheapest and the easiest style to use at AoD. Provided below are presets and strategies for various roles while using the magic combat style.
+
+## __Presets and Relics__
+.tag:magicpresets
+⬥ [Magic - Base](<https://presets.pvme.io/?id=Lj2waJhs0SImEsqh5pvz>) <:magic:689504724159823906>
+⬥ [Magic - Minion Tank/Free](https://presets.pvme.io/?id=CW3XSEgocYfMXaeuJhsg) <:magic:689504724159823906>
+
+.
+### Magic Base
+.tag:base
+{
+  "embed": {
+    "title": "__Kill Breakdown__",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Disclaimer__",
+        "value": "These are merely guidelines. Adjust as necessary based on your own skill and team.",
+        "inline": false
+      },
+      {
+        "name": "__Pre-Start__",
+        "value": "Wait for all 6 other team members to join the instance. Then <:nat:535541258131865633> and <:sunshine:994921119381463070>. Place 2 <:dommine:662249620579155968> in the Cruor quadrant. Build back to 100 and start the fight at ~25s on your <:sunshine:994921119381463070>.",
+        "inline": false
+      },
+      {
+        "name": "__Phase 1__",
+        "value": "<:vulnbomb:655341074235129858> and <:smokecloud:856635090641879050> the boss. Use your strong abilities such as <:omni:535533809664262179>, <:wm:535533809978966037>, <:asphyx:535533833072672778> and <:gconc:869285393223254107> till the boss phases at 2.1m hp.",
+        "inline": false
+      },
+      {
+        "name": "__Phase 2__",
+        "value": "⬥ Build adrenaline while Nex is unattackable.\n\u200B⬥ Once she is damageable again use strong abilities on her until she reaches close to 1.8m hp.\n\u200B⬥ Help kill the Glacies and Cruor amalgamations. Ideally use <:tsunami:535533809995874304> during this phase on one of the amalgamations.",
+        "inline": false
+      },
+      {
+        "name": "__Phase 3__",
+        "value": "<:sunshine:994921119381463070> and build adrenaline until you are able to use your strong abilities such as <:asphyx:535533833072672778>, <:wm:535533809978966037> and <:omni:535533809664262179>. Use <:gconc:869285393223254107> as much as possible in between.",
+        "inline": false
+      },
+      {
+        "name": "__Pillars__",
+        "value": "⬥ Lure <:aod:580167371365548042> ASAP just before she hits 600k hp. Use strong abilities to phase her if required.\n\u200B⬥ Once she is lured, apply <:swh:641670143197446182> <:eofspec:1257438999794946099> <:vulnbomb:655341074235129858> + <:smokecloud:856635090641879050>, then <:sunshine:994921119381463070> and build between last pillar and <:aod:580167371365548042>.\n\u200B⬥ Pre-<:vulnbomb:655341074235129858> last pillar before team arrives.",
+        "inline": false
+      },
+      {
+        "name": "__Last Pillar and Zaros__",
+        "value": "⬥ Use your strong abilities such as <:asphyx:535533833072672778>, <:wm:535533809978966037> and <:omni:535533809664262179>. <:gconc:869285393223254107> as much as possible in between.\n\u200B⬥ Deal with bombs as well as you can, making sure to place them away from your team.",
+        "inline": false
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+### Magic Minion Tank
+.tag:magicmt
+{
+  "embed": {
+    "title": "__Kill Breakdown__",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Disclaimer__",
+        "value": "These are merely guidelines. Adjust as necessary based on your own skill and team.",
+        "inline": false
+      },
+      {
+        "name": "__Pre-Start__",
+        "value": "<:nat:535541258131865633> with your base and <:sunshine:994921119381463070>. Build back to 100 and wait till your base starts the fight. Place 2 <:dommine:662249620579155968> in your respective quadrant.",
+        "inline": false
+      },
+      {
+        "name": "__Phase 1__",
+        "value": "Use your strong abilities such as <:omni:535533809664262179>, <:wm:535533809978966037>, <:asphyx:535533833072672778>, <:impactflank:867678154369400862>, <:deepimpactflank:867678153611018261> and <:gconc:869285393223254107> till the boss phases at 2.1m hp.",
+        "inline": false
+      },
+      {
+        "name": "__Phase 2__",
+        "value": "⬥ Run to your <:deto:535533833358016512> spot and lose target to centre it. Instructions on losing target provided below:\n\u00a0\u00a0\u00a0\u00a0• Drop <:dummy:656844963522281473> → any basic ability on <:dummy:656844963522281473> → disassemble <:dummy:656844963522281473> → any offensive ability → <:deto:535533833358016512>\n\u00a0\u00a0\u00a0\u00a0• If using queueing replace any offensive ability with an eof spec instead\n\u200B⬥ Throw a <:vulnbomb:655341074235129858> at the amalgamation spot just before it spawns. Release <:deto:535533833358016512> on <:aod:580167371365548042> once amalgamations spawn and use strong abilities till she is almost at 1.8m hp.\n\u00a0\u00a0\u00a0\u00a0• It is beneficial to use <:dbreath:535533833391702017> and <:tsunami:535533809995874304> while standing behind the amalgamation for this step, so as to help phase <:aod:580167371365548042> *and* kill the amalgamation.\n\u200B⬥ Kill your amalgamation.",
+        "inline": false
+      },
+      {
+        "name": "__Phase 3__",
+        "value": "⬥ Once your minion has spawned and is aggro'd onto you, <:surge:535533810004262912> across the centre of the arena to lure it to the centre.\n\u200B⬥ Once this is done, <:sunshine:994921119381463070> and build adrenaline until you are able to use your strong abilities such as <:asphyx:535533833072672778>, <:wm:535533809978966037> and <:omni:535533809664262179>, <:impactflank:867678154369400862> and <:deepimpactflank:867678153611018261>. Use <:gconc:869285393223254107> as much as possible in between.",
+        "inline": false
+      },
+      {
+        "name": "__Pillars__",
+        "value": "⬥ <:surge:535533810004262912> to the first pillar just before <:aod:580167371365548042> reaches 600k hp.\n\u200B⬥ Use a <:vulnbomb:655341074235129858> on each pillar, then kill them using your strong abilities as available.\n\u200B⬥ Use <:powerburstofacceleration:756236265472524418> if necessary to move between pillars or to the middle to pick up bombs. Aim to exit the 3rd pillar with 100% adren or close to it.",
+        "inline": false
+      },
+      {
+        "name": "__Last Pillar and Zaros__",
+        "value": "⬥ <:sunshine:994921119381463070> between last pillar and <:aod:580167371365548042>.\n\u200B⬥ Use your strong abilities such as <:asphyx:535533833072672778>, <:wm:535533809978966037> and <:omni:535533809664262179>, <:impactflank:867678154369400862> and <:deepimpactflank:867678153611018261>. <:gconc:869285393223254107> as much as possible in between.\n\u200B⬥ Deal with bombs as well as you can, making sure to place them away from your team.",
+        "inline": false
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+### Free Magic
+.tag:freemagic
+{
+  "embed": {
+    "title": "__Kill Breakdown__",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Disclaimer__",
+        "value": "These are merely guidelines. Adjust as necessary based on your own skill and team.",
+        "inline": false
+      },
+      {
+        "name": "__Pre-Start__",
+        "value": "<:nat:535541258131865633> with your base and <:sunshine:994921119381463070>. Build back to 100 and wait till your base starts the fight. Place 2 <:dommine:662249620579155968> in the Umbra quadrant.",
+        "inline": false
+      },
+      {
+        "name": "__Phase 1__",
+        "value": "Use your strong abilities such as <:omni:535533809664262179>, <:wm:535533809978966037>, <:asphyx:535533833072672778> and <:gconc:869285393223254107> till the boss phases at 2.1m hp.",
+        "inline": false
+      },
+      {
+        "name": "__Phase 2__",
+        "value": "⬥ Run to the Umbra <:deto:535533833358016512> spot and lose target to centre it. Instructions on losing target provided below:\n\u00a0\u00a0\u00a0\u00a0• Drop <:dummy:656844963522281473> → any basic ability on <:dummy:656844963522281473> → disassemble <:dummy:656844963522281473> → any offensive ability → <:deto:535533833358016512>\n\u00a0\u00a0\u00a0\u00a0• If using queueing replace any offensive ability with an eof spec instead\n\u200B⬥ Release <:deto:535533833358016512> on <:aod:580167371365548042> once amalgamations spawn and use strong abilities till she is almost at 1.8m hp.\n\u00a0\u00a0\u00a0\u00a0• It is beneficial to use <:dbreath:535533833391702017> and <:tsunami:535533809995874304> while standing behind the amalgamation for this step, so as to help phase <:aod:580167371365548042> *and* kill the amalgamation.\n\u200B⬥ Help kill the Umbra and Fumus amalgamations.",
+        "inline": false
+      },
+      {
+        "name": "__Phase 3__",
+        "value": "Build adrenaline and <:sunshine:994921119381463070> on the south centre line. Then use your strong abilities such as <:asphyx:535533833072672778>, <:wm:535533809978966037> and <:omni:535533809664262179>. Use <:gconc:869285393223254107> as much as possible in between.",
+        "inline": false
+      },
+      {
+        "name": "__Pillars__",
+        "value": "⬥ <:surge:535533810004262912> to the first pillar just before <:aod:580167371365548042> reaches 600k hp.\n\u200B⬥ Use a <:vulnbomb:655341074235129858> on each pillar, then kill them using your strong abilities as available.\n\u200B⬥ Use <:powerburstofacceleration:756236265472524418> if necessary to move between pillars or to the middle to pick up bombs. Aim to exit the 3rd pillar with 100% adren or close to it.",
+        "inline": false
+      },
+      {
+        "name": "__Last Pillar and Zaros__",
+        "value": "⬥ <:sunshine:994921119381463070> between last pillar and <:aod:580167371365548042>.\n\u200B⬥ Use your strong abilities such as <:asphyx:535533833072672778>, <:wm:535533809978966037> and <:omni:535533809664262179>. <:gconc:869285393223254107> as much as possible in between.\n\u200B⬥ Deal with bombs as well as you can, making sure to place them away from your team.",
+        "inline": false
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __Ranged <:range:580168050121113623>__
+.tag:range
+Ranged is the most expensive style to use at AoD even at an entry level due to <:grico:787904334812807238>.
+This style scales much better at higher levels of investment, and will see large improvements in performance with upgrades such as <:sgb:626466665848242186> and <:ecb:615618531937222657> <:eofpink:780401412865523722>.
+<:decimation:643848618477879328> or <:mechchin:641669268722810881> can be taken for minion damage, with <:decimation:643848618477879328> <:eofspec:1257438999794946099> + <:sgb:626466665848242186> <:spec:537340400273195028> being a highly effective combo for AoD damage as well.
+.
+## __Presets and Relics__
+.tag:rangepresets
+⬥ [Ranged - Any](https://presets.pvme.io/?id=3cR7YuriJ87X3XZB1GLF) <:range:580168050121113623>
+
+.
+### Ranged Minion Tank
+.tag:rangemt
+{
+  "embed": {
+    "title": "__Kill Breakdown__",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Disclaimer__",
+        "value": "These are merely guidelines. Adjust as necessary based on your own skill and team.",
+        "inline": false
+      },
+      {
+        "name": "__Pre-Start__",
+        "value": "<:nat:535541258131865633> with your base and <:deathsswift:994921434633744455>. Build back to 100 and wait till your base starts the fight. Place 2 <:dommine:662249620579155968> in your respective quadrant.",
+        "inline": false
+      },
+      {
+        "name": "__Phase 1__",
+        "value": "Use your strong abilities such as <:rapid:535541270521708566>, <:snap:535534127131394088>, <:shadowtend:642713547142332416>, and <:dbow:643848618553507843> <:eofspec:1257438999794946099> till the boss phases at 2.1m hp. Use <:gricocaroming:867678153966878740>, if available, whenever off cooldown.",
+        "inline": false
+      },
+      {
+        "name": "__Phase 2__",
+        "value": "⬥ Once amalgamations have spawned, use strong abilities until <:aod:580167371365548042> is almost at 1.8m hp.\n\u200B⬥ Proceed to <:vulnbomb:655341074235129858> and kill your amalgamation. It is beneficial to save your <:gricocaroming:867678153966878740> for this step.",
+        "inline": false
+      },
+      {
+        "name": "__Phase 3__",
+        "value": "⬥ Once your minion has spawned and is aggro'd onto you, <:surge:535533810004262912> across the centre of the arena to lure it to the centre.\n\u200B⬥ As you are doing this, build <:deathsporearrows:900758234527301642> if available, <:deathsswift:994921434633744455> and build adrenaline until you are able to use your strong abilities such as <:rapid:535541270521708566>, <:snap:535534127131394088>, <:shadowtend:642713547142332416>, and <:dbow:643848618553507843> <:eofspec:1257438999794946099>. Use <:decimation:643848618477879328> <:eofspec:1257438999794946099> + <:sgb:626466665848242186> <:spec:537340400273195028> if available.",
+        "inline": false
+      },
+      {
+        "name": "__Pillars__",
+        "value": "⬥ <:surge:535533810004262912> to the first pillar just before <:aod:580167371365548042> reaches 600k hp.\n\u200B⬥ Kill the pillars using your strong abilities as available.\n\u200B⬥ Use <:powerburstofacceleration:756236265472524418> if necessary to move between pillars or to the middle to pick up bombs. Aim to exit the 3rd pillar with 100% adren or close to it.",
+        "inline": false
+      },
+      {
+        "name": "__Last Pillar and Zaros__",
+        "value": "⬥ <:deathsswift:994921434633744455> between last pillar and <:aod:580167371365548042>.\n\u200B⬥ Use your strong abilities such as <:rapid:535541270521708566>, <:snap:535534127131394088>, <:shadowtend:642713547142332416>, and <:dbow:643848618553507843> <:eofspec:1257438999794946099>. <:gricocaroming:867678153966878740> as much as possible in between.\n\u200B⬥ Deal with bombs as well as you can, making sure to place them away from your team.",
+        "inline": false
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+### Free Range
+.tag:freerange
+{
+  "embed": {
+    "title": "__Kill Breakdown__",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Disclaimer__",
+        "value": "These are merely guidelines. Adjust as necessary based on your own skill and team.",
+        "inline": false
+      },
+      {
+        "name": "__Pre-Start__",
+        "value": "<:nat:535541258131865633> with your base and <:deathsswift:994921434633744455>. Build back to 100 and wait till your base starts the fight. Place 2 <:dommine:662249620579155968> in the Umbra quadrant.",
+        "inline": false
+      },
+      {
+        "name": "__Phase 1__",
+        "value": "Use your strong abilities such as <:rapid:535541270521708566>, <:snap:535534127131394088>, <:shadowtend:642713547142332416>, and <:dbow:643848618553507843> <:eofspec:1257438999794946099> till the boss phases at 2.1m hp. Use <:gricocaroming:867678153966878740>, if available, whenever off cooldown.",
+        "inline": false
+      },
+      {
+        "name": "__Phase 2__",
+        "value": "⬥ Once amalgamations have spawned, use strong abilities until <:aod:580167371365548042> is almost at 1.8m hp.\n\u200B⬥ Proceed help kill the Umbra and Fumus amalgamations. It is beneficial to save your <:gricocaroming:867678153966878740> for this step.",
+        "inline": false
+      },
+      {
+        "name": "__Phase 3__",
+        "value": "⬥ Build <:deathsporearrows:900758234527301642> if available and use <:deathsswift:994921434633744455> on the south centre line. Then use your strong abilities such as <:rapid:535541270521708566>, <:snap:535534127131394088>, <:shadowtend:642713547142332416>, and <:dbow:643848618553507843> <:eofspec:1257438999794946099>. Use <:gricocaroming:867678153966878740> as much as possible in between. Use <:decimation:643848618477879328> <:eofspec:1257438999794946099> + <:sgb:626466665848242186> <:spec:537340400273195028> if available.",
+        "inline": false
+      },
+      {
+        "name": "__Pillars__",
+        "value": "⬥ <:surge:535533810004262912> to the first pillar just before <:aod:580167371365548042> reaches 600k hp.\n\u200B⬥ Kill the pillars using your strong abilities as available.\n\u200B⬥ Use <:powerburstofacceleration:756236265472524418> if necessary to move between pillars or to the middle to pick up bombs. Aim to exit the 3rd pillar with 100% adren or close to it.",
+        "inline": false
+      },
+      {
+        "name": "__Last Pillar and Zaros__",
+        "value": "⬥ <:deathsswift:994921434633744455> between last pillar and <:aod:580167371365548042>.\n\u200B⬥ Use your strong abilities such as <:rapid:535541270521708566>, <:snap:535534127131394088>, <:shadowtend:642713547142332416>, and <:dbow:643848618553507843> <:eofspec:1257438999794946099>. <:gricocaroming:867678153966878740> as much as possible in between.\n\u200B⬥ Deal with bombs as well as you can, making sure to place them away from your team.",
+        "inline": false
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __Melee <:melee:1096130867279171706>__
+.tag:melee
+While being a relatively high damage style at entry AoD, melee does require quite a few more switches to be able to comfortably get through a kill.
+.
+## __Presets and Relics__
+.tag:meleepresets
+⬥ [Melee - Minion Tank/Free](https://presets.pvme.io/?id=rrnzbHyfsRpyQ1UBZAW6) <:melee:1096130867279171706>
+
+.
+### Melee Minion Tank
+.tag:meleemt
+{
+  "embed": {
+    "title": "__Kill Breakdown__",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Disclaimer__",
+        "value": "These are merely guidelines. Adjust as necessary based on your own skill and team.",
+        "inline": false
+      },
+      {
+        "name": "__Pre-Start__",
+        "value": "<:nat:535541258131865633> with your base and <:DBA:603979368850653216> <:spec:537340400273195028>. Build back to 100 and wait till your base starts the fight. Place 2 <:dommine:662249620579155968> in your respective quadrant.",
+        "inline": false
+      },
+      {
+        "name": "__Phase 1__",
+        "value": "<:zerk:535532854004678657> and <:gbarge:535532879250456578> the boss once attackable. Use your strong abilities such as <:assault:535532855191928842>, <:cane:535532878969438210>, <:overpower:535532879334080517>, <:fbackhandflank:867678153866870824>, <:backhandflank:867678153854025779> and <:gflurry:535532879283879977> while rotating good basics. Do this until the boss phases at 2.1m hp.",
+        "inline": false
+      },
+      {
+        "name": "__Phase 2__",
+        "value": "⬥ Build adren with basics while <:aod:580167371365548042> is undamageable. Use your <:zgs:626465964325601290> <:spec:537340400273195028> on the ZGS spot.\n\u200B⬥ Cease attacking the boss to charge <:gbarge:535532879250456578>. Once <:aod:580167371365548042> is damageable, use <:gbarge:535532879250456578> and bleed a channeled ability.\n\u200B⬥ Run to your ZGS spot and equip your halberd weapon. <:cane:535532878969438210> and <:quake:535532879506309150> so that they hit both your amalgamation and <:aod:580167371365548042>. ([ZGS Example Clip](https://img.pvme.io/images/hxsLd6u.mp4))\n\u200B⬥ Once <:aod:580167371365548042> is almost at 1.8m hp, proceed to finish killing your amalgamation.",
+        "inline": false
+      },
+      {
+        "name": "__Phase 3__",
+        "value": "⬥ Once your minion has spawned and is aggro'd onto you, <:surge:535533810004262912> across the centre of the arena to lure it to the centre.\n\u200B⬥ Once this is done, <:zerk:535532854004678657> → <:divert:787904334377648130> → <:gbarge:535532879250456578>. Use your strong abilities such as <:assault:535532855191928842>, <:cane:535532878969438210>, <:overpower:535532879334080517>, <:fbackhandflank:867678153866870824>, <:backhandflank:867678153854025779> and <:gflurry:535532879283879977> while rotating good basics.\n\u200B⬥ If your chinner requires assistance clearing the minions, you may swap to your halberd weapon for <:cane:535532878969438210> and <:quake:535532879506309150>.",
+        "inline": false
+      },
+      {
+        "name": "__Pillars__",
+        "value": "⬥ <:surge:535533810004262912> to the first pillar just before <:aod:580167371365548042> reaches 600k hp.\n\u200B⬥ Kill the pillars using your strong abilities as available.\n\u200B⬥ Use <:powerburstofacceleration:756236265472524418> if necessary to move between pillars or to the middle to pick up bombs. Aim to exit the 3rd pillar with 100% adren or close to it.",
+        "inline": false
+      },
+      {
+        "name": "__Last Pillar and Zaros__",
+        "value": "⬥ Once at the last pillar <:zerk:535532854004678657> → <:divert:787904334377648130> → <:gbarge:535532879250456578>.\n\u200B⬥ Use your strong abilities such as <:assault:535532855191928842>, <:cane:535532878969438210>, <:overpower:535532879334080517>, <:fbackhandflank:867678153866870824>, <:backhandflank:867678153854025779> and <:gflurry:535532879283879977> while rotating good basics until both the pillar and <:aod:580167371365548042> are dead.\n\u200B⬥ Deal with bombs as well as you can, making sure to place them away from your team.",
+        "inline": false
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+### Free Melee
+.tag:freemelee
+{
+  "embed": {
+    "title": "__Kill Breakdown__",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Disclaimer__",
+        "value": "These are merely guidelines. Adjust as necessary based on your own skill and team.",
+        "inline": false
+      },
+      {
+        "name": "__Pre-Start__",
+        "value": "<:nat:535541258131865633> with your base and <:DBA:603979368850653216> <:spec:537340400273195028>. Build back to 100 and wait till your base starts the fight. Place 2 <:dommine:662249620579155968> in your respective quadrant.",
+        "inline": false
+      },
+      {
+        "name": "__Phase 1__",
+        "value": "<:zerk:535532854004678657> and <:gbarge:535532879250456578> the boss once attackable. Use your strong abilities such as <:assault:535532855191928842>, <:cane:535532878969438210>, <:overpower:535532879334080517>, <:fbackhandflank:867678153866870824>, <:backhandflank:867678153854025779> and <:gflurry:535532879283879977> while rotating good basics. Do this until the boss phases at 2.1m hp.",
+        "inline": false
+      },
+      {
+        "name": "__Phase 2__",
+        "value": "Build adren with basics while <:aod:580167371365548042> is undamageable. Use your <:zgs:626465964325601290> <:spec:537340400273195028> on the Umbra ZGS spot.\n\u200B⬥ Cease attacking the boss to charge <:gbarge:535532879250456578>. Once <:aod:580167371365548042> is damageable, use <:gbarge:535532879250456578> and bleed a channeled ability.\n\u200B⬥ Run to your ZGS spot and equip your halberd weapon. <:cane:535532878969438210> and <:quake:535532879506309150> so that they hit both your amalgamation and <:aod:580167371365548042>. ([ZGS Example Clip](https://img.pvme.io/images/hxsLd6u.mp4))\n\u200B⬥ Once <:aod:580167371365548042> is almost at 1.8m hp, proceed to help kill the Umbra and Fumus amalgamations.",
+        "inline": false
+      },
+      {
+        "name": "__Phase 3__",
+        "value": "Run to the south centre line and build adrenaline while <:aod:580167371365548042> is undamageable.\n\u200B⬥ Once she becomes damageable, <:zerk:535532854004678657> → <:divert:787904334377648130> → <:gbarge:535532879250456578>. Use your strong abilities such as <:assault:535532855191928842>, <:cane:535532878969438210>, <:overpower:535532879334080517>, <:fbackhandflank:867678153866870824>, <:backhandflank:867678153854025779> and <:gflurry:535532879283879977> while rotating good basics.\n\u200B⬥ If your chinner requires assistance clearing the minions, you may swap to your halberd weapon for <:cane:535532878969438210> and <:quake:535532879506309150>.",
+        "inline": false
+      },
+      {
+        "name": "__Pillars__",
+        "value": "⬥ <:surge:535533810004262912> to the first pillar just before <:aod:580167371365548042> reaches 600k hp.\n\u200B⬥ Kill the pillars using your strong abilities as available.\n\u200B⬥ Use <:powerburstofacceleration:756236265472524418> if necessary to move between pillars or to the middle to pick up bombs. Aim to exit the 3rd pillar with 100% adren or close to it.",
+        "inline": false
+      },
+      {
+        "name": "__Last Pillar and Zaros__",
+        "value": "Once at the last pillar <:zerk:535532854004678657> → <:divert:787904334377648130> → <:gbarge:535532879250456578>.\n\u200B⬥ Use your strong abilities such as <:assault:535532855191928842>, <:cane:535532878969438210>, <:overpower:535532879334080517>, <:fbackhandflank:867678153866870824>, <:backhandflank:867678153854025779> and <:gflurry:535532879283879977> while rotating good basics until both the pillar and <:aod:580167371365548042> are dead.\n\u200B⬥ Deal with bombs as well as you can, making sure to place them away from your team.",
+        "inline": false
+      }
+    ]
+  }
+}
+.embed:json
+.
+### Necromancy
+.tag:necro
+.
+Necromancy is currently one of the best styles in general at AoD, and it can be used both at entry level and at the high end.
+.
+## __Presets and Relics__
+.tag:necropresets
+⬥ [Necromancy - Minion Tank/Free/Hammer](https://presets.pvme.io/?id=E2RrdIw8D2PW2AYYFOHL) <:necromancy:1148995625896120460>
+
+.
+### Necromancy Minion Tank/Free/Hammer
+.tag:necromt
+{
+  "embed": {
+    "title": "__Kill Breakdown__",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Disclaimer__",
+        "value": "These are merely guidelines. Adjust as necessary based on your own skill and team.",
+        "inline": false
+      },
+      {
+        "name": "__Pre-Start__",
+        "value": "<:conjurearmy:1166094935066423348> → <:lifetransfer:1137809128136388819> → <:commandghost:1159434409913634816> → <:splitsoul:1137809168368148490> → <:commandwarrior:1137809194423160883> before the boss spawns. Place 2 <:dommine:662249620579155968> in your respective quadrant if reavers are expected.",
+        "inline": false
+      },
+      {
+        "name": "__Phase 1__",
+        "value": "<:deathskulls:1159434663903899728> the boss once attackable. Use your strong abilities such as <:omniguard:1138809234922934282> <:spec:537340400273195028> / <:fingerofdeath:1159434801938432010> / <:soulstrikeflank:1156683164593430579> / <:volleyofsouls:1159435029592686642> / <:deathguard90:1138809243143766118> <:spec:537340400273195028>  while rotating good basics. Do this until the boss phases at 2.1m hp. Hammer should use <:ingen:641339234111848463> + <:swh:641670143197446182> Special Attack as the first ability on the boss. ",
+        "inline": false
+      },
+      {
+        "name": "__Phase 2__",
+        "value": "⬥ Build adren and Residual Souls <:residualsoul:1139453152169558046> with basics while <:aod:580167371365548042> is undamageable.\n\u200B⬥ Command Skeleton <:commandwarrior:1137809194423160883> before the boss becomes damageable and use strong abilities to phase it.\n\u200B⬥ AOD <:aod:580167371365548042> will phase at 1.8m hp. \n\u200B⬥ The Necromancy base will kill the amalgamations using <:invokedeath:1137809121983336548> → <:threadsoffate:1137809172335951933> → <:volleyofsouls:1159435029592686642> → <:soulsap:1137809140476031057> → <:volleyofsouls:1159435029592686642> (assuming Soulbound Lantern <:soulboundlantern:1138809230573441064> and 3/4+ Residual Souls <:residualsoul:1139453152169558046>).",
+        "inline": false
+      },
+      {
+        "name": "__Phase 3__",
+        "value": "⬥ Lure your minion by surging through <:aod:580167371365548042>.\n\u200B⬥ This is a good time to use <:livingdeath:1159434908486357072> + <:adrenrenewal:736298121704767538> → <:touchofdeath:1137809175980810380> →  <:soulsap:1137809140476031057> → <:deathskulls:1159434663903899728> → <:commandwarrior:1137809194423160883> → <:volleyofsouls:1159435029592686642>.\n\u200B⬥ Once minions are lured, you can use <:threadsoffate:1137809172335951933> → <:soulsap:1137809140476031057> → <:volleyofsouls:1159435029592686642> → <:fingerofdeath:1159434801938432010> → <:touchofdeath:1137809175980810380> to kill the minions and do good damage to <:aod:580167371365548042>.",
+        "inline": false
+      },
+      {
+        "name": "__Pillars__",
+        "value": "⬥ <:surge:535533810004262912> to the first pillar just before <:aod:580167371365548042> reaches 600k hp.\n\u200B⬥ Kill the pillars using your strong abilities as available, such as <:deathskulls:1159434663903899728> (which can be bounced between pillars if timed correctly).\n\u200B⬥ Split Soul <:splitsoul:1137809168368148490> can be used safely on pillars 2-3 if <:aod:580167371365548042> is lured into the fourth correctly. \n\u200B⬥ Use <:powerburstofacceleration:756236265472524418> if necessary to move between pillars or to the middle to pick up bombs. Aim to exit the 3rd pillar 4/5 Residual Souls <:residualsoul:1139453152169558046> so you can use <:volleyofsouls:1159435029592686642> on <:aod:580167371365548042>.",
+        "inline": false
+      },
+      {
+        "name": "__Last Pillar and Zaros__",
+        "value": "⬥ Once at the last pillar <:deathskulls:1159434663903899728> (if you are confident in bouncing it onto <:aod:580167371365548042>) → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057>.\n\u200B⬥ Use your strong abilities such as <:deathskulls:1159434663903899728>, <:volleyofsouls:1159435029592686642>, <:fingerofdeath:1159434801938432010>, <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099> and <:omniguard:1138809234922934282> <:spec:537340400273195028> while rotating good basics until both the pillar and <:aod:580167371365548042> are dead.\n\u200B⬥ Deal with bombs as well as you can, making sure to place them away from your team.",
+        "inline": false
+      }
+    ]
+  }
+}
+.embed:json
+.
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*",
+    "fields": [
+      {
+        "name": "__Introduction__",
+        "value": "[Link]($linkmsg_intro$)",
+        "inline": false
+      },
+      {
+        "name": "__Magic__",
+        "value": "[Introduction]($linkmsg_Magic$)\n⬥ [Presets]($linkmsg_magicpresets$)\n⬥ [Base]($linkmsg_base$)\n⬥ [Minion Tank]($linkmsg_magicmt$)\n⬥ [Free DPS]($linkmsg_freemagic$)",
+        "inline": true
+      },
+      {
+        "name": "__Range__",
+        "value": "[Introduction]($linkmsg_range$)\n⬥ [Presets]($linkmsg_rangepresets$)\n⬥ [Minion Tank]($linkmsg_rangemt$)\n⬥ [Free DPS]($linkmsg_freerange$)",
+        "inline": true
+      },
+      {
+        "name": "__Melee__",
+        "value": "[Introduction]($linkmsg_melee$)\n⬥ [Presets]($linkmsg_meleepresets$)\n⬥ [Minion Tank]($linkmsg_meleemt$)\n⬥ [Free DPS]($linkmsg_freemelee$)",
+        "inline": true
+      },
+            {
+        "name": "__Necromancy__",
+        "value": "[Introduction]($linkmsg_necro$)\n⬥ [Presets]($linkmsg_necropresets$)\n⬥ [Minion Tank/Hammer/Free DPS]($linkmsg_necromt$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete

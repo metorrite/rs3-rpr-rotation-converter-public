@@ -1,0 +1,194 @@
+# Zamorak, Lord of Chaos Basic
+.
+.img:https://img.pvme.io/images/E9HmNuzAe2.png
+.
+## __Introduction__
+.tag:intro
+Zamorak, Lord of Chaos is the fifth and final instalment in the Elder God Wars dungeon. This guide will focus on the final boss encounter, at enrages less than 100%, for help clearing the dungeon refer to <#1251104932493262868>, for a more detailed guide and higher enrage strategies refer to <#1251104943566491710>.
+
+.
+## __Presets and Relics__
+.tag:presets
+⬥ [Magic preset](<https://presets.pvme.io/?id=a9d531e0-ad8d-42e8-a85a-e393004b47a4>) <:magic:689504724159823906>
+⬥ [Melee preset](<https://presets.pvme.io/?id=7d877ee6-32f4-4e68-8a2d-06319b1d7280>) <:melee:1096130867279171706>
+⬥ [Ranged preset](<https://presets.pvme.io/?id=4a794fbc-ddfb-416f-bb44-1470bde9552a>) <:range:580168050121113623>
+⬥ [Necromancy preset](https://presets.pvme.io/?id=3562f2bb-c205-4665-aee3-91c32e22328b) <:necromancy:1148995625896120460>
+
+.
+## __Attack Rotation__
+.tag:attack
+Zamorak's damage and HP scales with enrage
+⬥ **Auto-attack cycle**
+    • 5 Magic autos → 5 Ranged autos → Repeat (Special attacks get woven in)
+⬥ **Special attack cycle**
+    • The following diagram outlines the pattern of special attacks used by <:zamorak:994914159969976440> and how they vary based on when you transition between phases:
+.
+.img:https://img.pvme.io/images/OWvsXcAQax.png
+.
+
+.
+{
+  "embed": {
+    "title": "__Special Attacks__",
+    "description": "These are mechanics which will happen as you go around charging pads.",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Channelers__",
+        "value": "⬥ The message `Zamorak begins to draw power and energy from something within Infernus.` appears and a witch spawns in infernus which you must kill to charge the next pad.\n\u00a0\u00a0\u00a0\u00a0• Press extra ability button.\n\u00a0\u00a0\u00a0\u00a0• <:anti:535541306475151390> / <:freedom:535541258240786434> and <:surge:535533810004262912> towards and kill witch.\n\u00a0\u00a0\u00a0\u00a0• Press extra ability button to return to Zamorak. Then walk the next pad you want to charge.\n\u200B"
+      },
+      {
+        "name": "__Flames of Zamorak__",
+        "value": "⬥ Zamorak says `The world will burn.` and slams his wings into the ground, dealing 2 heavy melee hits.\n\u00a0\u00a0\u00a0\u00a0• Step into melee distance of Zamorak, use <:DeflectMelee:544195488447201300> (use defensives if low hp)\n\u00a0\u00a0\u00a0\u00a0• Generally, the smoke will go to the North Eastern most player.\n\u00a0\u00a0\u00a0\u00a0• If any black smoke is absorbed, use defensives to mitigate damage.\n\u200B"
+      },
+      {
+        "name": "__Chaos Blast__",
+        "value": "⬥ Zamorak says `I will tear you asunder!` and wraps his wings around himself, with a blue bar appearing overhead.\n\u00a0\u00a0\u00a0\u00a0• He sends a red smoke after you after you stun him and deal a specified amount of damage. The longer he charges the attack the more powerful the red smoke hits.\n\u00a0\u00a0\u00a0\u00a0• Stun Zamorak to disrupt the blue bar.\n⬥ He then says `Feel the rage of a god.`\n\u00a0\u00a0\u00a0\u00a0• Use <:powerburstofvitality:654618235097972737> / <:res:535541258844635148> / <:disrupt:535614336207552523> before the red smoke hits you.\n\u200B\n ⬥Fully channelled Chaos Blast releases with an auto that counts towards the 5 or 11 auto set. If a chaos blast is stunned and releases before the channel is finished, it will not release this auto and do the full set after the mechanic finishes."
+      },
+      {
+        "name": "__Infernal Tomb__",
+        "value": "⬥ Zamorak says `Step into the dark... meet your death.`, stunning you and sending to infernus while charging a blue bar.\n\u00a0\u00a0\u00a0\u00a0• He sends a red smoke after you after you stun him. The longer he charges the attack the more powerful the red smoke hits.\n\u00a0\u00a0\u00a0\u00a0• <:anti:535541306475151390> / <:freedom:535541258240786434> to avoid stun, and as screen turns black use a stun.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ You will only be hit with a weak attack shortly after entering infernus if done correctly.\n\u00a0\u00a0\u00a0\u00a0• <:surge:535533810004262912> towards and kill the demon by using a strong threshold and basic.\n\u00a0\u00a0\u00a0\u00a0• Match overhead rune with one on top of a pad and <:surge:535533810004262912> / <:bd:535532854281764884> onto it.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ Matching the wrong rune will make you take heavy damage.\n\u00a0\u00a0\u00a0\u00a0• *Note: If you didn't stun properly while entering, stun Zamorak ASAP after exiting infernus and stack defensives to mitigate a more powerful Chaos Blast. [Example clip of proper stun timing here.](https://img.pvme.io/images/URj54bk2bF.mp4)*\n\u200B"
+      },
+       {
+        "name": "__Adrenaline Cage__",
+        "value": "⬥ Zamorak says `Chaos, unfettered!`, dropping all overhead prayers and hits the base with a few <:Magic:689504724159823906> attacks soon after.\n\u00a0\u00a0\u00a0\u00a0• Stand still. You will take additional damage when further away from the original tile where Zamorak cast the attack.\n\u00a0\u00a0\u00a0\u00a0• Base <:DeflectMage:544195487926845462> as soon as possible.\n\u200B"
+      },
+      {
+        "name": "__Rune of Destruction__",
+        "value": "⬥ Zamorak says `You're already dead.` and summons a ritual circle with an inner circle, an outer ring and a space in the middle.\n\u00a0\u00a0\u00a0\u00a0• A black sludge will travel along the space stunning and dealing small typeless hits to players.\n\u00a0\u00a0\u00a0\u00a0• Standing in the inner and outer rings will deal small typeless hits to the player.\n\u00a0\u00a0\u00a0\u00a0• Stay off the red, avoid black sludge.\n\u00a0\u00a0\u00a0\u00a0• Use <:anti:535541306475151390> / <:freedom:535541258240786434> if you are in the black sludge to avoid getting stunned.\n\u200B"
+      }
+    ]
+  }
+}
+.embed:json
+.
+## __Mechanics__
+.tag:mech
+⬥ **Charge Pads**
+    • The arena has 6 pads that you can stand on to charge.
+    • When it is full charged, Zamorak will stop attacking for a while and your adrenaline bar will be refilled. After this, you will gain an **Edict** while Zamorak gains a **Hex** depending on the pad charged.
+    • You will become unable to charge pads when Zamorak says **`HEED MY CALL`**. To continue charging the next pad, you must enter Infernus and kill the mage present.
+        ⬩ This happens after charging every pad.
+.
+.img:https://img.pvme.io/images/UOtlSkO.png
+.
+{
+  "embed": {
+    "title": "__Suggested Zamorak Edict Orders__ <:zamorak:994914159969976440>",
+    "description": "⬥ There are a lot of viable Edict orders, adjust as you see fit \n⬥ Use the [RS Wiki](https://runescape.wiki/w/The_Zamorakian_Undercity/Strategies#Pads) to see what each pad does",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Speed__",
+        "value": "⬥ **< 900%:** 214653 [demo](https://www.youtube.com/watch?v=zTBR3x_ITLM)\n⬥ **> 900%:** 241365 or 621345",
+        "inline": false
+      },
+      {
+      "name": "__Safety__",
+      "value": "⬥ **< 900%:** 241365\n⬥ **> 900%:** 243615 (1-2 cycle) or 235614 (0 cycle)\n\u00a0\u00a0\u00a0\u00a0• *[0 cycle](https://youtu.be/Bix_t8isO7A) uses <:rod:513190159462825984> to tank the large bomb and kills Zamorak before small bombs*",
+      "inline": false
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+*Notes: Once **Chaos Traps** have been activated, <:anti:535541306475151390> and <:DeflectMage:544195487926845462> before stepping on other pads. Additionally, once the bar for charging a rune is full, move at least 3 squares away from the middle of the rune. If **Coven** is not your last rune, be prepared to kill a Healer and Protector.*
+
+.
+## __Enrage-Based Mechanics__
+.tag:enrage
+Zamorak's damage and HP scales with enrage, and additional mechanics are introduced at specific enrage thresholds:
+
+⬥ **100%** Phase 7 is introduced
+⬥ **500%** During *Infernal Tomb*, all players must be on their rune at the same time to exit Infernus
+⬥ **500%** During *Channelers*, Chaos Witch Channeler spawns with 50% adrenaline and the first ability is Asphyxiate <:asphyx:535533833072672778>
+⬥ **750%** During *Infernal Tomb*, demons will move faster towards the portal
+⬥ **900%** During *Channelers*, **grey HP** healing ramp-up no longer resets between phases
+⬥ **1000%** During *Channelers*, Chaos Witch Channeler spawns with 100% adrenaline and their first ability is Omnipower <:omni:535533809664262179>
+⬥ **1000%** On phase 7, red bar charge is no longer reset between cycle(s)
+⬥ **1000%** On phase 7, Zamorak's life points cap at 250,000 per player
+⬥ **1470%** The life points of chaos demons cap at 70,000 while on Infernus
+⬥ **1500%** During the Adrenaline Cage attack, the targeted player will have their Devotion <:devo:513190158728953857> deactivated
+⬥ **1600%** Zamorak's stagger after killing a rune on Phase 7 reduced from 10 to 5 ticks
+⬥ **1740%** For phases 1-6, Zamorak's starting life points cap at 1,600,000 per player
+⬥ **3500%** On phase 7, the life points the runes revive with are capped at 60,000
+
+.
+## __Example Kills__
+.tag:examples
+.
+{
+  "embed": {
+    "title": "__Example Kills__",
+    "description": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Hybrid__",
+        "value": "⬥ [2000%](https://youtu.be/npA_CXUzjzQ)\n⬥ [2000%](https://www.youtube.com/watch?v=8ORNO6WSJs0)",
+            "inline": true
+      },
+      {
+        "name": "__Ranged__",
+        "value": "⬥ [100% Solo](https://youtu.be/aRhBU7ZkTB0)\n⬥ [500% Solo](https://www.youtube.com/watch?v=EUxi1QcuUug)\n⬥ [500% Solo](https://www.youtube.com/watch?v=zTBR3x_ITLM)",
+            "inline": true
+      },
+      {
+        "name": "__Melee__",
+        "value": "⬥ [100% Solo](https://youtu.be/6i81jkhwFQo)\n⬥ [500% Solo](https://www.youtube.com/watch?v=I3lIeHAVOvQ)",
+            "inline": true
+      },
+      {
+        "name": "__Magic__",
+        "value": "⬥ [100% Solo](https://youtu.be/S3mfKI1VTpY)\n⬥ [500% Solo](https://www.youtube.com/watch?v=hrnV-cyL0qE)",
+            "inline": true
+      },
+      {
+        "name": "__Necromancy__",
+        "value": "⬥ [100% Solo](https://www.youtube.com/watch?v=X9CCjANlEiU)\n⬥ [1000% Solo](https://www.youtube.com/watch?v=EGSQeK6lGBs)",
+            "inline": true
+      },
+      {
+        "name": "\u200b",
+        "value": "\u200b",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __Alt1 Zamorak Helper__
+.tag:alt1
+### Voice guidance throughout the kill
+.
+This tool reads your screen, and based on certain lines of dialogue in your chatbox, will **trigger and play voice lines during the kill** to let you know about upcoming mechanics and what to do for them.
+
+***Disclaimer**: Alt1 is a third party tool, and while generally safe to use, is still recommended to be installed and used at your own risk.*
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Alt1 Zamorak Helper__",
+        "value": "Check out [Igor's Presets](https://linktr.ee/igorspresets) and follow the download instructions there for Alt1 presets for this boss and more!"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Attack Rotation]($linkmsg_attack$)\n⬥ [Mechanics]($linkmsg_mech$)\n⬥ [Enrage-Based Mechanics]($linkmsg_enrage$)\n⬥ [Example Kills]($linkmsg_examples$)\n⬥ [Alt1 Zamorak Helper]($linkmsg_alt1$)",
+    "color": 39423
+  }
+}
+.embed:json
+.pin:delete

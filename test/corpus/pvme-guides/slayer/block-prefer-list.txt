@@ -1,0 +1,93 @@
+# Block and Prefer Lists
+*Note: a **Table of Contents** can be found in the pins.*
+
+.
+## __Example Block/Prefer Lists__
+.tag:examplelists
+*Note: The following block/prefer lists are just examples, it’s always more efficient to make your own.*
+
+⬥ It's assumed the player will slay Moss Golems for Creatures of the Lost Grove tasks and Ripper Demons for Demon cluster tasks, as well as bringing Binding Contracts <:bindingcontract:1073883118521557052> for GP.
+⬥ These lists are made for use with Laniakea <:laniakea:975284345411600426>
+    • Before level 90, when you can't use her as your Slayer Master, its generally not worth thinking too hard about your block/prefer list, and you can just block tasks you don't like or find unrewarding.
+
+.
+**Block/Prefer List for XP:**
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+       {
+        "name": "__Block__",
+        "value": "⬥ Aviansies\n⬥ Black Demons\n⬥ Kalphites\n⬥ Dagannoths\n⬥ Dark Beasts\n⬥ Mutated Jadinkos\n⬥ Order of Ascension members\n⬥ Steel Dragons",
+        "inline": true
+      },
+       {
+        "name": "__Prefer__",
+        "value": "⬥ Abyssal Demons\n⬥ Creatures of the Lost Grove\n⬥ Demons\n⬥ Living Wyverns\n⬥ Gemstone Dragons\n⬥ Nightmare Creatures\n⬥ Ripper Demons\n⬥ Acheron Mammoths",
+        "inline": true
+     }
+    ]
+  }
+}
+.embed:json
+
+.
+**Block/Prefer List for GP:**
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+       {
+        "name": "__Block__",
+        "value": "⬥ Kalphites\n⬥ Black Demons\n⬥ Greater Demons\n⬥ Aviansies\n⬥ Dagannoths\n⬥ Vile Blooms\n⬥ Order of Ascension members\n⬥ Shadow Creatures",
+        "inline": true
+      },
+       {
+        "name": "__Prefer__",
+        "value": "⬥ Profane Scabarites\n⬥ Creatures of the Lost Grove\n⬥ Demons\n⬥ Living Wyverns\n⬥ Kal'gerion Demons\n⬥ Nightmare Creatures\n⬥ Ripper Demons\n⬥ Abyssal Demons",
+        "inline": true
+     }
+    ]
+  }
+}
+.embed:json
+
+.
+## __Personalised Spreadsheet__
+.tag:spreadsheet
+⬥ Configuring the spreadsheet below is an easy way to find the best Block/Prefer list for your personal use.
+⬥ Be aware of the Slayer collection log while blocking monsters, and whether it's something you have interest in filling out or not.
+    • If the Slayer collection log *is* something you're interested in doing, check out our [full guide](https://discord.com/channels/534508796639182860/1197563914934821025) on obtaining Ultimate Slayer, which has an alternative block/prefer list included.
+
+.
+{
+  "embed": {
+  "title": "",
+    "description":"**[Customisable Block/Prefer Spreadsheet](https://docs.google.com/spreadsheets/d/1-HSin-Tqwbc1ZJHNcz9jg2xs6XMPu56dKyMFgYV-sYc/edit?gid=829497037#gid=829497037)**\n\n⬥ Click File > Make a copy top left for a personal copy.\n⬥ Toggle the Home page settings to match what you use.\n\u00a0\u00a0\u00a0\u00a0• The Misc section is for unlisted XP modifiers, e.g. enter 10 if you have an unlisted 10% XP buff.\n⬥ Enter your KPH in the column on the right of the Experience page.\n\u00a0\u00a0\u00a0\u00a0• You can select tasks to lock, force prefer/block, and that you use <:sacrificescrim:1023150750915899402> for here as well.\n⬥ Select the focus of your Slaying in the next page's dropdown menu and copy the displayed Block and Prefer list.",
+    "color": 39423
+   }
+}
+.embed:json
+
+.
+## __Additional Information__
+.tag:miscinfo
+⬥ Players start with a only a few slots to block/prefer monsters, gaining 1 of each every 50 Quest Points achieved, up to a maximum of 8 slots to block and prefer monsters at 400 Quest Points.
+⬥ Don't be afraid to skip undesired or bad assignments, as you can skip around half of the tasks given by Laniakea <:laniakea:975284345411600426> without losing many Slayer points overall, and they can be farmed with relative ease, making it unnecessary to force yourself to do any tasks you dislike.
+⬥ The assignment given by your Slayer Master is **not** completely random, a system unique to each Slayer Master known as **weighting** is used to make some assignments more common than others, and may be a factor in what the player chooses to block/prefer.
+    • The higher the weighting, the more common the assignment compared to others, the weighting for each task a Slayer Master has can be viewed on their page of the RuneScape Wiki.
+    • As we can see from the image below, Jacquelyn <:jacquelyn:975284345369665577> has a slightly higher chance to assign us Cows, Goblins, or Zombies.
+.img:https://img.pvme.io/images/K4vpwtYbmi.png
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Example Block/Prefer Lists]($linkmsg_examplelists$)\n⬥ [Personalised Spreadsheet]($linkmsg_spreadsheet$)\n⬥ [Additional Information]($linkmsg_miscinfo$)",
+    "color": 39423
+  }
+}
+.embed:json
+.pin:delete

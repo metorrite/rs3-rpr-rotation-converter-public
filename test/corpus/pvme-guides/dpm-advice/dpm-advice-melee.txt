@@ -1,0 +1,286 @@
+# Melee DPM Advice <:melee:1096130867279171706>
+.tag:intro
+*Note: a **Table of Contents** can be found in the pins.*
+
+This channel will go over general damage output lessons, ability prioritisation, a learning path, and style-specific solutions for common PvM concerns.
+
+⬥ Knowledge of in-game ability/item descriptions is assumed, this guide aims to tie the tools together rather than list what they do.
+⬥ Melee rotations are highly situational and often change based on boss timings, phase length, weapon setup, and how much switching is practical.
+⬥ For general PvM terminology, damage tips, and revolution bars, check out their respective sections in <#1252196386452144249>
+⬥ For recommended upgrade order, see <#1250862462442410216>
+⬥ For invention perks, see <#553632787639435284>
+⬥ If you need tailored advice for a specific boss or gear setup, ask in <#656898197561802760>
+⬥ To compare abilities, use [RS Analysis' Melee Page](<https://tools.runescape.wiki/rs-rot/melee>), and add your gear
+
+.
+## __Abilities, Attacks and Weapons__
+
+.
+### __Prioritising Basic Abilities__ <:meleebasic:1478062907295010906>
+.tag:basics
+You should prioritise the following Basic abilities:
+⬥ **Punish** <:punish:535532879439069184> if the target is <50% life points
+⬥ **Backhand** <:backhandflank:867678153854025779> with Flanking <:flank4:712073088296157185> if the boss is not facing you
+⬥ **Greater Fury** <:gfury:535532879334080527>
+⬥ **Rend** <:rendgop:1488133579614588948> with Gloves of Passage <:glovesofpassage:556588694862037012>
+⬥ **Adaptive Strike** <:adaptivestrike:1478062906057949417>
+⬥ **Fury** <:fury:535532879510372352> (if <:gfury:535532879334080527> is not yet unlocked)
+
+Do __not__ use these Basic abilities to build:
+⬥ **Chaos Roar** <:chaosroar:1478062908767211640> should be used before a heavy-hitting attack and its cooldown is too long
+⬥ **Greater Barge** <:gbarge:535532879250456578> should be used before a strong channelled ability
+
+.
+### __Prioritising Stronger Abilities__ <:overpower:535532879334080517>
+.tag:prioritisingstronger
+When spending adrenaline, there are two primary considerations:
+⬥ total damage over time (e.g., the start of a phase) vs. instant damage (burst damage, e.g., boss damage check window)
+⬥ adren cost vs. total damage
+
+.
+In general, prioritise the following abilities and special attacks:
+⬥ **Berserk** <:berserk:535532854004678657> whenever possible
+⬥ **Ek-ZekKil** <:ezk:903244090953588787> <:spec:537340400273195028> during <:berserk:535532854004678657> for fights lasting over 1 minute
+    • First cast `280 AD`
+    • Further casts (Flamebound Rival <:flameboundrival:1404885709034229922>) `1045 AD`
+⬥ **Greater Flurry** <:gflurry:535532879283879977> in <:berserk:535532854004678657> `520 AD`
+    • For its Berserk extension
+⬥ **Assault** <:assault:535532855191928842> when 4+ <:bloodlust:1478080383554945044> `720 AD`
+⬥ **Greater Flurry** <:gflurry:535532879283879977> with 4+ <:bloodlust:1478080383554945044> and target below ~71% life points
+    • <71% LP `671 AD`
+    • <50% LP `780 AD`
+    • <35% LP `858 AD`
+⬥ **Overpower** <:overpowerigneous:959089455640215633> with Igneous cape <:igneouskalket:902209626404192316> `620 AD`
+⬥ **Assault** <:assault:535532855191928842> with <4 <:bloodlust:1478080383554945044> `560 AD`
+⬥ **Massacre** <:massacre:1478062911619469495> with <:mwspear:694566917456789554> + __not__ inside <:berserk:535532854004678657> + your target can take damage for another 24s `1120 AD`
+⬥ **Slaughter** <:slaughter:1478062904732418159> with <:mwspear:694566917456789554> + __not__ inside <:berserk:535532854004678657> + your target can take damage for another 18s `810 AD`
+⬥ **Dismember** <:dismember:1478062910113714297> with <:mwspear:694566917456789554> + Strength cape <:strcape:1172654837616353320> + Lunging perk <:lunge4:736522494315593759> + __not__ inside <:berserk:535532854004678657> + your target can take damage for another 18s `549 AD`
+⬥ **Overpower** <:overpowerigneous:959089455640215633> without cape `545 AD`
+⬥ **Varanus's Mercy** <:varanussmercy:1448697873603498045> <:eofspec:1257438999794946099> `491.25 AD`
+    • Unless perked with Equilibrium <:equilibrium:1005205003893485638>
+.
+⬥ **Leng Set special attack** <:lengmh:883134308146098227> <:lengoh:883134308070604870> <:spec:537340400273195028> with 2+ Primordial Ice <:primordialice:1219291285358120990>
+    • 4 stacks `475 AD`
+    • 3 stacks `435 AD`
+    • 2 stacks `395 AD`
+⬥ **Greater Flurry** <:gflurry:535532879283879977> when <4 <:bloodlust:1478080383554945044> or the target is >71% LP `520 AD`
+⬥ **Hurricane** <:cane:535532878969438210> `320 AD`
+
+.
+Situational special attacks:
+⬥ **Granite Maul** <:gmaul:796989663051120640> <:eofspec:1257438999794946099> ignores cooldowns and can be spammed during a single GCD `125 AD`
+⬥ **Dragon Claws** <:dragonclaw:779048041088024606> <:eofspec:1257438999794946099> are seen as a direct downgrade from <:varanussmercy:1448697873603498045> `400 AD`
+
+.
+### __Utility Abilities and Special Attacks__ <:dba:603979368850653216>
+.tag:utility
+These setup tools are especially useful because they let you enter the fight with buffs already active:
+
+⬥ **Dragon Battleaxe** <:dba:603979368850653216> <:spec:537340400273195028> for a 60s damage boost (<:spec:537340400273195028> at War's Retreat → 100% adren → enter instance)
+⬥ **Annihilation** <:annihilation:796989662983094275> <:spec:537340400273195028> to give a niche 30s damage-output buff
+⬥ **Zaros Godsword** <:zgs:626465964325601290> <:spec:537340400273195028> for a mini-zerk <:berserk:535532854004678657>
+⬥ **Pulverise** <:pulverise:535532879053062146> for its damage reduction effect
+
+.
+### __Building Adrenaline__ <:meteorstrike:1478070401702821938>
+.tag:buildingadren
+Maximising your adrenaline is one of the key ways to output more damage, as you will be able to use stronger attacks.
+
+There are many ways to build adrenaline, many of which you will see built into the rotations below:
+⬥ **Meteor Strike** <:meteorstrike:1478070401702821938> for 225% adrenaline gain over 30s
+    • Typically stalled at <:warsretreatteleport:1032540079589163049> and used at the start of a fight, and again before each <:berserk:535532854004678657>
+⬥ **Adrenaline Potions** <:adrenrenewal:736298121704767538> <:adrenalinepotion:1011705731118006544> <:replen:641337470491033600>
+    • Typically used mid-rotation, with some giving instant adren and others giving adren-over-time
+⬥ **Jaws of the Abyss** <:jawsoftheabyss:947871842595639306> alongside bleeds
+    • Gives +2% adren per active bleed (<:dismember:1478062910113714297> <:slaughter:1478062904732418159> <:massacre:1478062911619469495> and <:abyssalparasite:1285348334869151754> from <:abyssalscourge:947871842469834832> <:abyssalarmourspike:1004107347259555981>)
+⬥ **Natural Instinct** <:naturalinstinct:535541258131865633>
+    • 2x adrenaline gained for 20.4s
+⬥ **Vestments of Havoc** <:vestmentsofhavochood:994189297659940904>
+    • 2-piece refunds 15-20% adrenaline after using a Melee ultimate (<:overpower:535532879334080517> <:berserk:535532854004678657> <:pulverise:535532879053062146> <:meteorstrike:1478070401702821938>)
+    • 4-piece raises max adrenaline to 120% with melee weapons
+⬥ **Divert** <:divert:787904334377648130>
+    • Protects you from the next damaging attack and converts it to adrenaline
+
+You may wish to follow a standard "adrenaline re-build rotation":
+⬥ <:berserk:535532854004678657> finishes → basics → <:dba:603979368850653216> <:spec:537340400273195028> → basics → <:meteorstrike:1478070401702821938> → basics → <:berserk:535532854004678657>
+
+.
+### __Maximising Berserk__ <:berserk:535532854004678657>
+.tag:zerk
+You can empower **Berserk** <:berserk:535532854004678657> in four ways:
+⬥ 4-piece of **Vestments of Havoc** <:vestmentsofhavochood:994189297659940904>
+    • extend <:berserk:535532854004678657> by +6 seconds (giving more time to deal increased damage)
+    • increase max adrenaline by +20% (allowing for stronger abilities directly after <:berserk:535532854004678657>)
+⬥ **Conservation of Energy** relic <:conservationofenergy:697808773711921195> and **Ring of Vigour passive** <:rov:513201065877831680> from [Extinction quest](<https://runescape.wiki/w/Extinction>)
+    • both regain +10% adrenaline after using <:berserk:535532854004678657>
+    • these are additive to +20%
+⬥ **Greater Flurry** <:gflurry:535532879283879977> extends <:berserk:535532854004678657>
+    • You can fit 2x <:gflurry:535532879283879977> "for free" in the <:berserk:535532854004678657> buff window
+⬥ **Overpower** <:overpower:535532879334080517> can be used more frequently
+    • <:overpower:535532879334080517> cooldown is reduced from 30s to 9s
+
+When the above are combined together <:berserk:535532854004678657>:
+⬥ consumes 100% → 80% adrenaline
+⬥ lasts 19.8s → 35.4s
+
+.
+### __Maximising Chaos Roar__ <:chaosroar:1478062908767211640>
+.tag:chaosroar
+**Chaos Roar** <:chaosroar:1478062908767211640> should be saved for when a high-damage ability can be used directly after
+⬥ It is strongest with large single-hit or multi-hit abilities where the full cast benefits
+⬥ It is weaker with channelled abilities like Assault <:assault:535532855191928842> or Greater Flurry <:gflurry:535532879283879977>, as only the first hit is boosted
+
+Strong follow-ups include:
+⬥ Second (and subsequent) **Ek-ZekKil spec** <:ezk:903244090953588787> <:spec:537340400273195028>
+    • Note: do not waste <:chaosroar:1478062908767211640> on your first <:ezk:903244090953588787> <:spec:537340400273195028>
+⬥ **Igneous Overpower** <:overpowerigneous:959089455640215633>
+⬥ **Varanus's Mercy** <:varanussmercy:1448697873603498045> <:eofspec:1257438999794946099>
+⬥ **Leng Set spec** <:lengmh:883134308146098227> <:lengoh:883134308070604870> <:spec:537340400273195028>
+⬥ **Hurricane** <:cane:535532878969438210>
+⬥ **Bleeds outside Berserk** <:slaughter:1478062904732418159> <:massacre:1478062911619469495>
+
+.
+### __Managing Bloodlust stacks__ <:bloodlust:1478080383554945044>
+.tag:bloodlust
+Bloodlust stacks <:bloodlust:1478080383554945044> are a important component of Melee DPM. Up to 4 (8 inside <:berserk:535532854004678657>) can be stored, which are generated from:
+⬥ +1 **any Basic ability** (+2 inside <:berserk:535532854004678657>)
+⬥ +2 from **Rend** <:rend:1478166426190741584>
+⬥ +4 from **Berserk** <:berserk:535532854004678657>
+
+When spending <:bloodlust:1478080383554945044> you should prioritise:
+⬥ **Assault** <:assault:535532855191928842> as your default
+⬥ **Greater Flurry** <:gflurry:535532879283879977> if the target is below ~70% life points
+⬥ **Hurricane** <:cane:535532878969438210> for AoE situations
+
+.
+### __Camping & Switching Weapons__
+.tag:switchingweapons
+Melee has multiple strong weapons, and the best option depends heavily on the situation:
+⬥ Some rotations camp one weapon setup for simplicity
+⬥ Some rotations switch between weapons to use specific abilities for extra damage
+⬥ Some fights are too short or too awkward to make switches worthwhile
+
+.
+The most common "default" or "camped" weapons include:
+⬥ **Ek-ZekKil <:ezk:903244090953588787>**
+    • Camp Ek-ZekKil when the fight lasts over 1 minute
+    • Its value comes from **Flamebound Rival** <:flameboundrival:1404885709034229922> while equipped (+12% damage and damage reduction)
+    • Not reliant on RNG stacks, with higher single-GCD burst and stronger damage from the second minute onwards
+    • More expensive, weaker in the first minute, and needs a dual-wield switch to stall / cast <:gflurry:535532879283879977>
+.
+⬥ **Leng swords <:lengmh:883134308146098227> <:lengoh:883134308070604870>**
+    • Camp Lengs for fights sub-1 minute, especially for higher first <:berserk:535532854004678657> damage
+    • They are cheaper, do not need an <:eof:745279787471470713>, and passively build Primordial Ice <:primordialice:1219291285358120990> stacks
+    • Icy Tempest <:lengmh:883134308146098227> <:spec:537340400273195028> costs 0 adrenaline at 3+ <:primordialice:1219291285358120990> (still requires +30% to use)
+    • Stacks are RNG-based, making rotations more flexible, and damage falls behind <:ezk:903244090953588787> from the second minute onwards
+    • Needs a 2h switch to stall / cast <:cane:535532878969438210>
+.
+⬥ **Masterwork Spear of Annihilation <:mwspear:694566917456789554>**
+    • Used mostly as a switch to apply <:dismember:1478062910113714297> <:slaughter:1478062904732418159> <:massacre:1478062911619469495>, then return to your main weapon
+    • Ideally perked with Lunging 3/4 <:lunge4:736522494315593759> to maximise on bleed synergies
+.
+⬥ **Consecrated keris** <:consecratedkeris:1334318846202478615> + Dark sliver of leng <:lengoh:883134308070604870>
+    • Camp keris when your target is any follower of Amascut, including all Sanctum of Rebirth bosses <:nakatra:1278853591221669911> and Amascut <:amascuthead:1400943309576470589> herself
+    • Increases your damage by ~37%
+
+.
+## __Building a Rotation__
+.tag:buildingarotation
+Take this section with a pinch of salt... every boss is different and in reality we build "situational" rotations based on:
+⬥ Phases and immunity windows <:raksha:789813907706478603>
+⬥ Berserk buff uptime/downtime <:berserk:535532854004678657>
+⬥ Adrenaline levels <:meleebasic:1478062907295010906>
+⬥ Available weapons <:ezk:903244090953588787> <:lengmh:883134308146098227> <:lengoh:883134308070604870> <:mwspear:694566917456789554>
+⬥ Pre-fight setup and utility abilities <:dba:603979368850653216>
+⬥ Bloodlust stacks <:bloodlust:1478080383554945044>
+⬥ Weapon special attacks <:spec:537340400273195028>
+⬥ EoF usage <:varanussmercy:1448697873603498045> <:eofspec:1257438999794946099>
+⬥ Vulnerability bombs <:vulnbomb:655341074235129858>
+⬥ And more...!
+
+The examples below are not fixed boss rotations. They show how to start with a simple Berserk <:berserk:535532854004678657> window, then gradually add extra layers such as Greater Barge <:gbarge:535532879250456578>, weapon specs, bleeds, and pre-fight setup.
+
+.
+### __Step 1: Basic Rotation__ <:berserk:535532854004678657>
+*At its core, a basic Melee damage cycle looks like...*
+
+⬥ Build adrenaline → <:meteorstrike:1478070401702821938> → <:berserk:535532854004678657> → high-damage abilities → <:berserk:535532854004678657> finishes → repeat
+
+**Notes:**
+⬥ During <:berserk:535532854004678657>, spend adrenaline on your strongest available abilities
+⬥ Outside <:berserk:535532854004678657>, continue using strong abilities, but begin saving adrenaline and cooldowns for when <:berserk:535532854004678657> is nearly available again
+
+.
+### __Step 2: Greater Barge & Potions__ <:gbarge:535532879250456578> <:adrenrenewal:736298121704767538> <:vulnbomb:655341074235129858>
+*It's time to put those pretty potions to good use...*
+
+⬥ <:berserk:535532854004678657> + <:adrenrenewal:736298121704767538> → (tc) boss → <:gbarge:535532879250456578> + <:vulnbomb:655341074235129858> → bleed <:gflurry:535532879283879977> → high-damage abilities
+
+**Notes:**
+⬥ Situationally, <:gbarge:535532879250456578> / <:berserk:535532854004678657> may be switched (<:gbarge:535532879250456578> → <:berserk:535532854004678657> → <:gflurry:535532879283879977>)
+
+.
+### __Step 3: Adding pre-fight boosts__ <:dba:603979368850653216> <:meteorstrike:1478070401702821938>
+*Who doesn't want free damage?!*
+
+⬥ At War's <:warsretreatteleport:1032540079589163049> use <:dba:603979368850653216> <:spec:537340400273195028> → rebuild to 100% adrenaline at crystal
+⬥ You can also stall and release an ability to gain a "free" ultimate at the start of the fight:
+    • Option A) s<:meteorstrike:1478070401702821938> → enter instance → r<:meteorstrike:1478070401702821938> on a dummy <:dummy:656844963522281473>
+    • Option B) s<:ezk:903244090953588787> <:spec:537340400273195028> → enter instance → r<:ezk:903244090953588787> + <:meteorstrike:1478070401702821938> on boss
+
+.
+### __Step 4: Camped weapon specs__ <:lengmh:883134308146098227> <:ezk:903244090953588787> <:spec:537340400273195028>
+*Weave in your primary weapon special attack during <:berserk:535532854004678657>*
+
+**Where camping Lengs** <:lengmh:883134308146098227> <:lengoh:883134308070604870>
+⬥ <:meteorstrike:1478070401702821938> → s<:adaptivestrike:1478062906057949417> → <:berserk:535532854004678657> → <:gbarge:535532879250456578> → <:overpowerigneous:959089455640215633> → <:lengmh:883134308146098227> <:spec:537340400273195028> → <:gflurry:535532879283879977> → <:cane:535532878969438210> → <:rend:1478166426190741584> → <:overpowerigneous:959089455640215633> → <:assault:535532855191928842> → <:chaosroar:1478062908767211640> → <:lengmh:883134308146098227> <:spec:537340400273195028> → <:overpowerigneous:959089455640215633> → <:rend:1478166426190741584> → <:assault:535532855191928842> (5t) → <:gflurry:535532879283879977> → <:overpowerigneous:959089455640215633> → <:lengmh:883134308146098227> <:spec:537340400273195028>
+    • <:primordialice:1219291285358120990> stacks are naturally rng, so expect small changes from kill to kill
+    • [Example video](<https://youtu.be/O-PDUpCA7W8>)
+
+.
+**Where camping EZK** <:ezk:903244090953588787>
+⬥ <:meteorstrike:1478070401702821938> → s<:adaptivestrike:1478062906057949417> → <:berserk:535532854004678657> → <:barge:535532853916860437> → <:overpowerigneous:959089455640215633> → <:ezk:903244090953588787> <:spec:537340400273195028> → <:gflurry:535532879283879977> → <:rend:1478166426190741584> → <:cane:535532878969438210> → <:overpowerigneous:959089455640215633> → <:assault:535532855191928842> → <:chaosroar:1478062908767211640> → <:dragonclaw:779048041088024606> / <:varanussmercy:1448697873603498045> <:eofspec:1257438999794946099> → <:overpowerigneous:959089455640215633> → <:rend:1478166426190741584> → <:cane:535532878969438210> → <:adaptivestrike:1478062906057949417> / <:punish:535532879439069184> → s<:gflurry:535532879283879977> → <:ezk:903244090953588787> r<:gflurry:535532879283879977> → <:overpowerigneous:959089455640215633>
+    • For subsequent <:ezk:903244090953588787> repeats, swap <:ezk:903244090953588787> <:spec:537340400273195028> and <:cane:535532878969438210>
+    • [Example video](<https://youtu.be/lysqoo_CxDc>)
+
+.
+### __Step 5: Putting it all together__
+*This is it, the moment you've been waiting for, the BiS rotation...*
+
+⬥ **At War's** <:warsretreatteleport:1032540079589163049>: <:dba:603979368850653216> → <:naturalinstinct:535541258131865633> → s<:meteorstrike:1478070401702821938>
+
+⬥ **Inside instance** <:dummy:656844963522281473>: r<:meteorstrike:1478070401702821938> → <:annihilation:796989662983094275> <:eofspec:1257438999794946099> → s<:adaptivestrike:1478062906057949417> → <:berserk:535532854004678657> → <:gbarge:535532879250456578> → <:gfury:535532879334080527> → s<:overpowerigneous:959089455640215633>
+
+⬥ **First** <:berserk:535532854004678657>: (tc) boss + r<:overpowerigneous:959089455640215633> + <:assault:535532855191928842> + <:vulnbomb:655341074235129858> → <:ezk:903244090953588787> <:spec:537340400273195028> → <:rend:1478166426190741584> → <:cane:535532878969438210> → <:overpowerigneous:959089455640215633> → <:chaosroar:1478062908767211640> → <:varanussmercy:1448697873603498045> <:eofspec:1257438999794946099> → <:gfury:535532879334080527> → <:assault:535532855191928842> → <:overpowerigneous:959089455640215633>
+.
+⬥ **After Berserk**: <:adaptivestrike:1478062906057949417> → <:meleebasic:1478062907295010906> → <:meleebasic:1478062907295010906> → <:adaptivestrike:1478062906057949417> → <:dba:603979368850653216> <:spec:537340400273195028> → <:meleebasic:1478062907295010906> → <:adaptivestrike:1478062906057949417> → <:meleebasic:1478062907295010906> → <:meleebasic:1478062907295010906> → <:adaptivestrike:1478062906057949417> → <:meleebasic:1478062907295010906> → <:meleebasic:1478062907295010906> → <:adaptivestrike:1478062906057949417> → <:meleebasic:1478062907295010906> → <:meleebasic:1478062907295010906> → <:meteorstrike:1478070401702821938> → <:adaptivestrike:1478062906057949417> / <:divert:787904334377648130>
+
+⬥ **2nd (3rd, 4th...) Berserk**: <:berserk:535532854004678657> → <:gbarge:535532879250456578> → <:overpowerigneous:959089455640215633> → <:gflurry:535532879283879977> → <:chaosroar:1478062908767211640> → <:cane:535532878969438210> → <:rend:1478166426190741584> → s<:overpowerigneous:959089455640215633> → r<:overpowerigneous:959089455640215633> + <:ezk:903244090953588787> <:spec:537340400273195028> → 7t <:assault:535532855191928842> → <:gfury:535532879334080527> → <:overpowerigneous:959089455640215633> → <:punish:535532879439069184> → 8t <:gflurry:535532879283879977> → <:rend:1478166426190741584> → s<:overpowerigneous:959089455640215633> → r<:overpowerigneous:959089455640215633> + <:cane:535532878969438210>
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Overview__",
+        "value": "⬥ [Introduction]($linkmsg_intro$)",
+        "inline": true
+      },
+      {
+        "name": "__Core DPM Advice__",
+        "value": "⬥ [Prioritising Basic Abilities]($linkmsg_basics$)\n⬥ [Prioritising Stronger Abilities]($linkmsg_prioritisingstronger$)\n⬥ [Utility Abilities]($linkmsg_utility$)\n⬥ [Building Adrenaline]($linkmsg_buildingadren$)",
+        "inline": true
+      },
+      {
+        "name": "__Advanced DPM Advice__",
+        "value": "⬥ [Maximising Berserk]($linkmsg_zerk$)\n⬥ [Maximising Chaos Roar]($linkmsg_chaosroar$)\n⬥ [Managing Bloodlust stacks]($linkmsg_bloodlust$)\n⬥ [Switching Weapons]($linkmsg_switchingweapons$)\n⬥ [Building a Rotation]($linkmsg_buildingarotation$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete

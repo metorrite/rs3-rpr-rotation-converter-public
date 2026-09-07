@@ -19,9 +19,8 @@ declare global {
             browseInput: () => Promise<string | null>;
             browseOutput: () => Promise<string | null>;
             catalogInfo: () => Promise<{
-                repo: string;
-                commit: string;
-                rmVersion: string | null;
+                rotationMaster: { repo: string; commit: string; rmVersion?: string | null };
+                pvmeSettings?: { repo: string; commit: string };
                 abilityCount: number | null;
             } | null>;
             convert: (

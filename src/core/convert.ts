@@ -1,4 +1,5 @@
 import { parsePvme, serializePvme } from "../adapters/pvme.js";
+import { extractRotations, type ExtractedRotation } from "../adapters/pvme-guide.js";
 import { parseRm, serializeRm } from "../adapters/rm.js";
 import { parseRsa, serializeRsa } from "../adapters/rsa.js";
 import { isRmRotationSet } from "../formats/rm.types.js";
@@ -73,6 +74,31 @@ function serialize(
         case "pvme":
             return serializePvme(asSequence(ir, report), catalog, report);
     }
+}
+
+export interface GuideRotationResult {
+    name: string;
+    sectionPath: string[];
+    source: string;
+    to: FormatId;
+    output: unknown;
+    report: ConversionReport;
+}
+
+/** Extract every distinct rotation from a PVME guide file and convert each. */
+export function convertGuide(
+    text: string,
+    options: { to: FormatId; catalog?: Catalog } = { to: "rm" },
+): { rotations: GuideRotationResult[]; extracted: ExtractedRotation[] } {
+    const catalog = options.catalog ?? loadCatalog();
+    const extracted = extractRotations(text, catalog);
+    const rotations = extracted.map((r) => {
+        const report = r.report;
+        report.to = options.to;
+        const output = serialize(r.sequence, options.to, catalog, report);
+        return { name: r.name, sectionPath: r.sectionPath, source: r.source, to: options.to, output, report };
+    });
+    return { rotations, extracted };
 }
 
 export function convert(input: unknown, options: ConvertOptions = {}): ConvertResult {

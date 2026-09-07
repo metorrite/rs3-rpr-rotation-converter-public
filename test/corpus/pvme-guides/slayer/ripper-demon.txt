@@ -1,0 +1,204 @@
+# Ripper Demons
+*Note: a **Table of Contents** can be found in the pins.*
+
+.
+## __Introduction__
+.tag:intro
+[Ripper Demons](<https://runescape.wiki/w/Ripper_Demon>) <:ripperdemon:1004107343123976284> are one of the 4 Raptor specialty monsters, as such they boast mechanics that make engaging them more dangerous than normal mobs. They are mainly killed for Slayer <:slayer:797896049548066857> tasks, the [Kharidian Desert collection log](<https://runescape.wiki/w/Slayer_collection_log#Kharidian_Desert>), the [parasitic orb](<https://runescape.wiki/w/Parasitic_orb>) which is used to unlock the Nipper demon pet, and for profit via creating <:ripperpouch:703581275453128714>
+
+⬥ Ripper Demons can be assigned as a Slayer <:slayer:797896049548066857> assignment by Mandrith, Laniakea, Morvran, Kuradal, and The Raptor.
+    • Demon cluster tasks also work, they may be assigned by Laniakea, and The Raptor.
+        ⬩ Laniakea assigns almost **twice** as many.
+⬥ This guide will focus on killing Ripper Demons via AOE methods as they yield the highest KPH; however, at lower levels it is suggested to kill them one at time in the [Ripper Demon cave](<https://runescape.wiki/w/Ripper_Demon_cave>) southeast of the Al Kharid lodestone <:alkharidlode:1032552328005419038>
+    • Bring your best Melee gear with <:darklight:1130170689119326350> and <:vampscrim:513201294262009874>
+    • The *Midday* [skybox](<https://runescape.wiki/w/Skyboxes_and_filters>) helps brighten the area.
+
+.
+### Stats
+⬥ <:slayer:797896049548066857> level: 96
+⬥ <:slayer:797896049548066857> XP per kill: 2,721.6
+⬥ Optimal kills per hour: ~930 <:magic:689504724159823906> (Low Effort), ~1700 <:necromancy:1148995625896120460> (Low Effort)
+⬥ Optimal <:slayer:797896049548066857> XP per hour: ~2.53M <:magic:689504724159823906> (Low Effort), ~3.79M <:necromancy:1148995625896120460> (Low Effort)
+
+.
+### __Mechanics__
+.tag:mechanics
+{
+  "embed": {
+    "description":"",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Slaughter__",
+        "value": "⬥ When engaged from a distance, Ripper Demons will immediately teleport to the player and cast Slaughter <:slaughter:535532879237873666>, which deals triple damage if you move.\n\u00a0\u00a0\u00a0\u00a0• This makes them extremely easy to stack up for AoE damage.\n\u00a0\u00a0\u00a0\u00a0• This also incentivises staying at the same spot when AoEing."
+      },
+      {
+        "name": "__Death from above__",
+        "value": "⬥ Ripper Demons gain adrenaline whenever they autoattack.\n\u00a0\u00a0\u00a0\u00a0• When the bar fills up, they will jump and land where the player was standing shortly after, dealing up to 32,000 hard typeless damage resulting in an instant kill.\n\u00a0\u00a0\u00a0\u00a0• This can be avoided by moving away from your original location immediately upon seeing them jump.\n\u00a0\u00a0\u00a0\u00a0• **When AoEing, good DPM is crucial to avoid this mechanic.**"
+      },
+      {
+        "name": "__Aggression__",
+        "value": "⬥ If the player is below 35% HP, all nearby Ripper Demons will immediately aggro to the player.\n\u00a0\u00a0\u00a0\u00a0• Usually, using <:devo:513190158728953857> when low HP is desirable to prevent being stacked out."
+      },
+      {
+        "name": "__Death spin__",
+        "value": "⬥ When killed, Ripper Demons will spin and hit any nearby players with weak rapid melee hits per tick in a 3x3 area, which can deal large damage if stood in.\n\u00a0\u00a0\u00a0\u00a0• This mechanic is the main reason <:deflectmelee:544195488447201300> and <:enhdev4:712073087507628035> are essential for killing rippers."
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+### __Desirable drops__
+.tag:drops
+⬥ [Ripper claw](<https://runescape.wiki/w/Ripper_claw>) <:ripperclaw:797895640054759444> and [Off-hand ripper claw](<https://runescape.wiki/w/Off-hand_ripper_claw>) <:ripperclawoh:915232154252890122>
+    • Required for the Slayer collection log.
+    • 5 times rarer off-task.
+⬥ [Parasitic orb](<https://runescape.wiki/w/Parasitic_orb>) <:parasiticorb:1023150740384006234>
+    • Required for the Slayer collection log.
+    • **Significantly** more common from Slasher Demons (elite variant).
+⬥ [Raptor key part 2](<https://runescape.wiki/w/Raptor_key_part_2>)
+    • Required for the Slayer collection log.
+    • Must be on task.
+⬥ [Miner's journal 1-5](<https://runescape.wiki/w/Don%27t_Fear_the_Ripper>) and [The Diary of Jebediah Omnis](<https://runescape.wiki/w/The_Diary_of_Jebediah_Omnis>)
+    • Required for <:masterquestcape:1091050888828813412>
+⬥ [Cursed amascut sand](<https://runescape.wiki/w/Cursed_amascut_sand>) <:cursedamascutsand:1023152063208763433>
+    • Required for the Slayer collection log.
+    • Dropped by any of the 4 Raptor specialty monsters.
+
+.
+### Useful Items and Unlocks
+.tag:useful
+{
+  "embed": {
+    "description":"Owning the following increases the efficiency of your sessions, but is by no means mandatory.",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Items__",
+        "value": "⬥ [Binding contracts](https://runescape.wiki/w/Binding_contract) <:bindingcontract:1073883118521557052> and [Magic notepaper](https://runescape.wiki/w/Magic_notepaper) <:notepaper:1137735230908805240>\n\u00a0\u00a0\u00a0\u00a0• Increases profit via creating <:ripperpouch:703581275453128714>\n⬥ Armour perked with [Demon Slayer](https://runescape.wiki/w/Demon_Slayer_(perk)) <:demonslayerperk:689502842653900818>\n\u00a0\u00a0\u00a0\u00a0• +7% damage against demons.\n⬥ Armour perked with [Enhanced Devoted](https://runescape.wiki/w/Enhanced_Devoted) <:enhdev4:712073087507628035>\n\u00a0\u00a0\u00a0\u00a0• Reduces incoming damage when active.\n⬥ [Oldak coil](https://runescape.wiki/w/Oldak_coil) <:oldakcoil:798285651387613194>\n\u00a0\u00a0\u00a0\u00a0• Make sure to have the [Restocking Cannon](https://runescape.wiki/w/Artisans'_Workshop_Reward_Shop#Rewards) ability unlocked."
+      },
+      {
+        "name": "__Other__",
+        "value": "⬥ [Demon Slayer (ability)](https://runescape.wiki/w/Demon_Slayer_(ability)) <:demonslayer:641339921675845633>\n\u00a0\u00a0\u00a0\u00a0• Increases damage against demons by 15% for 10 seconds.\n\u00a0\u00a0\u00a0\u00a0• 1-minute cooldown.\n⬥ [Infernal Puzzle Box (tier 6)](https://runescape.wiki/w/Infernal_Puzzle_Box) <:infernalpuzzlebox:994189299681607800>\n\u00a0\u00a0\u00a0\u00a0• 14% damage reduction and 9% damage increase whilst in the Wilderness.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ This effect scales with the tier of your puzzle box.\n\u00a0\u00a0\u00a0\u00a0• Tier 6 allows you to put it in your tool belt."
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+### __Location and How to Get there__
+.tag:location
+**The Wilderness**
+If killing Ripper Demons in the Wilderness; they are located west of the Demonic Ruins / northeast of Red Dragon Isle, they are **aggressive** in this location. **Ensure you disable PVP by speaking to [Vala](<https://runescape.wiki/w/Vala#Edgeville>) in Edgeville.**
+
+1) How to get there in order of speed:
+    a) [Annakarl Teleport (Ancient Magicks)](<https://runescape.wiki/w/Annakarl_Teleport>) and run west, has a high chance of aggro'ing Kal'gerion demons <:kalgerion_demon:1155600607504257024>
+    b) Games necklace teleport to Corporeal Beast <:corporealbeast:513212996726685749> and run northeast.
+    c) Wilderness sword teleport to *herb patch* and run north, then east along the lava.
+
+*Notes:*
+*⬥ [Click here](<https://img.pvme.io/images/fKZLfiGXqH.png>) to open a map of optimal routes for the above.*
+*⬥ If hunting elite spawns in the Wilderness, stay a few kills after the end of your task in case the "forced spawn" is delayed.*
+
+.img:https://img.pvme.io/images/zVTy9k8mLg.png
+⬥ Unless otherwise specified, stand in-between the lava pools to funnel the <:ripperdemon:1004107343123976284> onto one tile.
+
+**Ripper Demon Cave**
+If killing Ripper Demons in the Ripper Demon cave; teleport to the Al Kharid lodestone <:alkharidlode:1032552328005419038> and run southeast towards the cave entrance. They are **not** aggressive in this location.
+
+.img:https://img.pvme.io/images/Hs3NllZKrA.png
+
+.
+## __Method: Low Effort Magic__
+.tag:method1
+Magic <:magic:689504724159823906> is very effective at damage reduction and as such is a strong choice for killing Ripper Demons. Stacking Animate Dead <:animatedead:856635090453135382>, Cryptbloom armour <:cryptbloomhelm:1334336169336373339>, Infernal Puzzle Box <:infernalpuzzlebox:994189299681607800>, Deflect Melee <:deflectmelee:544195488447201300> with Amulet of souls <:aos:513190158359724056> and Enhanced Devoted 4 <:enhdev4:712073087507628035>, should allow players to sustain themselves purely with Blood Barrage <:bloodbarrage:537338981747261446> healing alone.
+
+Walk up and attack demons between steps. This is the most dangerous part of the method as the first few demons are the slowest to kill since <:oldakcoil:798285651387613194> is not active yet and you have no <:ruthless3:712244800572883025> stacks. Keep track of the demons on you and look out for jumps (refer to example video below).
+
+⬥ Ensure Legacy Combat Mode is active.
+⬥ Pray <:deflectmelee:544195488447201300> and <:torment:583429936958930964> or <:affliction:513190158468907008>
+⬥ Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226>
+⬥ Autocast <:bloodbarrage:537338981747261446> and upkeep <:animatedead:856635090453135382>
+⬥ Ensure <:elderovlsalve:648976643687317532> and <:weppoison:689525476158472288> are active at all times.
+⬥ Activate <:scriptureofwen:883134307902816297>
+⬥ Drink <:aggressionpotion:925794592199147581> once you are comfortably set up with <:oldakcoil:798285651387613194> active.
+
+*Notes:*
+*⬥ You must **target the Slasher Demon (elite)** when it spawns to kill it before the jump as <:bloodbarrage:537338981747261446> deals only 60% to non-main targets.*
+*⬥ In legacy, after almost every action the player should click on a ripper to prevent attacks from being delayed.
+    • Eating / drinking potions
+    • Looting
+    • Noting <:ripperpouch:703581275453128714>*
+
+.
+### __Presets and Relics__
+
+⬥ [Magic preset](https://presets.pvme.io?id=15e7b07c-4b4f-40ab-9fdc-04a9a1baab8f) <:magic:689504724159823906>
+
+
+.
+### Example Kills
+⬥ [Low Effort Magic](<https://youtu.be/KiP5Li1JfxM>)
+
+.
+## __Method: Low Effort Necromancy__
+.tag:method2
+Stacking Animate dead <:animatedead:856635090453135382>, Cryptbloom armour <:cryptbloomhelm:1334336169336373339>, Deathwarden armour <:wardenhood90:1142770718468223027>, Infernal Puzzle Box <:infernalpuzzlebox:994189299681607800>, Hellhound <:hellhoundpouch:921410226475925514>, Deflect Melee <:deflectmelee:544195488447201300> with Amulet of souls <:aos:513190158359724056> / Powder of protection <:powderofprotection:933079947419983912>, and Enhanced Devoted 4 <:enhdev4:712073087507628035>, should allow players to only require inputs when Alt1 warnings go off.
+
+While setting up use <:devo:513190158728953857> to help mitigate damage taken. This is the most dangerous part of the method as the first few demons are the slowest to kill. Keep track of the demons on you and look out for jumps (in case of a <:rod:513190159462825984> proc refer to the third example video below).
+
+⬥ Pray <:deflectmelee:544195488447201300> and <:sorrow:1137941003895046284> or <:ruination:1137940996391452772>
+⬥ Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226>
+⬥ Upkeep <:powderofprotection:933079947419983912> if not using <:aos:513190158359724056>
+⬥ Upkeep <:animatedead:856635090453135382>
+⬥ Use <:prismofrestoration:938475261366784070> to keep <:hellhoundpouch:921410226475925514> alive
+⬥ Ensure <:elderovlsalve:648976643687317532> and <:weppoison:689525476158472288> are active at all times.
+⬥ Activate <:scriptureofwen:883134307902816297>
+.
+⬥ When a **Slasher Demon (elite)** spawns, you must do the following:
+    • Right-click attack elite spawn.
+    • <:invokedeath:1137809121983336548> (optionally use <:demonslayer:641339921675845633>) → <:threadsoffate:1137809172335951933> → <:soulsap:1137809140476031057> → <:volleyofsouls:1159435029592686642>
+    • Continue as normal.
+
+.
+### __Presets and Relics__
+
+⬥ [Necromancy preset](https://presets.pvme.io?id=29a3659c-fee8-45e0-a3f7-5aecdee2f2ae) <:necromancy:1148995625896120460>
+
+
+.
+### Ability Bar
+.img:https://img.pvme.io/images/u2Xr8TKPVQ.png
+
+.
+### Example Kills
+⬥ [Necro - Camping](<https://youtu.be/wt9MOvmFBj8>)
+⬥ [Necro/Cryptbloom - Camping](<https://youtu.be/sHFZpO6g-xw>)
+⬥ [Necro - Elite spawn farming](<https://youtu.be/zxjP8zVb1kc>)
+    • Featuring <:rod:513190159462825984> proc + reset.
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*",
+    "color": 39423,
+    "fields": [
+     {
+        "name": "__Overview__",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Desirable drops]($linkmsg_drops$)\n⬥ [Useful Items & Unlocks]($linkmsg_useful$)\n⬥ [Location & How to Get there]($linkmsg_location$)",
+        "inline": true
+      },
+      {
+        "name": "__Methods__",
+        "value": "⬥ [Low Effort Magic]($linkmsg_method1$)\n⬥ [Low Effort Necromancy]($linkmsg_method2$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete

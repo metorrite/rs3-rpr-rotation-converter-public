@@ -1,0 +1,158 @@
+.
+> ## ⚠️ Disclaimer
+> **Some methods in this guide may not work after the combat beta changes in March 2026**
+> Know of a newer method/rotation? Got a video? Share it in <#1020853673317908500>!
+
+.
+# The Zamorakian Undercity
+.
+.img:https://img.pvme.io/images/wxxJh3f.jpg
+.
+### Introduction
+.tag:intro
+*Note: a **Table of Contents** can be found in the pins.*
+
+Zamorak, Lord of Chaos is the fifth and final instalment in the Elder God Wars. This guide will primarily focus on clearing the dungeon segment, for help defeating the boss visit <#1251104943566491710>.
+
+.
+## __General Notes for Senntisten Undercity + Zamorak__
+.tag:miscinformation
+⬥ Lucky charms for the dungeon can be bought from Thoksdottir at Daemonheim
+⬥ A **LOT** of mobs can be ignored throughout the dungeon, but note that **Menders and Dark Wizards will heal mobs/drain your adrenaline**
+⬥ The only required minibosses are the Jailer on the second floor (who teleports to different floors after 50k damage dealt x Team Size) and Eterna being the second boss before Zamorak.
+⬥ A Demon / Greater Demon slayer task will affect a great number of mobs present in the dungeon.
+    • Kuradal offers the best chance for this task.
+
+.
+## __Presets and Relics__
+.tag:preset
+***__DISCLAIMER: Presets below have been made for both the dungeon and boss based on preliminary knowledge. This will change as more information becomes available. Upgrade as you see fit, the gear posted below is merely the minimum we suggest.__***
+
+It is assumed that Zuk capes <:igneouskalmej:1153772938252787793> <:igneouskalxil:902209626404171786> <:igneouskalket:902209626404192316> for your chosen style, Disruption Shield <:disrupt:535614336207552523> and passive Ring of Vigour <:rov:513201065877831680> are unlocked.
+⬥ All gear used is based on Stage 1 of <#1020045708746833930>, with the addition of the following:
+    • Ranged skillcape on Anachronia cape stand/Max Cape <:range:580168050121113623> + Igneous Kal-Xil <:igneouskalxil:902209626404171786>
+    • Strength skillcape on Anachronia cape stand/Max Cape <:melee:1096130867279171706> (For effect while wearing <:igneouskalket:902209626404192316>)
+    • City of Senntisten spells <:Magic:689504724159823906>
+
+⬥ [Magic](<https://presets.pvme.io/?id=jihSy8LySUQfmUMB5Kwq>)
+⬥ [Melee](<https://presets.pvme.io/?id=JhS4g9ARMslHRoDn4HKt>)
+⬥ [Ranged](https://presets.pvme.io/?id=lGc5Op2pA5RIc1cCppuB)
+
+
+.
+### Recommended Upgrades
+These items should be part of your preset if you have them or can afford them, listed in order of cost-effectiveness.
+
+⬥ **Melee** <:melee:1096130867279171706>
+    • <:mwspear:694566917456789554> Masterwork Spear of Annihilation or off-hand Lunging 4 <:lunge4:736522494315593759> switch
+    • <:zgs:626465964325601290> Zaros Godsword
+
+⬥ **Ranged** <:range:580168050121113623>
+    • <:eofyellowu:1260022280046645349> with Dark Bow <:dbow:643848618553507843>
+    • <:grico:787904334812807238> with Caroming 4 <:caroming4:791281588792590336> switch
+    • Ascendrii bolts (e) <:ascendribolt:643170748495691796>
+
+⬥ **Magic** <:Magic:689504724159823906>
+    • <:gchain:1257440278512537740> with Caroming 4 <:caroming4:791281588792590336> switch
+    • <:soa:869284271595069451> Fractured Staff of Armadyl and <:grim:568262896375824385> Erethdor's grimoire
+    • <:eofpurple:780401412936040478> with Guthix Staff <:gstaff:513203008608141314>
+    • <:eofredu:1260022281229434951> with Armadyl Battlestaff <:armadylbattlestaff:881962727705280512>
+    • <:cryptbloomtop:1334336168363561041>  Cryptbloom Equipment
+
+.
+## __Dungeon Floor Overview__
+.tag:dungeonfloors
+.img:https://img.pvme.io/images/JC5C0F9.png
+.
+
+.
+## __Mefis the Jailer__
+.tag:mefis
+.img:https://img.pvme.io/images/sZ3U9n3.png
+.
+Mefis the Jailer is the first boss of the dungeon, this boss is a typical "mini-boss" styled encounter, dealing magic auto-attacks and low upfront damage to the player.
+.
+{
+  "embed": {
+    "description": "Mefis will teleport to different floors after **(50k damage dealt X Team Size)**, *(ex: see [this link]($linkmsg_dungeonfloors$) for locations)*",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Damage Scaling__",
+        "value": "• 1 Person: 50k Damage before the jailer teleports\n• 2 People: 100k Damage before the jailer teleports\n• 3 People: 150k Damage before the jailer teleports\n• 4 People: 200k Damage before the jailer teleports\n• 5 People: 250k Damage before the jailer teleports"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __Unlocking Eterna's Door__
+To unlock Eterna's doorway you must find two crystal pylon locations see **Dungeon Floor Overview Section** for the respective locations
+
+.
+## __Eterna__
+.tag:eterna
+.img:https://img.pvme.io/images/wgsSSmr.png
+.
+Eterna is the last boss of the dungeon, this boss has multiple high hitting mechanics and does alternating magic / ranged auto-attacks throughout the fight.
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Phase 1__",
+        "value": "⬥ Deal damage until Eterna phases\n\u00a0\u00a0\u00a0\u00a0• Eterna will spawn a single Chaos Demon Savage after phasing, kill them to move into phase 2."
+      },
+      {
+        "name": "__Phase 2__",
+        "value": "⬥ Eterna re-appears with full HP along with spawning spiked-circles on the ground, deal damage until phase HP again to move on.\n\u00a0\u00a0\u00a0\u00a0• Circles can be dealt with by using defensives or <:disrupt:535614336207552523>\n⬥ Magic bombs will also spawn from the red portal in the center dealing low magic damage.\n⬥ Two Chaos Demon Savages will spawn kill them to proceed to phase 3."
+      },
+      {
+        "name": "__Phase 3__",
+        "value": "⬥ Eterna re-appears with all mechanics listed previously, deal damage until she is dead to move on to the next room.\n⬥ The red portal in the center fires a spout into the player, dealing no damage and placing a bar over their head.\n\u00a0\u00a0\u00a0\u00a0• When this bar depletes, a 5x5 area around the player will become engulfed in smoke, dealing more damage the longer you stand inside."
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __Example Runs__
+.tag:examples
+*Note: All of these runs are done on release and are to be taken as a quick reference for the time being. As time progresses, proper example kills with much better handling of mechanics will be posted. If you have an example kill you'd like to submit for posting feel free to submit it and label it as such in <#SOME CHANNEL>.*
+
+.
+{
+  "embed": {
+    "title": "__Run Videos__",
+    "description": "Simple kills where mechanics may or may not be handled properly.",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Ranged__",
+        "value": "⬥ [0% by](https://youtu.be/7rESdbtcltM)\n⬥ [0% by](https://youtu.be/zSXUV0XqJqc)\n"
+      },
+      {
+        "name": "__Melee__",
+        "value": "⬥ [0% by](https://youtu.be/4_sv4Wa_2Ak)\n⬥ [0% by](https://www.youtube.com/watch?v=kQY11uxB2Iw)"
+      },
+      {
+        "name": "__Magic__",
+        "value": "⬥ [0% by](https://youtu.be/KqGuIyFZpio)\n⬥ [0% by](https://youtu.be/3CdqD-zJyYI)\n⬥ [110% by](https://www.youtube.com/watch?v=9sSczaZhLLw)"
+      }
+    ]
+  }
+}
+.embed:json
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Miscellaneous Information]($linkmsg_miscinformation$)\n⬥ [Dungeon Floor Overview]($linkmsg_dungeonfloors$)\n⬥ [Mefis the Jailer]($linkmsg_mefis$)\n⬥ [Eterna]($linkmsg_eterna$)\n⬥ [Example Kills]($linkmsg_examples$)",
+    "color": 39423
+  }
+}
+.embed:json
+.pin:delete

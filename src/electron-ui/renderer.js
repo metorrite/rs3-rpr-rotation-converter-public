@@ -53,6 +53,8 @@ convertBtn.addEventListener("click", async () => {
 
 converterApi.catalogInfo().then((m) => {
     if (m) {
-        dataVersionEl.textContent = `Ability data: RotationMaster ${m.rmVersion ?? "?"} — ${m.abilityCount ?? "?"} abilities (${m.commit.slice(0, 7)})`;
+        const rm = m.rotationMaster ?? {};
+        const commit = (rm.commit ?? "").slice(0, 7);
+        dataVersionEl.textContent = `Ability data: RotationMaster ${rm.rmVersion ?? "?"} — ${m.abilityCount ?? "?"} abilities (${commit})`;
     }
 });

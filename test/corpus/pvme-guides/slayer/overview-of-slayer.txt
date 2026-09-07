@@ -1,0 +1,95 @@
+# An Overview of Slayer
+*Note: a **Table of Contents** can be found in the pins.*
+
+.
+## __Introduction__
+.tag:intro
+Slayer is a combat-based skill, where XP is awarded for killing the monsters assigned to you by a Slayer Master, with harder monsters generally giving more XP. Slayer is a great way for the player to earn GP and combat XP while progressing their account, and can be trained using both low-effort and high-effort methods.
+
+.
+## __The Basics of Slaying__
+.tag:basics
+### Overview
+⬥ Early Slayer Assignments offer low XP rates, which can be avoided with other methods, such as squashing Scarabs in Menaphos <:menaphoslode:1032552289589796904> and completing Reaper tasks <:death:641341976960172043>
+⬥ Generally, using the highest levelled Slayer Master is recommended, with the exception of Mandrith <:mandrith:1023150757148622921> who only offers Wilderness tasks.
+⬥ Cluster assignments are highly valued as they allow you to fight monsters above your level for high XP rates, e.g. fighting Greater Demon Berserkers for a "Demons" task.
+⬥ AFKing assignments sacrifices XP rates for convenience, actively Slaying will always grant the player higher XP rates.
+⬥ Most Slayer Masters have a chance of offering the player a unique assignment which they may accept or decline, these often give good reward for the effort needed to complete them.
+    • Notable special assignments are Laniakea's, which is well worth the effort, Morvran's, which should be completed *only once* for the Completionist Cape, and the Raptor's, which is also involved in a Completionist Cape requirement.
+
+.
+### Utilizing Slayer Points
+Slayer Points are obtained by successfully completing Slayer Assignments with the amount given depending on the Slayer Master used. If you ever find yourself wanting to quickly obtain Slayer Points, you can find our guide on farming them in <#1351195363863695530>.
+
+⬥ As for how to spend Slayer Points, our order of priority is:
+    • Building a block/prefer list and upgrading your Slayer Helmet <:slayerhelm:798285340460449792>
+    • Unlocking any desired Slayer Assignments, such as Nightmare Creatures.
+    • Quality of life unlocks such as quicker killing blows and attaching items to your Toolbelt.
+
+.
+### Managing Your Block/Prefer List
+The Block & Prefer list is a very powerful tool which can be used to focus your Slaying on monsters that grant great reward, while ignoring those which the player deems a waste of time or not fun to slay. You can find our guide on finding the best block/prefer list for you in <#1197563943997157397>.
+
+.
+## __Presets and Relics__
+.tag:presets
+⬥ [Magic preset](<https://presets.pvme.io/?id=G8a7S4ZjIWspR9f9ozZY>) <:magic:689504724159823906>
+⬥ [Melee preset](<https://presets.pvme.io/?id=uv6fuVGjCwKfxrYxrvlY>) <:melee:1096130867279171706>
+⬥ [Ranged preset](<https://presets.pvme.io?id=b0acc1f2-7fe0-42e7-9844-a7851b28eb24>) <:range:580168050121113623>
+⬥ [Necromancy preset](https://presets.pvme.io?id=3e5e5dc0-a3ab-473a-9d78-b59d73c92177) <:necromancy:1148995625896120460>
+.
+⬥ These presets and relics are examples of what the player *may* bring on their assignment.
+    • Specific relic setups and aura usage are included in our monster guides, you can view our general recommendations with the `!relics` and `!aura` commands.
+
+.
+## __Ability Usage__
+.tag:abilities
+We have several guides on specific Slayer Assignments with their own methods and action bar layouts, you can find them in <#1020024227115573369>.
+
+⬥ Generally, AoE abilities will be prioritized when training Slayer, below are examples of AoE abilities for each combat style.
+    • For Magic <:magic:689504724159823906>: Chain <:chain:1257440203401068566> or Greater Chain <:gchain:1257440278512537740>, Corruption Blast <:corruptblast:513190159194259467>, Dragon Breath <:dbreath:535533833391702017>, Tsunami <:tsunami:535533809995874304>, and Magma Tempest <:magmatempest:902209626509025290>
+    • For Melee <:melee:1096130867279171706>: Cleave <:cleave:535532878616985610>, Bladed Dive <:bd:535532854281764884>, Quake <:quake:535532879506309150>, Hurricane <:cane:535532878969438210>, and Meteor Strike <:meteorstrike:535532879359377439>
+    • For Ranged <:range:580168050121113623>: Ricochet <:ricochet:535541259566186521> or Greater Ricochet <:grico:787904334812807238>, Corruption Shot <:corruptshot:535541306294796299>, and Bombardment <:bombard:535541306391265284>
+        ⬩ Mechanised Chinchompa <:mechchin:641669268722810881> can be used to make many single target abilities hit in a 3x3 AoE.
+    • For Necromancy <:necromancy:1148995625896120460>: Soul Strike <:soulstrike:1137809142376058910>, Blood Siphon <:bloodsiphon:1159434279311380532>, Spectral Scythe <:spectralscythe:1137809145706319892>, Death Skulls <:deathskulls:1159434663903899728> and Threads of Fate <:threadsoffate:1137809172335951933> + any single target ability.
+⬥ Tuska's Wrath <:tuskas:513201065513058306> deals extra damage against your current Slayer Assignment at an increased cooldown.
+
+.
+## __Useful Items__
+.tag:items
+.
+{
+  "embed": {
+    "title": "",
+    "description": "⬥ **Slayer Helmet** <:slayerhelm:798285340460449792>\n\u00a0\u00a0\u00a0\u00a0• BiS helm against current assignment.\n\u00a0\u00a0\u00a0\u00a0• At 90 Slayer, prioritize building the Slayer Helmet stand on Anachronia so you don't have to wear it.\n⬥ **Slayer VIP Tickets** <:slayervip:975284344597934120>\n\u00a0\u00a0\u00a0\u00a0• Lets you choose between 2 assignments.\n⬥ **Wilder Pie**\n\u00a0\u00a0\u00a0\u00a0• Boosts your Slayer level by 6 for 6 minutes.\n⬥ **Cannons** <:dwarfmulticannon:1114767361975779379> / <:cannon:869283142350041098> / <:oldakcoil:798285651387613194> / <:kineticcyclone:798285651405438997>\n\u00a0\u00a0\u00a0\u00a0• Deals AoE damage and draws aggro, Artisans' Workshop upgrade allows for automatic reloading.\n⬥ **Demon Horn Necklace** <:demonhornnecklace:975765831248130079>\n\u00a0\u00a0\u00a0\u00a0• Restores prayer if paired with Bonecrusher <:bonecrusher:975284344526602240> (for bones) or Attuned Ectoplasmator <:ectoplasmator:1023152065431744542> (for ashes).\n⬥ **Scrimshaw of Sacrifice** <:sacrificescrim:1023150750915899402>\n\u00a0\u00a0\u00a0\u00a0 • Destroys loot for increased XP. Uniques destroyed count towards logs.\n⬥ **Ushabti** <:ushabti:1097515642749468752>\n\u00a0\u00a0\u00a0\u00a0• Captures monster souls used in the Sunken Pyramid and the Slayer Codex <:slayercodex:1097517249499254875>\n⬥ **Slayer's Introspection** <:slayerintrospection:975284345365471232>\n\u00a0\u00a0\u00a0\u00a0• Lets you choose minimum or maximum possible size task.\n⬥ **Drop Cleaners**\n\u00a0\u00a0\u00a0\u00a0• Several items can help collect or consume drops automatically, such as Spring Cleaner <:springcleaner:1130170723130937427>, Magic Notepaper <:notepaper:1137735230908805240>, and Artificer's Measure.\n\u00a0\u00a0\u00a0\u00a0• Your toolbelt can hold several other drop cleaning items.\n⬥ **Teleports**\n\u00a0\u00a0\u00a0\u00a0• There are many useful teleports, such as the Slayer Cape <:slayercape:975284344123953164> and the Slayer Codex <:slayercodex:1097517249499254875>",
+    "color": 39423,
+    "fields": [
+    ]
+  }
+}
+.embed:json
+
+.
+## __Perks__
+.tag:perks
+{
+  "embed": {
+    "title": "",
+    "description": "⬥ **Genocidal** <:genocidal:689503091539705870>\n\u00a0\u00a0\u00a0\u00a0• Grants a damage boost against the current Slayer target, increasing as the task progresses.\n⬥ **X-Slayer Perks** <:demonslayerperk:689502842653900818> / <:dragonslayerperk:689502927731163170> / <:undeadslayerperk:689502804720615441>\n\u00a0\u00a0\u00a0\u00a0• Grants a damage bonus to the perk's respective monster type.\n⬥ **Scavenging** <:scavenging:1109429520995463288>\n\u00a0\u00a0\u00a0\u00a0• Grants Invention components when killing monsters. These stack up quickly.\n⬥ **Caroming** <:caroming4:791281588792590336>\n\u00a0\u00a0\u00a0\u00a0• Allows Chain <:chain:1257440203401068566>, Ricochet <:ricochet:535541259566186521>, and their greater variants to hit more targets.",
+    "color": 39423,
+    "fields": [
+    ]
+  }
+}
+.embed:json
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [The Basics of Slaying]($linkmsg_basics$)\n⬥ [Presets and Relics]($linkmsg_presets$)\n⬥ [Ability Usage]($linkmsg_abilities$)\n⬥ [Useful Items]($linkmsg_items$)\n⬥ [Perks]($linkmsg_perks$)",
+    "color": 39423
+  }
+}
+.embed:json
+.pin:delete

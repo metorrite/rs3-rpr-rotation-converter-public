@@ -1,0 +1,73 @@
+# Nex, Angel of Death Combat Achievements
+.img:https://img.pvme.io/images/JChZfA1i4S.png
+*Note: a **Table of Contents** can be found in the pins.*
+
+.
+## __Introduction__
+.tag:intro
+This guide will go over how to complete the Combat achievements for Nex, Angel of Death, and assumes you are already familiar with the basic mechanics of the encounter which can be found here <#1094989825649692813>.
+
+.
+## __Presets and Relics__
+.tag:presets
+⬥ [Melee](https://presets.pvme.io?id=8365aa1b-b4a7-4fe0-8b15-a12e7488dd8c)
+⬥ [Necromancy Base](<https://presets.pvme.io?id=73661080-7868-4dd4-babd-49c825092f05>)
+⬥ [Melee-Ranged](<https://presets.pvme.io?id=11e64db3-5a8f-4c43-84f4-b3bf62ef6a19>)
+⬥ [Melee-Magic](<https://presets.pvme.io?id=535b3b39-b0bf-4770-952c-703e57cef478>)
+.
+
+.
+## __Nex, Angel of Death (Perfect)__
+.tag:perfect
+⬥ This achievement requires the player to defeat Nex, Angel of Death in a team of 5 or fewer without anyone dying while completing the following.
+    • [Icy-them-coming](<https://runescape.wiki/w/Icy-them-coming>)
+        ⬩ Freedom and don't run into anyone. Free teammates from ice **ASAP**. Also requires player to Freedom during Zaros Phase under effects of Glacies Pillar.
+    • [Did It For Them without](<https://runescape.wiki/w/Did_It_For_Them>)
+    • [Poppin' pillars](<https://runescape.wiki/w/Poppin%27_pillars>)
+    • [You're Not Strong Enough](<https://runescape.wiki/w/You%27re_Not_Strong_Enough>)
+    • [One for All](<https://runescape.wiki/w/One_for_All>)
+    • [No smoking](<https://runescape.wiki/w/No_smoking>)
+        ⬩ Place smokes parallel to walls (East smoke south wall, north smoke west wall etc.) so the smoke doesn't spawn.
+    • [Do Not Return To Sender](<https://runescape.wiki/w/Do_Not_Return_To_Sender>)
+
+.
+### __Base Tank P4 Prebuild__
+.tag:poppin
+Base runs AoD west at 600k, down to Fumus pillar. The team will lower Umbra pillar down to 30k health and run up to Glacies pillar. The base will pull AoD to Umbra and wait for the team to be ready. Third bomb is usually a good time as it will enable base to re-overload and prep 5 stack volley. The base will <:invokedeath:1137809121983336548> prematurely and on <:zerk:535532854004678657> call. Base can then use any ability to kill the pillar once they have seen the bomb runner barge the dummy and in position under Glacies Pillar.
+
+.
+### __Team P4 Prebuild__
+<:dummy:656844963522281473> → build with basics → On Zerk Call → <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> → <:gbarge:535532879250456578> on dummy
+
+**Pillar 1:** Base <:invokedeath:1137809121983336548> → <:necrobasic:1482849360462086244> → <:dive:1049378668197195808> <:surge:535533810004262912> <:surge:535533810004262912> to Cruor → <:invokedeath:1137809121983336548>
+**Pillar 2:** <:assault:535532855191928842> → <:meteorstrike:1478070401702821938> <:powerburstofacceleration:756236265472524418> → <:dive:1049378668197195808> <:surge:535533810004262912> <:surge:535533810004262912>
+**Pillar 3:** <:overpower:535532879334080517> → <:cane:535532878969438210> / <:bloat:1159433682403201044> + <:fingerofdeath:1159434801938432010> → <:dive:1049378668197195808> <:surge:535533810004262912> <:surge:535533810004262912>
+**Pillar 4:** <:chaosroar:1478062908767211640> → <:varanussmercy:1448697873603498045> <:eofspec:1257438999794946099> → <:punish:535532879439069184> / <:invokedeath:1137809121983336548> → <:volleyofsouls:1159435029592686642> → <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099>
+
+*Notes:*
+⬥ *Place one <:dummy:656844963522281473> down near Glacies pillar.*
+⬥ *When it is the bomb that the team will go on, once bomb runner reaches centre, <:berserk:535532854004678657> call will happen, non bomb carriers, should barge onto the dummy and stand under Glacies pillar, spam clicking until it is targetable. Once bomb carry barges onto the dummy, Base can kill Umbra and move to Cruor ready to meet team.*
+⬥ *One last person will get marked at Cruor pillar. For safety you can equip <:rod:513190159462825984> if slow to reach middle after killing Fumus pillar. Additionally, you can just <:signoflife:1005552211847295076> if that is up.*
+⬥ *With the addition of base going to Cruor, there is a safety net that only 2 meleers are needed for Cruor/Fumus pillar.*
+
+.
+.tag:eg
+{
+  "embed": {
+    "title": "__Example Kill with only 2 meleers on C/F pillar__",
+    "description": "[Poppin' pillars](https://youtu.be/pZtNOAi0xeo)",
+    "color": 39423
+  }
+}
+.embed:json
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [AoD Perfect]($linkmsg_perfect$)\n⬥ [Poppin' pillars]($linkmsg_poppin$)\n⬥ [Example Kills]($linkmsg_eg$)",
+    "color": 39423
+  }
+}
+.embed:json
+.pin:delete

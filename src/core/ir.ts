@@ -25,6 +25,8 @@ export interface ActionRef {
     kind: ActionKind;
     /** Discord emoji id when known (PVME source / RM export) */
     emojiId?: string;
+    /** PVME display name when known (from the emoji tables) */
+    pvmeName?: string;
     /**
      * For kind "spec": the weapon that must be equipped for this special attack.
      * RSA encodes "special attack with weapon X" as a single action name; RM

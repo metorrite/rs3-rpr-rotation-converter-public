@@ -35,6 +35,29 @@ npm run cli -- convert rot.json --from rm --to rsa --report
 npm run cli -- inspect rot.json
 ```
 
+### Ingesting PVME boss guides
+
+```bash
+# what rotations does this guide contain?
+npm run cli -- extract path/to/rasial.txt --list
+
+# convert every rotation in the guide to RotationMaster JSON (one file each)
+npm run cli -- extract path/to/rasial.txt --to rm -o out/
+
+# just one of them
+npm run cli -- extract path/to/rasial.txt --to rsa --section "T90"
+```
+
+A guide's distinct rotations (e.g. *T90 Equilibrium* vs *Equilibrium*, or
+*Top Path* vs *Bottom Path*) each become their own file, with their pre-build and
+phase sections concatenated in order. See [docs/pvme-notation.md](docs/pvme-notation.md)
+for the notation and grouping rules, and the known limitations.
+
+```bash
+# run the whole vendored guide corpus and write test/corpus-report.md
+npm run cli -- corpus-report --to rm
+```
+
 ## Desktop app
 
 ```bash
@@ -44,16 +67,25 @@ npm run dist:win     # package a Windows installer + portable exe into release/
 
 ## Ability data
 
-`src/data/abilities.json` and `src/data/pvme.json` are vendored copies of
-RotationMaster's ability database, pinned to a known-good upstream commit recorded
-in `src/data/ASSETS_MANIFEST.json`. The build and the packaged app never fetch
-anything.
+`src/data/` holds vendored, pinned copies of:
 
-To pull the latest upstream data:
+- `abilities.json`, `pvme.json` — RotationMaster's ability database
+- `pvme-emojis.json` — `pvme/pvme-settings` emoji table (names + guide aliases)
+
+Both upstream commits are recorded in `src/data/ASSETS_MANIFEST.json`. The build
+and packaged app never fetch anything.
 
 ```bash
 npm run update-assets -- --dry-run   # show what would change
 npm run update-assets                # write the update + refresh the manifest
+```
+
+The PVME guide corpus used by the tests is vendored under `test/corpus/` and
+pinned in `test/corpus/CORPUS_MANIFEST.json`:
+
+```bash
+npm run fetch-guides -- --dry-run
+npm run fetch-guides
 ```
 
 Review the diff, run `npm test`, then commit.

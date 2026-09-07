@@ -1,0 +1,371 @@
+# Temple of Aminishi Basic
+.
+.img:https://img.pvme.io/images/LdYq2RP.png
+.tag:intro
+ED1 is a very consistent money-maker and a good avenue for players to practice using AoE abilities, movement, avoiding damaging mechanics and DPS rotations. The requirements to feasibly solo it are moderate and many deaths should be expected when learning the dungeon due to the nature of the mechanics.
+
+⬥ Use the zerker aura <:berserker:643505116347105290> <:reckless:643505179378974748> <:mani:643505153709965322> variants for the dungeon. Otherwise, <:vamp:643505653079343144> is fine for learning, but prioritise using defence reducing abilities for special attacks (<:gstaff:513203008608141314> <:eofspec:1257438999794946099>, <:quake:535532879506309150>, <:swh:641670143197446182> <:eofspec:1257438999794946099>) on Masuta and Seiryu's face. Also, expect to do additional cycles on Seiryu.
+
+.
+## __Presets and Relics__
+.tag:presets
+⬥ [Magic preset](<https://presets.pvme.io/?id=GsbuR3CBDvwpdHQz6KPL>) <:magic:689504724159823906>
+⬥ [Melee preset](<https://presets.pvme.io/?id=o9Fo2OzlWJKMHazAaOSS>) <:melee:1096130867279171706>
+⬥ [Ranged preset](https://presets.pvme.io/?id=JYNxXhY5s0cZfQKbgUYb) <:range:580168050121113623>
+
+.
+## __Recommended Upgrades__
+.tag:upgrades
+{
+  "embed": {
+    "title": "",
+    "description": "Additional items to bring if possible, or acquire if you can afford to.",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Magic__",
+        "value": "⬥ Greater Chain <:gchain:1257440278512537740> w/ Caroming 4 switch <:caroming4:791281588792590336>\n⬥ <:eofpurple:780401412936040478> w/ Guthix Staff <:gstaff:513203008608141314>",
+        "inline": true
+      },
+      {
+        "name": "__Melee__",
+        "value": "⬥ Greater Barge and Flurry <:gbarge:535532879250456578> <:gflurry:535532879283879977>",
+        "inline": true
+      },
+      {
+        "name": "__Ranged__",
+        "value": "⬥ Greater Ricochet <:grico:787904334812807238> w/ Caroming 4 <:caroming4:791281588792590336>\n⬥ <:eofyellowu:1260022280046645349> w/ Dark Bow <:dbow:643848618553507843>",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+### The Sanctum Guardian (Info)
+.tag:sanctummechs
+.img:https://img.pvme.io/images/KCgIv13UAG.png
+.
+The first boss you encounter. Sanctum uses primarily slow <:range:580168050121113623> auto attacks which hit moderately hard. However, they are aimed at the players' tile instead of character so you are able to dodge them by stepping away 3 or more tiles before they hit.
+
+.
+{
+  "embed": {
+    "title": "__Mechanics__",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Attack Rotation__",
+        "value": "⬥ Sanctum's attack pattern is:\n\u00a0\u00a0\u00a0\u00a0• Start of fight: 4x Ranged autoattack to start the fight.\n\u00a0\u00a0\u00a0\u00a0• Rest of fight: Water Burst → Ranged auto → Water Jet → Ranged auto → Purple Smoke → Melee auto → repeat\n\u00a0\u00a0\u00a0\u00a0• After the 4th water jet attack, 2 Crassian Reinforcements are summoned.\n\u00a0\u00a0\u00a0\u00a0• The melee auto does nothing if you are out of melee range.\n\u200B"
+      },
+      {
+        "name": "__Ranged Autoattacks__",
+        "value": "⬥ A projectile that targets the spot the player is standing on and hits in a 3x3 area. [Example](https://img.pvme.io/images/r63xxBI.mp4)\n\u00a0\u00a0\u00a0\u00a0• Targeted to a tile rather than the player and has travel time before it hits\n\u00a0\u00a0\u00a0\u00a0• It is possible to dodge every Ranged autoattack simply by moving before the attack lands (not necessary).\n\u200B"
+      },
+      {
+        "name": "__Water Burst__",
+        "value": "⬥ Sanctum ducks down and rises back up quickly, splashing water and dealing heavy <:melee:1096130867279171706> damage. [Example](https://img.pvme.io/images/TJngvfo.mp4)\n⬥ Use <:DeflectMelee:544195488447201300> as soon as you see this mechanic as it is very fast. You can also <:res:535541258844635148> this if needed.\n\u00a0\u00a0\u00a0\u00a0• Staying or moving out of range in time will cause the attack to miss. Doing this is usually unnecessary. [Example](https://youtu.be/3xDLQIAMeEc)\n\u200B"
+      },
+      {
+        "name": "__Water Jet__",
+        "value": "⬥ Sanctum spews water, rotating from North anti-clockwise, dealing ~6000 soft typeless damage if the player is caught in it. [Example](https://img.pvme.io/images/xbJwXJj.mp4)\n\u00a0\u00a0\u00a0\u00a0• This mechanic can be avoided by moving to dodge it or via <:res:535541258844635148> or <:disrupt:535614336207552523>.\n\u00a0\u00a0\u00a0\u00a0• You can also <:debil:535541278264393729> or <:reflect:535541258786177064> to reduce the damage if need be, although these are less efficient.\n\u200B"
+      },
+      {
+        "name": "__Purple Smoke__",
+        "value": "⬥ A blue bar appears above your character. When it drains, a cloud of smoke will cover a 5x5 area centred around your location. [Example](https://img.pvme.io/images/CCIKuCR.mp4)\n\u00a0\u00a0\u00a0\u00a0• The smoke deals rapid typeless damage every tick which increases very fast, hitting ~4000 a tick eventually. Move out of it as soon as possible.\n\u00a0\u00a0\u00a0\u00a0• Move to the place you want to drop it walk out after it drops. Don't panic and walk around unnecessarily, causing you to drop it in an undesirable position.\n\u200B"
+      }
+    ]
+  }
+}
+
+.embed:json
+.
+### The Sanctum Guardian (Fight tips)
+.tag:sanctumtips
+⬥ You may die a few times because the mechanics are quite fast and arguably hard to react to. This is perfectly normal.
+
+⬥ Outline of rotations:
+    • <:melee:1096130867279171706> <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> → <:assault:535532855191928842> → <:destroy:535532879330148352> → <:gflurry:535532879283879977> (if owned) → <:overpowerigneous:959089455640215633> after <:zerk:535532854004678657> → cycle thresholds again → <:zerk:535532854004678657> again ASAP and finish off
+    • <:range:580168050121113623> <:deathsswiftpf:994921597813137518> + <:adrenrenewal:736298121704767538> → <:snap:535534127131394088> → <:rapid:535541270521708566> → <:shadowtend:642713547142332416> → <:snap:535534127131394088> → <:rapid:535541270521708566> → <:deadshotigneous:959089455283728386> → good thresholds → <:deathsswiftpf:994921597813137518> again ASAP → finish off with <:deadshotigneous:959089455283728386> and good thresholds
+    • <:Magic:689504724159823906> <:sunshinepf:994921595489488927> + <:adrenrenewal:736298121704767538> + <:smokecloud:856635090641879050> → <:wm:535533809978966037> → <:asphyx:535533833072672778> → <:omni:535533809664262179> → <:wm:535533809978966037> → <:asphyx:535533833072672778> → <:tsunami:535533809995874304> → thresholds → <:omnipowerigneous:1179505745654448208> → <:sunshinepf:994921595489488927> again ASAP
+    • Use <:zerk:535532854004678657> <:deathsswiftpf:994921597813137518> <:sunshinepf:994921595489488927> again on the other side if boss has >100k HP left.
+
+⬥ If using <:range:580168050121113623>, you may find it useful to side step attacks from time to time as you have the most mobility while using abilities.
+.
+.img:https://img.pvme.io/images/j5yD1xR.mp4
+.
+⬥ An easy way to dodge Water Jet if fighting Sanctum from the front is standing east then walking west as follows:
+.
+.img:https://img.pvme.io/images/OSdmLyz.mp4
+.
+⬥ If you don't wish to teleport out to bank before Sanctum, go to the back and fight while standing along this thing so that Anagamis and Arhats following you get stuck as shown below and do not bother you during the fight.
+.
+.img:https://img.pvme.io/images/7qIjbzv.png
+
+.
+## __Masuta, the Ascended (Info)__
+.tag:masutamechs
+.img:https://img.pvme.io/images/l1tE0lAhOH.png
+.
+Masuta is the second boss of ED1. Expect to eat a lot of food during this fight. Masuta is a fairly hard fight, dealing both high burst and sustained damage on the player. He is considered by some to be the hardest in the dungeon.
+
+.
+{
+  "embed": {
+    "title": "__Mechanics__",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__P1 Rotation__",
+        "value": "⬥ Masuta attacks at the fight using the following rotation:\n\u00a0\u00a0\u00a0\u00a0• 2-4 autos → Hurricane → 3-5 autos → Tsunami → 3-5 autos → Repeats from Hurricane.\n\u200B"
+      },
+      {
+        "name": "__Autoattack information__",
+        "value": "⬥ Masuta mostly uses <:melee:1096130867279171706> during p1, occasionally using <:range:580168050121113623> [Example](https://img.pvme.io/images/lQiGv8Y.mp4)\n\u00a0\u00a0\u00a0\u00a0• Occasionally, he summons a clone while using <:melee:1096130867279171706> which deals an additional hit. [Example](https://img.pvme.io/images/VrBObJ5.mp4)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ It is important to block these doubled autos with <:DeflectMelee:544195488447201300>\n\u200B"
+      },
+      {
+        "name": "__Hurricane__",
+        "value": "⬥ Masuta starts spinning for about 12 seconds, hitting nearby players for increasing Melee damage once per tick, chasing after you at walking speed during this attack.\n\u00a0\u00a0\u00a0\u00a0• The best way to deal with this is <:DeflectMelee:544195488447201300> + <:devo:513190158728953857> 1 GCD after the attack starts, allowing you to deal damage in MD and nullifies most of the damage you take.\n\u00a0\u00a0\u00a0\u00a0• If using ranged, you may kite Masuta and use <:deathsswiftpf:994921597813137518> once he finishes spinning.\n\u00a0\u00a0\u00a0\u00a0• It's possible to <:flankicon:841419289755385866> Masuta from the north side during this attack.\n\u200B"
+      },
+      {
+        "name": "__Tsunami__",
+        "value": "⬥ After Hurricane, Masuta returns to autoing, usually around the 4th, 5th or 6th autoattack, purple waters appear around the arena. The purples water thrash about while Masuta uses 3 more autos. Right after the 3rd auto, Masuta uses a Tsunami on his target. [Example](https://img.pvme.io/images/zHMArnZ.mp4)\n\u00a0\u00a0\u00a0\u00a0• These hit you with two extremely high (7k+) <:Magic:689504724159823906> hits.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ This can be dealt with by using both <:disrupt:535614336207552523> and <:res:535541258844635148> after Masuta's 3rd autoattack. [Example](https://youtu.be/WZlGkkmUsis)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ You can also move far enough to avoid getting hit. This can be done by either running or using <:surge:535533810004262912> as the auto before the <:tsunami:535533809995874304> hits. [Example](https://youtu.be/qrcCqidKhe0)\n\u200B"
+      },
+      {
+        "name": "__Pulverise__",
+        "value": "⬥ After Tsunami, for the rest of Phase 1 Masuta may use Pulverise instead of an auto, dealing moderate <:melee:1096130867279171706> damage. [Example](https://img.pvme.io/images/LvR5mBE.mp4)\n\u00a0\u00a0\u00a0\u00a0• You can use <:DeflectMelee:544195488447201300> or run 2 tiles away to avoid this.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ You only have 1 tick to move far enough when the text 'I'll pulverise you!' appears.\n\u200B"
+      },
+      {
+        "name": "__Waters__",
+        "value": "⬥ Once his HP reaches 275k, Masuta will stop attacking, start levitating, reducing all damage to 1. [Example](https://img.pvme.io/images/Fe0ihJk.mp4)\n\u00a0\u00a0\u00a0\u00a0• Thrashing waters will start spawning randomly periodically. They have 8000 HP and a very long-ranged <:Magic:689504724159823906> autoattack.\n\u00a0\u00a0\u00a0\u00a0• Up to 15 Thrashing Waters will be spawned over 90s.\n\u00a0\u00a0\u00a0\u00a0• Pray Deflect Magic <:DeflectMage:544195487926845462>\n\u00a0\u00a0\u00a0\u00a0• When a water is killed, players within a 2 tiles receive a 5% Calm Waters buff. [Example](https://img.pvme.io/images/gvMdd2v.mp4)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ This reduces the damage from Tsunamis in next phase relative to the percentage of the buff.\n\u00a0\u00a0\u00a0\u00a0• Use <:excal:641337999170207763> to sustain HP during this phase and <:devo:513190158728953857> whenever it comes up to reduce damage taken.\n\u200B"
+      },
+      {
+        "name": "__Last phase__",
+        "value": "⬥ Masuta yells 'These waters will choke you where you stand!' and returns to the floor from his levitation. [Example](https://img.pvme.io/images/W6v0V4g.mp4)\n\u00a0\u00a0\u00a0\u00a0• After he resumes attacking, he always does 2 <:range:580168050121113623> autos followed by a Tsunami.\n\u00a0\u00a0\u00a0\u00a0• For the rest of the phase, Masuta will cycle between using 3-6 <:range:580168050121113623> autos and then a powerful <:Magic:689504724159823906> Tsunami attack.\n\u00a0\u00a0\u00a0\u00a0• Standing far away can help with prayer flicking as both autos and Tsunami will hit later.\n\u00a0\u00a0\u00a0\u00a0• The magic attack has a travel time based on distance. While in MD the attack hits you instantly, while Ranged autoattacks take 1 tick to hit you.\n\u00a0\u00a0\u00a0\u00a0• As Masuta has an attack speed of 4 ticks, by rotating your overhead prayers <:soulsplit:615613924506599497> → <:DeflectMage:544195487926845462> → <:soulsplit:615613924506599497> → <:DeflectRange:544195488317046812> → repeat, you will always be praying correctly.\n\u200B"
+      }
+    ]
+  }
+}
+
+.embed:json
+.
+### Masuta, the Ascended (Fight tips)
+.tag:masutatips
+⬥ You may want to bank or use a preset with more food for this encounter.
+
+.
+⬥ If you receive a second Hurricane special (where <:devo:513190158728953857> is down), try to stay as far away from Masuta as possible. Use <:debil:535541278264393729> or <:reflect:535541258786177064> if needed.
+
+.
+⬥ Using channelled abilities such as <:asphyx:535533833072672778> <:destroy:535532879330148352> or <:snipe:535541258425204770> will help you avoid getting walked while Masuta spins.
+    • This does not work on channelled special attacks such as <:armadylbattlestaff:881962727705280512> <:eofspec:1257438999794946099> and you will get walked
+
+.
+⬥ Rotation outlines:
+    • These rotations are to be used at the start and then repeated after waters to finish Masuta off.
+    • <:devo:513190158728953857> will need to be used some time after the first threshold, unless you are kiting
+        ⬩ <:limitless:641339233638023179> if needed.
+    • <:melee:1096130867279171706> <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> → <:assault:535532855191928842> → <:destroy:535532879330148352> → <:gflurry:535532879283879977> → <:overpowerigneous:959089455640215633> → bleeds → thresholds → <:overpowerigneous:959089455640215633>
+.
+    • <:range:580168050121113623> <:deadshotigneous:959089455283728386> → bleeds → thresholds → <:deathsswiftpf:994921597813137518> + <:adrenrenewal:736298121704767538> → <:snap:535534127131394088> → <:rapid:535541270521708566> → <:shadowtend:642713547142332416> → <:snap:535534127131394088> → <:rapid:535541270521708566> → <:deadshotigneous:959089455283728386>
+.
+    • <:Magic:689504724159823906> <:sunshinepf:994921595489488927> + <:adrenrenewal:736298121704767538> + <:smokecloud:856635090641879050> → <:tsunamiincite:958989794757730307> → <:wm:535533809978966037> → <:asphyx:535533833072672778> → <:omnipowerigneous:1179505745654448208> → <:wm:535533809978966037> → <:asphyx:535533833072672778>
+
+.
+⬥ Using <:Sacrifice:513201065907322880> to finish off waters and <:anti:535541306475151390> between spawns help with reducing food usage.
+    • You can also <:res:535541258844635148> an occasional waters auto if needed.
+
+.
+⬥ When Masuta resumes attacking after waters, make sure you are high HP as he will do 2 <:range:580168050121113623> autos while you are probably still finish off the remaining waters, which deal <:Magic:689504724159823906> damage. This damage can stack you out if not careful.
+
+.
+## __Seiryu, the Azure Serpent (Info)__
+.tag:seiryumechs
+.img:https://img.pvme.io/images/dksAPM9sP5.png
+.
+Seiryu is the final boss of ED1 and attacks using primarily <:Magic:689504724159823906> auto attacks.
+
+.
+{
+  "embed": {
+    "title": "__Mechanics__",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Face (7500k-7200k HP)__",
+        "value": "⬥ Seiryu first does 4 attacks then continues with the following attack rotation\n\u00a0\u00a0\u00a0\u00a0• Huge Breath → 2 attacks → Shadow Energy → 2 attacks → repeat\n\u00a0\u00a0\u00a0\u00a0• Seiryu's standard attack is either a slow <:Magic:689504724159823906> attack (easy to flick) or a tail blackhole.\n\u00a0\u00a0\u00a0\u00a0• The 2nd Shadow Energy mechanic will be replaced by the Black Hands mechanic.\n\u200B"
+      },
+      {
+        "name": "__Tail Blackhole__",
+        "value": "⬥ Seiryu dips his tail into the floor to summon a black hole under the player. [Example](https://img.pvme.io/images/zwFuDq4.mp4)\n\u00a0\u00a0\u00a0\u00a0• Summoned blackholes will cover a 2x2 area, dealing rapid and increasing damage (~2000 per tick) to players standing on them, lasting for about 10 seconds before disappearing.\n\u00a0\u00a0\u00a0\u00a0• Move out (1 tile north/east or 2 tiles south/west) of it to avoid damage.\n\u200B"
+      },
+      {
+        "name": "__Huge Breath__",
+        "value": "⬥ The message 'Seiryu takes a huge breath!' appears and Seiryu will swing his head from east to west while doing a breath attack. [Example](https://img.pvme.io/images/fsznjRq.mp4)\n\u00a0\u00a0\u00a0\u00a0• This deals ~8000 <:Magic:689504724159823906> attack unprotected.\n\u00a0\u00a0\u00a0\u00a0• You can dodge this attack by standing along the 2 southern rows of the arena. Alternatively, use <:disrupt:535614336207552523>, <:DeflectMage:544195487926845462> or <:res:535541258844635148>.\n\u00a0\u00a0\u00a0\u00a0• The hit lands when Seiryu's head reaches west making it easy to react to.\n\u200B"
+      },
+      {
+        "name": "__Shadow Energy__",
+        "value": "⬥ The game message 'Shadow energy bursts forth from Seiryu.' appears, and Seiryu launches a shadow projectile towards a tile marked by an arrow. Shortly after, highly damaging black hands will move from the marked tile towards your current location. [Example](https://img.pvme.io/images/0NPw0Ot.mp4)\n\u00a0\u00a0\u00a0\u00a0• Move out of the way when the black hands spawn.\n\u00a0\u00a0\u00a0\u00a0• The hands have moderate KO potential so be careful especially if the projectile lands near you.\n\u200B"
+      },
+      {
+        "name": "__Black Hands__",
+        "value": "⬥ Replaces Seiryu's 2nd Shadow Energy mechanic. Black hands spawn from a random point along the south wall and move north, expanding out in V-shape pattern. [Example](https://img.pvme.io/images/4YRp1Ra.mp4)\n\u00a0\u00a0\u00a0\u00a0• These hands are extremely damaging, avoiding them is vital.\n\u00a0\u00a0\u00a0\u00a0• Take extremely caution especially if using <:melee:1096130867279171706> and don't stand directly at the south wall when this mechanic is imminent.\n\u00a0\u00a0\u00a0\u00a0• Once this mechanic has been cast, a new set of black hands will spawn when the current formation is complete.\n\u200B"
+      },
+      {
+        "name": "__Shackle__",
+        "value": "⬥ At 7200k HP, Seiryu stops his attacks and lowers his head, all existing mechanics then disappear. [Example](https://img.pvme.io/images/6UThIKD.mp4)\n\u00a0\u00a0\u00a0\u00a0• You will be able to climb the shackle at these two points and start damaging the Black Crystals on the shackle. [Example](https://img.pvme.io/images/ia7OVYS.png)\n\u00a0\u00a0\u00a0\u00a0• The crystals have 150K HP and can be damaged using <:dommine:662249620579155968>. The fight ends once all of them are destroyed.\n\u00a0\u00a0\u00a0\u00a0• After some time, 6 shadow enigmas will spawn and slowly move towards Seiryu. [Example](https://img.pvme.io/images/NqEDUWE.mp4)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ Upon reaching his face, enigmas will heal crystals by 50k HP each. [Example](https://img.pvme.io/images/c7V97dw.mp4)\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ Ignore the first set of enigmas and DPS the crystals.\n\u200B"
+      },
+      {
+        "name": "__Post-Shackle__",
+        "value": "⬥ After the 6th heal is finished, you have 13.2 seconds before you get stunned and teleported back down from the shackle.\n\u00a0\u00a0\u00a0\u00a0• During this time, a second set of enigmas will have spawned.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ Tag and kill them before attacking Seiryu.\n\u00a0\u00a0\u00a0\u00a0• Seiryu heals back to 7500k HP. Get him down to below 7200k again to continue killing the black crystals.\n\u00a0\u00a0\u00a0\u00a0• After dragging you down, Seiryu will always start with a Huge Breath attack before continuing his attacking rotation from the previous phase.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ <:freedom:535541258240786434> or <:anti:535541306475151390> before getting dragged down, and walk to the south wall while tagging and killing the enigmas to avoid the breath.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ Continue attacking Seiryu afterwards.\n\u00a0\u00a0\u00a0\u00a0• If you kill all 3 crystals during the first shackle segment, the fight ends and this portion will not happen.\n\u200B"
+      }
+    ]
+  }
+}
+
+.embed:json
+.
+### Seiryu, the Azure Serpent (Fight tips)
+.tag:seiryutips
+.
+⬥ Seiryu can be <:flankicon:841419289755385866> permanently when standing along the 2 southern rows of the arena.
+    • Be careful of the V-shaped Shadow Hands if doing this.
+
+⬥ HP can be sustained very easily if <:soulsplit:615613924506599497> flicking.
+    • If not, the easiest way to sustain your HP without needing much food is using <:res:535541258844635148> on the huge breath attack.
+
+.
+⬥ Move as little you need to avoid the shadow mechanics, to avoid negatively affecting your DPS.
+    • 1 tile east for blackholes.
+    • 2-3 tiles to avoid hands from shadow energy.
+.
+.img:https://img.pvme.io/images/ktXTzON.mp4
+.
+⬥ For learners, you will likely start off with 3-cycling Seiryu, eventually being able to 2-cycle once comfortable with the fight.
+
+⬥ Start of fight:
+    • Use your damage boosting ultimate <:zerk:535532854004678657> <:sunshinepf:994921595489488927> <:deathsswiftpf:994921597813137518> to start the fight.
+    • Use abilities until Seiryu phases. Do not use your ultimate again.
+    • When Seiryu is at around 7250k, build to 100% adrenaline and prepare to jump.
+    • When Seiryu lowers his head, quickly go to either jump tile and go up ASAP. <:bdmobile:867678153668820992> there if you can.
+
+.
+⬥ Shackle:
+    • <:surgemobile:867678153798975498> towards the first crystal and use your damage boosting ultimate <:zerk:535532854004678657> <:sunshinepf:994921595489488927> <:deathsswiftpf:994921597813137518> with <:adrenrenewal:736298121704767538> and deploy <:dommine:662249620579155968> immediately.
+    • Kill the first crystal and build until the first waves of heals are complete, then get in as much damage on the second crystal as possible until you get dragged down.
+        ⬩ Use <:dommine:662249620579155968> immediately once they're off cooldown.
+
+.
+⬥ Post-shackle:
+    • Immediately tag and kill enigmas when you are on the ground.
+    • Use your damage boosting ultimate <:zerk:535532854004678657> <:sunshinepf:994921595489488927> <:deathsswiftpf:994921597813137518> again on Seiryu and repeat what you did at the start.
+
+.
+⬥ Second shackle:
+    • If you had a lot of time left after killing the first crystal during the first shackle, go for a 2-cycle.
+    • Jump up from a different side to attack the crystal at full HP.
+    • Use your <:zerk:535532854004678657> <:sunshinepf:994921595489488927> <:deathsswiftpf:994921597813137518> with <:adrenrenewal:736298121704767538> with <:dommine:662249620579155968> immediately after going up and then finish off the middle crystal with your strongest abilities afterwards.
+    • If the remaining crystal has too much health for you to finish off before the heals start, do a 3rd cycle.
+
+.
+### Mobs and movement
+.tag:mobs
+Although mobs in ED1 do not have much HP, many of them have mechanics with very high KO potential. Do not be surprised if you die to any of these.
+
+.
+⬥ Death Lotus Assassins
+    • These are by far the most dangerous mobs and are found in 2 areas, after Sanctum Guardian and before Masuta. You do not need to kill them to proceed.
+    • At the part after Sanctum, use <:devo:513190158728953857> with <:DeflectRange:544195488317046812> after 'You are no more!' while clearing the 3 Zealots to avoid dying.
+.
+.img:https://img.pvme.io/images/rwE2Ei3.mp4
+.
+    • 2 more are found near the barrier before Masuta. You may aggro them while running to the 4 Zealots you need to clear to open the barrier.
+        ⬩ Pray <:DeflectRange:544195488317046812> and food in mouth if needed. Teleport out **after opening the gate** if needing to bank.
+        ⬩ Don't use <:devo:513190158728953857> here if going into Masuta directly as you will need <:devo:513190158728953857> for Masuta's hurricane.
+.
+.img:https://img.pvme.io/images/IwHIix8.png
+.
+    • Always use <:DeflectRange:544195488317046812> when you see them attacking no matter what as they can hit you from a decent distance.
+.
+.img:https://img.pvme.io/images/WoaCM1c.mp4
+.
+⬥ Hanto Sellswords
+    • These can be found right after Sanctum Guardian and near the Menaphite Soldiers before Masuta.
+    • It is not necessary to kill them to proceed.
+    • Beware of their 'Die by the blade!' attack where they spin their spear, dealing very heavy melee damage which can 2-3 hit you if not careful.
+        ⬩ Quickly use <:DeflectMelee:544195488447201300> and eat or <:stunicon:841419289428492369> them to stop it.
+
+.
+⬥ Defence pylons
+    • They attacking using rapid moderate <:Magic:689504724159823906> beams and are quite long-ranged.
+    • You need to kill 3 of these to access Seiryu.
+    • It is recommended to go into the Seiryu encounter after Masuta straight as using the bank chest near Seiryu is not practical due to getting harassed by these crystals.
+        ⬩ You can always teleport out **after opening the gate to Seiryu** if needed to stop their aggro.
+    • Pray <:DeflectMage:544195487926845462> and use <:devo:513190158728953857> right before engaging the first Pylon. Kill it fast to extend <:devo:513190158728953857> before killing 2 more.
+    • Try to end on high adrenaline and proceed to Seiryu
+.
+.img:https://img.pvme.io/images/9JmjLtG.mp4
+.
+⬥ Other noteworthy mobs
+    • Elite Sakadagami: Uses highly damaging <:Magic:689504724159823906> abilities which can also stun you. Use <:DeflectMage:544195487926845462> especially if facing multiple of them.
+    • Elite Sotapanna: Occasionally heals damaged mobs to full using a healing orb.
+    • Arhats and Anagami: Can follow you into the Sanctum Guardian fight, making it much harder. Teleport out to get rid of them if needed.
+
+.
+⬥ AoEs by style, generally from most to least viable
+    • Melee: <:cane:535532878969438210> > <:quake:535532879506309150> > <:flurry:864492981763702834> > <:cleave:535532878616985610> > targeted <:bd:535532854281764884>
+        ⬩ <:meteorstrike:535532879359377439> is extremely good at places with lots of enemies.
+    • Ranged: <:mechchin:641669268722810881> <:rapid:535541270521708566> > <:mechchin:641669268722810881> <:snap:535534127131394088> > <:bombard:535541306391265284> > <:corruptshot:535541306294796299> > <:mechchin:641669268722810881> basic > <:ricocaroming:867678153635004447>
+        ⬩ <:mechchin:641669268722810881> <:deadshotigneous:959089455283728386> is good way to clear hordes of enemies fast to avoid getting overwhelmed.
+    • Magic: <:tsunamiincite:958989794757730307> > <:deto:535533833358016512> > <:corruptblast:513190159194259467> > <:dbreath:535533833391702017> > <:chaincaroming:867678153962684426>
+        ⬩ 4TAA using <:bloodbarrage:537338981747261446> or <:icebarrage:537340400185245701> is very helpful for clears.
+        ⬩ <:gchaincaroming:867678153882861568> should be used whenever possible if owned for clears, especially with <:omnipowerigneous:1179505745654448208>
+
+.
+⬥ Some good places to use <:powerburstofacceleration:756236265472524418> are as follows:
+    • This helps you avoid taking unnecessary damage from mobs while clearing the dungeon.
+.
+.img:https://img.pvme.io/images/8htV7Pg.mp4
+.
+.img:https://img.pvme.io/images/6IQ9MAJ.mp4
+.
+## __Example runs__
+.tag:examples
+.
+{
+  "embed": {
+    "title": "",
+    "description": "All runs are done with close to BIS perks, expect slower times if using entry level perks. All Seiryus are 2 cycles.",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Range__",
+        "value": "⬥ [16:10](https://www.youtube.com/watch?v=fM9pFoNyIho)\n"
+      },
+      {
+        "name": "__Melee__",
+        "value": "⬥ [17:15](https://www.youtube.com/watch?v=uaWAHAd8aDw)\n\u00a0\u00a0\u00a0\u00a0• <:gflurry:535532879283879977> and <:gbarge:535532879250456578> were both not used for this video.\n"
+      },
+      {
+        "name": "__Magic__",
+        "value": "⬥ [16:03](https://www.youtube.com/watch?v=JIrwWHW9vgQ)\n\u00a0\u00a0\u00a0\u00a0• 4TAA is not utilised in this example video.\n"
+      },
+      {
+        "name": "__Walkthroughs__",
+        "value": "⬥ Alternatively, check out these narrated video guides:\n\u00a0\u00a0\u00a0\u00a0• [Ranged](https://www.youtube.com/watch?v=Qc0inKS8b7U)\n\u00a0\u00a0\u00a0\u00a0• [Magic](https://www.youtube.com/watch?v=F59efgBX0Go)\n\u00a0\u00a0\u00a0\u00a0• [Melee](https://www.youtube.com/watch?v=4jIGoNwRm5E)\n"
+      }
+    ]
+  }
+}
+.embed:json
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Sanctum Guardian (Info)]($linkmsg_sanctummechs$)\n⬥ [Sanctum Guardian (Fight tips)]($linkmsg_sanctumtips$)\n⬥ [Masuta, the Ascended (Info)]($linkmsg_masutamechs$)\n⬥ [Masuta, the Ascended (Fight tips)]($linkmsg_masutatips$)\n⬥ [Seiryu, the Azure Serpent (Info)]($linkmsg_seiryumechs$)\n⬥ [Seiryu, the Azure Serpent]($linkmsg_seiryutips$)\n⬥ [Mobs and Movement]($linkmsg_mobs$)\n⬥ [Example Runs]($linkmsg_examples$)",
+    "color": 39423
+  }
+}
+.embed:json
+.pin:delete

@@ -1,0 +1,73 @@
+# Dagannoth Kings
+.img:https://img.pvme.io/images/xHpS3qu3aW.png
+
+.
+## __Introduction__
+.tag:intro
+The Dagannoth Kings are located at the bottom of the cave in Waterbirth Island, and are generally only camped by high level players in an effort to get the pets or the collection log.
+
+.
+## __Presets and Relics__
+.tag:presets
+⬥ [Low-level](<https://presets.pvme.io/?id=WVderdEaRP6HcbMphACG>)
+⬥ [High-level](https://presets.pvme.io/?id=BaFDdRaZawclqmjb8h6c)
+
+
+.
+## __Active Strategy__
+.tag:active
+### __The Fight__
+Camp Soul Split <:soulsplit:615613924506599497> and switch to the respective T95/T99 Curses (<:torment:583429936958930964> <:anguish:583429936665198592> <:turmoil:583429936606347280> / <:Affliction:513190158468907008> <:Desolation:513190159018098713> <:Malevolence:513190159416557573>) as you kill the Kings. Cancel the channelled threshold abilities with basic abilities to gain additional adren if the King is about to die.
+
+.
+### __Rotations__
+.tag:rotations
+⬥ **Dagannoth Supreme**
+<:dismember:535532879376023572> → walked <:slaughter:535532879237873666> → <:bloodtendrils:535532854327640064> → <:assault:535532855191928842> (cancel with <:cleave:535532878616985610> / <:sever:535532879577612298>)
+
+.
+⬥ **Dagannoth Prime**
+<:frag:535541273755385885> → <:corruptshot:535541306294796299> → <:mds:535541259033378827> → <:snap:535534127131394088> → <:rapid:535541270521708566> (cancel with <:mds:535541259033378827>)
+
+.
+⬥ **Dagannoth Rex**
+walked <:comb:535533833098100745> → <:dbreath:535533833391702017> → <:corruptblast:513190159194259467> → <:sonicwave:1087373972443775056> → <:wm:535533809978966037> → <:asphyx:535533833072672778> (cancel with <:dbreath:535533833391702017> / <:wrack:1257439366708592651>)
+
+.
+### __Example Kills__
+.
+⬥ [Active](<https://youtu.be/SdFGL1LHkjk>)
+.
+
+.
+## __Revolution++ Strategy__
+.tag:revolution
+It’s possible to “semi-AFK” the Dagannoth Kings by switching weapons and using revolution, even without any hybrid armour. Normally, using armour that’s off-style has an accuracy penalty i.e. if using a Melee weapon, then magic/ranged armour will lower accuracy. For DKs, a combination of T90 weapons + overloads + T80 power armour of different styles will ensure 100% accuracy on all three kings. Higher armour or lower tier weapons will affect accuracy, but adding prayers/curses will get accuracy back up to 100%.
+
+The strategy here is to wear power armour of different types i.e. (melee helm, ranged body, magic legs), and swap weapons/prayer for each king. This requires two clicks/key binds every kill, but is otherwise auto-pilot.
+
+⬥ Camp Soul Split <:soulsplit:615613924506599497>
+⬥ Switch to the respective T95/T99 Curses (<:torment:583429936958930964> <:anguish:583429936665198592> <:turmoil:583429936606347280> / <:Affliction:513190158468907008> <:Desolation:513190159018098713> <:Malevolence:513190159416557573>) as you kill the Kings
+⬥ ~160kph with T85-87 weapons in a standard instance
+⬥ ~200kph with T90 weapons + a custom instance for fast re-spawns
+
+.
+### __Revolution++ Action Bars__
+⬥ **If Using** <:masterworkspearofannihilation:694566917456789554>:
+.img:https://img.pvme.io/images/8HWujgR4Bw.png
+⬥ **Generic 2H Melee**:
+.img:https://img.pvme.io/images/vObFrxP1np.png
+⬥ **Generic 2H Ranged**:
+.img:https://img.pvme.io/images/jzPUkbecuE.png
+⬥ **Generic 2H Mage**:
+.img:https://img.pvme.io/images/TWjlpcC7AT.png
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Presets & Relics]($linkmsg_presets$)\n⬥ [Active Strategy]($linkmsg_active$)\n⬥ [Revolution++ Strategy]($linkmsg_revolution$)",
+    "color": 39423
+  }
+}
+.embed:json
+.pin:delete
