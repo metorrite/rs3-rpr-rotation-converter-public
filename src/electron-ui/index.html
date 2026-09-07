@@ -2,58 +2,94 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'" />
     <title>RS3 Rotation Converter</title>
     <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
 <div class="app">
     <h1>RS3 Rotation Converter</h1>
-    <p class="subtitle">
-        Convert rotations between RS Analysis, RotationMaster, and PVME notation.
-        Pick a file and a direction; the report lists anything that needs a manual check.
-    </p>
 
-    <div class="field-group">
-        <label for="inputFile">Input file</label>
-        <div class="row">
-            <input id="inputFile" type="text" readonly placeholder="RSA / RM .json or PVME .txt" />
-            <button id="browseInputBtn">Browse</button>
-        </div>
+    <div class="tabs">
+        <button class="tab active" data-tab="convert">Convert a file</button>
+        <button class="tab" data-tab="library">Rotation library</button>
     </div>
 
-    <div class="field-group">
-        <label>Direction</label>
-        <div class="row">
-            <select id="fromFormat">
-                <option value="auto" selected>Auto-detect</option>
-                <option value="rsa">RS Analysis</option>
-                <option value="rm">RotationMaster</option>
-                <option value="pvme">PVME</option>
+    <!-- ============ Convert ============ -->
+    <section id="tab-convert" class="tab-panel active">
+        <p class="subtitle">
+            Convert a rotation between RS Analysis, RotationMaster, and PVME notation.
+        </p>
+
+        <div class="field-group">
+            <label for="inputFile">Input file</label>
+            <div class="row">
+                <input id="inputFile" type="text" readonly placeholder="RSA / RM .json or PVME .txt" />
+                <button id="browseInputBtn">Browse…</button>
+            </div>
+        </div>
+
+        <div class="field-group">
+            <label>Direction</label>
+            <div class="row">
+                <select id="fromFormat">
+                    <option value="auto" selected>Auto-detect</option>
+                    <option value="rsa">RS Analysis</option>
+                    <option value="rm">RotationMaster</option>
+                    <option value="pvme">PVME</option>
+                </select>
+                <span class="arrow">&rarr;</span>
+                <select id="toFormat">
+                    <option value="rm" selected>RotationMaster</option>
+                    <option value="rsa">RS Analysis</option>
+                    <option value="pvme">PVME</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="field-group">
+            <label for="outputFolder">Output folder</label>
+            <div class="row">
+                <input id="outputFolder" type="text" readonly />
+                <button id="browseOutputBtn">Browse…</button>
+            </div>
+        </div>
+
+        <div class="actions"><button id="convertBtn">Convert</button></div>
+        <div id="status" class="status"></div>
+        <pre id="report" class="report" hidden></pre>
+    </section>
+
+    <!-- ============ Library ============ -->
+    <section id="tab-library" class="tab-panel">
+        <p class="subtitle">
+            Pick a boss guide, a rotation from it, and a format — then save the file.
+            Rotations come from the bundled PVME guides.
+        </p>
+
+        <div class="field-group">
+            <label for="guideSelect">Boss / guide</label>
+            <select id="guideSelect"><option>Loading…</option></select>
+        </div>
+
+        <div class="field-group">
+            <label for="rotationSelect">Rotation</label>
+            <select id="rotationSelect" disabled></select>
+        </div>
+
+        <div class="field-group">
+            <label for="libFormat">Format</label>
+            <select id="libFormat">
+                <option value="rm" selected>RotationMaster (.json)</option>
+                <option value="rsa">RS Analysis (.json)</option>
+                <option value="pvme">PVME notation (.txt)</option>
             </select>
-            <span class="arrow">&rarr;</span>
-            <select id="toFormat">
-                <option value="rm" selected>RotationMaster</option>
-                <option value="rsa">RS Analysis</option>
-                <option value="pvme">PVME</option>
-            </select>
         </div>
-    </div>
 
-    <div class="field-group">
-        <label for="outputFolder">Output folder</label>
-        <div class="row">
-            <input id="outputFolder" type="text" readonly />
-            <button id="browseOutputBtn">Browse</button>
-        </div>
-    </div>
+        <div class="actions"><button id="saveRotationBtn" disabled>Save rotation…</button></div>
+        <div id="libStatus" class="status"></div>
+        <pre id="libReport" class="report" hidden></pre>
+    </section>
 
-    <div class="actions">
-        <button id="convertBtn">Convert</button>
-    </div>
-
-    <div id="status" class="status"></div>
-    <pre id="report" class="report" hidden></pre>
     <div id="dataVersion" class="data-version"></div>
 </div>
 

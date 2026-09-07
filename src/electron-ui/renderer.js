@@ -1,60 +1,139 @@
-const { converterApi } = window;
+"use strict";
+const { ipcRenderer } = require("electron");
 
-const inputFileEl = document.getElementById("inputFile");
-const outputFolderEl = document.getElementById("outputFolder");
-const fromFormatEl = document.getElementById("fromFormat");
-const toFormatEl = document.getElementById("toFormat");
-const browseInputBtn = document.getElementById("browseInputBtn");
-const browseOutputBtn = document.getElementById("browseOutputBtn");
-const convertBtn = document.getElementById("convertBtn");
-const statusEl = document.getElementById("status");
-const reportEl = document.getElementById("report");
-const dataVersionEl = document.getElementById("dataVersion");
+const $ = (id) => document.getElementById(id);
 
-browseInputBtn.addEventListener("click", async () => {
-    const p = await converterApi.browseInput();
+// ---------- tabs ----------
+for (const tab of document.querySelectorAll(".tab")) {
+    tab.addEventListener("click", () => {
+        for (const t of document.querySelectorAll(".tab")) t.classList.remove("active");
+        for (const p of document.querySelectorAll(".tab-panel")) p.classList.remove("active");
+        tab.classList.add("active");
+        $(`tab-${tab.dataset.tab}`).classList.add("active");
+    });
+}
+
+// ---------- convert tab ----------
+$("browseInputBtn").addEventListener("click", async () => {
+    const p = await ipcRenderer.invoke("browse-input");
     if (p) {
-        inputFileEl.value = p;
-        statusEl.textContent = `Input: ${p}`;
+        $("inputFile").value = p;
+        $("status").textContent = `Input: ${p}`;
     }
 });
 
-browseOutputBtn.addEventListener("click", async () => {
-    const p = await converterApi.browseOutput();
+$("browseOutputBtn").addEventListener("click", async () => {
+    const p = await ipcRenderer.invoke("browse-output");
     if (p) {
-        outputFolderEl.value = p;
-        statusEl.textContent = `Output folder: ${p}`;
+        $("outputFolder").value = p;
+        $("status").textContent = `Output folder: ${p}`;
     }
 });
 
-convertBtn.addEventListener("click", async () => {
-    const input = inputFileEl.value.trim();
-    const outDir = outputFolderEl.value.trim();
-    reportEl.hidden = true;
+$("convertBtn").addEventListener("click", async () => {
+    const input = $("inputFile").value.trim();
+    const outDir = $("outputFolder").value.trim();
+    $("report").hidden = true;
+    if (!input) return ($("status").textContent = "Choose an input file.");
+    if (!outDir) return ($("status").textContent = "Choose an output folder.");
 
-    if (!input) return (statusEl.textContent = "Choose an input file.");
-    if (!outDir) return (statusEl.textContent = "Choose an output folder.");
+    const from = $("fromFormat").value === "auto" ? null : $("fromFormat").value;
+    const to = $("toFormat").value;
+    if (from === to) return ($("status").textContent = "Source and target formats must differ.");
 
-    const from = fromFormatEl.value === "auto" ? null : fromFormatEl.value;
-    const to = toFormatEl.value;
-    if (from === to) return (statusEl.textContent = "Source and target formats must differ.");
-
-    statusEl.textContent = "Converting…";
-    const res = await converterApi.convert(input, outDir, from, to);
-
+    $("status").textContent = "Converting…";
+    const res = await ipcRenderer.invoke("convert", input, outDir, from, to);
     if (res.ok) {
-        statusEl.textContent = `Saved: ${res.outputPath}`;
-        reportEl.textContent = res.reportText;
-        reportEl.hidden = false;
+        $("status").textContent = `Saved: ${res.outputPath}`;
+        $("report").textContent = res.reportText;
+        $("report").hidden = false;
     } else {
-        statusEl.textContent = `Conversion failed: ${res.error}`;
+        $("status").textContent = `Conversion failed: ${res.error}`;
     }
 });
 
-converterApi.catalogInfo().then((m) => {
-    if (m) {
-        const rm = m.rotationMaster ?? {};
-        const commit = (rm.commit ?? "").slice(0, 7);
-        dataVersionEl.textContent = `Ability data: RotationMaster ${rm.rmVersion ?? "?"} — ${m.abilityCount ?? "?"} abilities (${commit})`;
+// ---------- library tab ----------
+let guides = [];
+
+async function loadGuides() {
+    guides = await ipcRenderer.invoke("library:list");
+    const sel = $("guideSelect");
+    sel.innerHTML = "";
+    let group = null;
+    for (const g of guides) {
+        if (g.category !== group) {
+            group = g.category;
+            const og = document.createElement("optgroup");
+            og.label = group;
+            sel.appendChild(og);
+        }
+        const o = document.createElement("option");
+        o.value = g.id;
+        o.textContent = g.title;
+        sel.lastChild.appendChild(o);
+    }
+    sel.selectedIndex = 0;
+    await loadRotations();
+}
+
+async function loadRotations() {
+    const guideId = $("guideSelect").value;
+    const rotSel = $("rotationSelect");
+    rotSel.innerHTML = "";
+    rotSel.disabled = true;
+    $("saveRotationBtn").disabled = true;
+    $("libStatus").textContent = "Reading guide…";
+    $("libReport").hidden = true;
+
+    const res = await ipcRenderer.invoke("library:rotations", guideId);
+    if (!res.ok) {
+        $("libStatus").textContent = `Could not read guide: ${res.error}`;
+        return;
+    }
+    if (res.rotations.length === 0) {
+        $("libStatus").textContent = "This guide has no detectable rotation.";
+        return;
+    }
+    for (const r of res.rotations) {
+        const o = document.createElement("option");
+        o.value = String(r.index);
+        o.textContent =
+            `${r.name}  —  ${r.steps} steps` + (r.unresolved ? `  (${r.unresolved} unresolved)` : "");
+        rotSel.appendChild(o);
+    }
+    rotSel.disabled = false;
+    $("saveRotationBtn").disabled = false;
+    $("libStatus").textContent = `${res.rotations.length} rotation(s) found.`;
+}
+
+$("guideSelect").addEventListener("change", loadRotations);
+
+$("saveRotationBtn").addEventListener("click", async () => {
+    const guideId = $("guideSelect").value;
+    const index = Number($("rotationSelect").value);
+    const format = $("libFormat").value;
+    $("libStatus").textContent = "Saving…";
+    $("libReport").hidden = true;
+
+    const res = await ipcRenderer.invoke("library:save", guideId, index, format);
+    if (res.ok) {
+        $("libStatus").textContent = `Saved: ${res.savedPath}`;
+        $("libReport").textContent = res.reportText;
+        $("libReport").hidden = false;
+    } else if (res.error !== "cancelled") {
+        $("libStatus").textContent = `Save failed: ${res.error}`;
+    } else {
+        $("libStatus").textContent = "";
     }
 });
+
+// ---------- footer ----------
+ipcRenderer.invoke("catalog-info").then((m) => {
+    if (m && m.rotationMaster) {
+        $("dataVersion").textContent =
+            `Ability data: RotationMaster ${m.rotationMaster.rmVersion ?? "?"} — ` +
+            `${m.abilityCount ?? "?"} abilities (${(m.rotationMaster.commit ?? "").slice(0, 7)})`;
+    }
+});
+
+loadGuides().catch((e) => ($("libStatus").textContent = `Failed to load guides: ${e.message}`));

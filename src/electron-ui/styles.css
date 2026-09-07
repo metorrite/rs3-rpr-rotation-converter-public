@@ -6,20 +6,56 @@ body {
 }
 
 .app {
-    max-width: 720px;
+    max-width: 760px;
     margin: 0 auto;
-    padding: 28px;
+    padding: 24px 28px 32px;
 }
 
 h1 {
     font-size: 22px;
-    margin: 0 0 10px;
+    margin: 0 0 16px;
+}
+
+.tabs {
+    display: flex;
+    gap: 4px;
+    border-bottom: 1px solid #374151;
+    margin-bottom: 20px;
+}
+
+.tab {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid transparent;
+    color: #9ca3af;
+    padding: 8px 14px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.tab:hover {
+    color: #f9fafb;
+    background: transparent;
+}
+
+.tab.active {
+    color: #fff;
+    border-bottom-color: #2563eb;
+}
+
+.tab-panel {
+    display: none;
+}
+
+.tab-panel.active {
+    display: block;
 }
 
 .subtitle {
     font-size: 13px;
     color: #d1d5db;
-    margin-bottom: 24px;
+    margin: 0 0 20px;
     line-height: 1.5;
 }
 
@@ -43,6 +79,7 @@ label {
 input[type="text"],
 select {
     flex: 1;
+    width: 100%;
     padding: 9px 12px;
     border: 1px solid #374151;
     background: #1f2937;
@@ -70,12 +107,18 @@ button:hover {
     background: #1d4ed8;
 }
 
+button:disabled {
+    background: #374151;
+    color: #6b7280;
+    cursor: not-allowed;
+}
+
 .actions {
     margin-top: 20px;
 }
 
 .status {
-    margin-top: 18px;
+    margin-top: 16px;
     font-size: 13px;
     color: #d1d5db;
     white-space: pre-wrap;
@@ -83,7 +126,7 @@ button:hover {
 }
 
 .report {
-    margin-top: 14px;
+    margin-top: 12px;
     padding: 12px;
     background: #0b1220;
     border: 1px solid #374151;
@@ -92,12 +135,14 @@ button:hover {
     line-height: 1.5;
     color: #e5e7eb;
     white-space: pre-wrap;
-    max-height: 260px;
+    max-height: 240px;
     overflow-y: auto;
 }
 
 .data-version {
-    margin-top: 18px;
+    margin-top: 22px;
+    padding-top: 14px;
+    border-top: 1px solid #1f2937;
     font-size: 11px;
     color: #6b7280;
 }

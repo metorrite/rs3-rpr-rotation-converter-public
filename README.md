@@ -70,6 +70,14 @@ npm run gui          # build + launch Electron
 npm run dist:win     # package a Windows installer + portable exe into release/
 ```
 
+Two tabs:
+
+- **Convert a file** — pick an RSA / RM / PVME file, a direction, an output
+  folder; the report panel lists anything to check.
+- **Rotation library** — pick a boss guide → a rotation from it → a format, then
+  **Save**. Rotations come from the bundled PVME guide corpus (232 guides,
+  ~230 rotations); no conversion input needed.
+
 ## Running in an IDE (WebStorm / IntelliJ)
 
 Shared run configurations live in `.idea/runConfigurations/` and appear in the

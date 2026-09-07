@@ -1,3 +1,4 @@
+import { existsSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -5,8 +6,20 @@ import { fileURLToPath } from "node:url";
 // build. The data directory sits next to `core/` in both layouts
 // (src/data, dist/data — the latter populated by scripts/copy-data.mjs).
 const here = path.dirname(fileURLToPath(import.meta.url));
+const packageRoot = path.resolve(here, "..", "..");
 
 export const dataDir = path.resolve(here, "..", "data");
+
+/**
+ * Vendored PVME guide corpus. In a build it is copied to `dist/guides/`
+ * (bundled with the Electron app); in the source tree it lives under
+ * `test/corpus/pvme-guides/`.
+ */
+export const guidesDir = (() => {
+    const bundled = path.join(here, "..", "guides");
+    if (existsSync(bundled)) return bundled;
+    return path.join(packageRoot, "test", "corpus", "pvme-guides");
+})();
 
 export const abilitiesPath = path.join(dataDir, "abilities.json");
 export const pvmePath = path.join(dataDir, "pvme.json");
