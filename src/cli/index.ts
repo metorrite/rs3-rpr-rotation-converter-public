@@ -45,10 +45,21 @@ program
     .option("-o, --out <dir>", "output directory (default: alongside the input)")
     .option("--report", "print the conversion report", false)
     .option("--json", "print the output to stdout as JSON instead of writing a file", false)
-    .action((input: string, opts: { from?: string; to?: string; out?: string; report: boolean; json: boolean }) => {
+    .option("--no-weapon-spec", "RM→RSA: don't treat a lone weapon as its special attack")
+    .option("--gcd <ticks>", "RM/PVME→RSA: ticks between GCD actions", "3")
+    .option("--keep-notes", "RM→RSA: append dropped per-tick notes to the rotation name", false)
+    .action((input: string, opts: { from?: string; to?: string; out?: string; report: boolean; json: boolean; weaponSpec: boolean; gcd: string; keepNotes: boolean }) => {
         const { value } = readInput(input);
         const from = (opts.from as FormatId) ?? detectFormat(value) ?? undefined;
-        const result = convert(value, { from, to: opts.to as FormatId | undefined });
+        const result = convert(value, {
+            from,
+            to: opts.to as FormatId | undefined,
+            settings: {
+                rmWeaponAsSpec: opts.weaponSpec,
+                gcdTicks: Number.parseInt(opts.gcd, 10) || 3,
+                keepNotesInName: opts.keepNotes,
+            },
+        });
 
         const serialized =
             typeof result.output === "string"
@@ -85,9 +96,17 @@ program
     .option("-o, --out <dir>", "output directory (default: alongside the guide)")
     .option("--list", "list the rotations found, convert nothing", false)
     .option("--section <name>", "only rotations whose name/section contains this text")
-    .action((guide: string, opts: { to: string; out?: string; list: boolean; section?: string }) => {
+    .option("--no-weapon-spec", "RM/PVME→RSA: don't treat a lone weapon as its special attack")
+    .option("--gcd <ticks>", "→RSA: ticks between GCD actions", "3")
+    .option("--keep-notes", "→RSA: append dropped notes to the rotation name", false)
+    .action((guide: string, opts: { to: string; out?: string; list: boolean; section?: string; weaponSpec: boolean; gcd: string; keepNotes: boolean }) => {
         const text = readFileSync(guide, "utf8");
         const catalog = loadCatalog();
+        const settings = {
+            rmWeaponAsSpec: opts.weaponSpec,
+            gcdTicks: Number.parseInt(opts.gcd, 10) || 3,
+            keepNotesInName: opts.keepNotes,
+        };
 
         if (opts.list) {
             const found = extractRotations(text, catalog);
@@ -103,7 +122,7 @@ program
         }
 
         const to = opts.to as FormatId;
-        const { rotations } = convertGuide(text, { to, catalog });
+        const { rotations } = convertGuide(text, { to, catalog, settings });
         let list = rotations;
         if (opts.section) {
             const q = opts.section.toLowerCase();

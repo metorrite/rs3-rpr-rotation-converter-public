@@ -4,10 +4,12 @@ import { fileURLToPath } from "node:url";
 import { app, BrowserWindow, dialog, ipcMain } from "electron";
 import {
     convert,
+    DEFAULT_SETTINGS,
     guideRotations,
     libraryRotationFile,
     listGuides,
     loadCatalog,
+    type ConversionSettings,
     type FormatId,
 } from "../core/index.js";
 
@@ -40,6 +42,7 @@ app.whenReady().then(() => {
     createWindow();
 
     ipcMain.handle("catalog-info", () => loadCatalog().manifest);
+    ipcMain.handle("default-settings", () => DEFAULT_SETTINGS);
 
     // ---- Convert tab -----------------------------------------------------
 
@@ -65,12 +68,19 @@ app.whenReady().then(() => {
 
     ipcMain.handle(
         "convert",
-        (_e, inputPath: string, outputDir: string, from: FormatId | null, to: FormatId) => {
+        (
+            _e,
+            inputPath: string,
+            outputDir: string,
+            from: FormatId | null,
+            to: FormatId,
+            settings?: Partial<ConversionSettings>,
+        ) => {
             try {
                 const raw = readFileSync(inputPath, "utf8");
                 const input: unknown =
                     path.extname(inputPath).toLowerCase() === ".txt" ? raw : JSON.parse(raw);
-                const result = convert(input, { from: from ?? undefined, to });
+                const result = convert(input, { from: from ?? undefined, to, settings });
 
                 const base = path.basename(inputPath, path.extname(inputPath));
                 const ext = result.to === "pvme" ? "txt" : "json";
@@ -110,9 +120,15 @@ app.whenReady().then(() => {
 
     ipcMain.handle(
         "library:save",
-        async (_e, guideId: string, index: number, format: FormatId) => {
+        async (
+            _e,
+            guideId: string,
+            index: number,
+            format: FormatId,
+            settings?: Partial<ConversionSettings>,
+        ) => {
             try {
-                const file = libraryRotationFile(guideId, index, format);
+                const file = libraryRotationFile(guideId, index, format, settings);
                 const r = await dialog.showSaveDialog(mainWindow ?? undefined!, {
                     title: "Save rotation",
                     defaultPath: file.fileName,

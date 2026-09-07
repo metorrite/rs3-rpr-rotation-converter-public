@@ -139,6 +139,40 @@ button:disabled {
     overflow-y: auto;
 }
 
+.check {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    font-size: 13px;
+    color: #d1d5db;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.check input {
+    margin-top: 3px;
+    flex: 0 0 auto;
+}
+
+.check strong {
+    color: #f9fafb;
+}
+
+.hint {
+    display: block;
+    margin-top: 4px;
+    font-size: 11px;
+    color: #6b7280;
+}
+
+button.secondary {
+    background: #374151;
+}
+
+button.secondary:hover {
+    background: #4b5563;
+}
+
 .data-version {
     margin-top: 22px;
     padding-top: 14px;

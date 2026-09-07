@@ -6,6 +6,7 @@ import path from "node:path";
 import { convertGuide, type FormatId } from "./convert.js";
 import { loadCatalog } from "./catalog.js";
 import { guidesDir } from "./paths.js";
+import type { ConversionSettings } from "./settings.js";
 import { parseGuideDocument } from "../adapters/pvme-guide.js";
 
 export interface GuideSummary {
@@ -68,9 +69,10 @@ export function libraryRotationFile(
     id: string,
     index: number,
     to: FormatId,
+    settings?: Partial<ConversionSettings>,
 ): { fileName: string; body: string; reportText: string } {
     const text = readFileSync(resolveId(id), "utf8");
-    const { rotations } = convertGuide(text, { to, catalog: loadCatalog() });
+    const { rotations } = convertGuide(text, { to, catalog: loadCatalog(), settings });
     const r = rotations[index];
     if (!r) throw new Error(`rotation ${index} not found in ${id}`);
     const ext = to === "pvme" ? "txt" : "json";

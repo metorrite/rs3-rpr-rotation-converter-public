@@ -3,6 +3,8 @@
 
 export { convert, convertGuide, detectFormat } from "./convert.js";
 export type { ConvertOptions, ConvertResult, FormatId, GuideRotationResult } from "./convert.js";
+export { DEFAULT_SETTINGS, resolveSettings } from "./settings.js";
+export type { ConversionSettings } from "./settings.js";
 export { extractRotations, parseGuideDocument, isRotationLine } from "../adapters/pvme-guide.js";
 export type { ExtractedRotation, GuideDocument, GuideSection } from "../adapters/pvme-guide.js";
 export { listGuides, guideRotations, libraryRotationFile } from "./guides.js";

@@ -3,6 +3,57 @@ const { ipcRenderer } = require("electron");
 
 const $ = (id) => document.getElementById(id);
 
+// ---------- settings ----------
+const SETTINGS_KEY = "rs3rot.settings";
+let settings = {};
+let defaultSettings = { rmWeaponAsSpec: true, gcdTicks: 3, keepNotesInName: false };
+
+function loadSettings() {
+    try {
+        settings = { ...defaultSettings, ...JSON.parse(localStorage.getItem(SETTINGS_KEY) || "{}") };
+    } catch {
+        settings = { ...defaultSettings };
+    }
+}
+function saveSettings() {
+    try {
+        localStorage.setItem(SETTINGS_KEY, JSON.stringify(settings));
+    } catch {
+        /* private mode etc. */
+    }
+    renderSettings();
+}
+function renderSettings() {
+    $("setWeaponSpec").checked = settings.rmWeaponAsSpec;
+    $("setGcd").value = settings.gcdTicks;
+    $("setKeepNotes").checked = settings.keepNotesInName;
+}
+
+ipcRenderer.invoke("default-settings").then((d) => {
+    if (d) defaultSettings = d;
+    loadSettings();
+    renderSettings();
+});
+loadSettings();
+
+$("setWeaponSpec").addEventListener("change", (e) => {
+    settings.rmWeaponAsSpec = e.target.checked;
+    saveSettings();
+});
+$("setGcd").addEventListener("change", (e) => {
+    settings.gcdTicks = Math.min(10, Math.max(1, Number(e.target.value) || 3));
+    saveSettings();
+});
+$("setKeepNotes").addEventListener("change", (e) => {
+    settings.keepNotesInName = e.target.checked;
+    saveSettings();
+});
+$("resetSettingsBtn").addEventListener("click", () => {
+    settings = { ...defaultSettings };
+    saveSettings();
+    $("settingsStatus").textContent = "Reset to defaults.";
+});
+
 // ---------- tabs ----------
 for (const tab of document.querySelectorAll(".tab")) {
     tab.addEventListener("click", () => {
@@ -42,7 +93,7 @@ $("convertBtn").addEventListener("click", async () => {
     if (from === to) return ($("status").textContent = "Source and target formats must differ.");
 
     $("status").textContent = "Converting…";
-    const res = await ipcRenderer.invoke("convert", input, outDir, from, to);
+    const res = await ipcRenderer.invoke("convert", input, outDir, from, to, settings);
     if (res.ok) {
         $("status").textContent = `Saved: ${res.outputPath}`;
         $("report").textContent = res.reportText;
@@ -115,7 +166,7 @@ $("saveRotationBtn").addEventListener("click", async () => {
     $("libStatus").textContent = "Saving…";
     $("libReport").hidden = true;
 
-    const res = await ipcRenderer.invoke("library:save", guideId, index, format);
+    const res = await ipcRenderer.invoke("library:save", guideId, index, format, settings);
     if (res.ok) {
         $("libStatus").textContent = `Saved: ${res.savedPath}`;
         $("libReport").textContent = res.reportText;

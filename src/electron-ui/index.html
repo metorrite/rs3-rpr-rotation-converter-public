@@ -12,6 +12,7 @@
     <div class="tabs">
         <button class="tab active" data-tab="convert">Convert a file</button>
         <button class="tab" data-tab="library">Rotation library</button>
+        <button class="tab" data-tab="settings">Settings</button>
     </div>
 
     <!-- ============ Convert ============ -->
@@ -88,6 +89,44 @@
         <div class="actions"><button id="saveRotationBtn" disabled>Save rotation…</button></div>
         <div id="libStatus" class="status"></div>
         <pre id="libReport" class="report" hidden></pre>
+    </section>
+
+    <!-- ============ Settings ============ -->
+    <section id="tab-settings" class="tab-panel">
+        <p class="subtitle">
+            Tunables for the grey areas where the formats don't map 1:1.
+            Saved on this machine and applied to every conversion.
+        </p>
+
+        <label class="check">
+            <input type="checkbox" id="setWeaponSpec" />
+            <span>
+                <strong>RM &rarr; RSA: treat a lone weapon as its special attack</strong><br />
+                A weapon in a RotationMaster rotation is almost always there to use its
+                special (RS Analysis has no "swap weapon" action). Off = weapons become
+                gear swaps in the extras row.
+            </span>
+        </label>
+
+        <div class="field-group" style="margin-top:16px">
+            <label for="setGcd">RM / PVME &rarr; RSA: ticks between GCD actions</label>
+            <input type="number" id="setGcd" min="1" max="10" style="max-width:90px" />
+            <span class="hint">3 = one global cooldown (1.8s). Channelled abilities always use their real duration.</span>
+        </div>
+
+        <label class="check" style="margin-top:12px">
+            <input type="checkbox" id="setKeepNotes" />
+            <span>
+                <strong>RM &rarr; RSA: keep dropped notes in the rotation name</strong><br />
+                RS Analysis has no per-tick text field. When on, notes like "Portal" are
+                appended to the rotation name instead of being lost.
+            </span>
+        </label>
+
+        <div class="actions">
+            <button id="resetSettingsBtn" class="secondary">Reset to defaults</button>
+        </div>
+        <div id="settingsStatus" class="status"></div>
     </section>
 
     <div id="dataVersion" class="data-version"></div>

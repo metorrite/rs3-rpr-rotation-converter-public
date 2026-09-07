@@ -5,6 +5,7 @@ import { slug } from "../core/normalize.js";
 import { rsaActionsPath, rsaBlankTemplatePath } from "../core/paths.js";
 import type { ConversionReport } from "../core/report.js";
 import { cleanRsaName, rsaDisplayName, toActionRef } from "../core/resolve.js";
+import { DEFAULT_SETTINGS, type ConversionSettings } from "../core/settings.js";
 import { findWeaponSpecRule } from "../core/weapon-specs.js";
 import type { RsaExport, RsaExtraCell, RsaExtraEntry } from "../formats/rsa.types.js";
 
@@ -157,6 +158,7 @@ export function serializeRsa(
     timeline: TimelineIR,
     catalog: Catalog,
     report?: ConversionReport,
+    settings: ConversionSettings = DEFAULT_SETTINGS,
 ): RsaExport {
     const base =
         timeline.carrier && typeof timeline.carrier === "object"
@@ -173,6 +175,7 @@ export function serializeRsa(
 
     base.name = timeline.name;
     base.timestamp = Date.now();
+    const strandedNotes: string[] = [];
     base.data.a = new Array<string>(len).fill("");
     base.data.e = Array.from({ length: len }, () => [] as RsaExtraCell);
     if (base.data.n) base.data.n = new Array<boolean>(len).fill(false);
@@ -212,9 +215,18 @@ export function serializeRsa(
             if (knownRsaAction(ev.note) && rsaActions && rsaActions.size > 0) {
                 if (!base.data.t[ev.tick]) base.data.t[ev.tick] = ev.note;
             } else {
-                report?.add({ code: "dropped", at: ev.tick, message: `note "${ev.note}" — RS Analysis has no per-tick text field.` });
+                strandedNotes.push(`t${ev.tick}:${ev.note}`);
+                report?.add({
+                    code: "dropped",
+                    at: ev.tick,
+                    message: `note "${ev.note}" — RS Analysis has no per-tick text field.`,
+                });
             }
         }
+    }
+
+    if (settings.keepNotesInName && strandedNotes.length > 0) {
+        base.name = `${base.name}  [${strandedNotes.join(" ")}]`;
     }
 
     return base;

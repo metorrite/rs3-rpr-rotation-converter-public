@@ -4,6 +4,7 @@ import type { ActionRef, SequenceIR, Step } from "../core/ir.js";
 import { slug } from "../core/normalize.js";
 import type { ConversionReport } from "../core/report.js";
 import { entryForOutput, resolveEntry, toActionRef } from "../core/resolve.js";
+import { DEFAULT_SETTINGS, type ConversionSettings } from "../core/settings.js";
 import { findWeaponSpecRule } from "../core/weapon-specs.js";
 import type { RmAbility, RmAbilitySelection, RmRotationSet } from "../formats/rm.types.js";
 
@@ -39,10 +40,38 @@ function leftoverNote(notes: string | null | undefined): string | undefined {
 // parse: RmRotationSet -> SequenceIR
 // ---------------------------------------------------------------------------
 
+function makeSpecStep(
+    catalog: Catalog,
+    weaponName: string,
+    report: ConversionReport | undefined,
+    at: number,
+): { primary: ActionRef; fallbackNote?: string } {
+    const weaponRef = toActionRef(catalog, weaponName, { report, at, kindHint: "gear" });
+    const rule = findWeaponSpecRule(weaponName, weaponRef.canonicalId ?? "");
+    report?.weaponSpec(
+        rule?.rsaActionName ?? weaponRef.display,
+        rule?.weaponDisplayName ?? weaponRef.display,
+        at,
+    );
+    return {
+        primary: {
+            canonicalId: "spec",
+            rawName: rule?.rsaActionName ?? weaponRef.display,
+            // `display` is what RM→RSA writes into data.a. Only a real RSA action
+            // name; blank => RSA side emits a weapon swap + note instead.
+            display: rule?.rsaActionName ?? "",
+            kind: "spec",
+            weaponId: weaponRef.canonicalId ?? undefined,
+        },
+        fallbackNote: rule ? undefined : `${weaponRef.display} special attack`,
+    };
+}
+
 export function parseRm(
     set: RmRotationSet,
     catalog: Catalog,
     report?: ConversionReport,
+    settings: ConversionSettings = DEFAULT_SETTINGS,
 ): SequenceIR {
     const selections: RmAbilitySelection[] = [];
     set.Data.forEach((rot, idx) => {
@@ -68,30 +97,8 @@ export function parseRm(
 
         // weapon + "" + (spec | eofspec)  ->  a single spec step
         if (next && next.Separator === "" && (isSpec(next) || isEofSpec(next))) {
-            const weaponRef = toActionRef(catalog, abilityLike(current), { report, at: stepIndex, kindHint: "gear" });
-            const rule = findWeaponSpecRule(abilityLike(current), weaponRef.canonicalId ?? "");
-            const primary: ActionRef = {
-                canonicalId: "spec",
-                rawName: rule?.rsaActionName ?? weaponRef.display,
-                // `display` is what RM→RSA writes into data.a. Only use a real RSA
-                // action name; otherwise leave it blank so the RSA side falls back
-                // to a weapon-swap + note (RSA has no generic "special attack").
-                display: rule?.rsaActionName ?? "",
-                kind: "spec",
-                weaponId: weaponRef.canonicalId ?? undefined,
-            };
-            report?.weaponSpec(
-                rule?.rsaActionName ?? weaponRef.display,
-                rule?.weaponDisplayName ?? weaponRef.display,
-                stepIndex,
-            );
-            steps.push({
-                primary,
-                sameTick: [],
-                delayTicks,
-                lineBreakBefore,
-                note: note ?? (rule ? undefined : `${weaponRef.display} special attack`),
-            });
+            const { primary, fallbackNote } = makeSpecStep(catalog, abilityLike(current), report, stepIndex);
+            steps.push({ primary, sameTick: [], delayTicks, lineBreakBefore, note: note ?? fallbackNote });
             i += 2;
             stepIndex++;
             continue;
@@ -109,7 +116,22 @@ export function parseRm(
         const slashMembers = group.filter((g) => g.Separator === "/");
 
         const primarySel = pickPrimary(plusMembers) ?? group[0]!;
-        const primary = selectionToRef(catalog, primarySel, report, stepIndex);
+        let primary = selectionToRef(catalog, primarySel, report, stepIndex);
+        let specFallbackNote: string | undefined;
+
+        // A lone weapon in an RM rotation is (almost always) there for its
+        // special attack — RS Analysis has no "swap weapon" action. Treat it as
+        // the weapon's special unless the setting is turned off.
+        if (
+            settings.rmWeaponAsSpec &&
+            group.length === 1 &&
+            primary.kind === "gear" &&
+            findWeaponSpecRule(primary.rawName, primary.canonicalId ?? "")
+        ) {
+            const made = makeSpecStep(catalog, abilityLike(primarySel), report, stepIndex);
+            primary = made.primary;
+            specFallbackNote = made.fallbackNote;
+        }
         if (slashMembers.length > 0) {
             primary.ambiguousWith = slashMembers.map((s) => selectionToRef(catalog, s, report, stepIndex).canonicalId ?? abilityLike(s));
             report?.ambiguous(
@@ -127,7 +149,7 @@ export function parseRm(
             sameTick,
             delayTicks: delayTicks ?? tickNote(primarySel.Notes),
             lineBreakBefore,
-            note: note ?? leftoverNote(primarySel.Notes),
+            note: note ?? leftoverNote(primarySel.Notes) ?? specFallbackNote,
         });
         i = j;
         stepIndex++;

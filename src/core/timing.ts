@@ -8,19 +8,18 @@
 
 import type { ActionRef, SequenceIR, Step, TimelineEvent, TimelineIR } from "./ir.js";
 import type { ConversionReport } from "./report.js";
+import { DEFAULT_SETTINGS, type ConversionSettings } from "./settings.js";
 import { CHANNEL_TICKS } from "./weapon-specs.js";
 
-const DEFAULT_GCD_TICKS = 3;
-
-// Every ability that triggers the global cooldown occupies 3 ticks (1.8s) before
-// the next is input. Channelled abilities run longer (CHANNEL_TICKS in
-// weapon-specs.ts). Off-GCD actions (`+` groups in RM) don't advance the cursor
-// at all and are handled as same-tick overlays, not here.
-export function gcdTicks(ref: ActionRef | null): number {
+// Every ability that triggers the global cooldown occupies `settings.gcdTicks`
+// ticks (3 = 1.8s) before the next is input. Channelled abilities run longer
+// (CHANNEL_TICKS). Off-GCD actions (`+` groups in RM) don't advance the cursor
+// and are handled as same-tick overlays, not here.
+export function gcdTicks(ref: ActionRef | null, base = 3): number {
     if (ref?.canonicalId && ref.canonicalId in CHANNEL_TICKS) {
         return CHANNEL_TICKS[ref.canonicalId]!;
     }
-    return DEFAULT_GCD_TICKS;
+    return base;
 }
 
 // ---------------------------------------------------------------------------
@@ -30,6 +29,7 @@ export function gcdTicks(ref: ActionRef | null): number {
 export function sequenceToTimeline(
     seq: SequenceIR,
     report?: ConversionReport,
+    settings: ConversionSettings = DEFAULT_SETTINGS,
 ): TimelineIR {
     const events: TimelineEvent[] = [];
     let cursor = 0;
@@ -51,12 +51,14 @@ export function sequenceToTimeline(
         });
 
         prevAnchor = landTick;
-        cursor = landTick + Math.max(gcdTicks(step.primary), step.delayTicks != null ? 0 : 1);
+        cursor =
+            landTick +
+            Math.max(gcdTicks(step.primary, settings.gcdTicks), step.delayTicks != null ? 0 : 1);
     }
 
     if (estimates > 0) {
         report?.estimatedTiming(
-            `RM/PVME carries no absolute ticks — ${estimates} action(s) were spaced by the default ${DEFAULT_GCD_TICKS}-tick cadence (overrides applied where known). Verify against the source guide.`,
+            `RM/PVME carries no absolute ticks — ${estimates} action(s) were spaced ${settings.gcdTicks} ticks apart (channels use their real duration). Verify against the source.`,
         );
     }
 
