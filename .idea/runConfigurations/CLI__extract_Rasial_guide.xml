@@ -8,7 +8,6 @@
     </scripts>
     <arguments value="-- extract test/corpus/pvme-guides/rs3-full-boss-guides/rasial.txt --to rm -o out" />
     <node-interpreter value="project" />
-    <package-manager value="project" />
     <envs />
     <method v="2" />
   </configuration>

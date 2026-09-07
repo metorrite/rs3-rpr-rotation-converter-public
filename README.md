@@ -74,7 +74,7 @@ Run/Debug dropdown, grouped:
 | --- | --- | --- |
 | Build & Test | **build** | `tsc` + copy data into `dist/` |
 | | **rebuild (clean + build + test)** | full reset then rebuild + test |
-| | **test** / **test (watch)** / **All tests (Vitest)** | the Vitest suite |
+| | **test** / **test (watch)** | the Vitest suite (once / watch mode) |
 | | **typecheck** | `tsc --noEmit` |
 | | **clean** | remove `dist/`, `release/`, reports |
 | App | **GUI (Electron)** | build + launch the desktop converter |
