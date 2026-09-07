@@ -2,13 +2,30 @@ import { readFileSync } from "node:fs";
 import type { Catalog } from "../core/catalog.js";
 import type { ActionRef, TimelineEvent, TimelineIR } from "../core/ir.js";
 import { slug } from "../core/normalize.js";
-import { rsaBlankTemplatePath } from "../core/paths.js";
+import { rsaActionsPath, rsaBlankTemplatePath } from "../core/paths.js";
 import type { ConversionReport } from "../core/report.js";
 import { cleanRsaName, rsaDisplayName, toActionRef } from "../core/resolve.js";
 import { findWeaponSpecRule } from "../core/weapon-specs.js";
 import type { RsaExport, RsaExtraCell, RsaExtraEntry } from "../formats/rsa.types.js";
 
 const JAS_ARROWS = { primary: "jasdemonbanearrow", alt: "jasdragonbanearrow" };
+
+// The set of action names RS Analysis's damage calc understands. Anything else in
+// `data.a` / `data.t` makes the calc dereference `undefined` on import, which
+// throws and rejects the whole file — so unknown actions are routed to the
+// extras row instead. Refresh with `npm run update-assets` (see scripts).
+let rsaActions: Set<string> | null = null;
+function knownRsaAction(name: string): boolean {
+    if (!rsaActions) {
+        try {
+            const j = JSON.parse(readFileSync(rsaActionsPath, "utf8")) as { actions: string[] };
+            rsaActions = new Set(j.actions);
+        } catch {
+            rsaActions = new Set();
+        }
+    }
+    return rsaActions.size === 0 || rsaActions.has(name);
+}
 
 function isMeaningful(v: unknown): v is string {
     return typeof v === "string" && v.trim() !== "";
@@ -169,27 +186,35 @@ export function serializeRsa(
         if (ev.primary) {
             const p = ev.primary;
             const name = rsaDisplayName(p);
-            if (p.kind === "gear") {
-                // a bare weapon / gear swap belongs in the extras row, not the
-                // ability bar (RSA's damage calc only understands abilities in `a`)
+            if (p.kind === "gear" || p.kind === "marker") {
+                // a bare weapon swap / marker icon isn't an ability — extras row
                 base.data.e[ev.tick]!.push(extraEntry(p));
-            } else if (p.kind === "marker") {
-                if (base.data.t && !base.data.t[ev.tick]) base.data.t[ev.tick] = p.display;
-            } else {
+            } else if (p.kind === "spec" && !name && p.weaponId) {
+                // RSA has no action for this weapon's special — record the swap
+                const weapon = catalog.get(p.weaponId);
+                const w = weapon ? cleanRsaName(weapon.pvmeName ?? weapon.display) : p.weaponId;
+                base.data.e[ev.tick]!.push({ type: "gear", value: w, title: w });
+                if (ev.note == null) report?.dropped(`"${p.rawName}" special attack (no RS Analysis action)`, ev.tick);
+            } else if (name && knownRsaAction(name)) {
                 base.data.a[ev.tick] = name;
-                if (p.kind === "spec" && !name && p.weaponId) {
-                    // RSA has no action for this weapon's special — record the
-                    // swap in the extras row + a note instead of a name it can't calc
-                    const weapon = catalog.get(p.weaponId);
-                    const w = weapon ? cleanRsaName(weapon.pvmeName ?? weapon.display) : p.weaponId;
-                    base.data.e[ev.tick]!.push({ type: "gear", value: w, title: w });
-                }
+            } else if (name) {
+                // RS Analysis can't calc this ability — put it in the extras row
+                // so the import doesn't fail, and flag it.
+                base.data.e[ev.tick]!.push({ type: "ability", value: name, title: name });
+                report?.add({ code: "note", at: ev.tick, message: `"${name}" is not a modelled RS Analysis action — placed in the extras row.` });
             }
         }
         for (const ov of ev.overlays) {
             base.data.e[ev.tick]!.push(extraEntry(ov));
         }
-        if (ev.note && base.data.t && !base.data.t[ev.tick]) base.data.t[ev.tick] = ev.note;
+        // data.t is RS Analysis's stall row — it must hold ability names, not text.
+        if (ev.note && base.data.t) {
+            if (knownRsaAction(ev.note) && rsaActions && rsaActions.size > 0) {
+                if (!base.data.t[ev.tick]) base.data.t[ev.tick] = ev.note;
+            } else {
+                report?.add({ code: "dropped", at: ev.tick, message: `note "${ev.note}" — RS Analysis has no per-tick text field.` });
+            }
+        }
     }
 
     return base;

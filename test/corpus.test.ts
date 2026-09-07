@@ -57,8 +57,11 @@ describe.skipIf(!existsSync(corpusDir))("PVME guide corpus", () => {
             const { rotations: rots } = convertGuide(readFileSync(f, "utf8"), { to: "rsa", catalog });
             for (const r of rots) {
                 expect(isRsaExport(r.output), `${f} :: ${r.name}`).toBe(true);
-                const rsa = r.output as { data: { a: string[] } };
-                expect(rsa.data.a.some((x) => x !== "")).toBe(true);
+                const rsa = r.output as { data: { a: string[]; e: unknown[][] } };
+                // something landed on the timeline (an ability, or a gear/extra row)
+                const populated =
+                    rsa.data.a.some((x) => x !== "") || rsa.data.e.some((c) => c.length > 0);
+                expect(populated, `${f} :: ${r.name} produced an empty timeline`).toBe(true);
             }
         }
     });

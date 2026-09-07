@@ -53,7 +53,7 @@ export const ALIASES: AliasEntry[] = [
     { canonical: "imbue_shadows", aliases: ["imbue shadows", "imbueshadows"], rsaName: "imbue shadows" },
 
     // ---- Melee ----------------------------------------------------------
-    { canonical: "rend", aliases: ["smash"], rsaName: "smash", note: "RSA 'smash' maps to RM 'rend'" },
+    { canonical: "rend", aliases: ["smash"], note: "RM 'rend' == RS3 'smash'; RS Analysis's calc keys it as 'rend'" },
     { canonical: "adaptive_strike", aliases: ["adaptive strike"], rsaName: "adaptive strike" },
     { canonical: "cleave", aliases: ["igneous cleave", "igneouscleave"], rsaName: "igneous cleave", note: "RM has no igneous Cleave entry; plain Cleave is the closest icon" },
     { canonical: "melee_basic", aliases: ["melee auto", "melee basic", "meleebasic"], rsaName: "melee auto" },
