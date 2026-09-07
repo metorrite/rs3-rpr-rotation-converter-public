@@ -1,9 +1,9 @@
 import { randomUUID } from "node:crypto";
-import type { Catalog, CatalogEntry } from "../core/catalog.js";
+import { classify, type Catalog, type CatalogEntry } from "../core/catalog.js";
 import type { ActionRef, SequenceIR, Step } from "../core/ir.js";
 import { slug } from "../core/normalize.js";
 import type { ConversionReport } from "../core/report.js";
-import { entryForOutput, toActionRef } from "../core/resolve.js";
+import { entryForOutput, resolveEntry, toActionRef } from "../core/resolve.js";
 import { findWeaponSpecRule } from "../core/weapon-specs.js";
 import type { RmAbility, RmAbilitySelection, RmRotationSet } from "../formats/rm.types.js";
 
@@ -136,7 +136,25 @@ function selectionToRef(
 ): ActionRef {
     const name = abilityLike(sel);
     if (!name) return { canonicalId: null, rawName: "", display: "(empty)", kind: "marker" };
-    return toActionRef(catalog, name, { report, at, emojiId: sel.SelectedAbility?.EmojiId });
+
+    const emojiId = sel.SelectedAbility?.EmojiId;
+    if (resolveEntry(catalog, name, { emojiId })) {
+        return toActionRef(catalog, name, { report, at, emojiId });
+    }
+
+    // Not in our (possibly older) catalog — an RM export is self-describing, so
+    // trust the embedded SelectedAbility instead of emitting a raw placeholder.
+    if (sel.SelectedAbility) {
+        const a = sel.SelectedAbility;
+        return {
+            canonicalId: slug(a.Title) || null,
+            rawName: name,
+            display: a.Emoji || a.Title,
+            kind: classify(a.Category || ""),
+            emojiId: a.EmojiId || undefined,
+        };
+    }
+    return toActionRef(catalog, name, { report, at, emojiId });
 }
 
 // ---------------------------------------------------------------------------

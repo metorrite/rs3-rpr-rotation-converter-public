@@ -64,7 +64,7 @@ export interface CatalogEntry {
 
 export type MatchedBy = "id" | "emoji" | "emojiId" | "pvme" | "pvmeAlias";
 
-function classify(category: string): ActionKind {
+export function classify(category: string): ActionKind {
     const c = category.toLowerCase();
     if (c.includes("abilit")) return "ability";
     if (c.includes("consumable") || c.includes("currenc")) return "consumable";

@@ -99,7 +99,9 @@ const forward = new Map<string, string>();
 const rsaNames = new Map<string, string>();
 
 for (const entry of ALIASES) {
-    rsaNames.set(entry.canonical, entry.rsaName ?? entry.canonical);
+    // Only record an RSA name when one is explicitly curated. Falling back to the
+    // canonical id here would shadow the (usually clean) catalog display name.
+    if (entry.rsaName) rsaNames.set(entry.canonical, entry.rsaName);
     forward.set(slug(entry.canonical), entry.canonical);
     for (const a of entry.aliases) forward.set(slug(a), entry.canonical);
 }
@@ -109,7 +111,7 @@ export function aliasToCanonical(name: string): string | null {
     return forward.get(slug(name)) ?? null;
 }
 
-/** Preferred human name to write into an RSA file for a canonical id. */
+/** Curated RSA action name for a canonical id, or null to fall back to the catalog label. */
 export function rsaNameFor(canonicalId: string): string | null {
     return rsaNames.get(canonicalId) ?? null;
 }

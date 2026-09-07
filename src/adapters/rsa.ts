@@ -4,7 +4,7 @@ import type { ActionRef, TimelineEvent, TimelineIR } from "../core/ir.js";
 import { slug } from "../core/normalize.js";
 import { rsaBlankTemplatePath } from "../core/paths.js";
 import type { ConversionReport } from "../core/report.js";
-import { rsaDisplayName, toActionRef } from "../core/resolve.js";
+import { cleanRsaName, rsaDisplayName, toActionRef } from "../core/resolve.js";
 import { findWeaponSpecRule } from "../core/weapon-specs.js";
 import type { RsaExport, RsaExtraCell, RsaExtraEntry } from "../formats/rsa.types.js";
 
@@ -138,7 +138,7 @@ function extraEntry(ref: ActionRef): RsaExtraEntry {
 
 export function serializeRsa(
     timeline: TimelineIR,
-    _catalog: Catalog,
+    catalog: Catalog,
     report?: ConversionReport,
 ): RsaExport {
     const base =
@@ -169,11 +169,9 @@ export function serializeRsa(
         if (ev.primary) {
             base.data.a[ev.tick] = rsaDisplayName(ev.primary);
             if (ev.primary.kind === "spec" && ev.primary.weaponId) {
-                base.data.e[ev.tick]!.push({
-                    type: "gear",
-                    value: ev.primary.weaponId,
-                    title: ev.primary.weaponId,
-                });
+                const weapon = catalog.get(ev.primary.weaponId);
+                const name = weapon ? cleanRsaName(weapon.pvmeName ?? weapon.display) : ev.primary.weaponId;
+                base.data.e[ev.tick]!.push({ type: "gear", value: name, title: name });
             }
         }
         for (const ov of ev.overlays) {
