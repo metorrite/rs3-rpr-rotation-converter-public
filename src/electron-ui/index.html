@@ -2,26 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <title>RSAnalysis to RotationMaster JSON export converter</title>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'" />
+    <title>RS3 Rotation Converter</title>
     <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
 <div class="app">
-    <h1>RSAnalysis to RotationMaster JSON export converter</h1>
+    <h1>RS3 Rotation Converter</h1>
     <p class="subtitle">
-        Select the .json file exported from RSAnalysis website to convert to a readable format for Rotation Master Alt1 app.
+        Convert rotations between RS Analysis, RotationMaster, and PVME notation.
+        Pick a file and a direction; the report lists anything that needs a manual check.
     </p>
 
     <div class="field-group">
-        <label>Input file</label>
+        <label for="inputFile">Input file</label>
         <div class="row">
-            <input id="inputFile" type="text" readonly />
+            <input id="inputFile" type="text" readonly placeholder="RSA / RM .json or PVME .txt" />
             <button id="browseInputBtn">Browse</button>
         </div>
     </div>
 
     <div class="field-group">
-        <label>Output folder</label>
+        <label>Direction</label>
+        <div class="row">
+            <select id="fromFormat">
+                <option value="auto" selected>Auto-detect</option>
+                <option value="rsa">RS Analysis</option>
+                <option value="rm">RotationMaster</option>
+                <option value="pvme">PVME</option>
+            </select>
+            <span class="arrow">&rarr;</span>
+            <select id="toFormat">
+                <option value="rm" selected>RotationMaster</option>
+                <option value="rsa">RS Analysis</option>
+                <option value="pvme">PVME</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="field-group">
+        <label for="outputFolder">Output folder</label>
         <div class="row">
             <input id="outputFolder" type="text" readonly />
             <button id="browseOutputBtn">Browse</button>
@@ -33,6 +53,8 @@
     </div>
 
     <div id="status" class="status"></div>
+    <pre id="report" class="report" hidden></pre>
+    <div id="dataVersion" class="data-version"></div>
 </div>
 
 <script src="./renderer.js"></script>

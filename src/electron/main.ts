@@ -1,106 +1,101 @@
-import { app, BrowserWindow, dialog, ipcMain } from "electron";
+import { readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { convertRsaFileToRm } from "../core/convertRsaFile.js";
+import { app, BrowserWindow, dialog, ipcMain } from "electron";
+import { convert, loadCatalog, type FormatId } from "../core/index.js";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 let mainWindow: BrowserWindow | null = null;
 
-function getRendererPath(): string {
-    // dist/electron/main.js -> go up to app root, then into src/electron-ui
+function rendererPath(): string {
+    // dist/electron/main.js -> repo/src/electron-ui/index.html
     return path.resolve(__dirname, "../../src/electron-ui/index.html");
 }
 
 function createWindow(): void {
     mainWindow = new BrowserWindow({
-        width: 760,
-        height: 460,
-        resizable: false,
+        width: 820,
+        height: 620,
         backgroundColor: "#111827",
         webPreferences: {
-            nodeIntegration: true,
-            contextIsolation: false,
-            sandbox: false
-        }
+            preload: path.join(__dirname, "preload.js"),
+            contextIsolation: true,
+            nodeIntegration: false,
+            sandbox: false,
+        },
     });
-
-    const rendererPath = getRendererPath();
-    console.log("Loading renderer from:", rendererPath);
-
-    mainWindow.loadFile(rendererPath);
-
-    mainWindow.webContents.on("did-fail-load", (_event, errorCode, errorDescription, validatedURL) => {
-        console.error("Renderer failed to load:", {
-            errorCode,
-            errorDescription,
-            validatedURL
-        });
-    });
-
-    mainWindow.webContents.on("did-finish-load", () => {
-        console.log("Renderer finished loading");
-    });
-
-    // Uncomment this while debugging packaged builds
-    // mainWindow.webContents.openDevTools();
+    void mainWindow.loadFile(rendererPath());
 }
 
 app.whenReady().then(() => {
     createWindow();
 
-    ipcMain.handle("browse-input-file", async () => {
-        const result = await dialog.showOpenDialog({
-            title: "Select RSAnalysis JSON export",
+    ipcMain.handle("catalog-info", () => loadCatalog().manifest);
+
+    ipcMain.handle("browse-input", async () => {
+        const r = await dialog.showOpenDialog({
+            title: "Select a rotation file",
             properties: ["openFile"],
-            filters: [{ name: "JSON Files", extensions: ["json"] }]
+            filters: [
+                { name: "Rotation files", extensions: ["json", "txt"] },
+                { name: "All files", extensions: ["*"] },
+            ],
         });
-
-        if (result.canceled || result.filePaths.length === 0) {
-            return null;
-        }
-
-        return result.filePaths[0];
+        return r.canceled ? null : (r.filePaths[0] ?? null);
     });
 
-    ipcMain.handle("browse-output-folder", async () => {
-        const result = await dialog.showOpenDialog({
-            title: "Select output folder",
-            properties: ["openDirectory", "createDirectory"]
+    ipcMain.handle("browse-output", async () => {
+        const r = await dialog.showOpenDialog({
+            title: "Select an output folder",
+            properties: ["openDirectory", "createDirectory"],
         });
-
-        if (result.canceled || result.filePaths.length === 0) {
-            return null;
-        }
-
-        return result.filePaths[0];
+        return r.canceled ? null : (r.filePaths[0] ?? null);
     });
 
-    ipcMain.handle("convert-rsa-to-rm", async (_event, inputPath: string, outputFolder: string) => {
-        try {
-            return {
-                ok: true,
-                result: convertRsaFileToRm(inputPath, outputFolder)
-            };
-        } catch (error) {
-            console.error("Conversion failed:", error);
-            return {
-                ok: false,
-                error: error instanceof Error ? error.message : String(error)
-            };
-        }
-    });
+    ipcMain.handle(
+        "convert",
+        (_e, inputPath: string, outputDir: string, from: FormatId, to: FormatId) => {
+            try {
+                const raw = readFileSync(inputPath, "utf8");
+                const input: unknown =
+                    path.extname(inputPath).toLowerCase() === ".txt"
+                        ? raw
+                        : JSON.parse(raw);
+                const result = convert(input, { from, to });
+
+                const base = path.basename(inputPath, path.extname(inputPath));
+                const ext = result.to === "pvme" ? "txt" : "json";
+                const outputPath = path.join(
+                    outputDir,
+                    `${base} - (${result.to.toUpperCase()}_converted).${ext}`,
+                );
+                const body =
+                    typeof result.output === "string"
+                        ? result.output
+                        : JSON.stringify(result.output, null, 2);
+                writeFileSync(outputPath, body, "utf8");
+
+                return {
+                    ok: true as const,
+                    outputPath,
+                    report: result.report.entries,
+                    reportText: result.report.format(),
+                };
+            } catch (error) {
+                return {
+                    ok: false as const,
+                    error: error instanceof Error ? error.message : String(error),
+                };
+            }
+        },
+    );
 
     app.on("activate", () => {
-        if (BrowserWindow.getAllWindows().length === 0) {
-            createWindow();
-        }
+        if (BrowserWindow.getAllWindows().length === 0) createWindow();
     });
 });
 
 app.on("window-all-closed", () => {
-    if (process.platform !== "darwin") {
-        app.quit();
-    }
+    if (process.platform !== "darwin") app.quit();
 });

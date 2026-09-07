@@ -1,0 +1,26 @@
+rs3-rpr-rotation-converter
+==========================
+
+This project bundles data derived from third-party community projects.
+
+RotationMaster
+--------------
+Files: src/data/abilities.json, src/data/pvme.json
+Source: https://github.com/Ellamental2/RotationMaster (branch: master)
+The exact upstream commit these copies were taken from is recorded in
+src/data/ASSETS_MANIFEST.json and can be refreshed with `npm run update-assets`.
+Ability icons and emoji data originate from the PVME Discord community.
+
+PVME Guides
+-----------
+Rotation notation and ability naming conventions follow the PVME guides project:
+https://github.com/pvme/pvme-guides — content there is published under a
+Creative Commons licence (see that repository for details).
+
+RS Analysis
+-----------
+The RS Analysis save/export format is reproduced by observation of files created
+with the RS Analysis tool (https://tools.runescape.wiki/rs-rot).
+
+RuneScape is a trademark of Jagex Ltd. This project is unofficial and not
+affiliated with Jagex, the PVME Discord, or the RotationMaster authors.

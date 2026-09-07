@@ -1,62 +1,58 @@
-const { ipcRenderer } = require("electron");
+const { converterApi } = window;
 
 const inputFileEl = document.getElementById("inputFile");
 const outputFolderEl = document.getElementById("outputFolder");
+const fromFormatEl = document.getElementById("fromFormat");
+const toFormatEl = document.getElementById("toFormat");
 const browseInputBtn = document.getElementById("browseInputBtn");
 const browseOutputBtn = document.getElementById("browseOutputBtn");
 const convertBtn = document.getElementById("convertBtn");
 const statusEl = document.getElementById("status");
+const reportEl = document.getElementById("report");
+const dataVersionEl = document.getElementById("dataVersion");
 
 browseInputBtn.addEventListener("click", async () => {
-    try {
-        const filePath = await ipcRenderer.invoke("browse-input-file");
-        if (filePath) {
-            inputFileEl.value = filePath;
-            statusEl.textContent = `Selected input:\n${filePath}`;
-        }
-    } catch (error) {
-        statusEl.textContent = `Browse input failed:\n${String(error)}`;
+    const p = await converterApi.browseInput();
+    if (p) {
+        inputFileEl.value = p;
+        statusEl.textContent = `Input: ${p}`;
     }
 });
 
 browseOutputBtn.addEventListener("click", async () => {
-    try {
-        const folderPath = await ipcRenderer.invoke("browse-output-folder");
-        if (folderPath) {
-            outputFolderEl.value = folderPath;
-            statusEl.textContent = `Selected output folder:\n${folderPath}`;
-        }
-    } catch (error) {
-        statusEl.textContent = `Browse output failed:\n${String(error)}`;
+    const p = await converterApi.browseOutput();
+    if (p) {
+        outputFolderEl.value = p;
+        statusEl.textContent = `Output folder: ${p}`;
     }
 });
 
 convertBtn.addEventListener("click", async () => {
-    const inputPath = inputFileEl.value.trim();
-    const outputFolder = outputFolderEl.value.trim();
+    const input = inputFileEl.value.trim();
+    const outDir = outputFolderEl.value.trim();
+    reportEl.hidden = true;
 
-    if (!inputPath) {
-        statusEl.textContent = "Please select an input JSON file.";
-        return;
+    if (!input) return (statusEl.textContent = "Choose an input file.");
+    if (!outDir) return (statusEl.textContent = "Choose an output folder.");
+
+    const from = fromFormatEl.value === "auto" ? null : fromFormatEl.value;
+    const to = toFormatEl.value;
+    if (from === to) return (statusEl.textContent = "Source and target formats must differ.");
+
+    statusEl.textContent = "Converting…";
+    const res = await converterApi.convert(input, outDir, from, to);
+
+    if (res.ok) {
+        statusEl.textContent = `Saved: ${res.outputPath}`;
+        reportEl.textContent = res.reportText;
+        reportEl.hidden = false;
+    } else {
+        statusEl.textContent = `Conversion failed: ${res.error}`;
     }
+});
 
-    if (!outputFolder) {
-        statusEl.textContent = "Please select an output folder.";
-        return;
-    }
-
-    statusEl.textContent = "Converting...";
-
-    try {
-        const response = await ipcRenderer.invoke("convert-rsa-to-rm", inputPath, outputFolder);
-
-        if (response.ok) {
-            statusEl.textContent =
-                `Conversion complete.\n\nSaved file:\n${response.result.outputPath}`;
-        } else {
-            statusEl.textContent = `Conversion failed:\n${response.error}`;
-        }
-    } catch (error) {
-        statusEl.textContent = `Conversion failed:\n${String(error)}`;
+converterApi.catalogInfo().then((m) => {
+    if (m) {
+        dataVersionEl.textContent = `Ability data: RotationMaster ${m.rmVersion ?? "?"} — ${m.abilityCount ?? "?"} abilities (${m.commit.slice(0, 7)})`;
     }
 });

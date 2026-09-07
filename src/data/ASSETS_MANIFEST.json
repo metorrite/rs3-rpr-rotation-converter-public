@@ -1,0 +1,13 @@
+{
+  "repo": "Ellamental2/RotationMaster",
+  "ref": "master",
+  "commit": "15bbb7875455a33ca02d2ad31121a689b16759c6",
+  "committedAt": "2026-08-25T10:22:24Z",
+  "fetchedAt": "2026-09-07T20:54:09.650Z",
+  "rmVersion": "3.2.0",
+  "files": [
+    "abilities.json",
+    "pvme.json"
+  ],
+  "abilityCount": 2207
+}
