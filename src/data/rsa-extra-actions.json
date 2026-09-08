@@ -1,0 +1,90 @@
+{
+  "source": "tools.runescape.wiki/rs-rot bundle",
+  "note": "value -> {title,icon} for data.e extra-action abilities",
+  "actions": {
+    "dreadnip": {
+      "title": "Dreadnip",
+      "icon": "/rs-rot/ability_icons/special/Dreadnip.png"
+    },
+    "runic charge": {
+      "title": "Runic Charge",
+      "icon": "/rs-rot/ability_icons/magic/Runic_Charge.png"
+    },
+    "ingenuity of the humans": {
+      "title": "Ingenuity of the Humans",
+      "icon": "/rs-rot/ability_icons/special/Ingenuity_of_the_Humans.png"
+    },
+    "limitless": {
+      "title": "Limitless",
+      "icon": "/rs-rot/ability_icons/special/Limitless.png"
+    },
+    "dragon slayer ability": {
+      "title": "Dragon Slayer",
+      "icon": "/rs-rot/ability_icons/special/Dragon_Slayer_(ability).png"
+    },
+    "demon slayer ability": {
+      "title": "Demon Slayer",
+      "icon": "/rs-rot/ability_icons/special/Demon_Slayer_(ability).png"
+    },
+    "undead slayer ability": {
+      "title": "Undead Slayer",
+      "icon": "/rs-rot/ability_icons/special/Undead_Slayer_(ability).png"
+    },
+    "surge": {
+      "title": "Surge",
+      "icon": "/rs-rot/ability_icons/special/Surge.png"
+    },
+    "escape": {
+      "title": "Escape",
+      "icon": "/rs-rot/ability_icons/special/Escape.png"
+    },
+    "dive": {
+      "title": "Dive",
+      "icon": "/rs-rot/ability_icons/special/Dive.png"
+    },
+    "deflect magic": {
+      "title": "Deflect Magic",
+      "icon": "/rs-rot/ability_icons/special/Deflect_Magic.png"
+    },
+    "deflect ranged": {
+      "title": "Deflect Ranged",
+      "icon": "/rs-rot/ability_icons/special/Deflect_Ranged.png"
+    },
+    "deflect melee": {
+      "title": "Deflect Melee",
+      "icon": "/rs-rot/ability_icons/special/Deflect_Melee.png"
+    },
+    "deflect necromancy": {
+      "title": "Deflect Necromancy",
+      "icon": "/rs-rot/ability_icons/special/Deflect_Necromancy.png"
+    },
+    "soul split": {
+      "title": "Soul Split",
+      "icon": "/rs-rot/ability_icons/special/Soul_Split.png"
+    },
+    "exsanguinate": {
+      "title": "Exsanguinate",
+      "icon": "/rs-rot/effect_icons/Exsanguinate_icon.webp"
+    },
+    "incite fear": {
+      "title": "Incite Fear",
+      "icon": "/rs-rot/ability_icons/magic/Incite_Fear_icon.webp"
+    },
+    "vengeance": {
+      "title": "Vengeance",
+      "icon": "/rs-rot/ability_icons/special/Vengeance.png"
+    },
+    "spellbook swap": {
+      "title": "Spellbook Swap",
+      "icon": "/rs-rot/ability_icons/special/Spellbook_Swap.png"
+    },
+    "disruption shield": {
+      "title": "Disruption Shield",
+      "icon": "/rs-rot/ability_icons/special/Disruption_Shield.png"
+    },
+    "prism of restoration": {
+      "title": "Prism of Restoration",
+      "icon": "/rs-rot/effect_icons/Prism_of_Restoration_icon.png"
+    }
+  }
+}

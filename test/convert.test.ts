@@ -151,6 +151,19 @@ describe("GCD / off-GCD timing (RM -> RSA)", () => {
         expect(rsa.data.e[0]!.some((x) => typeof x === "object" && x.value === "surge")).toBe(true);
     });
 
+    it("off-GCD extras carry the RS Analysis title + icon", () => {
+        const rm = mk([
+            ["snipe", "Ranged Abilities"],
+            ["undead slayer ability", "Defence and Constitution Abilities"],
+        ]);
+        const rsa = convert(rm, { from: "rm", to: "rsa" }).output as RsaExport;
+        const entry = rsa.data.e
+            .flat()
+            .find((x): x is { title: string; icon?: string } => typeof x === "object");
+        expect(entry?.title).toBe("Undead Slayer");
+        expect(entry?.icon).toMatch(/Undead_Slayer/);
+    });
+
     it("a channel occupies its real duration before the next GCD ability", () => {
         const rm = mk([
             ["rapid fire", "Ranged Abilities"],

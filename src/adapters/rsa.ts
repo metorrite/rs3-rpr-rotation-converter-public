@@ -2,7 +2,7 @@ import { readFileSync } from "node:fs";
 import type { Catalog } from "../core/catalog.js";
 import type { ActionRef, TimelineEvent, TimelineIR } from "../core/ir.js";
 import { slug } from "../core/normalize.js";
-import { rsaActionsPath, rsaBlankTemplatePath } from "../core/paths.js";
+import { rsaActionsPath, rsaBlankTemplatePath, rsaExtraActionsPath } from "../core/paths.js";
 import type { ConversionReport } from "../core/report.js";
 import { cleanRsaName, rsaDisplayName, toActionRef } from "../core/resolve.js";
 import { DEFAULT_SETTINGS, type ConversionSettings } from "../core/settings.js";
@@ -148,10 +148,39 @@ function blankTemplate(): RsaExport {
     return structuredClone(templateCache);
 }
 
+// value -> {title,icon} for the utility abilities RS Analysis renders in the
+// extras row (surge, undead slayer ability, deflects, …). Without a proper title
+// + icon the entry shows up broken. Vendored from the RS Analysis bundle.
+let extraActions: Record<string, { title: string; icon: string }> | null = null;
+function extraActionMeta(value: string): { title: string; icon: string } | null {
+    if (!extraActions) {
+        try {
+            extraActions = (
+                JSON.parse(readFileSync(rsaExtraActionsPath, "utf8")) as {
+                    actions: Record<string, { title: string; icon: string }>;
+                }
+            ).actions;
+        } catch {
+            extraActions = {};
+        }
+    }
+    return extraActions[value] ?? null;
+}
+
+function titleCase(s: string): string {
+    return s.replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
 function extraEntry(ref: ActionRef): RsaExtraEntry {
     const type = ref.kind === "gear" ? "gear" : ref.kind === "consumable" ? "consumable" : "ability";
     const value = rsaDisplayName(ref);
-    return { type, value, title: value };
+    const meta = extraActionMeta(value);
+    return {
+        type,
+        value,
+        title: meta?.title ?? ref.pvmeName ?? ref.display ?? titleCase(value),
+        ...(meta?.icon ? { icon: meta.icon } : {}),
+    };
 }
 
 const STYLE_BY_CATEGORY: Array<[RegExp, string]> = [

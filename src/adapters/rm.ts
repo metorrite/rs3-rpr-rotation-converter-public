@@ -248,13 +248,11 @@ export function serializeRm(
         m.stall ? "s" : m.release ? "r" : m.kind === "ability" || m.kind === "spec" ? "+" : "";
 
     const emitStep = (data: RmAbilitySelection[], step: Step, isFirstInBlock: boolean): void => {
-        const firstSep = step.stall
-            ? "s"
-            : step.release
-              ? "r"
-              : step.lineBreakBefore && !isFirstInBlock
-                ? "↵"
-                : "→";
+        // the row that connects this step to the previous one
+        const connectSep = step.lineBreakBefore && !isFirstInBlock ? "↵" : "→";
+        // stall / release describe the *action*, so they belong on the ability
+        // row, not on a preceding ammo/weapon swap
+        const primaryStallSep = step.stall ? "s" : step.release ? "r" : null;
 
         const extraNotes: string[] = [];
         if (step.note) extraNotes.push(step.note);
@@ -267,15 +265,11 @@ export function serializeRm(
 
         if (!step.primary) return;
 
-        // ammo / weapon swaps that come *before* the ability: first takes the
-        // step separator, the rest and the ability itself use "" (None).
+        // ammo / weapon swaps that come *before* the ability: the first row takes
+        // the connecting separator, the rest (and the ability) use "" (None).
         const swaps = step.swapBefore ?? [];
-        let sep = firstSep;
-        for (const sw of swaps) {
-            data.push(selectionFor(catalog, sw, sep, null));
-            sep = "";
-        }
-        const primarySep = swaps.length ? "" : firstSep;
+        swaps.forEach((sw, i) => data.push(selectionFor(catalog, sw, i === 0 ? connectSep : "", null)));
+        const primarySep = primaryStallSep ?? (swaps.length ? "" : connectSep);
 
         if (step.primary.kind === "spec" && step.primary.weaponId) {
             const weapon = catalog.get(step.primary.weaponId);

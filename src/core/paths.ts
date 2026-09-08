@@ -26,4 +26,5 @@ export const pvmePath = path.join(dataDir, "pvme.json");
 export const pvmeEmojisPath = path.join(dataDir, "pvme-emojis.json");
 export const rsaBlankTemplatePath = path.join(dataDir, "RSA_BLANK_TEMPLATE.json");
 export const rsaActionsPath = path.join(dataDir, "rsa-actions.json");
+export const rsaExtraActionsPath = path.join(dataDir, "rsa-extra-actions.json");
 export const assetsManifestPath = path.join(dataDir, "ASSETS_MANIFEST.json");
