@@ -49,6 +49,12 @@ export interface Step {
     delayTicks: number | null;
     /** render a line break before this step (RM "↵") */
     lineBreakBefore?: boolean;
+    /** this action is stalled (RM "s" separator / PVME "s" prefix) */
+    stall?: boolean;
+    /** this action is a release of a stalled action (RM "r" separator) */
+    release?: boolean;
+    /** off-GCD extras / gear that land this tick but are truly optional/conditional */
+    optional?: ActionRef[];
     /** leftover free text (RM Notes that were not a tick count) */
     note?: string;
 }

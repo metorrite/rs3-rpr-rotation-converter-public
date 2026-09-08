@@ -116,7 +116,7 @@ export function parseRsa(
         }
         for (const extra of extras(e[tick])) {
             eventAt(tick).overlays.push(
-                resolveRsaAction(catalog, extra.value, "e", report, tick, kindFromExtraType(extra.type)),
+                resolveRsaAction(catalog, String(extra.value), "e", report, tick, kindFromExtraType(extra.type)),
             );
         }
         const note = t[tick];
@@ -152,6 +152,38 @@ function extraEntry(ref: ActionRef): RsaExtraEntry {
     const type = ref.kind === "gear" ? "gear" : ref.kind === "consumable" ? "consumable" : "ability";
     const value = rsaDisplayName(ref);
     return { type, value, title: value };
+}
+
+const STYLE_BY_CATEGORY: Array<[RegExp, string]> = [
+    [/magic/i, "magic"],
+    [/rang/i, "ranged"],
+    [/necro/i, "necro"],
+    [/melee|strength|attack|defence/i, "melee"],
+];
+
+/** style keyword for a weapon, from its catalog category */
+function weaponStyle(catalog: Catalog, weaponId: string | undefined): string {
+    const cat = weaponId ? (catalog.get(weaponId)?.category ?? "") : "";
+    return STYLE_BY_CATEGORY.find(([re]) => re.test(cat))?.[1] ?? "ranged";
+}
+
+const AUTO_BY_STYLE: Record<string, string> = {
+    magic: "magic auto",
+    ranged: "ranged auto",
+    melee: "melee auto",
+    necro: "necromancy auto",
+};
+
+/** RS Analysis "Custom main-hand weapon" placeholder for a style's MH slot. */
+function customMainHand(style: string): RsaExtraEntry {
+    const slot = style === "necro" ? "necro main-hand weapon" : `${style} main-hand weapon`;
+    return {
+        type: "gear",
+        value: 1000000, // RS Analysis's "Custom main-hand weapon" item id
+        title: "Custom main-hand weapon",
+        icon: "https://runescape.wiki/images/Custom_main-hand_weapon.png",
+        slot,
+    } as RsaExtraEntry;
 }
 
 export function serializeRsa(
@@ -192,12 +224,18 @@ export function serializeRsa(
             if (p.kind === "gear" || p.kind === "marker") {
                 // a bare weapon swap / marker icon isn't an ability — extras row
                 base.data.e[ev.tick]!.push(extraEntry(p));
-            } else if (p.kind === "spec" && !name && p.weaponId) {
-                // RSA has no action for this weapon's special — record the swap
-                const weapon = catalog.get(p.weaponId);
-                const w = weapon ? cleanRsaName(weapon.pvmeName ?? weapon.display) : p.weaponId;
-                base.data.e[ev.tick]!.push({ type: "gear", value: w, title: w });
-                if (ev.note == null) report?.dropped(`"${p.rawName}" special attack (no RS Analysis action)`, ev.tick);
+            } else if (p.kind === "spec" && !(name && knownRsaAction(name))) {
+                // No 1:1 RS Analysis action for this weapon's special (or none at
+                // all). Emit a basic attack + a "Custom main-hand weapon" swap so
+                // the tick still calcs and the weapon change is visible.
+                const style = weaponStyle(catalog, p.weaponId);
+                base.data.a[ev.tick] = AUTO_BY_STYLE[style] ?? "ranged auto";
+                base.data.e[ev.tick]!.push(customMainHand(style));
+                report?.add({
+                    code: "note",
+                    at: ev.tick,
+                    message: `"${p.rawName || p.weaponId || "special attack"}" has no RS Analysis action — wrote a ${style} basic + Custom main-hand weapon.`,
+                });
             } else if (name && knownRsaAction(name)) {
                 base.data.a[ev.tick] = name;
             } else if (name) {

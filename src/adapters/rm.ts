@@ -92,13 +92,15 @@ export function parseRm(
         }
 
         const lineBreakBefore = current.Separator === "↵";
+        const stall = current.Separator === "s";
+        const release = current.Separator === "r";
         const delayTicks = tickNote(current.Notes);
         const note = leftoverNote(current.Notes);
 
         // weapon + "" + (spec | eofspec)  ->  a single spec step
         if (next && next.Separator === "" && (isSpec(next) || isEofSpec(next))) {
             const { primary, fallbackNote } = makeSpecStep(catalog, abilityLike(current), report, stepIndex);
-            steps.push({ primary, sameTick: [], delayTicks, lineBreakBefore, note: note ?? fallbackNote });
+            steps.push({ primary, sameTick: [], delayTicks, lineBreakBefore, stall: stall || undefined, release: release || undefined, note: note ?? fallbackNote });
             i += 2;
             stepIndex++;
             continue;
@@ -149,6 +151,8 @@ export function parseRm(
             sameTick,
             delayTicks: delayTicks ?? tickNote(primarySel.Notes),
             lineBreakBefore,
+            stall: stall || undefined,
+            release: release || undefined,
             note: note ?? leftoverNote(primarySel.Notes) ?? specFallbackNote,
         });
         i = j;
@@ -242,8 +246,20 @@ export function serializeRm(
     const data: RmAbilitySelection[] = [];
 
     for (const step of seq.steps) {
-        const firstSep = step.lineBreakBefore ? "↵" : "→";
-        const notes = step.delayTicks != null ? `${step.delayTicks}T` : step.note ?? null;
+        // stall / release are real RM separators; line break otherwise; default →
+        const firstSep = step.stall ? "s" : step.release ? "r" : step.lineBreakBefore ? "↵" : "→";
+        const extraNotes: string[] = [];
+        if (step.note) extraNotes.push(step.note);
+        const optNames = (step.optional ?? [])
+            .filter((o) => o.canonicalId !== "spec" && o.canonicalId !== "eofspec" && o.kind !== "marker")
+            .map((o) => o.display || o.rawName);
+        if (optNames.length) extraNotes.push(`optional: ${optNames.join(", ")}`);
+        const notes =
+            step.delayTicks != null
+                ? `${step.delayTicks}T`
+                : extraNotes.length
+                  ? extraNotes.join("; ")
+                  : null;
 
         if (!step.primary) continue;
 
@@ -262,8 +278,12 @@ export function serializeRm(
             }
         }
 
+        // Same-tick members: an ability that consumes the GCD can't share a tick,
+        // so only genuine off-GCD actions use "+"; ammo / gear / consumable swaps
+        // use the "" (None) separator, which RM reads as "this action uses it".
         for (const member of step.sameTick) {
-            data.push(selectionFor(catalog, member, "+", null));
+            const sep = member.kind === "ability" || member.kind === "spec" ? "+" : "";
+            data.push(selectionFor(catalog, member, sep, null));
         }
     }
 

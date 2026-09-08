@@ -36,25 +36,67 @@ interface Ref {
 interface Atom {
     op: "first" | "+" | "/";
     refs: Ref[];
+    /** emoji refs that appeared inside ( … ) — optional / conditional actions */
+    optionalRefs: Ref[];
     delayTicks: number | null;
+    stall: boolean;
+    release: boolean;
     notes: string[];
 }
 
-function classifyParen(inner: string): { delayTicks?: number; note?: string } {
+const emojiRefs = (s: string): Ref[] =>
+    [...s.matchAll(EMOJI_TOKEN)].map((m) => ({ name: m[1]!, emojiId: m[2] }));
+
+const NOTE_STOPWORDS = new Set([
+    "or", "if", "on", "the", "a", "an", "to", "and", "do", "of", "in", "at",
+    "is", "are", "be", "for", "as", "s", "r", "tc",
+]);
+
+/** Strip every emoji token / stray bracket-colon debris from free text. */
+function cleanNote(s: string): string {
+    const t = s
+        .replace(EMOJI_TOKEN, " ")
+        .replace(/<[^>]*>/g, " ")
+        .replace(/:[a-z0-9_]+:/gi, " ")
+        .replace(/[<>()]/g, " ")
+        .replace(/\bakh:\d+\b/gi, " ")
+        .replace(/\b\d{6,}\b/g, " ")
+        .replace(/\s+/g, " ")
+        .trim()
+        .replace(/^[:;,.+/\-\s]+|[:;,.+/\-\s]+$/g, "")
+        .trim();
+    if (t.length <= 1) return "";
+    // drop fragments that are only filler words ("or", "if 53% after", …)
+    const words = t.toLowerCase().split(/\s+/);
+    if (words.every((w) => NOTE_STOPWORDS.has(w) || /^\d+%?$/.test(w))) return "";
+    return t;
+}
+
+function classifyParen(inner: string): {
+    delayTicks?: number;
+    note?: string;
+    optionalRefs?: Ref[];
+} {
     const t = inner.trim();
+    const refs = emojiRefs(t);
     const tick = t.match(/^(\d+)\s*t$/i);
     if (tick) return { delayTicks: Number.parseInt(tick[1]!, 10) };
-    if (/^tc$/i.test(t)) return { note: "target cycle" };
-    if (/^auto/i.test(t)) return { note: t };
-    if (/hits?$/i.test(t)) return { note: `channel: ${t}` };
+    if (/^tc\b/i.test(t)) {
+        return { note: refs.length ? "target cycle" : "target cycle", optionalRefs: [] };
+    }
     if (/^(dw|2h)$/i.test(t)) return { note: t.toUpperCase() };
-    if (/<:/.test(t)) return { note: `autocast ${t}` };
-    return { note: t };
+    if (/hits?\b/i.test(t) && !refs.length) return { note: `channel: ${t}` };
+    // ( <:emoji:> … ) -> an optional / conditional action. Keep the refs, keep any
+    // real words as a short note, but never the raw ids.
+    if (refs.length) return { optionalRefs: refs, note: cleanNote(t) || undefined };
+    const n = cleanNote(t);
+    return n ? { note: n } : {};
 }
 
 function parseAtom(raw: string, op: Atom["op"]): Atom {
     let text = stripInvisible(raw).trim();
     const notes: string[] = [];
+    const optionalRefs: Ref[] = [];
     let delayTicks: number | null = null;
 
     // ( … ) annotations
@@ -62,14 +104,18 @@ function parseAtom(raw: string, op: Atom["op"]): Atom {
         const c = classifyParen(inner);
         if (c.delayTicks != null) delayTicks = c.delayTicks;
         if (c.note) notes.push(c.note);
+        if (c.optionalRefs) optionalRefs.push(...c.optionalRefs);
         return " ";
     });
     // * … * annotations (incl. *(…)*)
     text = text.replace(/\*+([^*]+)\*+/g, (_m, inner: string) => {
-        const n = inner.replace(/^\(|\)$/g, "").trim();
-        const tick = n.match(/^(\d+)\s*t$/i);
-        if (tick) delayTicks = Number.parseInt(tick[1]!, 10);
-        else if (n) notes.push(n.replace(/^Note:\s*/i, ""));
+        const tick = inner.match(/^\(?\s*(\d+)\s*t\s*\)?$/i);
+        if (tick) {
+            delayTicks = Number.parseInt(tick[1]!, 10);
+        } else {
+            const n = cleanNote(inner.replace(/^Note:\s*/i, ""));
+            if (n) notes.push(n);
+        }
         return " ";
     });
     // ~20s / ~1:45 timing hints
@@ -78,22 +124,17 @@ function parseAtom(raw: string, op: Atom["op"]): Atom {
         return " ";
     });
 
-    const refs: Ref[] = [];
-    for (const m of text.matchAll(EMOJI_TOKEN)) refs.push({ name: m[1]!, emojiId: m[2] });
+    // s / r stall-release prefix — structural, not a note
+    const stall = /(?:^|\s)s(?=<:)/.test(text) || /^\s*s\s*$/.test(text);
+    const release = /(?:^|\s)r(?=<:)/.test(text) || /^\s*r\s*$/.test(text);
 
-    // s / r stall-release prefix (letter immediately before the first token, or a bare "s"/"r" word)
-    const prefix = text.match(/(?:^|\s)([sr])<:/) ?? (refs.length === 0 && text.match(/^\s*([sr])\s*$/));
-    if (prefix) notes.push(prefix[1] === "s" ? "stall" : "release");
+    const refs = emojiRefs(text);
 
-    // leftover words that aren't tokens/prefixes -> keep as a note (prose fragments)
-    const leftover = text
-        .replace(EMOJI_TOKEN, " ")
-        .replace(/(?:^|\s)[sr](?=\s|$)/g, " ")
-        .replace(/[<>:]/g, " ")
-        .trim();
-    if (leftover && leftover.length > 1) notes.push(leftover);
+    // any remaining prose fragment
+    const leftover = cleanNote(text.replace(/(?:^|\s)[sr](?=<:|\s|$)/g, " "));
+    if (leftover) notes.push(leftover);
 
-    return { op, refs, delayTicks, notes };
+    return { op, refs, optionalRefs, delayTicks, stall, release, notes };
 }
 
 function splitSegments(input: string): { text: string; lineBreak: boolean }[] {
@@ -194,11 +235,18 @@ export function parsePvme(
             }
         }
 
+        const optional = atoms.flatMap((a) => a.optionalRefs).map(ref);
+        const stall = atoms.some((a) => a.stall);
+        const release = atoms.some((a) => a.release);
+
         steps.push({
             primary,
             sameTick,
             delayTicks: segDelay,
             lineBreakBefore: seg.lineBreak || undefined,
+            stall: stall || undefined,
+            release: release || undefined,
+            optional: optional.length ? optional : undefined,
             note: segNotes.length ? segNotes.join("; ") : undefined,
         });
         at++;

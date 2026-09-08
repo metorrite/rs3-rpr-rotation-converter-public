@@ -46,7 +46,8 @@ export function sequenceToTimeline(
         events.push({
             tick: landTick,
             primary: step.primary,
-            overlays: step.sameTick,
+            // optional/conditional off-GCD items ride the same tick as extras
+            overlays: [...step.sameTick, ...(step.optional ?? [])],
             note: step.note,
         });
 

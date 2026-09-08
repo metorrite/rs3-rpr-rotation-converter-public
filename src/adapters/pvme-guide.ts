@@ -94,6 +94,9 @@ const BULLET = /^[\s]*[⬥⬦◦•⬩⬖▸▪·‣-]+\s*/;
 
 /** Rotation lines are dense tick sequences; some guides prefix them with a bullet. */
 export function isRotationLine(line: string): boolean {
+    const raw = line.trim();
+    // a fully italicised line (*⬥ … * / *…*) is an editor aside, not the rotation
+    if (/^\*[⬥⬦•\s]/.test(raw) || (raw.startsWith("*") && raw.endsWith("*"))) return false;
     const t = line.replace(BULLET, "").trim();
     if (!t) return false;
     if (STAT_LINE.test(t)) return false;

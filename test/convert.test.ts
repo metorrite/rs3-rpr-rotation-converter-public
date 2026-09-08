@@ -85,4 +85,52 @@ describe("RM -> RSA name coverage", () => {
         const dirty = rsa.data.a.filter((n) => n && /(^old|_|[A-Z])/.test(n));
         expect(dirty).toEqual([]);
     });
+
+    it("a special with no RS Analysis action becomes a basic + Custom main-hand weapon", () => {
+        const rm: RmRotationSet = {
+            Name: "spec test",
+            Data: [
+                {
+                    Id: 0,
+                    Name: "r",
+                    Wave: null,
+                    Data: [
+                        {
+                            Separator: "→",
+                            Notes: null,
+                            SelectedAbility: {
+                                Title: "annihilation",
+                                Emoji: "Annihilation",
+                                EmojiId: "796989662983094275",
+                                Category: "Melee Gear",
+                                Src: "",
+                            },
+                        },
+                    ],
+                },
+            ],
+        };
+        const rsa = convert(rm, { from: "rm", to: "rsa", settings: { rmWeaponAsSpec: true } })
+            .output as RsaExport;
+        expect(rsa.data.a[0]).toBe("melee auto");
+        const cm = (rsa.data.e[0] ?? []).find(
+            (x): x is { value: number; slot?: string } => typeof x === "object" && x.value === 1000000,
+        );
+        expect(cm?.slot).toBe("melee main-hand weapon");
+    });
+});
+
+describe("PVME notation", () => {
+    it("stall/release survive PVME -> RM as s/r separators; notes carry no emoji ids", () => {
+        const rm = convert("s<:snipe:1> <:spec:2> → r<:snipe:1> + <:grico:3> *(if 53% after <:x:9>)*", {
+            from: "pvme",
+            to: "rm",
+        }).output as RmRotationSet;
+        const seps = rm.Data[0]!.Data.map((d) => d.Separator);
+        expect(seps).toContain("s");
+        expect(seps).toContain("r");
+        for (const d of rm.Data[0]!.Data) {
+            expect(d.Notes ?? "").not.toMatch(/<:|:\d{5,}/);
+        }
+    });
 });

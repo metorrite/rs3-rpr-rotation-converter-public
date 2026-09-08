@@ -72,6 +72,7 @@ export const WEAPON_SPEC_RULES: WeaponSpecRule[] = [
     { rsaActionName: "aimed strike", weaponId: "keenblade", weaponDisplayName: "Keenblade", assetExistsInRm: false, triggerKeys: ["aimedstrike", "keenblade"] },
     { rsaActionName: "impale", weaponId: "runeclaws", weaponDisplayName: "Rune claws", assetExistsInRm: false, triggerKeys: ["impale", "runeclaws"] },
     { rsaActionName: "rampage", weaponId: "dba", weaponDisplayName: "Dragon battleaxe", assetExistsInRm: true, triggerKeys: ["rampage", "dragonbattleaxe", "dba"] },
+    { rsaActionName: "gravitate", weaponId: "annihilation", weaponDisplayName: "Annihilation", assetExistsInRm: true, triggerKeys: ["gravitate", "annihilation"] },
     // ---- Necromancy ----
     { rsaActionName: "death grasp", weaponId: "deathguard90", weaponDisplayName: "Deathguard", assetExistsInRm: true, triggerKeys: ["deathgrasp", "deathguard", "deathguard90"] },
     { rsaActionName: "death essence", weaponId: "omniguard", weaponDisplayName: "Omni guard", assetExistsInRm: true, triggerKeys: ["deathessence", "omniguard"] },

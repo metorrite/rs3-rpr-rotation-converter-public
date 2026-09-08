@@ -4,7 +4,8 @@
 export interface RsaExtraEntry {
     /** "ability" | "gear" | "consumable" | ... (free-form in the wild) */
     type: string;
-    value: string;
+    /** ability name (string) or, for gear RS Analysis recognises, an item id (number) */
+    value: string | number;
     title?: string;
     icon?: string;
     slot?: string;
