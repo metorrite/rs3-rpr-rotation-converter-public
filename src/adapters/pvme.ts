@@ -151,10 +151,12 @@ function splitSegments(input: string): { text: string; lineBreak: boolean }[] {
 
 function splitAtoms(segmentText: string): Atom[] {
     const atoms: Atom[] = [];
-    const parts = segmentText.split(/\s*([+/])\s*/);
+    // "+" = same tick; "/" and the word "or" (and a comma) = a mutually-exclusive choice
+    const parts = segmentText.split(/\s*(\+|\/|\bor\b|,)\s*/i);
     atoms.push(parseAtom(parts[0] ?? "", "first"));
     for (let i = 1; i < parts.length; i += 2) {
-        atoms.push(parseAtom(parts[i + 1] ?? "", parts[i] === "/" ? "/" : "+"));
+        const op = parts[i] === "+" ? "+" : "/";
+        atoms.push(parseAtom(parts[i + 1] ?? "", op));
     }
     return atoms;
 }
@@ -197,55 +199,89 @@ export function parsePvme(
 
         // primary from the head atom; detect space-joined weapon + spec
         let primary: ActionRef;
+        const swapBefore: ActionRef[] = [];
+        const sameTick: ActionRef[] = [];
         const firstRefs = head.refs.map(ref);
-        if (firstRefs.length >= 2 && SPEC_NAMES.has(firstRefs[firstRefs.length - 1]!.canonicalId ?? firstRefs[firstRefs.length - 1]!.rawName.toLowerCase())) {
-            const weapon = firstRefs[0]!;
+        const specIdx = firstRefs.findIndex((r) =>
+            SPEC_NAMES.has(r.canonicalId ?? r.rawName.toLowerCase()),
+        );
+
+        if (specIdx >= 1) {
+            // "<:ammo…> <:weapon:> <:spec|eofspec:> <:marker…>"
+            const weapon = firstRefs[specIdx - 1]!;
             const rule = findWeaponSpecRule(weapon.rawName, weapon.canonicalId ?? "");
+            const eof = (firstRefs[specIdx]!.canonicalId ?? "") === "eofspec";
             primary = {
                 canonicalId: "spec",
-                rawName: rule?.rsaActionName ?? `${weapon.display} spec`,
+                rawName: rule?.rsaActionName ?? `${weapon.display} ${eof ? "eof " : ""}spec`,
                 display: rule?.rsaActionName ?? `${weapon.display} special`,
                 kind: "spec",
                 weaponId: weapon.canonicalId ?? undefined,
             };
+            swapBefore.push(...firstRefs.slice(0, specIdx - 1)); // ammo written before
+            sameTick.push(...firstRefs.slice(specIdx + 1)); // trailing markers
             if (rule) report?.weaponSpec(primary.display, rule.weaponDisplayName, at);
         } else {
-            // In "swap swap ability" groups the action is the ability token, not
-            // the leading ammo/weapon swap. Match RM's pickPrimary heuristic so the
-            // two adapters agree on a round trip.
+            // "<:swap:> <:swap:> <:ability:>" — the action is the ability token;
+            // leading ammo/weapon/gear are swaps emitted *before* it.
             const idx = firstRefs.findIndex((r) => r.kind === "ability" || r.kind === "spec");
-            primary = firstRefs[idx >= 0 ? idx : 0]!;
+            const pIdx = idx >= 0 ? idx : 0;
+            primary = firstRefs[pIdx]!;
+            swapBefore.push(...firstRefs.slice(0, pIdx));
+            sameTick.push(...firstRefs.slice(pIdx + 1)); // swaps written after
         }
+        if (head.stall) primary.stall = true;
+        if (head.release) primary.release = true;
 
-        // ammo-swap / off-style tokens grouped with the primary land on the same tick
-        const sameTick: ActionRef[] =
-            primary.kind === "spec" ? [] : firstRefs.filter((r) => r !== primary);
         for (const atom of rest) {
             const arefs = atom.refs.map(ref);
             if (atom.op === "/") {
                 primary.ambiguousWith = [
                     ...(primary.ambiguousWith ?? []),
-                    ...arefs.map((r) => r.canonicalId ?? r.rawName),
+                    ...arefs
+                        .filter((r) => r.kind === "ability" || r.kind === "spec")
+                        .map((r) => r.canonicalId ?? r.rawName),
                 ];
                 if (arefs.length) {
                     report?.ambiguous(primary.display, [primary.canonicalId ?? primary.display, ...(primary.ambiguousWith ?? [])], at);
                 }
             } else {
-                sameTick.push(...arefs);
+                for (const r of arefs) {
+                    if (atom.stall) r.stall = true;
+                    if (atom.release) r.release = true;
+                    sameTick.push(r);
+                }
             }
         }
 
         const optional = atoms.flatMap((a) => a.optionalRefs).map(ref);
-        const stall = atoms.some((a) => a.stall);
-        const release = atoms.some((a) => a.release);
+        const stall = primary.stall || undefined;
+        const release = primary.release || undefined;
 
+        // de-dupe identical swaps / same-tick members
+        const dedupe = (list: ActionRef[]) => {
+            const seen = new Set<string>();
+            return list.filter((r) => {
+                const k = r.canonicalId ?? r.rawName.toLowerCase();
+                if (seen.has(k)) return false;
+                seen.add(k);
+                return true;
+            });
+        };
+
+        const primaryKey = primary.canonicalId ?? primary.rawName.toLowerCase();
         steps.push({
             primary,
-            sameTick,
+            swapBefore: swapBefore.length
+                ? dedupe(swapBefore).filter((r) => (r.canonicalId ?? r.rawName.toLowerCase()) !== primaryKey)
+                : undefined,
+            sameTick: dedupe(sameTick).filter(
+                (r) => (r.canonicalId ?? r.rawName.toLowerCase()) !== primaryKey,
+            ),
             delayTicks: segDelay,
             lineBreakBefore: seg.lineBreak || undefined,
-            stall: stall || undefined,
-            release: release || undefined,
+            stall,
+            release,
             optional: optional.length ? optional : undefined,
             note: segNotes.length ? segNotes.join("; ") : undefined,
         });

@@ -48,7 +48,8 @@ program
     .option("--no-weapon-spec", "RM→RSA: don't treat a lone weapon as its special attack")
     .option("--gcd <ticks>", "RM/PVME→RSA: ticks between GCD actions", "3")
     .option("--keep-notes", "RM→RSA: append dropped per-tick notes to the rotation name", false)
-    .action((input: string, opts: { from?: string; to?: string; out?: string; report: boolean; json: boolean; weaponSpec: boolean; gcd: string; keepNotes: boolean }) => {
+    .option("--no-phase-blocks", "PVME→RM: put everything in one block instead of one per phase")
+    .action((input: string, opts: { from?: string; to?: string; out?: string; report: boolean; json: boolean; weaponSpec: boolean; gcd: string; keepNotes: boolean; phaseBlocks: boolean }) => {
         const { value } = readInput(input);
         const from = (opts.from as FormatId) ?? detectFormat(value) ?? undefined;
         const result = convert(value, {
@@ -58,6 +59,7 @@ program
                 rmWeaponAsSpec: opts.weaponSpec,
                 gcdTicks: Number.parseInt(opts.gcd, 10) || 3,
                 keepNotesInName: opts.keepNotes,
+                rmPhaseBlocks: opts.phaseBlocks,
             },
         });
 
@@ -99,13 +101,15 @@ program
     .option("--no-weapon-spec", "RM/PVME→RSA: don't treat a lone weapon as its special attack")
     .option("--gcd <ticks>", "→RSA: ticks between GCD actions", "3")
     .option("--keep-notes", "→RSA: append dropped notes to the rotation name", false)
-    .action((guide: string, opts: { to: string; out?: string; list: boolean; section?: string; weaponSpec: boolean; gcd: string; keepNotes: boolean }) => {
+    .option("--no-phase-blocks", "→RM: one block instead of one per phase/section")
+    .action((guide: string, opts: { to: string; out?: string; list: boolean; section?: string; weaponSpec: boolean; gcd: string; keepNotes: boolean; phaseBlocks: boolean }) => {
         const text = readFileSync(guide, "utf8");
         const catalog = loadCatalog();
         const settings = {
             rmWeaponAsSpec: opts.weaponSpec,
             gcdTicks: Number.parseInt(opts.gcd, 10) || 3,
             keepNotesInName: opts.keepNotes,
+            rmPhaseBlocks: opts.phaseBlocks,
         };
 
         if (opts.list) {

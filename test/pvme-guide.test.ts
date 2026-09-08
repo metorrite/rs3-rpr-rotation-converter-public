@@ -2,7 +2,14 @@ import { readFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { describe, expect, it } from "vitest";
-import { extractRotations, isRotationLine, loadCatalog, parseGuideDocument } from "../src/core/index.js";
+import {
+    convertGuide,
+    extractRotations,
+    isRotationLine,
+    loadCatalog,
+    parseGuideDocument,
+} from "../src/core/index.js";
+import type { RmRotationSet } from "../src/formats/rm.types.js";
 
 const corpus = path.resolve(
     path.dirname(fileURLToPath(import.meta.url)),
@@ -70,5 +77,33 @@ describe("extractRotations", () => {
             // no step lost its primary
             expect(r.sequence.steps.every((s) => s.primary !== undefined)).toBe(true);
         }
+    });
+});
+
+describe("PVME -> RM phase blocks", () => {
+    it("amascut 2k r/m -> named blocks; opener is a choice, no doubled deathspore", () => {
+        const { rotations } = convertGuide(
+            guide("rs3-full-boss-guides/amascut/amascut-2000-ranged-melee-dps.txt"),
+            { to: "rm", catalog },
+        );
+        const rm = rotations[0]!.output as RmRotationSet;
+        expect(rm.Data.length).toBeGreaterThanOrEqual(3);
+        expect(rm.Data.map((b) => b.Name).join(" ")).toMatch(/Wars/);
+
+        const wars = rm.Data.find((b) => b.Name === "Wars")!;
+        // the opener "… deadshot or … grico" is a "/" choice, not a "+" chain
+        expect(wars.Data.some((d) => d.Separator === "/")).toBe(true);
+        // deathspore arrows appears at most once in the first three rows
+        const heads = wars.Data.slice(0, 3).map((d) => d.SelectedAbility?.Title);
+        expect(heads.filter((t) => t === "deathsporearrows").length).toBeLessThanOrEqual(1);
+    });
+
+    it("--no-phase-blocks (rmPhaseBlocks off) yields a single block", () => {
+        const { rotations } = convertGuide(guide("rs3-full-boss-guides/rasial.txt"), {
+            to: "rm",
+            catalog,
+            settings: { rmPhaseBlocks: false },
+        });
+        expect((rotations[0]!.output as RmRotationSet).Data.length).toBe(1);
     });
 });

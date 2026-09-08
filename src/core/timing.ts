@@ -6,20 +6,16 @@
 // default, with a small override table) and honour explicit "Nt" delays.
 // Every estimate is recorded in the report.
 
+import { gcdAdvance, isOffGcd } from "./ability-timing.js";
 import type { ActionRef, SequenceIR, Step, TimelineEvent, TimelineIR } from "./ir.js";
 import type { ConversionReport } from "./report.js";
 import { DEFAULT_SETTINGS, type ConversionSettings } from "./settings.js";
-import { CHANNEL_TICKS } from "./weapon-specs.js";
 
-// Every ability that triggers the global cooldown occupies `settings.gcdTicks`
-// ticks (3 = 1.8s) before the next is input. Channelled abilities run longer
-// (CHANNEL_TICKS). Off-GCD actions (`+` groups in RM) don't advance the cursor
-// and are handled as same-tick overlays, not here.
-export function gcdTicks(ref: ActionRef | null, base = 3): number {
-    if (ref?.canonicalId && ref.canonicalId in CHANNEL_TICKS) {
-        return CHANNEL_TICKS[ref.canonicalId]!;
-    }
-    return base;
+function stepIsOffGcd(step: Step): boolean {
+    const p = step.primary;
+    if (!p) return true;
+    if (p.kind === "gear" || p.kind === "marker") return true;
+    return isOffGcd(p.canonicalId);
 }
 
 // ---------------------------------------------------------------------------
@@ -33,36 +29,58 @@ export function sequenceToTimeline(
 ): TimelineIR {
     const events: TimelineEvent[] = [];
     let cursor = 0;
-    let prevAnchor = 0;
+    let prevAnchor = 0; // tick of the previous step (GCD or explicit-delay)
+    let lastGcdTick = 0; // tick of the most recent real GCD / channel action
     let estimates = 0;
+    const eventByTick = new Map<number, TimelineEvent>();
 
-    for (let i = 0; i < seq.steps.length; i++) {
-        const step = seq.steps[i]!;
-        const landTick =
-            step.delayTicks != null ? prevAnchor + step.delayTicks : cursor;
+    const overlayInto = (tick: number, refs: (ActionRef | null)[], note?: string) => {
+        let ev = eventByTick.get(tick);
+        if (!ev) {
+            ev = { tick, primary: null, overlays: [], note };
+            eventByTick.set(tick, ev);
+            events.push(ev);
+        }
+        for (const r of refs) if (r) ev.overlays.push(r);
+        if (note && !ev.note) ev.note = note;
+    };
 
+    for (const step of seq.steps) {
+        const extras = [...step.swapBefore ?? [], ...step.sameTick, ...(step.optional ?? [])];
+
+        if (stepIsOffGcd(step)) {
+            // never takes an ability-bar slot; rides the previous GCD tick
+            // (or an explicit Nt offset from it) and does not move the cursor
+            const tick =
+                step.delayTicks != null ? lastGcdTick + step.delayTicks : lastGcdTick;
+            overlayInto(tick, [step.primary, ...extras], step.note);
+            continue;
+        }
+
+        const landTick = step.delayTicks != null ? prevAnchor + step.delayTicks : cursor;
         if (step.delayTicks == null) estimates++;
 
-        events.push({
+        const ev: TimelineEvent = {
             tick: landTick,
             primary: step.primary,
-            // optional/conditional off-GCD items ride the same tick as extras
-            overlays: [...step.sameTick, ...(step.optional ?? [])],
+            overlays: extras,
             note: step.note,
-        });
+        };
+        events.push(ev);
+        eventByTick.set(landTick, ev);
 
         prevAnchor = landTick;
-        cursor =
-            landTick +
-            Math.max(gcdTicks(step.primary, settings.gcdTicks), step.delayTicks != null ? 0 : 1);
+        lastGcdTick = landTick;
+        cursor = landTick + Math.max(gcdAdvance(step.primary?.canonicalId, settings.gcdTicks), 1);
     }
 
     if (estimates > 0) {
         report?.estimatedTiming(
-            `RM/PVME carries no absolute ticks — ${estimates} action(s) were spaced ${settings.gcdTicks} ticks apart (channels use their real duration). Verify against the source.`,
+            `RM/PVME carries no absolute ticks — ${estimates} GCD action(s) were spaced ${settings.gcdTicks} ticks apart; channels use their real duration and off-GCD actions ride the previous tick. Verify against the source.`,
         );
     }
 
+    events.sort((a, b) => a.tick - b.tick);
     return { kind: "timeline", name: seq.name, source: seq.source, events };
 }
 

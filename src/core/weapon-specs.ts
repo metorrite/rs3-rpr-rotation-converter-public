@@ -78,21 +78,6 @@ export const WEAPON_SPEC_RULES: WeaponSpecRule[] = [
     { rsaActionName: "death essence", weaponId: "omniguard", weaponDisplayName: "Omni guard", assetExistsInRm: true, triggerKeys: ["deathessence", "omniguard"] },
 ];
 
-/** Channel / bound abilities that occupy more than one global cooldown (in game ticks). */
-export const CHANNEL_TICKS: Record<string, number> = {
-    rapid: 8, // Rapid Fire
-    gflurry: 8, // Greater Flurry
-    flurry: 6,
-    bloodsiphon: 8, // Blood Siphon
-    smoketendrils: 7,
-    asphyxiate: 6,
-    gasphyxiate: 6,
-    metamorphosis: 6,
-    seismicdetonation: 0,
-    // specials with a channelled follow-through
-    tempestofarmadyl: 5,
-    icytempest: 3,
-};
 
 const byTrigger = new Map<string, WeaponSpecRule>();
 for (const rule of WEAPON_SPEC_RULES) {

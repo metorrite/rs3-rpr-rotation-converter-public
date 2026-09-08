@@ -25,12 +25,19 @@ export interface ConversionSettings {
      * lost entirely.
      */
     keepNotesInName: boolean;
+
+    /**
+     * PVME → RM: emit one RotationMaster block per PVME section (Pre-build,
+     * Phase 1, Wars, …) when the guide has them. Off = everything in one block.
+     */
+    rmPhaseBlocks: boolean;
 }
 
 export const DEFAULT_SETTINGS: ConversionSettings = {
     rmWeaponAsSpec: true,
     gcdTicks: 3,
     keepNotesInName: false,
+    rmPhaseBlocks: true,
 };
 
 export function resolveSettings(partial?: Partial<ConversionSettings>): ConversionSettings {

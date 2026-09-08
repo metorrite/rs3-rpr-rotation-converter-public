@@ -77,10 +77,10 @@ Three tabs:
 - **Rotation library** — pick a boss guide → a rotation from it → a format, then
   **Save**. Rotations come from the bundled PVME guide corpus (232 guides,
   ~230 rotations); no conversion input needed.
-- **Settings** — tunables for the grey areas, saved per machine. Currently:
-  treat a lone RM weapon as its special attack (default on), GCD tick spacing,
-  keep dropped notes in the rotation name. CLI equivalents:
-  `--no-weapon-spec`, `--gcd <n>`, `--keep-notes`.
+- **Settings** — tunables for the grey areas, saved per machine: treat a lone RM
+  weapon as its special attack (default on), GCD tick spacing, keep dropped notes
+  in the rotation name, one RM block per PVME phase/section (default on). CLI
+  equivalents: `--no-weapon-spec`, `--gcd <n>`, `--keep-notes`, `--no-phase-blocks`.
 
 ## Running in an IDE (WebStorm / IntelliJ)
 

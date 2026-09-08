@@ -149,14 +149,20 @@ export interface ExtractedRotation {
     sectionPath: string[];
     source: string;
     sequence: SequenceIR;
+    /** section boundaries within `sequence.steps` (RM block seams) */
+    blocks: { name: string; startStep: number }[];
     report: ConversionReport;
 }
 
+interface Block {
+    name: string;
+    text: string;
+}
 interface Group {
     name: string;
     path: string[];
     parentH2: string;
-    blocks: string[];
+    blocks: Block[];
 }
 
 export function extractRotations(text: string, catalog: Catalog): ExtractedRotation[] {
@@ -164,7 +170,7 @@ export function extractRotations(text: string, catalog: Catalog): ExtractedRotat
     const groups: Group[] = [];
     let currentGroup: Group | null = null;
     let h2 = doc.title;
-    const shared: { parentH2: string; blocks: string[] }[] = [];
+    const shared: { parentH2: string; blocks: Block[] }[] = [];
 
     for (const section of doc.sections) {
         if (section.level === 2) h2 = section.title;
@@ -174,8 +180,10 @@ export function extractRotations(text: string, catalog: Catalog): ExtractedRotat
             .map((l) => l.replace(BULLET, "").trim());
         const role = headerRole(section.title);
 
+        const blockName = section.title || h2 || "Rotation";
+
         if (role === "shared") {
-            if (rotLines.length) shared.push({ parentH2: h2, blocks: rotLines });
+            if (rotLines.length) shared.push({ parentH2: h2, blocks: [{ name: blockName, text: rotLines.join("\n") }] });
             continue;
         }
         if (rotLines.length === 0 && role !== "variant") continue;
@@ -193,13 +201,13 @@ export function extractRotations(text: string, catalog: Catalog): ExtractedRotat
             groups.push(currentGroup);
         }
         if (currentGroup && rotLines.length) {
-            currentGroup.blocks.push(rotLines.join("\n"));
+            currentGroup.blocks.push({ name: blockName, text: rotLines.join("\n") });
         }
     }
 
     for (const s of shared) {
         const targets = groups.filter((g) => g.parentH2 === s.parentH2);
-        for (const g of targets.length ? targets : groups) g.blocks.push(s.blocks.join("\n"));
+        for (const g of targets.length ? targets : groups) g.blocks.push(...s.blocks);
     }
 
     // merge consecutive groups that ended up with the same name (over-split phases)
@@ -216,11 +224,29 @@ export function extractRotations(text: string, catalog: Catalog): ExtractedRotat
     return merged
         .filter((g) => g.blocks.length > 0)
         .map((g) => {
-            const source = g.blocks.join("\n");
             const report = new ConversionReport("pvme", "pvme");
-            const sequence = parsePvme(source, catalog, report);
-            sequence.name = dedupeName(doc.title, g.name);
-            return { name: sequence.name, sectionPath: g.path, source, sequence, report };
+            const steps: SequenceIR["steps"] = [];
+            const blocks: { name: string; startStep: number }[] = [];
+            for (const b of g.blocks) {
+                blocks.push({ name: b.name, startStep: steps.length });
+                const sub = parsePvme(b.text, catalog, report);
+                if (sub.steps[0]) sub.steps[0].lineBreakBefore = steps.length > 0 || undefined;
+                steps.push(...sub.steps);
+            }
+            const sequence: SequenceIR = {
+                kind: "sequence",
+                name: dedupeName(doc.title, g.name),
+                source: "pvme",
+                steps,
+            };
+            return {
+                name: sequence.name,
+                sectionPath: g.path,
+                source: g.blocks.map((b) => b.text).join("\n"),
+                sequence,
+                blocks,
+                report,
+            };
         });
 }
 

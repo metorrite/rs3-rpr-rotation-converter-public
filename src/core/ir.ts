@@ -35,11 +35,16 @@ export interface ActionRef {
     weaponId?: string;
     /** Mutually-exclusive alternatives the source left open (RM "/" groups). */
     ambiguousWith?: string[];
+    /** this specific action is stalled / released (PVME s/r prefix, RM s/r sep) */
+    stall?: boolean;
+    release?: boolean;
 }
 
 export interface Step {
     /** the GCD action that defines this step's tick, or null for a pure marker */
     primary: ActionRef | null;
+    /** ammo / weapon / gear swapped *before* the primary this tick (emitted first) */
+    swapBefore?: ActionRef[];
     /** actions that happen on the same tick as `primary` (RM "+" group) */
     sameTick: ActionRef[];
     /**

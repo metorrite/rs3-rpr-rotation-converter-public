@@ -6,7 +6,12 @@ const $ = (id) => document.getElementById(id);
 // ---------- settings ----------
 const SETTINGS_KEY = "rs3rot.settings";
 let settings = {};
-let defaultSettings = { rmWeaponAsSpec: true, gcdTicks: 3, keepNotesInName: false };
+let defaultSettings = {
+    rmWeaponAsSpec: true,
+    gcdTicks: 3,
+    keepNotesInName: false,
+    rmPhaseBlocks: true,
+};
 
 function loadSettings() {
     try {
@@ -27,6 +32,7 @@ function renderSettings() {
     $("setWeaponSpec").checked = settings.rmWeaponAsSpec;
     $("setGcd").value = settings.gcdTicks;
     $("setKeepNotes").checked = settings.keepNotesInName;
+    $("setPhaseBlocks").checked = settings.rmPhaseBlocks;
 }
 
 ipcRenderer.invoke("default-settings").then((d) => {
@@ -46,6 +52,10 @@ $("setGcd").addEventListener("change", (e) => {
 });
 $("setKeepNotes").addEventListener("change", (e) => {
     settings.keepNotesInName = e.target.checked;
+    saveSettings();
+});
+$("setPhaseBlocks").addEventListener("change", (e) => {
+    settings.rmPhaseBlocks = e.target.checked;
     saveSettings();
 });
 $("resetSettingsBtn").addEventListener("click", () => {

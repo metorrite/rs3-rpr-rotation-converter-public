@@ -62,6 +62,7 @@ function serialize(
     catalog: Catalog,
     report: ConversionReport,
     settings: ConversionSettings,
+    blocks?: { name: string; startStep: number }[],
 ): unknown {
     const asTimeline = (): TimelineIR =>
         ir.kind === "timeline" ? ir : sequenceToTimeline(ir, report, settings);
@@ -72,7 +73,12 @@ function serialize(
         case "rsa":
             return serializeRsa(asTimeline(), catalog, report, settings);
         case "rm":
-            return serializeRm(asSequence(), catalog, report);
+            return serializeRm(
+                asSequence(),
+                catalog,
+                report,
+                settings.rmPhaseBlocks ? blocks : undefined,
+            );
         case "pvme":
             return serializePvme(asSequence(), catalog, report);
     }
@@ -98,7 +104,7 @@ export function convertGuide(
     const rotations = extracted.map((r) => {
         const report = r.report;
         report.to = options.to;
-        const output = serialize(r.sequence, options.to, catalog, report, settings);
+        const output = serialize(r.sequence, options.to, catalog, report, settings, r.blocks);
         return { name: r.name, sectionPath: r.sectionPath, source: r.source, to: options.to, output, report };
     });
     return { rotations, extracted };

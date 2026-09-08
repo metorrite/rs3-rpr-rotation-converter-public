@@ -120,6 +120,48 @@ describe("RM -> RSA name coverage", () => {
     });
 });
 
+describe("GCD / off-GCD timing (RM -> RSA)", () => {
+    const mk = (titles: [string, string][]): RmRotationSet => ({
+        Name: "t",
+        Data: [
+            {
+                Id: 0,
+                Name: "r",
+                Wave: null,
+                Data: titles.map(([title, cat]) => ({
+                    Separator: "→",
+                    Notes: null,
+                    SelectedAbility: { Title: title, Emoji: title, EmojiId: "", Category: cat, Src: "" },
+                })),
+            },
+        ],
+    });
+
+    it("off-GCD abilities never take an ability-bar slot and don't shift the GCD", () => {
+        const rm = mk([
+            ["snipe", "Ranged Abilities"],
+            ["surge", "Defence and Constitution Abilities"],
+            ["surge", "Defence and Constitution Abilities"],
+            ["grico", "Ranged Abilities"],
+        ]);
+        const rsa = convert(rm, { from: "rm", to: "rsa" }).output as RsaExport;
+        expect(rsa.data.a.filter((x) => x === "surge")).toEqual([]); // not in the bar
+        const filled = rsa.data.a.map((x, i) => (x ? i : -1)).filter((i) => i >= 0);
+        expect(filled).toEqual([0, 3]); // snipe @0, grico @3 — surges didn't push it
+        expect(rsa.data.e[0]!.some((x) => typeof x === "object" && x.value === "surge")).toBe(true);
+    });
+
+    it("a channel occupies its real duration before the next GCD ability", () => {
+        const rm = mk([
+            ["rapid fire", "Ranged Abilities"],
+            ["snipe", "Ranged Abilities"],
+        ]);
+        const rsa = convert(rm, { from: "rm", to: "rsa" }).output as RsaExport;
+        const filled = rsa.data.a.map((x, i) => (x ? i : -1)).filter((i) => i >= 0);
+        expect(filled).toEqual([0, 8]); // rapid fire duration 8
+    });
+});
+
 describe("PVME notation", () => {
     it("stall/release survive PVME -> RM as s/r separators; notes carry no emoji ids", () => {
         const rm = convert("s<:snipe:1> <:spec:2> → r<:snipe:1> + <:grico:3> *(if 53% after <:x:9>)*", {

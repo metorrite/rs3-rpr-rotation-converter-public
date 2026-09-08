@@ -242,12 +242,20 @@ export function serializeRm(
     seq: SequenceIR,
     catalog: Catalog,
     _report?: ConversionReport,
+    blocks?: { name: string; startStep: number }[],
 ): RmRotationSet {
-    const data: RmAbilitySelection[] = [];
+    const memberSep = (m: ActionRef): string =>
+        m.stall ? "s" : m.release ? "r" : m.kind === "ability" || m.kind === "spec" ? "+" : "";
 
-    for (const step of seq.steps) {
-        // stall / release are real RM separators; line break otherwise; default →
-        const firstSep = step.stall ? "s" : step.release ? "r" : step.lineBreakBefore ? "↵" : "→";
+    const emitStep = (data: RmAbilitySelection[], step: Step, isFirstInBlock: boolean): void => {
+        const firstSep = step.stall
+            ? "s"
+            : step.release
+              ? "r"
+              : step.lineBreakBefore && !isFirstInBlock
+                ? "↵"
+                : "→";
+
         const extraNotes: string[] = [];
         if (step.note) extraNotes.push(step.note);
         const optNames = (step.optional ?? [])
@@ -255,41 +263,55 @@ export function serializeRm(
             .map((o) => o.display || o.rawName);
         if (optNames.length) extraNotes.push(`optional: ${optNames.join(", ")}`);
         const notes =
-            step.delayTicks != null
-                ? `${step.delayTicks}T`
-                : extraNotes.length
-                  ? extraNotes.join("; ")
-                  : null;
+            step.delayTicks != null ? `${step.delayTicks}T` : extraNotes.length ? extraNotes.join("; ") : null;
 
-        if (!step.primary) continue;
+        if (!step.primary) return;
+
+        // ammo / weapon swaps that come *before* the ability: first takes the
+        // step separator, the rest and the ability itself use "" (None).
+        const swaps = step.swapBefore ?? [];
+        let sep = firstSep;
+        for (const sw of swaps) {
+            data.push(selectionFor(catalog, sw, sep, null));
+            sep = "";
+        }
+        const primarySep = swaps.length ? "" : firstSep;
 
         if (step.primary.kind === "spec" && step.primary.weaponId) {
             const weapon = catalog.get(step.primary.weaponId);
             data.push(
                 weapon
-                    ? { Id: randomUUID(), Separator: firstSep, SelectedAbility: toRmAbility(weapon), Notes: notes }
-                    : selectionFor(catalog, { ...step.primary, kind: "gear" }, firstSep, notes),
+                    ? { Id: randomUUID(), Separator: primarySep, SelectedAbility: toRmAbility(weapon), Notes: notes }
+                    : selectionFor(catalog, { ...step.primary, kind: "gear" }, primarySep, notes),
             );
             data.push(selectionFor(catalog, { canonicalId: "spec", rawName: "spec", display: "Special attack", kind: "spec" }, "", null));
         } else {
-            data.push(selectionFor(catalog, step.primary, firstSep, notes));
+            data.push(selectionFor(catalog, step.primary, primarySep, notes));
             for (const alt of step.primary.ambiguousWith ?? []) {
                 data.push(selectionFor(catalog, toActionRef(catalog, alt), "/", null));
             }
         }
 
-        // Same-tick members: an ability that consumes the GCD can't share a tick,
-        // so only genuine off-GCD actions use "+"; ammo / gear / consumable swaps
-        // use the "" (None) separator, which RM reads as "this action uses it".
         for (const member of step.sameTick) {
-            const sep = member.kind === "ability" || member.kind === "spec" ? "+" : "";
-            data.push(selectionFor(catalog, member, sep, null));
+            data.push(selectionFor(catalog, member, memberSep(member), null));
         }
-    }
+    };
+
+    const useBlocks = !!blocks && blocks.length > 1;
+    const bounds = useBlocks
+        ? blocks!
+        : [{ name: "Imported Rotation", startStep: 0 }];
+
+    const rotations = bounds.map((b, bi) => {
+        const end = bi + 1 < bounds.length ? bounds[bi + 1]!.startStep : seq.steps.length;
+        const data: RmAbilitySelection[] = [];
+        seq.steps.slice(b.startStep, end).forEach((step, si) => emitStep(data, step, si === 0));
+        return { Id: bi, Name: b.name || `Block ${bi + 1}`, Data: data, Wave: null };
+    });
 
     return {
         Name: seq.name,
         lineBreakSpacing: 0,
-        Data: [{ Id: 0, Name: "Imported Rotation", Data: data, Wave: null }],
+        Data: rotations,
     };
 }
