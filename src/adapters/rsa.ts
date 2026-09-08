@@ -1,0 +1,300 @@
+import { readFileSync } from "node:fs";
+import type { Catalog } from "../core/catalog.js";
+import type { ActionRef, TimelineEvent, TimelineIR } from "../core/ir.js";
+import { slug } from "../core/normalize.js";
+import { rsaActionsPath, rsaBlankTemplatePath, rsaExtraActionsPath } from "../core/paths.js";
+import type { ConversionReport } from "../core/report.js";
+import { cleanRsaName, rsaDisplayName, toActionRef } from "../core/resolve.js";
+import { DEFAULT_SETTINGS, type ConversionSettings } from "../core/settings.js";
+import { findWeaponSpecRule } from "../core/weapon-specs.js";
+import type { RsaExport, RsaExtraCell, RsaExtraEntry } from "../formats/rsa.types.js";
+
+const JAS_ARROWS = { primary: "jasdemonbanearrow", alt: "jasdragonbanearrow" };
+
+// The set of action names RS Analysis's damage calc understands. Anything else in
+// `data.a` / `data.t` makes the calc dereference `undefined` on import, which
+// throws and rejects the whole file — so unknown actions are routed to the
+// extras row instead. Refresh with `npm run update-assets` (see scripts).
+let rsaActions: Set<string> | null = null;
+function knownRsaAction(name: string): boolean {
+    if (!rsaActions) {
+        try {
+            const j = JSON.parse(readFileSync(rsaActionsPath, "utf8")) as { actions: string[] };
+            rsaActions = new Set(j.actions);
+        } catch {
+            rsaActions = new Set();
+        }
+    }
+    return rsaActions.size === 0 || rsaActions.has(name);
+}
+
+function isMeaningful(v: unknown): v is string {
+    return typeof v === "string" && v.trim() !== "";
+}
+
+function extras(cell: RsaExtraCell | undefined): RsaExtraEntry[] {
+    if (!cell) return [];
+    return cell.filter(
+        (e): e is RsaExtraEntry =>
+            typeof e === "object" && e !== null && isMeaningful(e.value),
+    );
+}
+
+function kindFromExtraType(type: string): ActionRef["kind"] {
+    const t = type.toLowerCase();
+    if (t === "gear" || t === "item") return "gear";
+    if (t === "consumable") return "consumable";
+    if (t === "ability") return "ability";
+    return "ability";
+}
+
+function resolveRsaAction(
+    catalog: Catalog,
+    name: string,
+    body: "a" | "e",
+    report: ConversionReport | undefined,
+    at: number,
+    kindHint?: ActionRef["kind"],
+): ActionRef {
+    if (slug(name) === "jasarrows") {
+        report?.ambiguous(name, [JAS_ARROWS.primary, JAS_ARROWS.alt], at);
+        const ref = toActionRef(catalog, JAS_ARROWS.primary, { report, at });
+        ref.rawName = name;
+        ref.ambiguousWith = [JAS_ARROWS.alt];
+        return ref;
+    }
+
+    const rule = findWeaponSpecRule(name);
+    if (rule) {
+        if (body === "a") {
+            report?.weaponSpec(name, rule.weaponDisplayName, at);
+            if (!rule.assetExistsInRm) report?.missingRmAsset(rule.weaponDisplayName, at);
+            const spec = toActionRef(catalog, "spec", { report, at });
+            return {
+                ...spec,
+                rawName: name,
+                display: rule.rsaActionName,
+                kind: "spec",
+                weaponId: rule.weaponId,
+            };
+        }
+        // in the E body, a spec weapon name is just a weapon swap
+        return toActionRef(catalog, rule.weaponId, { report, at, kindHint: "gear" });
+    }
+
+    return toActionRef(catalog, name, { report, at, kindHint });
+}
+
+// ---------------------------------------------------------------------------
+// parse: RsaExport -> TimelineIR
+// ---------------------------------------------------------------------------
+
+export function parseRsa(
+    rsa: RsaExport,
+    catalog: Catalog,
+    report?: ConversionReport,
+): TimelineIR {
+    const a = rsa.data.a ?? [];
+    const e = rsa.data.e ?? [];
+    const t = rsa.data.t ?? [];
+    const maxLen = Math.max(a.length, e.length);
+
+    const events = new Map<number, TimelineEvent>();
+    const eventAt = (tick: number): TimelineEvent => {
+        let ev = events.get(tick);
+        if (!ev) {
+            ev = { tick, primary: null, overlays: [] };
+            events.set(tick, ev);
+        }
+        return ev;
+    };
+
+    for (let tick = 0; tick < maxLen; tick++) {
+        const aVal = a[tick];
+        if (isMeaningful(aVal)) {
+            eventAt(tick).primary = resolveRsaAction(catalog, aVal, "a", report, tick);
+        }
+        for (const extra of extras(e[tick])) {
+            eventAt(tick).overlays.push(
+                resolveRsaAction(catalog, String(extra.value), "e", report, tick, kindFromExtraType(extra.type)),
+            );
+        }
+        const note = t[tick];
+        if (isMeaningful(note)) eventAt(tick).note = note;
+    }
+
+    const ordered = [...events.values()]
+        .filter((ev) => ev.primary || ev.overlays.length > 0 || ev.note)
+        .sort((x, y) => x.tick - y.tick);
+
+    return {
+        kind: "timeline",
+        name: rsa.name || "Imported rotation",
+        source: "rsa",
+        events: ordered,
+        carrier: rsa,
+    };
+}
+
+// ---------------------------------------------------------------------------
+// serialize: TimelineIR -> RsaExport
+// ---------------------------------------------------------------------------
+
+let templateCache: RsaExport | null = null;
+function blankTemplate(): RsaExport {
+    if (!templateCache) {
+        templateCache = JSON.parse(readFileSync(rsaBlankTemplatePath, "utf8")) as RsaExport;
+    }
+    return structuredClone(templateCache);
+}
+
+// value -> {title,icon} for the utility abilities RS Analysis renders in the
+// extras row (surge, undead slayer ability, deflects, …). Without a proper title
+// + icon the entry shows up broken. Vendored from the RS Analysis bundle.
+let extraActions: Record<string, { title: string; icon: string }> | null = null;
+function extraActionMeta(value: string): { title: string; icon: string } | null {
+    if (!extraActions) {
+        try {
+            extraActions = (
+                JSON.parse(readFileSync(rsaExtraActionsPath, "utf8")) as {
+                    actions: Record<string, { title: string; icon: string }>;
+                }
+            ).actions;
+        } catch {
+            extraActions = {};
+        }
+    }
+    return extraActions[value] ?? null;
+}
+
+function titleCase(s: string): string {
+    return s.replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
+function extraEntry(ref: ActionRef): RsaExtraEntry {
+    const type = ref.kind === "gear" ? "gear" : ref.kind === "consumable" ? "consumable" : "ability";
+    const value = rsaDisplayName(ref);
+    const meta = extraActionMeta(value);
+    return {
+        type,
+        value,
+        title: meta?.title ?? ref.pvmeName ?? ref.display ?? titleCase(value),
+        ...(meta?.icon ? { icon: meta.icon } : {}),
+    };
+}
+
+const STYLE_BY_CATEGORY: Array<[RegExp, string]> = [
+    [/magic/i, "magic"],
+    [/rang/i, "ranged"],
+    [/necro/i, "necro"],
+    [/melee|strength|attack|defence/i, "melee"],
+];
+
+/** style keyword for a weapon, from its catalog category */
+function weaponStyle(catalog: Catalog, weaponId: string | undefined): string {
+    const cat = weaponId ? (catalog.get(weaponId)?.category ?? "") : "";
+    return STYLE_BY_CATEGORY.find(([re]) => re.test(cat))?.[1] ?? "ranged";
+}
+
+const AUTO_BY_STYLE: Record<string, string> = {
+    magic: "magic auto",
+    ranged: "ranged auto",
+    melee: "melee auto",
+    necro: "necromancy auto",
+};
+
+/** RS Analysis "Custom main-hand weapon" placeholder for a style's MH slot. */
+function customMainHand(style: string): RsaExtraEntry {
+    const slot = style === "necro" ? "necro main-hand weapon" : `${style} main-hand weapon`;
+    return {
+        type: "gear",
+        value: 1000000, // RS Analysis's "Custom main-hand weapon" item id
+        title: "Custom main-hand weapon",
+        icon: "https://runescape.wiki/images/Custom_main-hand_weapon.png",
+        slot,
+    } as RsaExtraEntry;
+}
+
+export function serializeRsa(
+    timeline: TimelineIR,
+    catalog: Catalog,
+    report?: ConversionReport,
+    settings: ConversionSettings = DEFAULT_SETTINGS,
+): RsaExport {
+    const base =
+        timeline.carrier && typeof timeline.carrier === "object"
+            ? (structuredClone(timeline.carrier) as RsaExport)
+            : blankTemplate();
+
+    const templateLen = base.data.a?.length ?? 300;
+    const maxTick = timeline.events.reduce((m, ev) => Math.max(m, ev.tick), 0);
+    // grow the grid to fit long rotations instead of dropping their tail
+    const len = Math.max(templateLen, maxTick + 6);
+    if (len > templateLen) {
+        report?.note(`extended the RS Analysis grid to ${len} ticks (template is ${templateLen})`);
+    }
+
+    base.name = timeline.name;
+    base.timestamp = Date.now();
+    const strandedNotes: string[] = [];
+    base.data.a = new Array<string>(len).fill("");
+    base.data.e = Array.from({ length: len }, () => [] as RsaExtraCell);
+    if (base.data.n) base.data.n = new Array<boolean>(len).fill(false);
+    if (base.data.t) base.data.t = new Array<string>(len).fill("");
+
+    for (const ev of timeline.events) {
+        if (ev.tick < 0 || ev.tick >= len) {
+            report?.dropped(`event at tick ${ev.tick} (outside the ${len}-tick grid)`, ev.tick);
+            continue;
+        }
+        if (ev.primary) {
+            const p = ev.primary;
+            const name = rsaDisplayName(p);
+            if (p.kind === "gear" || p.kind === "marker") {
+                // a bare weapon swap / marker icon isn't an ability — extras row
+                base.data.e[ev.tick]!.push(extraEntry(p));
+            } else if (p.kind === "spec" && !(name && knownRsaAction(name))) {
+                // No 1:1 RS Analysis action for this weapon's special (or none at
+                // all). Emit a basic attack + a "Custom main-hand weapon" swap so
+                // the tick still calcs and the weapon change is visible.
+                const style = weaponStyle(catalog, p.weaponId);
+                base.data.a[ev.tick] = AUTO_BY_STYLE[style] ?? "ranged auto";
+                base.data.e[ev.tick]!.push(customMainHand(style));
+                report?.add({
+                    code: "note",
+                    at: ev.tick,
+                    message: `"${p.rawName || p.weaponId || "special attack"}" has no RS Analysis action — wrote a ${style} basic + Custom main-hand weapon.`,
+                });
+            } else if (name && knownRsaAction(name)) {
+                base.data.a[ev.tick] = name;
+            } else if (name) {
+                // RS Analysis can't calc this ability — put it in the extras row
+                // so the import doesn't fail, and flag it.
+                base.data.e[ev.tick]!.push({ type: "ability", value: name, title: name });
+                report?.add({ code: "note", at: ev.tick, message: `"${name}" is not a modelled RS Analysis action — placed in the extras row.` });
+            }
+        }
+        for (const ov of ev.overlays) {
+            base.data.e[ev.tick]!.push(extraEntry(ov));
+        }
+        // data.t is RS Analysis's stall row — it must hold ability names, not text.
+        if (ev.note && base.data.t) {
+            if (knownRsaAction(ev.note) && rsaActions && rsaActions.size > 0) {
+                if (!base.data.t[ev.tick]) base.data.t[ev.tick] = ev.note;
+            } else {
+                strandedNotes.push(`t${ev.tick}:${ev.note}`);
+                report?.add({
+                    code: "dropped",
+                    at: ev.tick,
+                    message: `note "${ev.note}" — RS Analysis has no per-tick text field.`,
+                });
+            }
+        }
+    }
+
+    if (settings.keepNotesInName && strandedNotes.length > 0) {
+        base.name = `${base.name}  [${strandedNotes.join(" ")}]`;
+    }
+
+    return base;
+}

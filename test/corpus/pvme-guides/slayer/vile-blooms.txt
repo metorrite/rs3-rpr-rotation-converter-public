@@ -1,0 +1,370 @@
+# __Vile blooms__
+*Note: a **Table of Contents** can be found in the pins.*
+
+.
+## __Introduction__
+.tag:intro
+[Vile blooms](<https://runescape.wiki/w/Vile_blooms>) are a combination task of all plant monsters on Anachronia. The main reason to do them is for the [Lost Lands and Dungeons](<https://runescape.wiki/w/Slayer_collection_log#Lost_Lands_and_Dungeons>) collection log, [Skeka's hypnowand](<https://runescape.wiki/w/Skeka%27s_hypnowand>) pieces, or to obtain their soul for <:slayercodex:1097517249499254875>
+
+⬥ Vile blooms can be assigned as a Slayer <:slayer:797896049548066857> assignment by Laniakea.
+
+.
+## __Desirable drops__
+.tag:drops
+⬥ [Blast diffusion boots](<https://runescape.wiki/w/Blast_diffusion_boots>) <:blastdiffusion:602581956072439828>
+    • Required for the Slayer collection log.
+    • 4 times rarer off-task.
+⬥ [Skeka's hypnowand](<https://runescape.wiki/w/Skeka%27s_hypnowand>) pieces
+    • All 4 pieces, but Skeka's hypnowand handle is twice as common.
+⬥ [Totem](<https://runescape.wiki/w/Totem>) pieces
+    • Totem of Vitality middle
+    • Totem of Intimidation base
+    • Totem of Summoning middle
+⬥ [Dinosaur rib bone](<https://runescape.wiki/w/Dinosaur_rib_bone>)
+⬥ [Dinosaur tooth](<https://runescape.wiki/w/Dinosaur_tooth>)
+
+.
+## __Location and How to Get there__
+.tag:location
+⬥ Helpful teleports include:
+    • Eastern Anachronia teleport <:easternanachronia:1387839803818512516>
+    • Anachronia lodestone <:anachronialode:1032552287773659216>
+    • Laniakea <:laniakea:975284345411600426> via <:slayercape:975284344123953164>
+    • Locations via [Orthen teleportation device](<https://runescape.wiki/w/Orthen_teleportation_device>).
+        ⬩ <:powerburstofacceleration:756236265472524418> can help save time travelling.
+
+.img:https://img.pvme.io/images/YdIdmfE4dD.jpg
+⬥ Map above shows the closest teleports to each vile bloom.
+
+.
+## __Devil's snare__
+.tag:devilssnare
+.img:https://img.pvme.io/images/UJ2KNvT.png
+
+.
+### __Stats__
+⬥ <:slayer:797896049548066857> level: 90
+⬥ <:slayer:797896049548066857> XP per kill: 1,760
+⬥ Optimal kills per hour: ~300 <:range:580168050121113623> / <:necromancy:1148995625896120460> / <:magic:689504724159823906> (ALL AFK)
+⬥ Optimal <:slayer:797896049548066857> XP per hour: ~528k <:range:580168050121113623> / <:necromancy:1148995625896120460> / <:magic:689504724159823906> (ALL AFK)
+
+Use this tile for all styles.
+.img:https://img.pvme.io/images/SnpbNY2Fqq.png
+
+.
+### __AFK Ranged__ <:range:580168050121113623>
+This method requires you to have **killed two of the Snagglers** before drinking <:aggressionpotion:925794592199147581> and activating <:cannon:869283142350041098>.
+
+⬥ Pray <:eclipsedsoul:1285372688457797672>, <:divinerage:1285372247665803264>, <:overpoweringforce:1344313902808174712>, and <:steelskin:1365820216545902642> with <:zealots:926021352626982942>
+    • Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226>
+⬥ Ensure <:vampyrismaspect:1494069423047442573>, <:elderovlsalve:648976643687317532>, <:aggressionpotion:925794592199147581>, <:weppoison:689525476158472288>, and <:scriptureofful:902209626412560395> are active at all times.
+⬥ Use <:cannon:869283142350041098> to help aggro and kill the Devil's Snares that are out of range.
+
+.
+### Preset Suggestions
+.
+⬥ [Devil's Snare - AFK Ranged](https://presets.pvme.io?id=066e62d2-4c7b-42e1-bf16-383575bbb67e)
+.
+
+.
+### Action Bars
+.img:https://img.pvme.io/images/ZcI2m6A5T9.png
+
+.
+### Example Kills
+⬥ [High Level AFK Ranged](<https://www.youtube.com/watch?v=22-s9u3qNS0>)
+⬥ [Low Level AFK Ranged](<https://www.youtube.com/watch?v=KwryT6xy6-k>)
+
+.
+### __AFK Necromancy__ <:necromancy:1148995625896120460>
+⬥ Pray <:soulsplit:615613924506599497> and <:sorrow:1137941003895046284> / <:ruination:1137940996391452772>
+    • Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226>
+⬥ Ensure <:elderovlsalve:648976643687317532>, <:weppoison:689525476158472288>, and <:scriptureofwen:883134307902816297> are active at all times.
+⬥ Use <:cannon:869283142350041098> to help aggro and kill the Devil's Snares that are out of range.
+
+.
+### Preset Suggestions
+.
+⬥ [Devil's Snare - AFK Necromancy](https://presets.pvme.io?id=c1449151-749e-4b54-ae59-0f1cba279232)
+.
+
+.
+### Action Bars
+.img:https://img.pvme.io/images/oZcH3UecxA.png
+
+.
+### Example Kills
+⬥ [AFK Necromancy](<https://www.youtube.com/watch?v=sa7RQP90Ad8>)
+
+.
+### __AFK Magic__ <:magic:689504724159823906>
+⬥ Pray <:eclipsedsoul:1285372688457797672>, <:divinerage:1285372247665803264>, and <:overcharge:1344313901189431296> with <:zealots:926021352626982942>
+    • Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226>
+⬥ Autocast <:exsanguinate:856635090745950258>
+⬥ Ensure <:vampyrismaspect:1494069423047442573>, <:elderovlsalve:648976643687317532>, <:aggressionpotion:925794592199147581>, <:weppoison:689525476158472288>, and <:scriptureofamascut:1266417822188437569> / <:scriptureofful:902209626412560395> are active at all times.
+⬥ Use <:steelskin:1365820216545902642> if struggling to upkeep LP.
+⬥ Use <:cannon:869283142350041098> to help aggro and kill the Devil's Snares that are out of range.
+
+.
+### Preset Suggestions
+.
+⬥ [Devil's Snare - AFK High Level Magic](<https://presets.pvme.io?id=890aa877-b19a-461a-be68-db0b1ebedd3d>) <:tectbody:643849268804714506>
+⬥ [Devil's Snare - AFK Low Level Magic](https://presets.pvme.io?id=a5a9f2bc-1182-4d17-bf43-a7988add0baf) <:subjgarb:643151011199975434>
+.
+
+.
+### Action Bars
+.img:https://img.pvme.io/images/r3rIfaTFoF.png
+
+.
+### Example Kills
+⬥ [High Level AFK Magic](<https://www.youtube.com/watch?v=8qSJOLD43GA>)
+⬥ [Low Level AFK Magic](<https://www.youtube.com/watch?v=YTkMHA9s0O0>)
+
+.
+## __Luminous snaggler__
+.tag:luminoussnaggler
+.img:https://img.pvme.io/images/Whr3UF1.png
+
+.
+### __Stats__
+⬥ <:slayer:797896049548066857> level: 95
+⬥ <:slayer:797896049548066857> XP per kill: 1,664.8
+⬥ Optimal kills per hour: ~240 <:necromancy:1148995625896120460> / <:range:580168050121113623> / <:magic:689504724159823906> (All AFK)
+⬥ Optimal <:slayer:797896049548066857> XP per hour: ~400k <:necromancy:1148995625896120460> / <:range:580168050121113623> / <:magic:689504724159823906> (All AFK)
+
+Use this tile for all styles.
+.img:https://img.pvme.io/images/3wMvTMl4d2.png
+
+.
+### __AFK Necromancy__ <:necromancy:1148995625896120460>
+This method requires you to have **killed one of the Snagglers** before drinking <:aggressionpotion:925794592199147581> and may need occasional <:ancientshard:656426717505650708> activation.
+
+⬥ Pray <:protectfrommagic:1052551456835768351>, <:divinerage:1285372247665803264>, <:accelerateddecay:1137941007795757117>, and <:steelskin:1365820216545902642> with <:zealots:926021352626982942>
+    • Sustain <:prayer:1005450651347730533> with <:penanceaspect:1494069332584693810> or <:powderofpenance:928221126360969226>
+⬥ Ensure <:elderovlsalve:648976643687317532>, <:aggressionpotion:925794592199147581>, <:weppoison:689525476158472288>, and <:scriptureofwen:883134307902816297> are active at all times.
+    • Ensure <:powderofprotection:933079947419983912> is active with low level gear.
+⬥ Use <:vampyrismaspect:1494069423047442573> if struggling to upkeep LP.
+
+.
+### Preset Suggestions
+.
+⬥ [Luminous Snaggler - AFK High Level Necromancy](<https://presets.pvme.io?id=78783c5b-f8c2-4f4c-acc8-292202e68720>)
+⬥ [Luminous Snaggler - AFK Low Level Necromancy](https://presets.pvme.io?id=07f28c41-f440-4fa7-ba13-40508cdb22a8)
+.
+
+.
+### Action Bars
+.img:https://img.pvme.io/images/BJziJARIvV.png
+
+.
+### Example Kills
+⬥ [High Level AFK Necromancy](<https://www.youtube.com/watch?v=_U7uloB3mvM>)
+⬥ [Low Level AFK Necromancy](<https://www.youtube.com/watch?v=291XYwaWC8o>)
+
+.
+### __AFK Ranged__ <:range:580168050121113623>
+This method requires you to have **killed one of the Snagglers** before drinking <:aggressionpotion:925794592199147581>
+
+⬥ Pray <:protectfrommagic:1052551456835768351>, <:divinerage:1285372247665803264>, <:overpoweringforce:1344313902808174712>, and <:steelskin:1365820216545902642> with <:zealots:926021352626982942>
+    • Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226>
+⬥ Ensure <:vampyrismaspect:1494069423047442573>, <:elderovlsalve:648976643687317532>, <:aggressionpotion:925794592199147581>, <:weppoison:689525476158472288>, and <:scriptureofwen:883134307902816297> are active at all times.
+    • Ensure <:powderofprotection:933079947419983912> is active with low level gear.
+
+.
+### Preset Suggestions
+.
+⬥ [Luminous Snaggler - AFK Ranged](https://presets.pvme.io?id=7f670b94-09d3-4f9b-bf3d-7a2bbd24838d)
+.
+
+.
+### Action Bars
+.img:https://img.pvme.io/images/dJB7zsz6hj.png
+
+.
+### Example Kills
+⬥ [High Level AFK Ranged](<https://www.youtube.com/watch?v=YCLuPo56bDM>)
+⬥ [Low Level AFK Ranged](<https://www.youtube.com/watch?v=mm0ePwrvEpw>)
+
+.
+### __AFK Magic__ <:magic:689504724159823906>
+⬥ **Low Level**: Pray <:deflectmage:544195487926845462> and <:torment:583429936958930964> / <:affliction:513190158468907008>
+    • Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226>
+⬥ **High Level**: Pray <:protectfrommagic:1052551456835768351>, <:divinerage:1285372247665803264>, <:overcharge:1344313901189431296>, and <:steelskin:1365820216545902642> with <:zealots:926021352626982942>
+    • Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226>
+⬥ Autocast <:exsanguinate:856635090745950258>
+⬥ Ensure <:vampyrismaspect:1494069423047442573>, <:elderovlsalve:648976643687317532>, <:aggressionpotion:925794592199147581>, <:weppoison:689525476158472288>, <:scriptureofwen:883134307902816297>, and <:powderofprotection:933079947419983912> are active at all times.
+
+.
+### Preset Suggestions
+⬥ [Luminous Snaggler - AFK High Level Magic](<https://presets.pvme.io?id=be8d5742-859c-4a2f-9d68-675853060c95>) <:tumekenrobetop:1400500746377625790>
+⬥ [Luminous Snaggler - AFK Low Level Magic](https://presets.pvme.io?id=fd4bc8c0-5727-48e6-953d-cf019eb688cf) <:subjgarb:643151011199975434>
+.
+
+.
+### Action Bars
+.img:https://img.pvme.io/images/1A56KamGQk.png
+
+.
+### Example Kills
+⬥ [High Level AFK Magic](<https://www.youtube.com/watch?v=zyjQxEb8kR4>)
+⬥ [Low Level AFK Magic](<https://www.youtube.com/watch?v=H_aqEdUiL7g>)
+
+.
+## __Lampenflora__
+.tag:lampenflora
+.img:https://img.pvme.io/images/ghTWvec.png
+
+.
+### __Stats__
+⬥ <:slayer:797896049548066857> level: 102
+⬥ <:slayer:797896049548066857> XP per kill: 1,331.8
+⬥ Optimal kills per hour: ~320 <:range:580168050121113623> / ~300 <:magic:689504724159823906> (All AFK)
+⬥ Optimal <:slayer:797896049548066857> XP per hour: ~426k <:range:580168050121113623> / ~400k <:magic:689504724159823906> (AFK)
+
+Use this tile for all styles.
+.img:https://img.pvme.io/images/ceX7GNZ2NB.png
+
+.
+### __AFK Ranged__ <:range:580168050121113623>
+⬥ Pray <:soulsplit:615613924506599497> and <:anguish:583429936665198592> / <:desolation:513190159018098713>
+    • Sustain <:prayer:1005450651347730533> with <:penanceaspect:1494069332584693810> or <:powderofpenance:928221126360969226>
+⬥ Ensure <:elderovlsalve:648976643687317532>, <:aggressionpotion:925794592199147581>, <:weppoison:689525476158472288>, and <:scriptureofamascut:1266417822188437569> are active at all times.
+⬥ Use <:vampyrismaspect:1494069423047442573> if struggling to upkeep LP.
+
+.
+### Preset Suggestions
+.
+⬥ [Lampenflora - AFK Ranged](https://presets.pvme.io?id=ba17b9cc-665a-4245-8495-b2869c18e298)
+.
+
+.
+### Action Bars
+.img:https://img.pvme.io/images/dJB7zsz6hj.png
+
+.
+### Example Kills
+⬥ [High Level AFK Ranged](<https://youtu.be/AmP5U-5-dZk>)
+⬥ [Low Level AFK Ranged](<https://youtu.be/-u2yu7mnT2M>)
+
+.
+### __AFK Magic__ <:magic:689504724159823906>
+⬥ **Low Level**: Pray <:soulsplit:615613924506599497> and <:torment:583429936958930964> / <:affliction:513190158468907008>
+    • Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226>
+⬥ **High Level**: Pray <:eclipsedsoul:1285372688457797672>, <:divinerage:1285372247665803264>, <:overcharge:1344313901189431296>, and <:steelskin:1365820216545902642> with <:zealots:926021352626982942>
+    • Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226>
+⬥ Autocast <:incitefear:856635090783567902>
+⬥ Ensure <:elderovlsalve:648976643687317532>, <:aggressionpotion:925794592199147581>, <:weppoison:689525476158472288>, and <:scriptureofwen:883134307902816297> are active at all times.
+⬥ Use <:vampyrismaspect:1494069423047442573> if struggling to upkeep LP.
+
+.
+### Preset Suggestions
+.
+⬥ [Lampenflora - AFK Magic](https://presets.pvme.io?id=a4e84a2e-4c42-4ed4-a208-be6a03615bd5)
+.
+
+.
+### Action Bars
+.img:https://img.pvme.io/images/9DIRNmojZb.png
+
+.
+### Example Kills
+⬥ [High Level Magic](<https://www.youtube.com/watch?v=B8H29sBUjLs>)
+⬥ [Low Level Magic](<https://www.youtube.com/watch?v=L9_E9u0LKcE>)
+
+.
+## __Liverworts__
+.tag:liverworts
+.img:https://img.pvme.io/images/YswqoTF.png
+
+.
+### __Stats__
+⬥ <:slayer:797896049548066857> level: 110
+⬥ <:slayer:797896049548066857> XP per kill: 3,338.4
+⬥ Optimal kills per hour: ~235 <:range:580168050121113623> / <:magic:689504724159823906> / <:necromancy:1148995625896120460> (ALL AFK)
+⬥ Optimal <:slayer:797896049548066857> XP per hour: ~785k <:range:580168050121113623> / <:magic:689504724159823906> / <:necromancy:1148995625896120460> (ALL AFK)
+
+.
+### __AFK Ranged__ <:range:580168050121113623>
+⬥ Pray <:protectfrommissiles:1052551455078367313>, <:divinerage:1285372247665803264>, <:overpoweringforce:1344313902808174712>, and <:steelskin:1365820216545902642> with <:zealots:926021352626982942>
+    • Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226>
+⬥ Ensure <:vampyrismaspect:1494069423047442573>, <:elderovlsalve:648976643687317532>, <:aggressionpotion:925794592199147581>, <:weppoison:689525476158472288>, <:scriptureofwen:883134307902816297> and <:powderofprotection:933079947419983912> are active at all times.
+
+.
+### Preset Suggestions
+.
+⬥ [Liverworts - AFK Ranged](https://presets.pvme.io?id=4e8a2721-05a3-4129-90b3-6bd022901f3f)
+.
+
+.
+### Action Bars
+.img:https://img.pvme.io/images/dJB7zsz6hj.png
+
+.
+### Example Kills
+⬥ [AFK Ranged](<https://www.youtube.com/watch?v=V5L_SfzQ4Yo>)
+
+.
+### __AFK Magic__ <:magic:689504724159823906>
+⬥ Pray <:protectfrommissiles:1052551455078367313>, <:divinerage:1285372247665803264>, <:overcharge:1344313901189431296>, and <:steelskin:1365820216545902642> with <:zealots:926021352626982942>
+    • Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226>
+⬥ Autocast <:exsanguinate:856635090745950258>
+⬥ Ensure <:vampyrismaspect:1494069423047442573>, <:elderovlsalve:648976643687317532>, <:aggressionpotion:925794592199147581>, <:weppoison:689525476158472288>, <:kwuarmsticks:565726489341984779>, and <:powderofprotection:933079947419983912> are active at all times.
+
+.
+### Preset Suggestions
+.
+⬥ [Liverworts - AFK Magic](<https://presets.pvme.io?id=c1f7757d-3435-4067-8e8e-327df7915f6c>)
+.
+
+.
+### Action Bars
+.img:https://img.pvme.io/images/DMwqWBSdzJ.png
+
+.
+### Example Kills
+⬥ [AFK Magic](<https://www.youtube.com/watch?v=_QejmXs-yq8>)
+
+.
+### __AFK Necromancy__ <:necromancy:1148995625896120460>
+⬥ Pray <:protectfrommissiles:1052551455078367313>, <:divinerage:1285372247665803264>, <:accelerateddecay:1137941007795757117>, and <:steelskin:1365820216545902642> with <:zealots:926021352626982942>
+    • Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226> / <:penanceaspect:1494069332584693810>
+⬥ Ensure <:elderovlsalve:648976643687317532>, <:aggressionpotion:925794592199147581>, <:weppoison:689525476158472288>, and <:scriptureofwen:883134307902816297> are active at all times.
+⬥ Use <:vampyrismaspect:1494069423047442573> if struggling to upkeep LP.
+
+.
+### Preset Suggestions
+.
+⬥ [Liverworts - AFK Necromancy](https://presets.pvme.io?id=34a7f422-1425-4341-bc7e-52d9c219b293)
+.
+
+.
+### Action Bars
+.img:https://img.pvme.io/images/BJziJARIvV.png
+
+.
+### Example Kills
+⬥ [AFK Necromancy](<https://www.youtube.com/watch?v=e9zq_p20ntk>)
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*",
+    "color": 39423,
+    "fields": [
+     {
+        "name": "__Overview__",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Desirable drops]($linkmsg_drops$)\n⬥ [Location and How to Get there]($linkmsg_location$)",
+        "inline": true
+      },
+      {
+        "name": "__Methods__",
+        "value": "⬥ [Devil's snare]($linkmsg_devilssnare$)\n⬥ [Luminous snaggler]($linkmsg_luminoussnaggler$)\n⬥ [Lampenflora]($linkmsg_lampenflora$)\n⬥ [Liverworts]($linkmsg_liverworts$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete

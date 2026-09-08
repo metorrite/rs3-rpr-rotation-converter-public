@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="test" type="js.build_tools.npm" nameIsGenerated="false" folderName="Build &amp; Test">
+    <description value="Run the Vitest suite once (unit + PVME guide corpus). No build needed - Vitest runs the TypeScript directly." />
+    <package-json value="$PROJECT_DIR$/package.json" />
+    <command value="run" />
+    <scripts>
+      <script value="test" />
+    </scripts>
+    <node-interpreter value="project" />
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>

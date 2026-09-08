@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="rebuild (clean + build + test)" type="js.build_tools.npm" nameIsGenerated="false" folderName="Build &amp; Test">
+    <description value="Full reset: wipe dist/ release/ coverage/ and generated reports, then rebuild and run the whole test suite. The 'mvn clean' equivalent." />
+    <package-json value="$PROJECT_DIR$/package.json" />
+    <command value="run" />
+    <scripts>
+      <script value="rebuild" />
+    </scripts>
+    <node-interpreter value="project" />
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>

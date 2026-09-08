@@ -1,0 +1,22 @@
+{
+  "rotationMaster": {
+    "repo": "Ellamental2/RotationMaster",
+    "ref": "master",
+    "commit": "15bbb7875455a33ca02d2ad31121a689b16759c6",
+    "committedAt": "2026-08-25T10:22:24Z",
+    "rmVersion": "3.2.0"
+  },
+  "pvmeSettings": {
+    "repo": "pvme/pvme-settings",
+    "ref": "master",
+    "commit": "124115b9df0849ab2507e6c18d5fadaf1abdf462",
+    "committedAt": "2026-08-05T09:48:06Z"
+  },
+  "fetchedAt": "2026-09-07T21:55:33.014Z",
+  "files": [
+    "abilities.json",
+    "pvme.json",
+    "pvme-emojis.json"
+  ],
+  "abilityCount": 2207
+}

@@ -1,0 +1,96 @@
+# Celestial Dragons <:celestialdragon:1027212539441975296>
+*Note: a **Table of Contents** can be found in the pins.*
+
+.
+## __Introduction__
+.tag:intro
+Celestial Dragons <:celestialdragon:1027212539441975296> are generally only killed for the Ultimate Slayer title. Otherwise, the XP and GP/hr are mediocre at best.
+
+.
+### Stats
+⬥ <:slayer:797896049548066857> level: 1
+⬥ <:slayer:797896049548066857> XP per kill: 976.6
+⬥ Optimal kills per hour: ~650 <:range:580168050121113623> (AFK)
+⬥ Optimal <:slayer:797896049548066857> XP per hour: ~635k <:range:580168050121113623> (AFK)
+
+.
+### __Desirable drops__
+.tag:drops
+⬥ [Celestial handwraps](<https://runescape.wiki/w/Celestial_handwraps>) <:Celestialhandwraps:513190158716239885> (only dropped on-task)
+    • Required for the Slayer collection log
+⬥ [Dragon rider armour](<https://runescape.wiki/w/Dragon_Rider_armour>) <:dragonriderbody:1029416866537554021> 1/1,280 for any piece (1/5,120 for a specific piece)
+    • Required for the Slayer collection log
+
+.
+### __Useful Items and Unlocks__
+.tag:useful
+{
+  "embed": {
+    "description":"Owning the following increases the efficiency of your sessions, but is by no means mandatory",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Items__",
+        "value": "⬥ [Demon horn necklace](https://runescape.wiki/w/Demon_horn_necklace) <:demonhornnecklace:975765831248130079> and [Bonecrusher](https://runescape.wiki/w/Bonecrusher) <:bonecrusher:975284344526602240>\n\u00a0\u00a0\u00a0\u00a0• 100% prayer sustain with <:soulsplit:615613924506599497> + <:desolation:513190159018098713> / <:anguish:583429936665198592>\n⬥ [Dwarven Siege Engine](https://runescape.wiki/w/Dwarven_Seige_Engine) <:cannon:869283142350041098>\n⬥ Poison-boosting items\n\u00a0\u00a0\u00a0\u00a0• [Weapon poison+++](https://runescape.wiki/w/Weapon_poison%2B%2B%2B#(4)) <:weppoison:689525476158472288>\n\u00a0\u00a0\u00a0\u00a0• [Cinderbane gloves](https://runescape.wiki/w/Cinderbane_gloves) <:cinderbanes:513190158355660812>\n\u00a0\u00a0\u00a0\u00a0• [Kwuarm incense sticks](https://runescape.wiki/w/Kwuarm_incense_sticks) <:kwuarmsticks:565726489341984779>"
+      },
+      {
+        "name": "__Other__",
+        "value": "⬥ [Dragon slayer perk](https://runescape.wiki/w/Dragon_Slayer_(perk)) <:dragonslayerperk:689502927731163170>\n⬥ [Scavenging perk](https://runescape.wiki/w/Scavenging) <:scavenging4:1005934140669046824>\n⬥ [Upgraded](https://runescape.wiki/w/Enchantment_of_shadows) <:stalkerring:839903943601029120>\n⬥ [Upgraded](https://runescape.wiki/w/Enchantment_of_dispelling) <:hexhunterbow:581180369911414794>\n⬥ If using a familiar to maximise KPH, you do __not__ need scrolls:\n\u00a0\u00a0\u00a0\u00a0• Blood Reaver <:reaverpouch:839903693837959228> + Vampyrism <:vampyrismaspect:1494069423047442573> for additional <:poisonicon:944649693500154006> procs\n\u00a0\u00a0\u00a0\u00a0• Ripper Demon <:ripperpouch:703581275453128714> for its passive\n\u00a0\u00a0\u00a0\u00a0• Kalg Demon <:kalgpouch:921410226484301925> for its crit boost\n\u00a0\u00a0\u00a0\u00a0• Legendary Pet to pick up drops"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+### __Location and How to Get There__
+.tag:location
+.
+<:celestialdragon:1027212539441975296> can be found in the [Dragontooth Island resource dungeon](<https://runescape.wiki/w/Dragontooth_Island_resource_dungeon>) after the question [One of a Kind](<https://runescape.wiki/w/One_of_a_Kind>) is complete.
+.
+You can get there by:
+⬥ Option 0 → 3 on the [Dungeoneering cape](<https://runescape.wiki/w/Dungeoneering_cape>) <:dgcape:976732922545586246> (option 0 → 3).
+⬥ Using a [Max guild portal](<https://runescape.wiki/w/Max_guild_portal>) tuned to the Radiant Wisp colony.
+⬥ Teleport to Dragontooth Island using the [Big Book o' Piracy](<https://runescape.wiki/w/Big_Book_o%27_Piracy>).
+⬥ You can also go to Port Phasmatys (Ectophial teleport or charter a boat) and speak with the Ghost captain while wearing a ghostspeak amulet.
+
+.
+## __Method: AFK Ranged__ <:range:580168050121113623>
+.tag:ranged
+.
+Place your <:cannon:869283142350041098> in the middle of the room and ensure <:autoretaliate:1084799717726228530> is active.
+.
+With this <:range:580168050121113623> method trips are only limited by your supplies (e.g. <:elderovl:841419289831800882> and cannonballs).
+.
+⬥ Pray <:soulsplit:615613924506599497> and <:anguish:583429936665198592> or <:desolation:513190159018098713>
+⬥ Sustain <:prayer:1005450651347730533> with <:demonhornnecklace:975765831248130079> + <:bonecrusher:975284344526602240>
+⬥ Ensure <:elderovl:841419289831800882>, <:superantifire:864492695997513748> and <:weppoison:689525476158472288>
+
+.
+.img:https://img.pvme.io/images/YSnu4Zec7z.png
+
+.
+### __Presets and Relics__
+
+⬥ [Ranged preset](https://presets.pvme.io/?id=gmY7VtwCu66FgPJ7HcPx) <:range:580168050121113623>
+
+
+.
+### Ability Bar
+.img:https://img.pvme.io/images/4cLhV09cEF.png
+
+.
+### Example Kills
+.
+⬥ [Example AFK Ranged Kills](https://www.youtube.com/watch?v=Ijd4qDmtaX8) <:range:580168050121113623>
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Drops]($linkmsg_drops$)\n⬥ [Useful Items and Unlocks]($linkmsg_useful$)\n⬥ [Location and How to Get There]($linkmsg_location$)\n⬥ [Method: AFK Ranged]($linkmsg_ranged$) <:range:580168050121113623>",
+    "color": 39423
+  }
+}
+.embed:json
+.pin:delete

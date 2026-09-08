@@ -1,0 +1,327 @@
+# Soul Devourers
+*Note: a **Table of Contents** can be found in the pins.*
+
+.
+## __Introduction__
+.tag:intro
+There are 6 types of soul devourers, ranging from 105 to 117 Slayer <:slayer:797896049548066857>. The Magister may also be killed for this task, requiring 115 Slayer <:slayer:797896049548066857>. The mobs each require a different level of attention, and the profits differ.
+
+⬥ The Magister will give 8000 Slayer <:slayer:797896049548066857> experience per kill and benefit from the use of Tuska's Wrath <:Tuskas:513201065513058306>, but the slayer helmet <:slayerhelm:798285340460449792> effect does not work on him.
+
+.
+## __Desirable drops__
+.tag:drops
+⬥ Key to the Crossing <:keytothecrossing:1048592046409138217>
+    • Dropped at a rate of 1/75 on task, which can be increased to 1/60 with the use of Sophanem slayer dungeon drop enhancers.
+    • Required for the Slayer collection log.
+⬥ Vital Spark <:vitalspark:656426807893032963>
+    • Can be doubled via the use of vital spark drop enhancers.
+    • Required for the Slayer collection log.
+⬥ Soul devourers each have their own drop tables, containing good alchables and other resources, making them a consistent moneymaker.
+    • The Sophanem Slayer Dungeon contains chests which will [automatically gather drops](<https://runescape.wiki/w/Sophanem_Slayer_Dungeon#Chest>).
+
+.
+## __Location and How to Get there__
+.tag:location
+⬥ Sophanem Slayer Dungeon
+    • You can teleport there with Sophanem Slayer Dungeon teleport tablets.
+    • Alternatively, you can teleport to the Menaphos lodestone <:menaphoslode:1032552289589796904>, take the bridge to Sophanem, and then run south to the dungeon entrance.
+⬥ Sunken Pyramid (south-eastern room, 5 spawns)
+    • In the small room, position yourself anywhere near the center of all the spawns.
+        ⬩ For Imperial warrior akh's stand in the northern part of the room and target southern spawns.
+    • You can teleport there with a teleport to house tablet, or with a Slayer Codex <:slayercodex:1097517249499254875>
+
+.
+### Useful Items and Unlocks
+.
+{
+  "embed": {
+    "description":"Owning the following increases the efficiency of your sessions, but is by no means mandatory.",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Items__",
+        "value": "⬥ [Slayer Codex](https://runescape.wiki/w/Slayer_Codex) <:slayercodex:1097517249499254875>\n\u00a0\u00a0\u00a0\u00a0• Once 50 souls are added, it can be used to teleport to the Sunken Pyramid.\n⬥ [Sophanem Slayer Dungeon teleport](https://runescape.wiki/w/Sophanem_Slayer_Dungeon_teleport)\n\u00a0\u00a0\u00a0\u00a0• Allows quick access to the Sophanem Slayer Dungeon.\n⬥ [Feather of Ma'at](https://runescape.wiki/w/Feather_of_Ma'at)\n\u00a0\u00a0\u00a0\u00a0• Required for killing mobs inside the Sophanem Slayer Dungeon.\n⬥ [Vital spark drop enhancer](https://runescape.wiki/w/Vital_spark_drop_enhancer)\n\u00a0\u00a0\u00a0\u00a0• Gives an additional vital spark <:vitalspark:656426807893032963> if gotten as a drop.\n\u00a0\u00a0\u00a0\u00a0• Can be purchased for 1000 Dungeoneering tokens <:dungtoken:762960358930907156>\n⬥ [Sophanem slayer dungeon drop enhancers](https://runescape.wiki/w/Sophanem_slayer_dungeon_drop_enhancer)\n\u00a0\u00a0\u00a0\u00a0• Increases chance to get Key to the Crossing <:keytothecrossing:1048592046409138217> drops.\n\u00a0\u00a0\u00a0\u00a0• Can be purchased for 10,000 Dungeoneering tokens <:dungtoken:762960358930907156>"
+      }
+    ]
+   }
+}
+.embed:json
+
+.
+## __Salawa Akh__
+.tag:salawa
+.img:https://img.pvme.io/images/midZL8f.png
+The lowest level soul devourer, they do weak melee attacks and have no special mechanics, making them easy to AFK.
+
+.
+### Stats
+⬥ <:slayer:797896049548066857> level: 105
+⬥ <:slayer:797896049548066857> XP per kill: 504
+⬥ Optimal kills per hour: ~1100 <:melee:1096130867279171706>, 940-970 <:necromancy:1148995625896120460>
+⬥ Optimal <:slayer:797896049548066857> XP per hour: ~554k <:melee:1096130867279171706>, ~480k <:necromancy:1148995625896120460>
+
+.
+### Method - AFK Melee
+
+.
+> ## ⚠️ Disclaimer
+> **This method may not work after the combat changes made in Q1 of 2026**
+> Know of a newer method/rotation? Got a video? Share it in <#1020853673317908500>!
+.
+⬥ Pray <:soulsplit:615613924506599497> and <:turmoil:583429936606347280> or <:malevolence:513190159416557573>
+⬥ Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226> or <:restore:642708657825644554>
+⬥ Ensure <:holyaggroverload:1049230112849133589> and <:weppoison:689525476158472288> are active
+
+.
+### Presets
+⬥ [AFK Melee](https://presets.pvme.io?id=cbdf17d8-14ca-48c6-8622-b900d026027b)
+.
+
+.
+### Ability Bar
+.img:https://img.pvme.io/images/9cDEDgbJyk.png
+
+.
+### Method - AFK Necro
+⬥ Pray <:deflectmelee:544195488447201300> and <:sorrow:1137941003895046284> or <:ruination:1137940996391452772>
+⬥ Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226> and <:penanceaspect:1494069332584693810>
+⬥ Ensure <:elderovlsalve:648976643687317532>, <:aggressionpotion:925794592199147581> and <:weppoison:689525476158472288> are active
+
+.
+### Presets
+⬥ [AFK Necromancy](https://presets.pvme.io?id=03a855b9-816d-40a2-a9f3-403b0eff7688)
+.
+
+.
+### Ability Bar
+.img:https://img.pvme.io/images/K4AOtSv3Kd.png
+
+.
+## __Feline Akh__
+.tag:feline
+.img:https://img.pvme.io/images/oy7rulc.png
+Feline akh's have harder hitting attacks than Salawas, and a special attack which deals high magic damage and makes nearby feline akh's aggressive towards you. This occurs when the mob reaches 2500 life points, and hits when the bar above their head fully charges. Despite this, they can very easily be AFK'd in the same method as Salawas, and are often killed for their common elite clue drops <:eliteclue:1123586941057769552>. Due to their harder hitting attacks, the usage of a vampyrism scrimshaw <:vampscrim:513201294262009874> is recommended, as the player should be praying <:DeflectMelee:544195488447201300>.
+.
+### Stats
+⬥ <:slayer:797896049548066857> level: 107
+⬥ <:slayer:797896049548066857> XP per kill: 536.2
+⬥ Optimal kills per hour: ~1100 <:melee:1096130867279171706> <:necromancy:1148995625896120460>
+⬥ Optimal <:slayer:797896049548066857> XP per hour: ~590k <:melee:1096130867279171706> <:necromancy:1148995625896120460>
+
+.
+### Method - AFK Melee
+.
+> ## ⚠️ Disclaimer
+> **This method may not work after the combat changes made in Q1 of 2026**
+> Know of a newer method/rotation? Got a video? Share it in <#1020853673317908500>!
+
+.
+⬥ Pray <:deflectmelee:544195488447201300> and <:turmoil:583429936606347280> or <:malevolence:513190159416557573>
+⬥ Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226> or <:restore:642708657825644554>
+⬥ Ensure <:holyaggroverload:1049230112849133589> and <:weppoison:689525476158472288> are active
+
+.
+### Presets
+⬥ [AFK Melee](https://presets.pvme.io?id=df854d77-76e8-4ff9-a16a-ed3333cc7040)
+.
+
+.
+### Ability Bar
+.img:https://img.pvme.io/images/75x2HEntbl.png
+
+.
+### Method - AFK Necro
+⬥ Pray <:deflectmelee:544195488447201300> and <:sorrow:1137941003895046284> or <:ruination:1137940996391452772>
+⬥ Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226> and <:penanceaspect:1494069332584693810>
+⬥ Ensure <:elderovlsalve:648976643687317532>, <:aggressionpotion:925794592199147581> and <:weppoison:689525476158472288> are active
+
+.
+### Presets
+⬥ [AFK Necromancy](https://presets.pvme.io?id=bca2966f-a889-4856-87e0-fecf9165c93f)
+.
+
+.
+### Ability Bar
+.img:https://img.pvme.io/images/K4AOtSv3Kd.png
+
+.
+## __Scarab Akh__
+.tag:scarab
+.img:https://img.pvme.io/images/rW3sINaoA3.png
+
+.
+### Stats
+⬥ <:slayer:797896049548066857> level: 109
+⬥ <:slayer:797896049548066857> XP per kill: 714.8
+⬥ Optimal kills per hour: ~800 <:necromancy:1148995625896120460> (AFK)
+⬥ Optimal <:slayer:797896049548066857> XP per hour: ~570k <:necromancy:1148995625896120460> (AFK)
+
+.
+### Method - AFK Necro
+⬥ Pray <:deflectmelee:544195488447201300> and <:sorrow:1137941003895046284> or <:ruination:1137940996391452772>
+⬥ Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226> and <:penanceaspect:1494069332584693810>
+⬥ Ensure <:elderovlsalve:648976643687317532>, <:aggressionpotion:925794592199147581> and <:weppoison:689525476158472288> are active
+
+.
+### Presets
+⬥ [AFK Necromancy](https://presets.pvme.io?id=9dc20455-40d8-4548-83e5-6a08513913ea)
+.
+
+.
+### Ability Bar
+.img:https://img.pvme.io/images/K4AOtSv3Kd.png
+
+.
+## __Crocodile Akh__
+.tag:crocodile
+.img:https://img.pvme.io/images/xgLCv4o.png
+Due to their low life points their dangerous special attack can be ignored. After 5 auto-attacks, they strike the floor to deal a large 3000 hit through deflect prayers. With a good setup they can be AFK'd. At 105 Slayer <:slayer:797896049548066857> it is possible to use Wilder Pies to boost, to kill these; however, at 111 Slayer <:slayer:797896049548066857> it is recommended to move on to the Imperial akhs via the usage of a Wilder Pie.
+
+.
+### Stats
+⬥ <:slayer:797896049548066857> level: 111
+⬥ <:slayer:797896049548066857> XP per kill: 761
+⬥ Optimal kills per hour: ~1000 <:melee:1096130867279171706>, ~900 <:necromancy:1148995625896120460>
+⬥ Optimal <:slayer:797896049548066857> XP per hour: ~761k <:melee:1096130867279171706>, ~680k <:necromancy:1148995625896120460>
+
+.
+### Method - AFK Melee
+
+.
+> ## ⚠️ Disclaimer
+> **This method may not work after the combat changes made in Q1 of 2026**
+> Know of a newer method/rotation? Got a video? Share it in <#1020853673317908500>!
+
+.
+⬥ Pray <:deflectmelee:544195488447201300> and <:turmoil:583429936606347280> or <:malevolence:513190159416557573>
+⬥ Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226> or <:restore:642708657825644554>
+⬥ Ensure <:holyaggroverload:1049230112849133589> and <:weppoison:689525476158472288> are active
+
+.
+### Presets
+⬥ [AFK Melee](https://presets.pvme.io?id=e1e28078-9ac1-4778-92b2-1ad6aee6ae23)
+.
+
+.
+### Ability Bar
+.img:https://img.pvme.io/images/09gMJ9gViC.png
+
+.
+### Method - AFK Necro
+⬥ Pray <:deflectmelee:544195488447201300> and <:sorrow:1137941003895046284> or <:ruination:1137940996391452772>
+⬥ Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226> and <:penanceaspect:1494069332584693810>
+⬥ Ensure <:elderovlsalve:648976643687317532>, <:aggressionpotion:925794592199147581> and <:weppoison:689525476158472288> are active
+
+.
+### Presets
+⬥ [AFK Necromancy](https://presets.pvme.io?id=54675c4e-dee2-4dcf-8a9a-cd9178c23a17)
+.
+
+.
+### Ability Bar
+.img:https://img.pvme.io/images/K4AOtSv3Kd.png
+
+.
+## __Gorilla Akh__
+.tag:gorilla
+.img:https://img.pvme.io/images/lJJRh9iPeS.png
+
+.
+### Stats
+⬥ <:slayer:797896049548066857> level: 113
+⬥ <:slayer:797896049548066857> XP per kill: 705
+⬥ Optimal kills per hour: ~700 <:necromancy:1148995625896120460> (AFK)
+⬥ Optimal <:slayer:797896049548066857> XP per hour: ~490k <:necromancy:1148995625896120460> (AFK)
+
+.
+### Method - AFK Necro
+Position yourself as shown below.
+.img:https://img.pvme.io/images/7e3ptGDofD.png
+⬥ Pray <:deflectmelee:544195488447201300> and <:sorrow:1137941003895046284> or <:ruination:1137940996391452772>
+⬥ Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226> and <:penanceaspect:1494069332584693810>
+⬥ Ensure <:elderovlsalve:648976643687317532>, <:aggressionpotion:925794592199147581> and <:weppoison:689525476158472288> are active
+
+.
+### Presets
+⬥ [AFK Necromancy](https://presets.pvme.io?id=0e689050-bd5d-4843-87b7-0d67c380b48a)
+.
+
+.
+### Ability Bar
+.img:https://img.pvme.io/images/K4AOtSv3Kd.png
+
+.
+## __Imperial Warrior Akh__
+.tag:imperial
+.img:https://img.pvme.io/images/DrVy98i.png
+
+.
+### Stats
+⬥ <:slayer:797896049548066857> level: 117
+⬥ <:slayer:797896049548066857> XP per kill: 1780.6
+⬥ Optimal kills per hour: ~500 <:necromancy:1148995625896120460>
+⬥ Optimal <:slayer:797896049548066857> XP per hour: ~900k <:necromancy:1148995625896120460>
+
+.
+### Method - Low Effort Necro
+⬥ Pray <:soulsplit:615613924506599497> and <:sorrow:1137941003895046284> or <:ruination:1137940996391452772>
+⬥ Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226> and <:penanceaspect:1494069332584693810>
+⬥ Ensure <:elderovlsalve:648976643687317532>, <:aggressionscrim:1022562486588821555> and <:weppoison:689525476158472288> are active
+
+.
+### Presets
+⬥ [AFK Necromancy](https://presets.pvme.io?id=fcbbddd5-55e1-4d85-b8ad-b03570325103)
+.
+
+.
+### Ability Bar
+.img:https://img.pvme.io/images/Oq0UEVX0eu.png
+
+.
+## __Example Kills__
+.tag:examplekills
+.
+{
+  "embed": {
+"title": "",
+    "description": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Recommended for task__",
+        "value": "⬥ [Salawa Akh AFK](<https://www.youtube.com/watch?v=AacqDyrdgcU>) <:necromancy:1148995625896120460>\n⬥ [Crocodile Akh AFK](<https://www.youtube.com/watch?v=DmQj9iiSUQ4>) <:necromancy:1148995625896120460>",
+        "inline": true
+      },
+      {
+        "name": "__Soul gathering only__",
+        "value": "⬥ [Feline Akh AFK](<https://www.youtube.com/watch?v=I7j1r3rcJVE>) <:necromancy:1148995625896120460>\n⬥ [Scarab Akh AFK](<https://www.youtube.com/watch?v=1dUJ_GrfWoU>) <:necromancy:1148995625896120460>\n⬥ [Gorilla Akh AFK](<https://www.youtube.com/watch?v=QpCpMH55m8A>) <:necromancy:1148995625896120460>\n⬥ [Imperial Guard Akh AFK](<https://www.youtube.com/watch?v=nEzLxNrf71U>) <:necromancy:1148995625896120460>",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*",
+    "color": 39423,
+    "fields": [
+     {
+        "name": "__Overview__",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Desirable Drops]($linkmsg_drops$)\n⬥ [How to Get There]($linkmsg_location$)\n⬥ [Example Kills]($linkmsg_examplekills$)",
+        "inline": true
+      },
+      {
+        "name": "__Methods__",
+        "value": "⬥ [Salawa Akh]($linkmsg_salawa$)\n⬥ [Feline Akh]($linkmsg_feline$)\n⬥ [Scarab Akh]($linkmsg_scarab$)\n⬥ [Crocodile Akh]($linkmsg_crocodile$)\n⬥ [Gorilla Akh]($linkmsg_gorilla$)\n⬥ [Imperial Warrior Akh]($linkmsg_imperial$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete

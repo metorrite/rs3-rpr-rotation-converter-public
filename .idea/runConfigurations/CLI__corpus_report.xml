@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="CLI: corpus report" type="js.build_tools.npm" nameIsGenerated="false" folderName="Convert">
+    <description value="Run every vendored PVME guide through the converter and write test/corpus-report.md (resolution %, timing estimates, unresolved tokens). Change --to rm to --to rsa to check the RSA side." />
+    <package-json value="$PROJECT_DIR$/package.json" />
+    <command value="run" />
+    <scripts>
+      <script value="cli" />
+    </scripts>
+    <arguments value="-- corpus-report --to rm" />
+    <node-interpreter value="project" />
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>

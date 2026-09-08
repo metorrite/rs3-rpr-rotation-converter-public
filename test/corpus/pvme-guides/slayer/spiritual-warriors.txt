@@ -1,0 +1,128 @@
+> ## ⚠️ Disclaimer
+> **Some methods in this guide may not work after the combat changes made in Q1 of 2026**
+> Know of a newer method/rotation? Got a video? Share it in <#1020853673317908500>!
+.
+# Spiritual Warriors
+*Note: a **Table of Contents** can be found in the pins.*
+
+.
+## __Introduction__
+.tag:intro
+Spiritual warriors have four different variants, each resembling their respective god within the God Wars Dungeon. They're mostly similar, except that Armadylean spiritual warriors **can't** be attacked with melee <:melee:1096130867279171706>
+
+⬥ This guide will focus on killing spiritual warriors in the Sunken Pyramid, as this location yields the highest kills per hour
+    • Other methods of killing spiritual warriors, such as in the God Wars Dungeon will not be discussed
+⬥ They can be assigned as a slayer assignment <:slayer:797896049548066857> by Jacquelyn, The Raptor, Vannaka, Sumona, and Laniakea
+    • They count as spiritual warriors, ghosts, and undead slayer tasks
+        ⬩ Armadylean spiritual warriors also count as aviansie slayer tasks
+
+.
+### Stats
+⬥ <:slayer:797896049548066857> level: 68
+    • level 99 Slayer <:slayer:797896049548066857> is required to access the Sunken Pyramid
+⬥ <:slayer:797896049548066857> XP per kill: 231
+⬥ Optimal kills per hour: ~1170 <:magic:689504724159823906>, ~1000 <:melee:1096130867279171706> (All AFK)
+⬥ Optimal <:slayer:797896049548066857> XP per hour: ~270k <:magic:689504724159823906>, ~231k <:melee:1096130867279171706> (All AFK)
+
+.
+### Desirable Drops
+.tag:drops
+⬥ Spiritual warriors have a valuable loot table containing: coins <:goldacc:1134866724043358218>, salvage <:springcleaner:1130170723130937427>, super sets <:notepaper:1137735230908805240>, and a variety of herb drops <:herbbag:1134863720128974940>
+⬥ Sealed clue scroll (hard) <:hardclue:1123586945273049109>
+⬥ Warpriest armour <:armadylcomp:513190158477033474> <:bandoscomp:583435429861261322> <:saradomincomp:583435429785632769> <:zamorakcomp:607288026334232576>
+    • They will drop warpriest armour for their respective faction, so they are a good source of god components
+
+.
+### Useful Items and Unlocks
+.
+{
+  "embed": {
+    "description":"Owning the following increases the efficiency of your sessions, but is by no means mandatory",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Items__",
+        "value": "⬥ [Salve amulet (e)](https://runescape.wiki/w/Salve_amulet_(e)) <:salveamulet:797899945730244648>\n\u00a0\u00a0\u00a0\u00a0• Increases damage and accuracy by 20% when fighting undead monsters\n⬥ [Ghost hunter equipment](https://runescape.wiki/w/Ghost_hunter_equipment) <:ghosthunterhelm:855865893808767016>\n\u00a0\u00a0\u00a0\u00a0• Increases damage done against ghosts related creatures by 10% when three or more pieces are worn\n⬥ [Slayer Codex](https://runescape.wiki/w/Slayer_Codex) <:slayercodex:1097517249499254875>\n\u00a0\u00a0\u00a0\u00a0• Once 50 souls are added, it can be used to teleport to the Sunken Pyramid\n⬥ [Herbicide](https://runescape.wiki/w/Herbicide) <:herbicide:1134923280625709106> and [Herb bag](https://runescape.wiki/w/Herb_bag) <:herbbag:1134863720128974940>\n\u00a0\u00a0\u00a0\u00a0• With the herbicide collector upgrade you will automatically loot herbs"
+      },
+      {
+        "name": "__Abilities__",
+        "value": "⬥ [Magma Tempest](https://runescape.wiki/w/Magma_Tempest) <:magmatempest:902209626509025290>\n⬥ [Greater Chain](https://runescape.wiki/w/Greater_Chain) <:gchain:1257440278512537740>\n⬥ [Greater Sunshine](https://runescape.wiki/w/Greater_Sunshine) <:gsunshine:994644352871714836>"
+      },
+      {
+        "name": "__Other__",
+        "value": "⬥ [Luck of the Dwarves (relic power)](https://runescape.wiki/w/Luck_of_the_Dwarves_(relic_power)) <:lotdrelic:987267727980912701>\n\u00a0\u00a0\u00a0\u00a0• Allows you to increase your kph by wearing a better ring"
+      }
+    ]
+   }
+}
+.embed:json
+
+.
+### Location and How to Get there
+.tag:location
+The best place to kill spiritual warriors is in the Sunken Pyramid due to how spread out they are in other locations. You can teleport there with a teleport to house tablet, or with a Slayer Codex <:slayercodex:1097517249499254875>
+    • Spiritual warriors will only spawn as the version you captured
+
+.
+## __Method: Magic and Melee__
+.tag:method
+⬥ Spiritual warriors can be AFK'd for extended periods with minimal inputs required
+    • It is possible to AFK them with only one input every 10 minutes
+⬥ Sacrifice <:sacrifice:513201065907322880> is used to help sustain your life points
+⬥ They're aggressive to you if you're not wearing any armour for their respective faction; however, using aggression potions <:aggressionpotion:925794592199147581> will net you a higher kph and requires less inputs
+⬥ If you're using melee <:melee:1096130867279171706> you can't have Armadylean spiritual warriors
+
+.
+### Where to stand
+⬥ With your camera facing north, center yourself between the northern statue and the two green pots to the east
+.img:https://img.pvme.io/images/t6Us9dgqjv.png
+
+.
+### Presets
+⬥ [Melee](<https://presets.pvme.io/?id=l8ENoGbUVvKoUYXGKP1X>) <:melee:1096130867279171706>
+⬥ [Magic (Alternative)](<https://presets.pvme.io?id=a9a3a18d-fe08-486d-8f09-628cf1cb3ad6>) <:magic:689504724159823906>
+⬥ [Magic (Best in Slot)](https://presets.pvme.io?id=94de33d3-7969-4808-ac20-6f6f7fc819df) <:magic:689504724159823906>
+.
+⬥ The alternative Magic preset can be used for accounts with minimal unlocks
+⬥ If using <:inquisitorstaff:694566917553520680>, Air Wave will do the same damage as Air Surge, but use less runes
+⬥ Precise 6 Caroming 1 <:p6:712073088769982475> <:caroming1:1043953962207957162> + Eruptive 4 Ruthless 3 <:er4:1214416401561952296> <:ruthless3:712244800572883025> are the best weapon perks if only doing this method
+
+.
+### Action Bars
+***Note:** You can place <:tuskas:513201065513058306> further up if on task.*
+⬥ Magic (Best in Slot)
+.img:https://img.pvme.io/images/O8zD1FFqoa.png
+⬥ Magic (Alternative)
+.img:https://img.pvme.io/images/4ZVzO6qmU2.png
+⬥ Melee
+.img:https://img.pvme.io/images/o2prKTfAlU.png
+    • If Chaos Roar <:chaosroar:994644356671737966> isn't unlocked, shift the rest of the abilities forward
+
+.
+### Video Examples
+⬥ [AFK Melee ~1000 kph](<https://youtu.be/Z3TG2pi0sgY>)
+⬥ [AFK Magic ~1170 kph](https://youtu.be/5y7HoAZpKek)
+.
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*",
+    "color": 39423,
+    "fields": [
+     {
+        "name": "__Overview__",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Desirable Drops]($linkmsg_drops$)\n⬥ [Location and How to Get There]($linkmsg_location$)",
+        "inline": true
+      },
+      {
+        "name": "__Methods__",
+        "value": "⬥ [Magic and Melee]($linkmsg_method$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete

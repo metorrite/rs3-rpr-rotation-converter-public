@@ -1,0 +1,272 @@
+# > __Necromancy DPM Advice__ <:necromancy:1148995625896120460>
+.tag:intro
+*Note: a **Table of Contents** can be found in the pins.*
+
+This channel will go over general damage output lessons, ability prioritisation, a learning path, and style-specific solutions for common PvM concerns
+⬥ Knowledge of in-game ability/item descriptions is assumed, this guide aims to tie the tools together rather than list what they do
+⬥ For general PvM terminology, damage tips, and revolution bars, check out their respective sections in <#1252196386452144249>
+⬥ To compare abilities, use [RS Analysis' Necromancy Page](<https://rs-analysis.xyz/necromancy.html>), and add your gear
+
+.
+## > __Core Necromancy Rotation__ <:necromancy:1148995625896120460>
+.tag:rotation
+This section covers rotations using core style abilities before later unlocks are obtained
+*See __**Advanced Necromancy Rotations**__ section further down for info on necromancy rotations using best-in-slot gear*
+
+.
+⬥ **A typical Necromancy rotation uses the strongest Basic Abilities available to build adrenaline, and spends it on the strongest available Enhanced Abilities, Ultimate Abilities, or Special Attacks**
+    • While doing this, we must think about the following **key considerations:**
+        ⬩ Basic ability patterns <:touchofdeath:1137809175980810380>
+        ⬩ Buff usage <:livingdeath:1159434908486357072>
+        ⬩ Stack management <:necrosis:1139452791878856805> / <:residualsoul:1139453152169558046>
+
+.
+### __Basic Pattern__
+.
+⬥ **The basic pattern uses Touch of Death <:touchofdeath:1137809175980810380> and Soul Sap <:soulsap:1137809140476031057> to build stacks, then spends them later**
+⬥ Touch of Death <:touchofdeath:1137809175980810380>, Has high priority when cooldown is available
+⬥ Soul Sap <:soulsap:1137809140476031057>, Often used in blocks of 3 abilities:
+    • **[** <:soulsap:1137809140476031057> → Ability → Ability **]** → Repeat
+
+⬥ **Stack spenders**, Use these to spend your <:necrosis:1139452791878856805> and <:residualsoul:1139453152169558046> stacks:
+    • Finger of Death <:fingerofdeath:1159434801938432010>
+        ⬩ Prioritised inside of <:livingdeath:1159434908486357072>
+        ⬩ Often shouldn't be used when under 6 <:necrosis:1139452791878856805> stacks due to adrenaline cost
+    • Volley of Souls <:volleyofsouls:1159435029592686642>
+        ⬩ Often shouldn't be used when under 5 <:residualsoul:1139453152169558046> stacks
+    • Death Guard <:deathguard90:1138809243143766118> Special Attack
+        ⬩ Spends all <:necrosis:1139452791878856805> stacks, Often shouldn't be used when over 4 <:necrosis:1139452791878856805> stacks
+
+⬥ **Other strong abilities**, These should be woven into rotations effectively:
+    • Death Skulls <:deathskulls:1159434663903899728>
+    • Split Soul <:splitsoul:1137809168368148490>
+    • Bloat <:bloat:1159433682403201044>
+    • Command Skeleton Warrior <:commandskeleton:1137809194423160883>
+
+.
+### __Living Death__
+.
+⬥ **Living Death <:livingdeath:1159434908486357072> is the main buff to prioritise whenever there is an opportunity to deal damage**
+    • The exception to this is when the fight would end too quickly, or mechanics occur, and you can't benefit from the full duration
+    • Ideally, enter boss fights and important phases with 100% adrenaline so you can activate it immediately
+⬥ In Living Death <:livingdeath:1159434908486357072>, continue following the basic pattern of building and spending stacks, while maximizing Death Skulls <:deathskulls:1159434663903899728> usage:
+    ● Death Skulls <:deathskulls:1159434663903899728>
+    ● Finger of Death <:fingerofdeath:1159434801938432010>
+    ● Volley of Souls <:volleyofsouls:1159435029592686642>
+⬥ Keep in mind you want to be using your other strong abilities in-between <:deathskulls:1159434663903899728> and your stack spenders
+    • Split Soul <:splitsoul:1137809168368148490>
+    • Bloat <:bloat:1159433682403201044>, only approximately every 20 seconds
+    • Command Skeleton Warrior <:commandskeleton:1137809194423160883>
+⬥ While waiting for <:livingdeath:1159434908486357072> cooldown, you do not want to needlessly camp 100% adrenaline, and can start building when <:livingdeath:1159434908486357072> is nearly ready to use again
+
+.
+### __Conjures__
+*Conjures are summoned allies that help you in combat and should be used everywhere, unless a good reason is stated*
+.
+⬥ **Vengeful Ghost** <:conjureghost:1137809206423060632> should be kept active and commanded with <:commandghost:1159434409913634816> before damage rotations, as this provides both passive damage and sustain throughout the fight
+⬥ **Skeleton Warrior** <:conjureskeleton:1159434516658651147> should be kept active, with Command Skeleton Warrior <:commandskeleton:1137809194423160883> woven into rotations when available for effective damage
+⬥ **Putrid Zombie** <:conjurezombie:1137809200219684924> is mainly kept active for passive damage, but Command Putrid Zombie <:commandzombie:1137809191231295549> can be used situationally for burst AoE
+    • This kills the Zombie, so only use it when the burst damage is worth needing to refresh <:conjurearmy:1166094935066423348> or wait for the original conjure cooldown
+⬥ **Phantom Guardian** <:conjurephantom:1280109199069806604> is primarily defensive, reducing incoming damage while active
+    • It builds Valour stacks over time when getting hit, which can be spent by Command Phantom Guardian <:commandphantom:1280109200432959528> for situational AoE damage
+⬥ **Conjure Undead Army** <:conjurearmy:1166094935066423348> is the standard way to summon or refresh conjures before key damage windows
+    • Can be configured by right-clicking <:conjurearmy:1166094935066423348> and choosing the customise option
+.
+### __Stack Management__
+*Necromancy rotations are heavily shaped by managing Necrosis <:necrosis:1139452791878856805> and Residual Soul <:residualsoul:1139453152169558046> stacks effectively*
+.
+⬥ **Necromancy uses stack stack building basic abilities to unlock stronger spenders later in the rotation**
+    • Touch of Death <:touchofdeath:1137809175980810380> grants 4 <:necrosis:1139452791878856805>
+    • Soul Sap <:soulsap:1137809140476031057> grants 1 <:residualsoul:1139453152169558046>
+    • These stacks should generally be built naturally while cycling your strongest available abilities
+
+⬥ **Necrosis <:necrosis:1139452791878856805> stacks are primarily spent on Finger of Death <:fingerofdeath:1159434801938432010>**
+    • Try to avoid using <:fingerofdeath:1159434801938432010> below 6 <:necrosis:1139452791878856805> for effective use
+    • During Living Death <:livingdeath:1159434908486357072> prioritise Finger of Death <:fingerofdeath:1159434801938432010> and Necromancy <:necrobasic:1482849360462086244> higher than other weaker options
+    • Death Guard <:deathguard90:1138809243143766118> Special Attack <:spec:537340400273195028> consumes all <:necrosis:1139452791878856805> to deal good damage and stun the target, can be used when at or less than 4 <:necrosis:1139452791878856805>
+.
+⬥ **Residual Soul <:residualsoul:1139453152169558046> stacks are primarily spent on Volley of Souls <:volleyofsouls:1159435029592686642>**
+    • Volley of Souls <:volleyofsouls:1159435029592686642> should be used with 5 <:residualsoul:1139453152169558046> for maximum value
+    • Soul Strike <:soulstrike:1137809142376058910> can be used with Flanking <:flank4:712073088296157185> to deal good damage per soul, outside of your <:livingdeath:1159434908486357072> rotation
+    • <:soulsap:1137809140476031057> can be comboed alongside Threads of Fate <:threadsoffate:1137809172335951933> to generate more <:residualsoul:1139453152169558046> in AoE scenarios
+    • Devourer's Guard <:devourersguard:1400511720455143539> Special Attack <:spec:537340400273195028> consumes all <:residualsoul:1139453152169558046> souls to deal good damage and stun the target, can be used outside of <:livingdeath:1159434908486357072> rotation as its own seperate rotation
+
+⬥ **Good stack management means avoiding both early spending and overcapping**
+    • Spending too early lowers the value of the stacks
+    • Overcapping wastes potential value the stacks
+
+.
+## > __Rotation Examples__ <:livingdeath:1159434908486357072>
+.tag:ld
+These are only suggestions to work from, and will not necessarily be applicable at all bosses or situations. For boss-specific rotations, see their respective guides.
+
+.
+### __Starting Unlocks__
+⬥ Ring of Vigour <:rov:513201065877831680> or its passive effect after [Extinction quest](<https://runescape.wiki/w/Extinction>)
+⬥ Super Adrenaline or Enhanced Replenishment Potions <:enhreplen:634350450887622656>
+    • Adrenaline potion rotations can be looped with the corresponding non-adrenaline potion rotation
+⬥ Necromancy Talent Tree fully unlocked
+⬥ Because Necromancy relies on multiple <:deathskulls:1159434663903899728> every <:livingdeath:1159434908486357072>, Try to obtain Igneous Kal-Mor <:igneouskalmor:1139200072438005851> as soon as possible
+⬥ Conservation of Energy <:conservationofenergy:697808773711921195> is highly recommended
+
+.
+### __Living Death Rotation Examples__
+.
+Rotations assume a regular prebuild of <:conjurearmy:1166094935066423348> → <:lifetransfer:1137809128136388819> → <:commandghost:1159434409913634816> is done beforehand
+
+**Example**
+⬥ <:deathskulls:1159434663903899728> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:necrobasic:1482849360462086244> → <:soulsap:1137809140476031057> → <:livingdeath:1159434908486357072> + <:enhreplen:634350450887622656> → <:touchofdeath:1137809175980810380> → <:deathskulls:1159434663903899728> → <:soulsap:1137809140476031057> → <:commandskeleton:1137809194423160883> → <:necrobasic:1482849360462086244> → <:soulsap:1137809140476031057> → <:necrobasic:1482849360462086244> → <:splitsoul:1137809168368148490> → <:deathskulls:1159434663903899728> → <:fingerofdeath:1159434801938432010> → <:touchofdeath:1137809175980810380> → <:fingerofdeath:1159434801938432010> → <:necrobasic:1482849360462086244> → <:fingerofdeath:1159434801938432010> → <:soulsap:1137809140476031057> → <:deathskulls:1159434663903899728> (<:livingdeath:1159434908486357072> ends)
+.
+**Example w/out Adrenaline Potion**
+⬥ <:deathskulls:1159434663903899728> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:necrobasic:1482849360462086244> → <:soulsap:1137809140476031057> → <:livingdeath:1159434908486357072> → <:touchofdeath:1137809175980810380> → <:necrobasic:1482849360462086244> → <:necrobasic:1482849360462086244> → <:deathskulls:1159434663903899728> → <:soulsap:1137809140476031057> → <:necrobasic:1482849360462086244> → <:necrobasic:1482849360462086244> → <:soulsap:1137809140476031057> → <:splitsoul:1137809168368148490> → <:deathskulls:1159434663903899728> → <:fingerofdeath:1159434801938432010> → <:touchofdeath:1137809175980810380> → <:fingerofdeath:1159434801938432010> → <:necrobasic:1482849360462086244> → <:necrobasic:1482849360462086244> → <:deathskulls:1159434663903899728> → <:bloat:1159433682403201044> (<:livingdeath:1159434908486357072> ends)
+
+.
+These rotations demonstrate the fundamental structure of necromancy's core rotation, and show typical ways of setting up the triple <:deathskulls:1159434663903899728> while sticking to the basic pattern.
+Divert <:divert:787904334377648130> can be used for extra adrenaline, particularly useful for casting <:bloat:1159433682403201044> during <:livingdeath:1159434908486357072>
+If you do not meet the requirements to get three <:deathskulls:1159434663903899728> during your <:livingdeath:1159434908486357072> then settle for two <:deathskulls:1159434663903899728> and use other strong abilities to fill in gaps like <:bloat:1159433682403201044> <:fingerofdeath:1159434801938432010> <:commandskeleton:1137809194423160883>
+.
+### __Outside of Living Death__
+.
+**General ability prioritization**
+1. Keep conjures alive and ghost commanded
+2. <:deathskulls:1159434663903899728> if it gets a lot of value and doesn't hinder the rest of the rotation
+3. <:bloat:1159433682403201044> if the target will live long enough for it to get value, and you have excess adrenaline for it
+4. <:commandskeleton:1137809194423160883> when available
+5. <:touchofdeath:1137809175980810380> over other basics, unless overcapping on <:necrosis:1139452791878856805> stacks
+6. <:soulsap:1137809140476031057> woven in for adrenaline and building souls for a <:volleyofsouls:1159435029592686642> before next <:livingdeath:1159434908486357072>
+7. <:fingerofdeath:1159434801938432010> at 6+ <:necrosis:1139452791878856805> stacks
+8. <:volleyofsouls:1159435029592686642> at 5 <:residualsoul:1139453152169558046>
+9. <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099> if you need the stun or burst damage from it
+
+⬥ When <:livingdeath:1159434908486357072> is about to come off cooldown build adrenaline for it and refresh <:conjurearmy:1166094935066423348>
+.
+Assumes a <:livingdeath:1159434908486357072> rotation from above is used before this
+
+**Example rotation**
+⬥ <:bloat:1159433682403201044> → <:volleyofsouls:1159435029592686642> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:commandskeleton:1137809194423160883> → <:necrobasic:1482849360462086244> → <:soulsap:1137809140476031057> → <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:necrobasic:1482849360462086244> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:bloat:1159433682403201044> → <:soulsap:1137809140476031057> → <:commandskeleton:1137809194423160883> → <:necrobasic:1482849360462086244> → <:soulsap:1137809140476031057> → <:fingerofdeath:1159434801938432010> → <:necrobasic:1482849360462086244> → <:touchofdeath:1137809175980810380> → <:necrobasic:1482849360462086244> → <:deathskulls:1159434663903899728> → <:necrobasic:1482849360462086244> → <:fingerofdeath:1159434801938432010> → <:necrobasic:1482849360462086244> → <:commandskeleton:1137809194423160883> → <:bloat:1159433682403201044> → <:volleyofsouls:1159435029592686642> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:necrobasic:1482849360462086244> → <:soulsap:1137809140476031057>
+
+.
+## > __PvM Decision Making__ <:fingerofdeath:1159434801938432010>
+.tag:specifictools
+Next, we explore how necromancy solves common PvM scenarios using its versatile tools
+
+.
+### __Area-of-Effect (AoE)__
+⬥ **Threads of Fate <:threadsoffate:1137809172335951933> is the default option for dealing with AoE scenarios as necromancy**
+    • Longer range AoE targeting than other options while being very flexible in ability usage
+    • Use powerful abilities like <:threadsoffate:1137809172335951933> → <:fingerofdeath:1159434801938432010> → <:volleyofsouls:1159435029592686642> → <:deathguard70:1138809262194294864> <:eofspec:1257438999794946099> or use <:soulsap:1137809140476031057> to build <:residualsoul:1139453152169558046> stacks like <:threadsoffate:1137809172335951933> → <:soulsap:1137809140476031057> → <:volleyofsouls:1159435029592686642> → <:deathguard70:1138809262194294864> <:eofspec:1257438999794946099>
+        ⬩ Can continue to be used even if target dies, this helps with killing multiple sets of enemies with one cast
+    • Can be used to briefly stun multiple targets with stun abilities such as <:deathguard70:1138809262194294864> <:eofspec:1257438999794946099> / <:soulstrike:1137809142376058910>
+
+.
+⬥ **Spectral Scythe <:spectralscythe:1137809145706319892> can be used for close range AoE multiple times**
+    • First activation is only an arc in front of the player, subsequent casts will hit all around the player
+    • Costly to use multiple times, but effective for smaller groups of close enemies
+
+.
+⬥ **Low Priority or Highly Situational**
+    • Soul Strike <:soulstrike:1137809142376058910> provides a cheap spammable AoE option, but is often too weak or costs too many <:residualsoul:1139453152169558046> stacks
+    • Command Putrid Zombie <:commandzombie:1137809191231295549> deals good damage, but can often be unreliable and causes your <:conjurezombie:1137809200219684924> to die, forcing you to refresh <:conjurearmy:1166094935066423348>
+    • Bloat <:bloat:1159433682403201044> is best used when you kill the main target, causing it to spread to nearby enemies, good but low range and costs adrenaline
+    • Blood Siphon <:bloodsiphon:1159434279311380532> can be useful for large healing, but has very low AoE damage
+
+.
+### __Short Damage Checks__
+⬥ **Some PvM scenarios emphasise short phases and quick damage checks rather than keeping up a consistent flow of damage**
+⬥ In such cases, we have some of the following options:
+    • Using <:splitsoul:1137809168368148490> and <:bloat:1159433682403201044> ahead of time
+    • Utilising abilities with late hit timings <:deathskulls:1159434663903899728> / <:volleyofsouls:1159435029592686642> to clip into the start of the next phase
+    • Spend all stacks quickly by using <:volleyofsouls:1159435029592686642> / <:fingerofdeath:1159434801938432010> / <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099>
+    • Utilising stalling with <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099> / <:omniguard:1138809234922934282> <:spec:537340400273195028>
+        ⬩ This only works with special attacks, normal necromancy abilities cannot be stalled and released
+        ⬩ This can be combined with <:splitsoul:1137809168368148490> / <:threadsoffate:1137809172335951933> / <:invokedeath:1137809121983336548> to utilise their effects
+
+.
+### __Ring Selection__ <:occulistring:1245442140318863490> <:zorgothsring:1232124265826877574> <:ringofretribution:1511674831945334894> <:rod:513190159462825984>
+⬥ Necromancy has multiple rings to choose from. When making your selection, consider the following:
+        ⬩ <:occulistring:1245442140318863490> on average generally provides the most single target damage with it giving <:necrosis:1139452791878856805> stacks to use during <:livingdeath:1159434908486357072>
+        ⬩ <:zorgothsring:1232124265826877574> is more suited towards AoE situations, giving extra souls for <:threadsoffate:1137809172335951933> <:volleyofsouls:1159435029592686642> and <:soulstrike:1137809142376058910>
+        ⬩ <:ringofretribution:1511674831945334894> is good when you want to use a specific rotation that doesn't rely on extra stacks from rings, and the target can take reflect damage
+        ⬩ <:rod:513190159462825984> is good if none of the above apply or you want the extra protection
+
+.
+## > __Advanced Necromancy Rotations__ <:omniguard:1138809234922934282>
+.tag:advanced
+This section focuses on tactics that make full use of endgame tools available to necromancy <:necromancy:1148995625896120460>. Players looking to optimise around Omni Guard <:omniguard:1138809234922934282> and Devourer's Guard <:devourersguard:1400511720455143539> should use this section as reference.
+
+.
+### __Omni Guard__ <:omniguard:1138809234922934282>
+.
+⬥ Passively provides Death Spark <:deathspark:1143642264850141205> which is great for generally dealing extra damage
+⬥ <:spec:537340400273195028> can be used to ready <:deathspark:1143642264850141205> at wars <:dummy:656844963522281473> before starting the fight
+⬥ The special attack <:omniguard:1138809234922934282> <:spec:537340400273195028> readies <:deathspark:1143642264850141205> in addition to dealing good damage
+    • Can be used as its own rotation by readying <:deathspark:1143642264850141205> repeatedly like <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:deathspark:1143642264850141205> → <:fingerofdeath:1159434801938432010> → <:deathspark:1143642264850141205> → <:touchofdeath:1137809175980810380> → <:deathspark:1143642264850141205>
+
+.
+### __Devourer's Guard__ <:devourersguard:1400511720455143539>
+.
+⬥ Passively provides Soul Reave <:deathspark:1143642264850141205> which can be good for more specific situations
+⬥ <:spec:537340400273195028> can be used to prebuild at wars <:dummy:656844963522281473> faster
+    • <:threadsoffate:1137809172335951933> → <:devourersguard:1400511720455143539> <:spec:537340400273195028> → <:deathsparkorsoulreave:1143642264850141205> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380>
+⬥ Can be used for a double <:volleyofsouls:1159435029592686642> rotation when not able to do a <:livingdeath:1159434908486357072> rotation, useful at group scenarios:
+    • 5 <:residualsoul:1139453152169558046> → <:splitsoul:1137809168368148490> → <:bloat:1159433682403201044> → <:volleyofsouls:1159435029592686642> → <:devourersguard:1400511720455143539> <:spec:537340400273195028> → <:deathsparkorsoulreave:1143642264850141205> → <:soulsap:1137809140476031057> → <:deathsparkorsoulreave:1143642264850141205> → <:commandskeleton:1137809194423160883> → <:soulsap:1137809140476031057> → <:deathsparkorsoulreave:1143642264850141205> → <:fingerofdeath:1159434801938432010> → <:soulsap:1137809140476031057> → <:volleyofsouls:1159435029592686642>
+
+.
+## __Related Channels__
+.tag:related
+For further information and reading, you can refer to the following resources.
+.
+{
+  "embed": {
+    "title": "__Quick Navigation Links__",
+    "description": "Links to related channels and resources for more information about PvM and DPS.",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Upgrades and Gearing__",
+        "value": "⬥ <#1250862466196570243>\n⬥ <#1020550560551813131>",
+        "inline": true
+      },
+            {
+        "name": "__Invention__",
+        "value": "⬥ <#553632787639435284>\n⬥ <#689236234912137266>",
+        "inline": true
+      },
+      {
+        "name": "__Misc. Info__",
+        "value": "⬥ <#1280396908614914080>\n⬥ <#1020550599248466050>",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+*Note: If you have any difficulties in using the tools or understanding what the information means, you can always ask in <#656898197561802760>*.
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Overview__",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Related Channels]($linkmsg_related$)",
+        "inline": true
+      },
+      {
+        "name": "__Core DPM Advice__",
+        "value": "⬥ [Core Necromancy Rotation]($linkmsg_rotation$)\n⬥ [Rotation Examples]($linkmsg_ld$) ",
+        "inline": true
+      },
+      {
+        "name": "__Advanced DPM Advice__",
+        "value": "⬥ [PvM Decision Making]($linkmsg_specifictools$)\n⬥ [Advanced Necromancy Rotations]($linkmsg_advanced$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete

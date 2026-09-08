@@ -1,0 +1,122 @@
+.
+> ## ⚠️ Disclaimer
+> **Some methods in this guide may not work after the combat beta changes in March 2026**
+> Know of a newer method/rotation? Got a video? Share it in <#1020853673317908500>!
+
+.
+# Flesh-hatcher Mhekarnahz
+.img:https://img.pvme.io/images/Nj7IVJsNgU.png
+*Note: a **Table of Contents** can be found in the pins.*
+
+.
+## __Introduction__
+.tag:intro
+Flesh-hatcher Mhekarnahz is a stalker boss located in the Wilderness and requires 40 <:dungeoneering:1003947795541143632> to fight. Unlike other [stalker creatures](<https://runescape.wiki/w/Stalker_creatures_(Slayer_assignment)>), 71 <:slayer:797896049548066857> is **not** required. This encounter is aimed at lower levels and introduces movement as a mechanic which players must react to and avoid.
+
+.
+## __Attack Rotation__
+3 <:magic:689504724159823906> auto → 3x3 <:range:580168050121113623> square → 4 <:magic:689504724159823906> auto → 3x waves → 4 <:magic:689504724159823906> auto
+
+3x3 <:range:580168050121113623> square → 4 <:magic:689504724159823906> auto → 3x waves → 4 <:magic:689504724159823906> auto → minions → repeat
+
+*Notes:*
+⬥ *Bar fills up per each auto, Mhekarnahz does a mechanic when bar is full*
+⬥ *After minions it will be 4 <:magic:689504724159823906> autos*
+
+.
+## __Mechanics__
+.tag:mechanics
+{
+  "embed": {
+    "title": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Auto-attack__",
+        "value": "⬥ Does 4 <:magic:689504724159823906> auto-attacks between mechanics\n\u00a0\u00a0\u00a0\u00a0• The start of the encounter only has 3\n\u00a0\u00a0\u00a0\u00a0• [Click to view an example of the auto-attack](https://img.pvme.io/images/gptIeL96KN.mp4)"
+      },
+      {
+        "name": "__Targeted 3x3 Square__",
+        "value": "⬥ Shoots a 3x3 attack towards the player that inflicts <:range:580168050121113623> damage\n\u00a0\u00a0\u00a0\u00a0• Getting hit will cause a short <:bindicon:1102897815073603685> and <:stunicon:841419289428492369>\n\u00a0\u00a0\u00a0\u00a0• [Click to view an example of the targeted 3x3 square](https://img.pvme.io/images/7AkOQn7ylg.mp4)"
+      },
+      {
+        "name": "__Waves__",
+        "value": "⬥ Unleashes 3 consecutive waves which cover specific parts of the arena\n\u00a0\u00a0\u00a0\u00a0• They occur back-to-back in a random order and deal typeless damage\n\u00a0\u00a0\u00a0\u00a0• They cover the outer, middle, and inner sections of the arena respectively\n\u00a0\u00a0\u00a0\u00a0• [Click to view an example of the 3 waves](https://img.pvme.io/images/CHLqUALsSc.mp4)"
+      },
+      {
+        "name": "__Minions__",
+        "value": "⬥ Spawns 3 warped flesh sacs with bars above their heads\n\u00a0\u00a0\u00a0\u00a0• If a bar fills, spawns a warped seeker\n\u00a0\u00a0\u00a0\u00a0• Boss is immune while minions are alive\n\u00a0\u00a0\u00a0\u00a0• [Click to view an example of the minions](https://img.pvme.io/images/EkfOuHcVyS.mp4)"
+      }
+    ]
+  }
+}
+.embed:json
+## __Presets__
+.tag:preset
+⬥ [Melee - Resetting](<https://presets.pvme.io?id=f4ac2925-6760-42e7-850f-dd93326142ce>) <:melee:1096130867279171706>
+⬥ [Ranged - Instance Camp](<https://presets.pvme.io?id=2ef43c03-f77f-4f85-a540-35c645e1a28d>) <:range:580168050121113623>
+⬥ [Magic - Instance Camp](<https://presets.pvme.io?id=b75930d4-76fd-4282-aae4-6ac34dbe162f>) <:magic:689504724159823906>
+⬥ [Melee - Instance Camp](https://presets.pvme.io?id=84b49ef8-1cdd-42f1-ba72-eec54ff0f8c1) <:melee:1096130867279171706>
+
+.
+All listed strategies use <:eclipsedsoul:1285372688457797672> + <:divinerage:1285372247665803264> + the style's respective stat-boosting prayer. May replace with <:soulsplit:615613924506599497> curses but could result in slightly less consistent kills per hour.
+
+.
+## __Rotations__
+.tag:rotations
+### __Melee Wars Reset (120 KPH)__ <:melee:1096130867279171706>
+
+This rotation aims for sub-10s kill times, resetting at <:warsretreatteleport:1032540079589163049> every kill
+
+⬥ <:zerk:535532854004678657> → <:gbarge:535532879250456578> → <:assault:535532855191928842> → <:chaosroar:994644356671737966> → <:dragonclaw:779048041088024606> <:eofspec:1257438999794946099> → <:havoc:535532879300526080> / <:smash:535532879820619786> → (<:limitless:641339233638023179> + <:cane:535532878969438210>)
+
+*Notes:*
+⬥ *If you have <:limitless:641339233638023179>, you can replace <:grim:568262896375824385> with <:underworldgrimoire4:1274331251301683260> and skip using <:berserker:643505116347105290> by adding <:limitless:641339233638023179> <:cane:535532878969438210> to the end of the rotation for consistent sub 11.4 sec kills with far less cost of supplies, however <:vulnbomb:655341074235129858> is required for consistency.*
+⬥ *<:punish:535532879439069184> is currently not working as intended on Mhekarnahz*
+
+.
+### __Melee Instance Camp (140 KPH)__ <:melee:1096130867279171706>
+
+Alternates rotations and aims for 10s-18s kill times, camping inside the instance
+
+⬥ Rotation 1: <:zerk:535532854004678657> + <:adrenrenewal:736298121704767538> if up → <:gbarge:535532879250456578> → <:gflurry:535532879283879977> → <:havoc:535532879300526080> → <:destroy:535532879330148352> → filler until dead
+⬥ Rotation 2: <:gbarge:535532879250456578> → <:chaosroar:994644356671737966> / <:gfury:535532879334080527> → <:overpower:535532879334080517> → <:gflurry:535532879283879977> → filler until dead, aim to end with 80%+ adrenaline
+
+*Notes:*
+⬥ Use <:persistentrage:739965637056659567> + <:conservationofenergy:697808773711921195> for easier adrenaline management
+⬥ End kills with <:ezk:903244090953588787> <:pulverise:535532879053062146> for adrenaline if needed
+
+.
+### __Ranged Instance Camp (120 KPH)__ <:range:580168050121113623>
+
+Start hour with 7x <:icychill:1240756221024403526> with <:wenarrow:971025697046925362>
+
+⬥ <:grico:787904334812807238> → <:corruptshot:535541306294796299> → <:rapid:535541270521708566> → <:bolg:994189289623662702> <:spec:537340400273195028> → <:grico:787904334812807238> → <:sgb:626466665848242186> <:eofspec:1257438999794946099> → filler until dead
+*Notes:*
+⬥ Click to jump over the ledge when <:sgb:626466665848242186> <:spec:537340400273195028> cooldown hits 17s
+
+.
+### __Magic Instance Camp (120 KPH)__ <:magic:689504724159823906>
+
+Autocast <:exsanguinate:856635090745950258>
+
+⬥ <:gconc:869285393223254107> → <:asphyx:535533833072672778> → <:gconc:869285393223254107> → <:gstaff:513203008608141314> <:eofspec:1257438999794946099> → <:wm:535533809978966037> → <:gconc:869285393223254107> → <:wrackandruin:1257439387474722836> → filler until dead
+
+.
+## __Example Kills__
+.tag:examples
+⬥ [Melee wars reset examples](<https://www.youtube.com/watch?v=rOhsysnC5dI>) <:melee:1096130867279171706> <:warsretreatteleport:1032540079589163049>
+⬥ [Melee instance camp examples](<https://youtu.be/cI1T4WyovBc>) <:melee:1096130867279171706>
+⬥ [Ranged instance camp examples](<https://www.youtube.com/watch?v=iIVunSJ_Znw>) <:range:580168050121113623>
+⬥ [Magic instance camp examples](<https://www.youtube.com/watch?v=M2Cp1ZEA9OA>) <:magic:689504724159823906>
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Presets]($linkmsg_preset$)\n⬥ [Rotations]($linkmsg_rotations$)\n⬥ [Example Kills]($linkmsg_examples$)",
+    "color": 39423
+  }
+}
+.embed:json
+.pin:delete

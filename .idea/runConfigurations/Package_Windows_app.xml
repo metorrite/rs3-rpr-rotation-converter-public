@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Package Windows app" type="js.build_tools.npm" nameIsGenerated="false" folderName="App">
+    <description value="Build + electron-builder: produce an NSIS installer and a portable .exe in release/. Fully offline (ability data is bundled)." />
+    <package-json value="$PROJECT_DIR$/package.json" />
+    <command value="run" />
+    <scripts>
+      <script value="dist:win" />
+    </scripts>
+    <node-interpreter value="project" />
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>

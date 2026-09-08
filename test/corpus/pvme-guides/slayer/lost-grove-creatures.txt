@@ -1,0 +1,260 @@
+# Creatures of the Lost Grove
+*Note: a **Table of Contents** can be found in the pins.*
+
+.
+### Introduction
+.tag:introduction
+For a creatures of the lost grove task you can choose between three different monsters: Moss Golems, Vinecrawlers and Bulbous crawlers. Moss Golems are the fastest, best xp/hr and best gp/hr, therefore the other ones are only worth doing if you are looking to get a soul.
+
+.
+### Desirable Drops
+.tag:desirabledrops
+⬥ Cinderbane Gloves <:Cinderbanes:513190158355660812> - Drop Rate of 1/1500 on task and 1/5000 off task
+⬥ Ancient Elven Ritual Shard <:ancientshard:656426717505650708> - Drop Rate of 1/1500 on task and 1/5000 off task
+⬥ Torn Grimoire Pages <:grimpage:643168594493964298> - Drop Rate of 1/512 on task and 1/1536 off task.
+
+.
+### Location and How to Get There
+.tag:locationandhowtogetthere
+Creatures of the Lost Grove can be accessed through the monolith west of the incandescent wisp colony, west of Yanille.
+
+⬥ The easiest way to get there would be through the fairy ring (code **B J S**) after repairing it with 5 Bittercap mushrooms.
+    • An alternative method is to run west from the Incandescent wisp colony, accessible via the portal in the Max guild garden, the elder divination outfit, or via the fairy ring south of Castle Wars (code **B K P**).
+
+⬥ Alternatively, players can also utilise the Solak <:solak:580167371310891029> boss portal through Max Guild, War's Retreat or the teleport through the grouping system. The exact location for each monster can be found on the map in game.
+
+.
+## __Moss Golems__
+.img:https://img.pvme.io/images/zqSNLFE.png
+.tag:mossgolems
+Moss Golems have hard hitting melee auto-attacks, and can hit from halberd range. When they lose HP, their heads pop off and spawn a Mossy Rock that also deals damage. To prevent taking too much damage, the Enhanced Devoted <:enhdev4:712073087507628035> or cryptbloom <:cryptbloomhelm:1334336169336373339> are extremely important for survivability, as you will be praying <:DeflectMelee:544195488447201300> regardless of which method you are using.
+
+.
+### __Stats__
+⬥ <:slayer:797896049548066857> level: 104
+⬥ <:slayer:797896049548066857> XP per kill : 2408.8
+⬥ Optimal kills per hour: 1570 <:melee:1096130867279171706>, 965 <:necromancy:1148995625896120460>, 990 <:magic:689504724159823906>
+⬥ Optimal <:slayer:797896049548066857> XP per hour : 3.78m <:melee:1096130867279171706>, 2.32m <:necromancy:1148995625896120460>, 2.38m <:magic:689504724159823906>
+
+.
+### __Positioning__
+.img:https://img.pvme.io/images/X5nGfR5x95.png
+⬥Melee <:melee:1096130867279171706> / Necromancy <:necromancy:1148995625896120460> (Red square)
+⬥Magic <:magic:689504724159823906> (Purple square)
+⬥Dwarven Siege Engine <:cannon:869283142350041098> (Yellow square)
+
+.
+## __Method - AFK Melee__ <:melee:1096130867279171706>
+.tag:mossgolemmelee
+⬥ Pray <:DeflectMelee:544195488447201300> and <:turmoil:583429936606347280> / <:malevolence:513190159416557573>
+    • Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226>
+⬥ Upkeep <:vampyrismaspect:1494069423047442573>, <:elderovl:841419289831800882>, <:aggressionpotion:925794592199147581>, <:superprayerrenewal:547603714681339915>, <:weppoison:689525476158472288>, <:vampscrim:513201294262009874>, and <:kwuarmsticks:565726489341984779> at all times.
+⬥ Use Totem of Vitality <:vitalitytotem:643507594811670538>, Ogre flask (thermal) <:thermalflask:689530593796423724>, and Boon of Het HP boosts.
+⬥ <:enhdev4:712073087507628035> and <:dev4:712073087713280033> required.
+⬥ Tier 2 Corbicula Rex Perk <:corbicula:690136117273821280>
+⬥ Use <:cannon:869283142350041098> to help aggro the Moss Golems.
+
+.
+### Preset Suggestions
+.
+⬥ [Moss Golems - AFK Melee](https://presets.pvme.io?id=9415c01f-cf22-46f1-89e2-75ad68110bb7) <:melee:1096130867279171706>
+.
+
+.
+### Action Bars
+.
+⬥ **High Level** - <:tumekenslight:1400511651014250596> / <:noxscythe:513190159341322240> **(Nox Scythe requires Superior <:vampscrim:513201294262009874> + <:malevolence:513190159416557573>)**
+.img:https://img.pvme.io/images/XFZ2cvb7eM.png
+.
+⬥ **Low Level** - <:noxscythe:513190159341322240> / <:dragonriderlance:643161541931171872> / <:lanispear:839903893177106454>
+.img:https://img.pvme.io/images/UwN3LlwSh0.png
+
+.
+### Example Kills
+⬥ [High Level AFK Melee](<https://www.youtube.com/watch?v=wKPrLiS8ocE>)
+⬥ [Low Level AFK Melee](<https://www.youtube.com/watch?v=itPCUpvEPY4>)
+
+.
+## __Method - AFK Necromancy__ <:necromancy:1148995625896120460>
+.tag:mossgolemnecro
+⬥ Pray <:DeflectMelee:544195488447201300> and <:fortitude:537341748180025365>
+    • Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226>
+⬥ Upkeep <:vampyrismaspect:1494069423047442573>, <:elderovl:841419289831800882>, <:aggressionpotion:925794592199147581>, <:superprayerrenewal:547603714681339915>, <:weppoison:689525476158472288>, <:scriptureofamascut:1266417822188437569>, <:kwuarmsticks:565726489341984779> at all times.
+⬥ Use Totem of Vitality <:vitalitytotem:643507594811670538>, Ogre flask (thermal) <:thermalflask:689530593796423724>, and Boon of Het HP boosts.
+⬥ <:enhdev4:712073087507628035> and <:dev4:712073087713280033> required.
+⬥ T100 <:omniguard:1138809234922934282> <:soulboundlantern:1138809230573441064> required off-task.
+⬥ Use <:cannon:869283142350041098> to help aggro the Moss Golems.
+
+.
+### Preset Suggestions
+.
+⬥ [Moss Golems - AFK Necro](https://presets.pvme.io?id=6f69cdbc-db00-46e1-baaf-8ebe80e07438) <:necromancy:1148995625896120460>
+.
+
+.
+### Action Bar
+.
+.img:https://img.pvme.io/images/IOTz1qwx36.png
+
+.
+### Example Kills
+⬥ [AFK Necro](<https://www.youtube.com/watch?v=IPtsyG_P30c>)
+
+.
+## __Method - AFK Magic__ <:magic:689504724159823906>
+.tag:mossgolemmagic
+⬥ Pray <:DeflectMelee:544195488447201300> and <:torment:583429936958930964> / <:affliction:513190158468907008>
+⬥ Upkeep <:animatedead:856635090453135382>, <:elderovl:841419289831800882>, <:aggressionpotion:925794592199147581>, <:superprayerrenewal:547603714681339915>
+⬥ Autocast <:bloodbarrage:537338981747261446>
+⬥ Use <:cannon:869283142350041098> to aggro the Moss Golems
+
+.
+### Preset Suggestions
+⬥ [AFK Magic](https://presets.pvme.io?id=8c20dd51-5e4a-4920-aa5a-bf32a6a7d3fa) <:magic:689504724159823906>
+.
+### Action Bar
+.
+.img:https://img.pvme.io/images/Qq1VG0MPUd.png
+
+.
+### Example Kills
+⬥ [AFK Magic](<https://www.youtube.com/watch?v=5rq6XHO1wWU>)
+
+.
+## __Vinecrawlers__
+.img:https://img.pvme.io/images/1JXBJr0Wvj.png
+.tag:vinecrawlers
+*Note: these monsters are generally not killed for any purpose other than their soul <:ushabti:1097515642749468752>*
+
+.
+### Stats
+⬥ <:slayer:797896049548066857> level: 104
+⬥ <:slayer:797896049548066857> XP per kill: 2086.2
+⬥ Optimal kills per hour: ~390 <:necromancy:1148995625896120460>
+⬥ Optimal <:slayer:797896049548066857> XP per hour: ~814k <:necromancy:1148995625896120460>
+
+.
+### __Positioning__
+.img:https://img.pvme.io/images/OlfJGPndGa.png
+⬥ Postion yourself east of the southwesternmost mushroom, then walk 1 tile southeast and place <:oldakcoil:798285651387613194>
+    • Stand southeast of your <:oldakcoil:798285651387613194>
+
+.
+## __Method - AFK Necromancy__
+.tag:vinecrawlernecro
+Before loading your <:oldakcoil:798285651387613194> and starting the session, check the following:
+
+⬥ Pray <:deflectmage:544195487926845462> and <:sorrow:1137941003895046284> / <:ruination:1137940996391452772>
+    • Use Enhanced Devoted 4 <:enhdev4:712073087507628035> on your armour.
+    • Sustain <:prayer:1005450651347730533> with <:penanceaspect:1494069332584693810>
+        ⬩ <:ruination:1137940996391452772> will require extra sustain, use <:superprayerrenewal:547603714681339915>
+⬥ Ensure <:weppoison:689525476158472288> is active at all times.
+    • <:elderovlsalve:648976643687317532> are **not** required, but will help with survivability.
+⬥ Ensure that <:scriptureofamascut:1266417822188437569> is active.
+
+.
+### Preset Suggestions
+⬥ [AFK Necromancy](https://presets.pvme.io?id=3f874d6e-c2b4-40fa-af53-243c549158a0)
+.
+
+.
+### Action Bar
+.img:https://img.pvme.io/images/RIuQezeepS.png
+
+.
+### Example Kills
+⬥ [AFK Necromancy](<https://youtu.be/8Kph3o3mqtE>)
+
+.
+## __Bulbous crawlers__
+.img:https://img.pvme.io/images/U7HTQAmq7b.png
+.tag:bulbouscrawlers
+*Note: these monsters are generally not killed for any purpose other than their soul <:ushabti:1097515642749468752>*
+
+.
+### Stats
+⬥ <:slayer:797896049548066857> level: 106
+⬥ <:slayer:797896049548066857> XP per kill : 2360.4
+⬥ Optimal kills per hour: 300 AFK
+⬥ Optimal <:slayer:797896049548066857> XP per hour : ~700K AFK
+
+.
+## __Method - AFK Melee__
+
+.
+> ## ⚠️ Disclaimer
+> **This method may not work after the combat changes made in Q1 of 2026**
+> Know of a newer method/rotation? Got a video? Share it in <#1020853673317908500>!
+
+.
+⬥ Put your cannon on this location
+.
+.img:https://img.pvme.io/images/CHktjAg.png
+.
+⬥ You need Enhanced devoted 4 <:enhdev4:712073087507628035> on your armour and pray Deflect missiles <:DeflectRange:544195488317046812>
+
+⬥ It doesn't matter where you stand.
+
+.
+### Preset Suggestions
+.tag:bulbouscrawlersmelee
+⬥ [Bulbous Crawlers - AFK Melee](https://presets.pvme.io/?id=HoNORwBeCegjNLuutFQJ)
+.
+### Action Bar (Outdated)
+.img:https://img.pvme.io/images/m5kg304.png
+.
+### Example Kills
+.
+⬥ [AFK Melee](<https://youtu.be/FYYxz4xHQIw>)
+.
+## __Method - AFK Necromancy__
+.tag:bulbouscrawlersnecro
+Before loading your <:oldakcoil:798285651387613194> and starting the session, check the following:
+
+⬥ Pray <:deflectrange:544195488317046812> and <:sorrow:1137941003895046284> / <:ruination:1137940996391452772>
+    • Use Enhanced Devoted 4 <:enhdev4:712073087507628035> on your armour.
+    • Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226>
+⬥ Upkeep <:darkness:1137809209782698024>
+⬥ Ensure <:elderovlsalve:648976643687317532> and <:weppoison:689525476158472288> are active at all times.
+⬥ Ensure that <:scriptureofwen:883134307902816297> is active.
+
+.
+### Stats with this strategy
+⬥ <:slayer:797896049548066857> XP per kill : 2360
+⬥ Optimal kills per hour: ~375
+⬥ Optimal <:slayer:797896049548066857> XP per hour : ~885K
+
+.
+### Preset Suggestions
+⬥ [Bulbous Crawlers - AFK Necromancy](https://presets.pvme.io/?id=Zv3INjzacSvTIshqzvg2)
+
+.
+### Action Bar
+.img:https://img.pvme.io/images/FTiTM358Fi.png
+
+.
+### Example Kills
+⬥ [AFK Necromancy](<https://youtu.be/7dokmP3Lb4I>)
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*",
+    "color": 39423,
+    "fields": [
+     {
+        "name": "__Overview__",
+        "value": "⬥ [Introduction]($linkmsg_introduction$)\n⬥ [Desireable Drops]($linkmsg_desirabledrops$)\n⬥ [How to Get There]($linkmsg_locationandhowtogetthere$)\n⬥ [Moss Golems]($linkmsg_mossgolems$)\n⬥ [Vinecrawlers]($linkmsg_vinecrawlers$)\n⬥ [Bulbous Crawlers]($linkmsg_bulbouscrawlers$)",
+        "inline": true
+      },
+      {
+        "name": "__Methods__",
+        "value": "⬥ [AFK Melee Moss Golems]($linkmsg_mossgolemmelee$)\n⬥ [AFK Necromancy Moss Golems]($linkmsg_mossgolemnecro$)\n⬥ [AFK Magic Moss Golems]($linkmsg_mossgolemmagic$)\n⬥ [AFK Necromancy Vinecrawlers]($linkmsg_vinecrawlernecro$)\n⬥ [AFK Melee Bulbous Crawlers]($linkmsg_bulbouscrawlersmelee$)\n⬥ [AFK Necromancy Bulbous Crawlers]($linkmsg_bulbouscrawlersnecro$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete

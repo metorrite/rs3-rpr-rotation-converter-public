@@ -1,0 +1,97 @@
+# Arch Glacor - Boss Guide
+.img:https://img.pvme.io/images/nRwTsLjidK.png
+
+.
+## __General Information__
+.tag:generalInfo
+⬥ Arch-Glacor can be fought in Normal Mode (NM) or Hard Mode (HM)
+    • NM can be fought in a group, but HM can only be fought solo
+⬥ Arch-Glacor's life points vary based on mode and enrage
+⬥ Glacor <:glacor:1004107344935923743> slayer assignment applies to NM only
+
+.
+## __Gear, Relics and Familiars__
+.tag:GearRelicsFamiliars
+<:magic:689504724159823906> [Example Preset](<https://presets.pvme.io/?id=JcJmj9NbUDRmzDhkYOZ1>)
+<:melee:1096130867279171706> [Example Preset](<https://presets.pvme.io/?id=rPkAfi2w9CZJYxyKK7V0>)
+<:range:580168050121113623> [Example Preset](<https://presets.pvme.io/?id=MhE8Umpw79WhIYuJPIz9>)
+<:necromancy:1148995625896120460> [Example Preset](https://presets.pvme.io/?id=CYtiJmWEAZwOVNam77oN)
+
+.
+## __Fight Mechanics__
+.tag:fightMechanics
+⬥ Arch-Glacor randomly cycles through the 5 mechanics listed below
+    • Each mechanic can only occur once per cycle, meaning a mechanic can *only* occur back-to-back if it is the last mechanic of a cycle and the first mechanic of the next
+⬥ In NM, mechanics can be toggled on or off to learn the fight, except for Creeping Ice
+⬥ In HM, all mechanics are enabled and enrage increases with every kill, with difficulty increasing too
+
+.
+### __Auto Attacks__ ([Ranged example](<https://img.pvme.io/images/XZgiuE5XNB.mp4>) / [Magic example](<https://img.pvme.io/images/BtHNY8ND13.mp4>))
+**Mechanic:** Arch-Glacor primarily uses Magic and Ranged auto-attacks, with stronger style-swapping auto-attacks during **Flurry**.
+**Solution:**
+⬥ Pray against the correct attack style <:deflectmage:544195487926845462> <:deflectrange:544195488317046812>
+⬥ Use <:debil:535541278264393729> if taking heavy damage
+
+.
+### __Glacyte Minions__ [(Example)](<https://img.pvme.io/images/kSB6UcI.mp4>)
+**Mechanic:** Arch-Glacor becomes immune and summons 4 Glacyte minions. Each minion drops an unstable core on death.
+
+At 250%+ HM enrage, a tougher Bolstered Glacyte also spawns (however, if this is the first mechanic in the fight, this Bolstered Glacyte does *not* spawn).
+
+**Solution:**
+⬥ Use area of effect attacks to clear the minions <:spectralscythe2:1137809149690916945> <:threadsoffate:1137809172335951933> / <:gchain:1478063106914779166> <:magmatemptest:1478063454173532242> / <:cane:535532878969438210> <:gflurry:535532879283879977> / <:ricochet:1478061867288100885> <:bombard:535541306391265284>
+⬥ Click the unstable cores only once **all** minions are dead
+
+.
+### __Flurry__ [(Example)](<https://img.pvme.io/images/0CU0qXf.mp4>)
+**Mechanic:** Arch-Glacor's auto-attacks hit harder and rotate combat styles, with its Melee hit the strongest.
+**Solution:**
+⬥ Pray against each combat style accordingly <:DeflectMage:544195487926845462> / <:DeflectRange:544195488317046812> / <:DeflectMelee:544195488447201300>
+⬥ Use <:debil:535541278264393729> for additional damage reduction
+⬥ Use <:res:535541258844635148> or <:divert:787904334377648130> on melee swipes where appropriate
+
+.
+### __Pillars of Ice__ [(Example)](<https://img.pvme.io/images/omGXX0a.mp4>)
+**Mechanic:** Creeping Ice forces you to one end of the arena, then moving beams cross the arena. Contact with a beam deals heavy damage and stuns you <:stunicon:841419289428492369>
+**Solution:**
+⬥ Move around the beams using <:dive:1049378668197195808> and <:surge:535533810004262912>
+⬥ Watch the example above for one safe path through the mechanic
+⬥ In HM, an additional beam appears after the second beam
+
+.
+### __Exposed Core__ [(Example)](<https://img.pvme.io/images/j3d2YIxcr7.mp4>)
+**Mechanic:** Arch-Glacor traps you in the centre of the arena, between its arms. The core deals increasing Magic <:magic:689504724159823906> damage.
+**Solution:**
+⬥ Kill *either* arm to escape
+⬥ Use strong damaging abilities to break the arm quickly
+⬥ Pray <:DeflectMage:544195487926845462> to reduce damage if needed
+
+.
+### __Frost Cannon__ [(Example)](<https://img.pvme.io/images/20mFMPA.mp4>)
+**Mechanic:** Creeping Ice traps you at one end of the arena, then Arch-Glacor fires a beam dealing heavy Magic damage. In HM, the beam hits 3 times and the first hit stuns you <:stunicon:841419289428492369>
+**Solution:**
+⬥ Prioritise blocking the Magic attack(s) with <:devo:513190158728953857> or <:reflect:535541258786177064> + <:res:535541258844635148>
+⬥ Use <:anti:535541306475151390> before the beam in HM to prevent the stun
+    • If you miss this, don't panic and use <:freedom:535541258240786434>
+⬥ Example rotations:
+    • In NM: use <:res:535541258844635148> to heal from the single hit
+    • In HM:
+        ⬩ <:anti:535541306475151390> → <:devo:513190158728953857> + <:DeflectMage:544195487926845462> [(Example)](<https://img.pvme.io/images/9t9EdxK.mp4>)
+        ⬩ <:anti:535541306475151390> → <:reflect:535541258786177064> + <:DeflectMage:544195487926845462> → <:res:535541258844635148> the final hit [(Example)](<https://img.pvme.io/images/9PyGvb4.mp4>)
+
+.
+## __Videos__
+.tag:videos
+⬥ [5-mechanic Normal Mode, Ranged, Revo Basics](<https://youtu.be/GwvDvSY3xm0>)
+⬥ [5-mechanic Normal Mode, Magic, Revo Basics](<https://youtu.be/jfFi1YM6Q-M>)
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [General Info]($linkmsg_generalInfo$)\n⬥ [Gear, Relics and Familiars]($linkmsg_GearRelicsFamiliars$)\n⬥ [Fight Mechanics]($linkmsg_fightMechanics$)\n⬥ [Videos]($linkmsg_videos$)",
+    "color": 39423
+  }
+}
+.embed:json
+.pin:delete

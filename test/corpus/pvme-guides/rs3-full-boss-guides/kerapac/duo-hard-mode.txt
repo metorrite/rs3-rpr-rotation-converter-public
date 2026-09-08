@@ -1,0 +1,128 @@
+.
+> ## ⚠️ Disclaimer
+> **Some methods in this guide may not work after the combat beta changes in March 2026**
+> Know of a newer method/rotation? Got a video? Share it in <#1020853673317908500>!
+
+.
+# Kerapac, the Bound - Duo HM Necromancy
+.
+.img:https://img.pvme.io/images/1fZdXd5U3v.png
+.
+## __Introduction__
+.tag:intro
+*Note: a **Table of Contents** can be found in the pins.*
+
+This guide assumes you are already familiar with the basic mechanics of Kerapac which can be seen here <#1020559705204076614> and own BIS gear in Necromancy.
+
+It is recommended to have a Nodon dragonkin slayer task <:slayer:797896049548066857> as the genocidal boost does work with Necromancy. You may also use the premier Artefact <:premierartefact:918517285176623104> to have a 10% chance to not decrease.
+
+.
+.
+## __Presets and Relics__
+.tag:preset
+⬥ [Necromancy](https://presets.pvme.io/?id=Uc4x8Rydn8KpB1tIYHFk)
+
+.
+{
+  "embed": {
+    "title": "",
+    "color": 39423,
+    "fields": [
+{
+        "name": "__Checklist and Unlocks__",
+        "value": "⬥ <:deathguard90:1138809243143766118> <:flank4:712073088296157185> Flanking 4 switch\n⬥ <:eofblack:780401412915855380> EoF with <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099>\n⬥ <:genocidal:689503091539705870> Genocidal perk if on-task\n⬥ <:lantasticks:565726489404899368> <:kwuarmsticks:565726489341984779> <:spiritsticks:565726489136463894> Incense sticks running",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.
+## __Additional Notes__
+One person should do each of these rotations to avoid overlapping <:bloat:1159433682403201044> & redundant casts of <:invokedeath:1137809121983336548>
+
+.
+### Prebuild
+.tag:prebuild
+Enter instance + <:surge:535533810004262912> → <:conjurearmy:1166094935066423348> + (wait 1t) <:surge:535533810004262912> → <:lifetransfer:1137809128136388819> → <:commandghost:1159434409913634816> / <:invokedeath:1137809121983336548> → <:splitsoul:1137809168368148490> → <:commandskeleton:1137809194423160883>
+
+*Note: one person <:commandghost:1159434409913634816> the other should <:invokedeath:1137809121983336548>*
+
+## __Player 1__
+.tag:rotation1
+.
+### Phase 1
+(tc) + <:vulnbomb:655341074235129858> + <:deathskulls:1159434663903899728> → <:bloat:1159433682403201044> → <:soulsap:1137809140476031057> → <:omniguard:1138809234922934282> <:spec:537340400273195028> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> + step under → <:soulstrikeflank:1156683164593430579> → <:necrobasic:1482849360462086244> → <:soulsap:1137809140476031057> → <:necrobasic:1482849360462086244> → <:necrobasic:1482849360462086244> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:commandskeleton:1137809194423160883>
+
+.
+### Phase 2
+<:timewarp:870328868815396914> + (wait 1t) <:livingdeath:1159434908486357072> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:necrobasic:1482849360462086244> → <:necrobasic:1482849360462086244> → <:deathskulls:1159434663903899728> + step under → (wait 1t) <:deathskulls:1159434663903899728> → <:fingerofdeath:1159434801938432010> → <:fingerofdeath:1159434801938432010> → <:soulsap:1137809140476031057> → <:necrobasic:1482849360462086244> → <:touchofdeath:1137809175980810380> → <:necrobasic:1482849360462086244> → <:necrobasic:1482849360462086244> → <:commandskeleton:1137809194423160883>
+
+.
+### Phase 3
+<:deathskulls:1159434663903899728> → <:bloat:1159433682403201044> → <:splitsoul:1137809168368148490> → <:volleyofsouls:1159435029592686642> → <:fingerofdeath:1159434801938432010> → <:fingerofdeath:1159434801938432010> + step under → <:lifetransfer:1137809128136388819> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:necrobasic:1482849360462086244> → <:soulsap:1137809140476031057> → basics to phase
+
+*Note: <:adrenrenewal:736298121704767538> during P3 if needed, start P4 with 100%*
+
+.
+### Solo Clone (N or S)
+<:invokedeath:1137809121983336548> + jump into clone → <:timewarp:870328868815396914> (wait 1t) <:livingdeath:1159434908486357072> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:necrobasic:1482849360462086244> → <:necrobasic:1482849360462086244> → <:deathskulls:1159434663903899728> → <:deathskulls:1159434663903899728> → <:soulsap:1137809140476031057>
+
+.
+### Shared Clone (W)
+<:invokedeath:1137809121983336548> + <:dive:1049378668197195808> to west clone to bounce skulls → <:volleyofsouls:1159435029592686642> → <:touchofdeath:1137809175980810380>
+
+.
+### Kerapac
+<:surge:535533810004262912> to <:kerapac:875443920673337344> (tc) + <:fingerofdeath:1159434801938432010> → <:deathskulls:1159434663903899728> → <:fingerofdeath:1159434801938432010> → <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099>
+
+*Note: <:deathskulls:1159434663903899728> as soon as possible on <:kerapac:875443920673337344> usually after first <:fingerofdeath:1159434801938432010>*
+
+.
+## __Player 2__
+.tag:rotation2
+.
+### Phase 1
+(tc) + <:vulnbomb:655341074235129858> + <:deathskulls:1159434663903899728> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099> → <:soulsap:1137809140476031057> → <:omniguard:1138809234922934282> <:spec:537340400273195028> step under → <:necrobasic:1482849360462086244> → <:soulsap:1137809140476031057> → <:necrobasic:1482849360462086244> → <:necrobasic:1482849360462086244> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:necrobasic:1482849360462086244> → <:commandskeleton:1137809194423160883>
+
+*Note: add an extra <:necrobasic:1482849360462086244> if slow phasing*
+
+.
+### Phase 2
+<:timewarp:870328868815396914> + (wait 1t) <:livingdeath:1159434908486357072> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:necrobasic:1482849360462086244> → <:necrobasic:1482849360462086244> → <:deathskulls:1159434663903899728> + step under → (wait 1t) <:deathskulls:1159434663903899728> → <:fingerofdeath:1159434801938432010> → <:fingerofdeath:1159434801938432010> → <:necrobasic:1482849360462086244> → <:touchofdeath:1137809175980810380> → <:necrobasic:1482849360462086244> → <:necrobasic:1482849360462086244> → <:necrobasic:1482849360462086244> → <:commandskeleton:1137809194423160883>
+
+.
+### Phase 3
+<:vulnbomb:655341074235129858> + <:deathskulls:1159434663903899728> → <:fingerofdeath:1159434801938432010> → <:splitsoul:1137809168368148490> → <:volleyofsouls:1159435029592686642> → <:fingerofdeath:1159434801938432010> → <:soulsap:1137809140476031057> → <:lifetransfer:1137809128136388819> + step under → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:necrobasic:1482849360462086244> to phase
+
+_Note: <:adrenrenewal:736298121704767538> during P3 if needed, start P4 with 100%_
+
+.
+### Solo Clone (N or S)
+ <:invokedeath:1137809121983336548> + jump into clone → <:timewarp:870328868815396914> (wait 1t) <:livingdeath:1159434908486357072> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:necrobasic:1482849360462086244> → <:necrobasic:1482849360462086244> → <:deathskulls:1159434663903899728> → <:deathskulls:1159434663903899728> → <:soulsap:1137809140476031057>
+
+.
+### Shared Clone (W)
+<:dive:1049378668197195808> to west clone to bounce skulls → <:volleyofsouls:1159435029592686642> → <:touchofdeath:1137809175980810380>
+
+.
+### Kerapac
+<:surge:535533810004262912> to <:kerapac:875443920673337344> (tc) + <:fingerofdeath:1159434801938432010> → <:deathskulls:1159434663903899728> → <:fingerofdeath:1159434801938432010> → <:deathguard90:1138809243143766118> <:eofspec:1257438999794946099>
+
+*Note: <:deathskulls:1159434663903899728> as soon as possible on <:kerapac:875443920673337344> usually after first <:fingerofdeath:1159434801938432010>*
+
+.
+## __Example Kills__
+.tag:example
+⬥ [Duo 1:43.8 & 1:46.2](<https://www.youtube.com/watch?v=OP4AwFK3rdM&ab>)
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Preset]($linkmsg_preset$)\n⬥ [Pre-fight]($linkmsg_prebuild$)\n⬥ [Rotation 1]($linkmsg_rotation1$)\n⬥ [Rotation 2]($linkmsg_rotation2$)\n⬥ [Example Kills]($linkmsg_example$)",
+    "color": 39423
+  }
+}
+.embed:json
+.pin:delete

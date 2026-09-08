@@ -1,0 +1,79 @@
+# Slayer Point Farming
+*Note: a **Table of Contents** can be found in the pins.*
+
+.
+## __Introduction__
+.tag:intro
+⬥ Slayer Points are a currency obtained by completing Slayer Assignments which have several uses, such as skipping Slayer Assignments, purchasing consumables such as <:ushabti:1097515642749468752>, and purchasing permanent unlocks at Slayer Masters.
+⬥ This mini-guide will outline a method of effectively farming these points without having to complete lengthy, high levelled Slayer Assignments.
+
+.
+## __Requirements__
+.tag:requirements
+⬥ Access to lunar spellbook: Spellbook swap (Lunar) <:SBSLunars:565726489467682816> + NPC Contact <:npccontact:975284195280695326>
+⬥ Completion of The Blood Pact quest for access to the Lumbridge Catacombs.
+⬥ You may optionally use <:slayerintrospection:975284345365471232> Slayer Introspection to guarantee the shortest assignments possible.
+
+.
+**Blocklist**
+⬥ Copy the blocklist below to ensure that all Slayer Assignments given by Jacquelyn will be to slay monsters present in the Lumbridge Catacombs.
+.
+{
+  "embed": {
+    "fields": [
+       {
+        "name": "__Jacquelyn Blocklist__",
+        "value": "⬥ Cave Bugs\n⬥ Cows\n⬥ Cave Slimes\n⬥ Frogs\n⬥ Birds\n⬥ Ghosts\n⬥ Rats\n⬥ Spiders",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __Presets and Relics__
+.tag:preset
+⬥ [Low-level Magic camp](<https://presets.pvme.io/?id=d6whBtns6jFiz3bUW4Ct>) <:magic:689504724159823906>
+⬥ [High-level Hybrid](https://presets.pvme.io/?id=cLt3Q6IWW5L8jSziWDUB) <:range:580168050121113623> <:melee:1096130867279171706> <:magic:689504724159823906>
+
+
+.
+## __The Method__
+.tag:method
+⬥ This method consists of doing 9 Slayer Assignments with Jacquelyn <:jacquelyn:975284345369665577>, then doing the 10th with Laniakea <:laniakea:975284345411600426> or your current highest level Slayer Master (not including Mandrith <:mandrith:1023150757148622921>).
+    • This takes advantage of the Slayer Point bonus awarded to the player after every 10th and 50th assignment completion while also letting us speed past assignments 1-9 with Jacquelyn's short and easy tasks.
+    • The Raptor may also be used as they reward a good amount of Slayer Points while also having generally quicker assignments.
+⬥ Before starting, ensure you are not currently on a Slayer streak that ends with a 9 by clicking on the Slayer icon located on the Slayer counter.
+    • This can be enabled in Settings > Gameplay > Interfaces > Information Windows > Slayer counter.
+
+.
+1) Enter the bottom floor of the Lumbridge Catacombs and stand in the Skeleton room.
+
+2) Use Spellbook swap (Lunar) <:SBSLunars:565726489467682816> and then NPC Contact <:npccontact:975284195280695326> to receive a Slayer Assignment from Jacquelyn <:jacquelyn:975284345369665577> (located at the bottom right of the interface).
+
+3) Slay the required monsters within the catacombs, all possible assignments can be completed in the southern half of the dungeon.
+    a) With the high-level preset alternate between <:gricocaroming:867678153966878740> and <:gchaincaroming:867678153882861568>
+    b) If Magic camping prioritise AoE Magic spells such as Corruption Blast <:corruptblast:513190159194259467>, Greater Chain <:gchain:1257440278512537740>, and Magma Tempest <:magmatempest:902209626509025290>
+    c) The Goblin used for this method, Skoblin, also count toward Skeleton assignments.
+
+4) Repeat steps 2 & 3 until your streak ends in 9, which can be confirmed by either having the slayer counter expanded or double checking the message in chat that's received by the player after completing an assignment.
+
+5) Spellbook swap (Lunar) <:SBSLunars:565726489467682816> + NPC Contact <:npccontact:975284195280695326> again, this time receiving an assignment from your highest levelled Slayer Master (or the Raptor for faster tasks). Upon completion you'll be rewarded the bulk of the Slayer Points from this method and can repeat from step 1.
+
+.
+## __Video Example__
+.tag:video
+.
+[Efficient Slaying in Lumbridge Catacombs](https://youtu.be/AIO4Knqmebw)
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Requirements]($linkmsg_requirements$)\n⬥ [Presets and Relics]($linkmsg_preset$)\n⬥ [Method Breakdown]($linkmsg_method$)\n⬥ [Video Example]($linkmsg_video$)",
+    "color": 39423
+  }
+}
+.embed:json
+.pin:delete

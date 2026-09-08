@@ -1,106 +1,152 @@
-import { app, BrowserWindow, dialog, ipcMain } from "electron";
+import { readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { convertRsaFileToRm } from "../core/convertRsaFile.js";
+import { app, BrowserWindow, dialog, ipcMain } from "electron";
+import {
+    convert,
+    DEFAULT_SETTINGS,
+    guideRotations,
+    libraryRotationFile,
+    listGuides,
+    loadCatalog,
+    type ConversionSettings,
+    type FormatId,
+} from "../core/index.js";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 let mainWindow: BrowserWindow | null = null;
 
-function getRendererPath(): string {
-    // dist/electron/main.js -> go up to app root, then into src/electron-ui
+function rendererPath(): string {
+    // dist/electron/main.js -> repo/src/electron-ui/index.html
     return path.resolve(__dirname, "../../src/electron-ui/index.html");
 }
 
 function createWindow(): void {
     mainWindow = new BrowserWindow({
-        width: 760,
-        height: 460,
-        resizable: false,
+        width: 860,
+        height: 720,
         backgroundColor: "#111827",
         webPreferences: {
+            // Local single-user tool loading only a bundled file with no remote
+            // content — Node integration in the renderer keeps the IPC wiring
+            // simple and avoids the ESM-preload footgun.
             nodeIntegration: true,
             contextIsolation: false,
-            sandbox: false
-        }
+        },
     });
-
-    const rendererPath = getRendererPath();
-    console.log("Loading renderer from:", rendererPath);
-
-    mainWindow.loadFile(rendererPath);
-
-    mainWindow.webContents.on("did-fail-load", (_event, errorCode, errorDescription, validatedURL) => {
-        console.error("Renderer failed to load:", {
-            errorCode,
-            errorDescription,
-            validatedURL
-        });
-    });
-
-    mainWindow.webContents.on("did-finish-load", () => {
-        console.log("Renderer finished loading");
-    });
-
-    // Uncomment this while debugging packaged builds
-    // mainWindow.webContents.openDevTools();
+    void mainWindow.loadFile(rendererPath());
 }
 
 app.whenReady().then(() => {
     createWindow();
 
-    ipcMain.handle("browse-input-file", async () => {
-        const result = await dialog.showOpenDialog({
-            title: "Select RSAnalysis JSON export",
+    ipcMain.handle("catalog-info", () => loadCatalog().manifest);
+    ipcMain.handle("default-settings", () => DEFAULT_SETTINGS);
+
+    // ---- Convert tab -----------------------------------------------------
+
+    ipcMain.handle("browse-input", async () => {
+        const r = await dialog.showOpenDialog(mainWindow ?? undefined!, {
+            title: "Select a rotation file",
             properties: ["openFile"],
-            filters: [{ name: "JSON Files", extensions: ["json"] }]
+            filters: [
+                { name: "Rotation files", extensions: ["json", "txt"] },
+                { name: "All files", extensions: ["*"] },
+            ],
         });
-
-        if (result.canceled || result.filePaths.length === 0) {
-            return null;
-        }
-
-        return result.filePaths[0];
+        return r.canceled ? null : (r.filePaths[0] ?? null);
     });
 
-    ipcMain.handle("browse-output-folder", async () => {
-        const result = await dialog.showOpenDialog({
-            title: "Select output folder",
-            properties: ["openDirectory", "createDirectory"]
+    ipcMain.handle("browse-output", async () => {
+        const r = await dialog.showOpenDialog(mainWindow ?? undefined!, {
+            title: "Select an output folder",
+            properties: ["openDirectory", "createDirectory"],
         });
-
-        if (result.canceled || result.filePaths.length === 0) {
-            return null;
-        }
-
-        return result.filePaths[0];
+        return r.canceled ? null : (r.filePaths[0] ?? null);
     });
 
-    ipcMain.handle("convert-rsa-to-rm", async (_event, inputPath: string, outputFolder: string) => {
+    ipcMain.handle(
+        "convert",
+        (
+            _e,
+            inputPath: string,
+            outputDir: string,
+            from: FormatId | null,
+            to: FormatId,
+            settings?: Partial<ConversionSettings>,
+        ) => {
+            try {
+                const raw = readFileSync(inputPath, "utf8");
+                const input: unknown =
+                    path.extname(inputPath).toLowerCase() === ".txt" ? raw : JSON.parse(raw);
+                const result = convert(input, { from: from ?? undefined, to, settings });
+
+                const base = path.basename(inputPath, path.extname(inputPath));
+                const ext = result.to === "pvme" ? "txt" : "json";
+                const outputPath = path.join(
+                    outputDir,
+                    `${base} - (${result.to.toUpperCase()}_converted).${ext}`,
+                );
+                writeFileSync(
+                    outputPath,
+                    typeof result.output === "string"
+                        ? result.output
+                        : JSON.stringify(result.output, null, 2),
+                    "utf8",
+                );
+                return {
+                    ok: true as const,
+                    outputPath,
+                    reportText: result.report.format(),
+                };
+            } catch (error) {
+                return { ok: false as const, error: error instanceof Error ? error.message : String(error) };
+            }
+        },
+    );
+
+    // ---- Rotation library tab ------------------------------------------
+
+    ipcMain.handle("library:list", () => listGuides());
+
+    ipcMain.handle("library:rotations", (_e, guideId: string) => {
         try {
-            return {
-                ok: true,
-                result: convertRsaFileToRm(inputPath, outputFolder)
-            };
+            return { ok: true as const, rotations: guideRotations(guideId) };
         } catch (error) {
-            console.error("Conversion failed:", error);
-            return {
-                ok: false,
-                error: error instanceof Error ? error.message : String(error)
-            };
+            return { ok: false as const, error: error instanceof Error ? error.message : String(error) };
         }
     });
+
+    ipcMain.handle(
+        "library:save",
+        async (
+            _e,
+            guideId: string,
+            index: number,
+            format: FormatId,
+            settings?: Partial<ConversionSettings>,
+        ) => {
+            try {
+                const file = libraryRotationFile(guideId, index, format, settings);
+                const r = await dialog.showSaveDialog(mainWindow ?? undefined!, {
+                    title: "Save rotation",
+                    defaultPath: file.fileName,
+                });
+                if (r.canceled || !r.filePath) return { ok: false as const, error: "cancelled" };
+                writeFileSync(r.filePath, file.body, "utf8");
+                return { ok: true as const, savedPath: r.filePath, reportText: file.reportText };
+            } catch (error) {
+                return { ok: false as const, error: error instanceof Error ? error.message : String(error) };
+            }
+        },
+    );
 
     app.on("activate", () => {
-        if (BrowserWindow.getAllWindows().length === 0) {
-            createWindow();
-        }
+        if (BrowserWindow.getAllWindows().length === 0) createWindow();
     });
 });
 
 app.on("window-all-closed", () => {
-    if (process.platform !== "darwin") {
-        app.quit();
-    }
+    if (process.platform !== "darwin") app.quit();
 });

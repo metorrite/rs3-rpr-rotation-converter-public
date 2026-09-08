@@ -1,0 +1,94 @@
+> ## ⚠️ Disclaimer
+> **Some methods in this guide may not work after the combat changes made in Q1 of 2026**
+> Know of a newer method/rotation? Got a video? Share it in <#1020853673317908500>!
+
+# Profane Scabarites
+*Note: a **Table of Contents** can be found in the pins.*
+
+.
+## __Introduction__
+.tag:intro
+Profane Scabarites <:profanescabarite:1333926854666621019> are slayer monsters requiring 87 <:slayer:797896049548066857> to kill. They can be killed off-task, or with either a "Scabarites" or "Profane Scabarites" task for on-task bonuses.
+
+.
+### __Stats__
+⬥ <:slayer:797896049548066857> level required: 87
+⬥ <:slayer:797896049548066857> XP per kill: 900
+⬥ Optimal kills per hour: ~850 <:magic:689504724159823906>
+⬥ Optimal <:slayer:797896049548066857> XP per hour: ~765k <:magic:689504724159823906>
+
+.
+### __Desirable drops__
+.tag:drops
+⬥ The Spectral Lens <:spectrallens:1334309383831818342> which is the Necromancy slayer helm component.
+
+.
+### __Useful Items and Unlocks__
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Items__",
+        "value": "⬥ [Powder of penance](https://runescape.wiki/w/Powder_of_penance) <:powderofpenance:928221126360969226>\n\u00a0\u00a0\u00a0\u00a0• Helps sustain your prayer.\n⬥ Elder overload <:elderovl:841419289831800882>\n⬥ Weapon poison+++ <:weppoison:689525476158472288>\n⬥ [Cinderbane gloves](https://runescape.wiki/w/Cinderbane_gloves) <:cinderbanes:513190158355660812>\n⬥ [Scripture of Amascut](https://runescape.wiki/w/Scripture_of_Amascut) <:scriptureofamascut:1266417822188437569>\n\u00a0\u00a0\u00a0\u00a0• Can be substituted for any of the GWD3 books"
+      },
+      {
+        "name": "__Other__",
+        "value": "⬥ [Restocking Cannon Ability](https://runescape.wiki/w/Artisans'_Workshop_Reward_Shop) <:cannon:869283142350041098>\n\u00a0\u00a0\u00a0\u00a0• Allows <:cannon:869283142350041098> restocking without user input.\n⬥ [Animate Dead](https://runescape.wiki/w/Animate_Dead) <:animatedead:856635090453135382>\n\u00a0\u00a0\u00a0\u00a0• Only needed if using <:cryptbloomhelm:1334336169336373339> / <:ganohelm:1003947807754960896> instead of the recommended gear"
+      }
+    ]
+   }
+}
+.embed:json
+
+.
+## __Location and How to Get there__
+.tag:location
+⬥ Profane Scabarites are only found in the [Scabarite Cavern](<https://runescape.wiki/w/Scabarite_Cavern>) outside of Pollnivneach.
+
+.
+### __Getting to: Profane Scabarites__
+⬥ Once inside the cavern, cross the bridge to south-western area.
+    • Follow the image below to place and load your cannon.
+    • Stand 2 tiles south-west of your cannon.
+.img:https://img.pvme.io/images/VaR3USyqMW.png
+
+.
+## __Method: AFK Magic <:magic:689504724159823906>__
+.tag:magicprofane
+
+.
+⬥ Set an Alt1 alarm for 50% HP in case of bad RNG, and active <:excal:641337999170207763> when it does.
+⬥ Pray <:torment:583429936958930964> / <:affliction:513190158468907008> and <:soulsplit:615613924506599497>
+⬥ Autocast <:shadowburst:841419289461260329> or <:shadowbarrage:567727956567261184>
+
+.
+### __Presets and Relics__
+⬥ [Magic preset](https://presets.pvme.io/?id=Bh7moSg88JTHsUCEwD8g) <:magic:689504724159823906>
+.
+### __Ability Bar__
+.img:https://img.pvme.io/images/zlZ1dM13fE.png
+
+.
+## Example Kills
+.
+⬥ [AFK Magic Profane Scabarites](https://www.youtube.com/watch?v=NV5699E9Ycw) <:magic:689504724159823906>
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Overview__",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Location and How to Get There]($linkmsg_location$)\n⬥ [Method: AFK Profane Scabarites]($linkmsg_magicprofane$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete

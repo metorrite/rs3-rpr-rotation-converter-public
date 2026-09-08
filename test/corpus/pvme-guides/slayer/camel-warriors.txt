@@ -1,0 +1,153 @@
+# Camel Warriors
+*Note: a **Table of Contents** can be found in the pins.*
+
+.
+## __Introduction__
+.tag:intro
+[Camel Warriors](<https://runescape.wiki/w/Camel_Warrior>) are one of the 4 Raptor Mobs, generally killed for the collection log. As such, they should **only be killed on task where they are 5x more likely to drop the <:camelstaff:917025698479210528>**
+
+⬥ Camel warriors have one main mechanic - After taking some damage, they split into 3 mirages - Blood, Smoke and Shadow. Each has their own unique abilities. All attack with magic.
+    • Shadow mirages - Drains <:prayer:1005450651347730533> points after charging their overhead bar.
+    • Blood mirages - Heal other mirages for ~900 HP per attack.
+    • Smoke mirages - Cast the Confuse, Weaken and Snare spells on the player, reducing hitchance and damage by 5%, and freezing you in place for 10s respectively.
+        ⬩ After the mirages have been killed, the camel warrior re-appears with the HP it had before phasing, and can now be finished off.
+
+.
+⬥ **Mirages can be bypassed by dealing a singular hit of more than 20,125 damage, before hitcaps apply.**
+    • For example, if <:tuskas:513201065513058306> is used on task in <:zerk:535532854004678657> with 120 <:slayer:797896049548066857>, it will be capped at 15K, but in theory it would've dealt 30K damage, so the camel will not be phased. This will then allow the player to finish off the camel by dealing the remaining 5125 damage in 1 hit.
+    • If the player fails to deal 5125 damage in the next hit, the camel will phase into mirages. This is why perks such as crackling <:crack4:712073087662686249> and aftershock <:as4:712074245202772009> should be avoided when relying on methods that skip the mirage mechanic.
+
+⬥ **All methods suggested below use tricks that bypass the mechanic entirely,** as it is very time consuming and detrimental to kph to kill Camel warriors "normally".
+
+.
+### Stats
+.tag:stats
+⬥ <:slayer:797896049548066857> XP per kill : 4768.8
+⬥ Optimal kills per hour: 300 <:melee:1096130867279171706>, 200 AFK
+⬥ Optimal <:slayer:797896049548066857> XP per hour: ~1.43M (~1m AFK)
+
+.
+### Desirable Drops
+.tag:drops
+⬥ [Camel staff](<https://runescape.wiki/w/Camel_staff>) <:camelstaff:917025698479210528>
+    • Required for the Slayer collection log.
+    • 5 times rarer off-task.
+⬥ [Raptor key part 3](<https://runescape.wiki/w/Raptor_key_part_3>)
+    • Required for the Slayer collection log.
+    • Must be on task.
+⬥ [The Ugthanatos](<https://runescape.wiki/w/The_Ugthanatos>)
+    • Required for <:masterquestcape:1091050888828813412>
+⬥ [Cursed amascut sand](<https://runescape.wiki/w/Cursed_amascut_sand>) <:cursedamascutsand:1023152063208763433>
+    • Required for the Slayer collection log.
+    • Dropped by any of the 4 Raptor specialty monsters.
+
+.
+### Location and How to Get There
+.tag:location
+⬥ They can be found on the island east of Sophanem, which is accessed via stepping stones (no <:agility:1039864819760758844> level needed) near a group of crocodiles. **The area is affected by desert heat.**
+    • The quickest way to get there is via travelling south from Pharaoh's sceptre/Sceptre of the Gods option 2 followed by <:powerburstofacceleration:756236265472524418>
+    • Alternatively, one can go via a gate in the eastern wall of Sophanem that allows access from the city.
+
+.
+## __Method: Active Melee [PoSD]__
+.tag:camelmelee
+The fastest way to kill camels relies on doing trips to a player owned dungeon with 3-4 camel warriors, using <:zerk:535532854004678657> and trying to kill as many camels as possible within the <:zerk:535532854004678657> duration while skipping the mirage mechanic. It also requires essentially best in slot melee gear to be as consistent as possible.
+
+⬥ **2023-AUG-29 - IMPORTANT NOTE**
+    • After <:tuskas:513201065513058306> changes which made the enhanced variant not reset-able with the War's Retreat crystal, this method is significantly worse and will not be able to achieve the advertised kph. However, it is *likely* still better than methods which involves dealing with camel spawns.
+
+.
+## __Presets and Relics__
+⬥ [Melee - Active](https://presets.pvme.io/?id=IaEAq8JYt0E4KufUW910) <:melee:1096130867279171706>
+.
+
+.
+### Strategy
+⬥ Ensure your familiar combat setting is on **Passive.**
+
+⬥ Occasionally, the camel will not phase despite <:dragonlongsword:1048592042399383713> <:eofspec:1257438999794946099> hitting for significantly less than 20,000. When this happens, use a 188 <:cleave:535532878616985610> <:sever:535532879577612298> to guarantee the kill on the camel. <:gfury:535532879334080527> or <:smashgop:994929821727604808> may not deal sufficient raw damage to finish the camel off.
+
+1. Use <:dba:603979368850653216> <:spec:537340400273195028> at War's Retreat with <:asr:513190158472839208> equipped + Kalg spec <:kalgscroll:841409588954923049>
+2. Swap to <:terramaul:602561894829522954> <:reaverring:839903943018283050> and get back 90% or more adrenaline before teleporting to the Menaphos house portal.
+    a. Use a Menaphos tablet or the House teleport spell if your house is attuned to Menaphos.
+    b. You can activate <:excal:641337999170207763> **from action bar** without interrupting adren gaining if not on full HP.
+3. Travel to the sunken pyramid with Kags (option 1).
+4. Enter the dungeon using right click. You should fall out of combat and Persistent Rage <:persistentrage:739965637056659567> should start topping your adrenaline off until 120% around this time.
+5. Do a <:surgemobile:867678153798975498> → walk diagonal → <:surgemobile:867678153798975498> + <:divemobile:1049378665802235968> to get to whichever large dungeon hosts your camels (diagram below).
+.img:https://img.pvme.io/images/314C4Su9Hi.png
+.
+6. <:zerk:535532854004678657> as you enter the dungeon and turn on <:grim:568262896375824385>
+
+Step 1 - [6 demonstration](<https://youtu.be/ZOVInSkksNI>)
+
+**Camel 1:** Target closest Camel → <:tuskas:513201065513058306> → <:punish:535532879439069184> + <:vulnbomb:655341074235129858> spot where it spawns. If enhanced <:tuskas:513201065513058306> is on cooldown, use defensive basics <:voke:535541259465392143> <:anti:535541306475151390> <:freedom:535541258240786434> for adrenaline until you can <:overpowerigneous:959089455640215633>
+**Camel 2:** Walk next to spawn + (tc) + <:overpowerigneous:959089455640215633> + basic
+**Camel 3 onwards:** (tc) + <:dragonlongsword:1048592042399383713> <:eofspec:1257438999794946099> → basic
+
+⬥ Sometimes <:overpowerigneous:959089455640215633> or <:dragonlongsword:1048592042399383713> <:eofspec:1257438999794946099> will crit and kill the camel on its own, and you will not need to use a basic after.
+
+⬥ Cycle basics in the order <:chaosroar:994644356671737966> → <:gfury:535532879334080527> → <:smashgop:994929821727604808> → <:gfury:535532879334080527>
+    • The <:dragonlongsword:1048592042399383713> <:eofspec:1257438999794946099> after a <:chaosroar:994644356671737966> guarantees a kill.
+    • The <:dragonlongsword:1048592042399383713> <:eofspec:1257438999794946099> after a <:gfury:535532879334080527> crit guarantees kill.
+
+⬥ In an ideal run, you should be able to get 7-8 camel KC.
+    • If you get a <:relentless5:712244800920748092> <:zerk:535532854004678657> and lucky crits, a 9 kill run is possible.
+.img:https://img.pvme.io/images/HuDHDp3du2.mp4
+⬥ When you fail a skip, use (tc) + <:anti:535541306475151390> to avoid getting rooted and try to spend as much of your adrenaline as possible on other spawns before teleporting out.
+.img:https://img.pvme.io/images/KuRqzaZMl5.mp4
+⬥ If you run out of adrenaline and still have time on <:zerk:535532854004678657>, use (tc) + defensive basics <:voke:535541259465392143> <:anti:535541306475151390> <:freedom:535541258240786434> until you have enough adrenaline for another <:dragonlongsword:1048592042399383713> <:eofspec:1257438999794946099> (22.5%)
+.img:https://img.pvme.io/images/3oKetozjs6.mp4
+.
+⬥ Turn off <:grim:568262896375824385> when finishing up a trip to preserve charges.
+
+.
+### Video Example
+⬥ [Narrated task and example kills](<https://youtu.be/WxDyOaSMxrM>)
+.
+
+.
+## __Method: AFK Cannon__
+.tag:camelafk
+This method involves not engaging in combat with the Camel Warriors at all, relying on cannon <:cannon:869283142350041098> and poison damage <:poisonicon:944649693500154006> which passively kill the Camel Warriors without triggering their mirage mechanic.
+
+.
+## __Presets and Relics__
+⬥ [Melee - AFK](https://presets.pvme.io?id=9b25a62c-dd22-4055-bfc3-bb0541bdefb3)
+.
+⬥ <:bookofdeath:937093437906374696> can be used here to increase kph by 10%
+
+.
+### Strategy
+⬥ Place the <:cannon:869283142350041098> in the Camel Warrior island, while staying in the tiny island before the stepping stone, as shown below:
+.img:https://img.pvme.io/images/vVgYAkeEST.png
+.
+⬥ Players can do other activities in the meantime (e.g. Fletching <:fletching:1039864817881722960>).
+⬥ To avoid being attacked by camels, players should bring runes for Telekinetic Grab <:telekeneticgrab:866551637970255872> to collect the drops along with using a legendary pet with the "Scavenge" perk active.
+    • Do **NOT** call your pet as it will end up being on the same small island as you, and will not able to access the drops.
+
+.
+### Video Example
+⬥ [Short sample of AFK Camels](<https://youtu.be/Lau76BJzi6c>)
+.
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Overview__",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Stats]($linkmsg_stats$)\n⬥ [Desirable Drops]($linkmsg_drops$)\n⬥ [Location and how to get there]($linkmsg_location$)",
+        "inline": true
+      },
+      {
+        "name": "__Methods__",
+        "value": "⬥ [Active Melee]($linkmsg_camelmelee$)\n⬥ [AFK Cannon]($linkmsg_camelafk$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete

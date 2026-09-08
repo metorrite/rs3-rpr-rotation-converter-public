@@ -1,0 +1,117 @@
+# Abyssal Savages
+*Note: a **Table of Contents** can be found in the pins.*
+
+.
+## __Introduction__
+.tag:intro
+Abyssal savages serve as a good pre-105 slayer alternative, offering high combat experience and <:abyssalflesh:947871842520170576> drop rates.
+
+.
+### Stats
+⬥ <:slayer:797896049548066857> level: 95
+⬥ <:slayer:797896049548066857> XP per kill: 423.2
+⬥ Optimal kills per hour: ~2668 <:melee:1096130867279171706> (Wilderness) / ~? <:magic:689504724159823906> / ~? <:necromancy:1148995625896120460>
+⬥ Optimal <:slayer:797896049548066857> XP per hour: ~1.13M <:melee:1096130867279171706> (Wilderness) / ~? <:magic:689504724159823906> / ~? <:necromancy:1148995625896120460>
+
+.
+## __Desirable drops__
+.tag:drops
+⬥ Abyssal Flesh <:abyssalflesh:947871842520170576>, which is required to craft Abyssal armour spikes <:abyssalarmourspike:1004107347259555981>.
+⬥ If killed in the Wilderness, they can also drop <:revenantdropenhancer:1006481325076787240> which can be helpful for Ultimate Slayer hunters.
+
+.
+### Useful Items
+.tag:usefulitems
+{
+  "embed": {
+    "description":"Owning the following increases the efficiency of your sessions, but is by no means mandatory.",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Items__",
+        "value": "⬥ [Demon horn necklace](https://runescape.wiki/w/Demon_horn_necklace) <:demonhornnecklace:975765831248130079> + [Attuned Ectoplasmator](https://runescape.wiki/w/Attuned_ectoplasmator) <:ectoplasmator:1023152065431744542>\n\u00a0\u00a0\u00a0\u00a0• Helps sustain your prayer."
+      },
+      {
+        "name": "__Other__",
+        "value": "⬥ [Restocking Cannon Ability](https://runescape.wiki/w/Artisans'_Workshop_Reward_Shop) <:cannon:869283142350041098>\n\u00a0\u00a0\u00a0\u00a0• Allows <:cannon:869283142350041098> restocking without user input."
+      }
+    ]
+   }
+}
+.embed:json
+
+.
+## __Locations__
+.tag:location
+.img:https://img.pvme.io/images/L8cYfInlq7.png
+**Level 50 Wilderness*
+.
+
+.
+.img:https://img.pvme.io/images/02BkgH5pio.png
+**Senntisten Asylum*
+.
+
+.
+## __Method - AFK (<:melee:1096130867279171706> / <:magic:689504724159823906> / <:necromancy:1148995625896120460>)__
+.tag:method1
+Before loading your cannon and starting the session, check that:
+⬥ <:elderovl:841419289831800882>, <:aggressionpotion:925794592199147581>, <:weppoison:689525476158472288>, and <:vampscrim:513201294262009874> / <:scriptureofful:902209626412560395> / <:scriptureofwen:883134307902816297> are active.
+⬥ Sustain <:prayer:1005450651347730533> with <:demonhornnecklace:975765831248130079> <:ectoplasmator:1023152065431744542> or <:powderofpenance:928221126360969226> / <:penanceaspect:1494069332584693810>
+    • Prefer <:animatedead:856635090453135382> / <:darkness:1137809209782698024> over <:penanceaspect:1494069332584693810> when instructed or if extra survivability is needed.
+
+.
+### Prayers <:prayer:1005450651347730533>
+
+⬥ <:melee:1096130867279171706> Pray <:eclipsedsoul:1285372688457797672>, <:divinerage:1285372247665803264>, <:ultimatestrength:1344313898068738151>, and <:steelskin:1365820216545902642> with <:zealots:926021352626982942>
+    • Add Incredible Reflexes if accuracy is below 100%.
+    • Sustain <:prayer:1005450651347730533> with <:penanceaspect:1494069332584693810>
+
+⬥ <:magic:689504724159823906> / <:necromancy:1148995625896120460> Pray <:soulsplit:615613924506599497> and t95/t99 curse for the style you are using.
+
+Magic <:magic:689504724159823906>
+⬥ Autocast <:incitefear:856635090783567902>
+⬥ Ensure that <:animatedead:856635090453135382> is active
+    • <:graspingpouchblack:1390439136875253810> - <:bloodrune:536252658970001409> <:astralrune:536252658961481769> <:bodyrune:536252659301089280> <:soulrune:536252660333019136>
+    • <:graspingpouchpink:1390439126519644271> - <:deathrune:536252659586433024> <:earthrune:536252659808731137> <:lawrune:536252661406760970> <:cosmicrune:536252659615924258>
+    • <:graspingpouchblue:1390439129275306164> - <:chaosrune:536252659422855188> <:airrune:536252658986647589> <:waterrune:536252660165115905> <:firerune:536252659850674186>
+
+.
+## __Presets and Relics__
+⬥ [Melee preset](<https://presets.pvme.io?id=e199ca7b-d123-404d-8d58-a4aa1be0aa82>) <:melee:1096130867279171706>
+⬥ [Magic preset](<https://presets.pvme.io?id=7e71f54b-00ae-4ed5-b175-35a54c84da9e>) <:magic:689504724159823906>
+⬥ [Necromancy preset](https://presets.pvme.io?id=c84999a9-fb0f-46e8-b0e0-3b4d48d6ab6e) <:necromancy:1148995625896120460>
+.
+
+.
+### Action Bars
+⬥ Melee
+.img:https://img.pvme.io/images/AJF0eadwSG.png
+⬥ Magic
+.img:https://img.pvme.io/images/X2abPx8.png
+⬥ Necromancy
+.img:https://img.pvme.io/images/5cbmQjtLOw.png
+    • Adding <:conjurezombie:1137809200219684924> to <:conjurearmy:1166094935066423348> may increase kph, but will result in less necro xp/h due to poison damage.
+
+.
+### Example Kills
+⬥ [Wilderness AFK Melee](<https://www.youtube.com/watch?v=d_5fhbRBEwY>)
+⬥ [Player Owned Dungeon AFK Necro](<https://www.youtube.com/watch?v=R0RiIii1p8o>)
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Overview__",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Desirable Drops]($linkmsg_drops$)\n⬥ [Useful Items]($linkmsg_usefulitems$)\n⬥ [How to Get There]($linkmsg_location$)\n⬥ [General Strategy]($linkmsg_method1$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete

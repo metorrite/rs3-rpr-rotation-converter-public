@@ -1,0 +1,128 @@
+# Kal'gerion Demons
+*Note: a **Table of Contents** can be found in the pins.*
+
+.
+## __Introduction__
+.tag:intro
+Kal'gerion Demons <:kalgerion_demon:1155600607504257024> can be killed at two locations outside Daemonheim:
+    • The Demonic Ruins in the Wilderness at level 47.
+    • The Kal'gerion Demons resource dungeon in Daemonheim.
+
+Kal'gerion Demons are primarily killed for the Kal'gerion battle commendation drops which are a requirement for the Trimmed Completionist Cape. They also drop Demon Slayer equipment (T60 Ranged power armour) and an Adrenaline Urn which are requirements for the Daemonheim slayer log and Ultimate Slayer title.
+
+.
+### Stats
+⬥ <:dungeoneering:1003947795541143632> level: 90
+⬥ <:necromancy:1148995625896120460> level: 99+
+⬥ Kills per hour:
+    • Low Effort: ~340 at 120 <:necromancy:1148995625896120460> using T90 weapons and an upgraded cannon
+    • AFK: ~325 kills at 120 <:necromancy:1148995625896120460> using T95 weapons
+⬥ <:slayer:797896049548066857> XP per kill: 1858.8
+⬥ <:slayer:797896049548066857> XP per hour: ~604k (AFK) & 632k (Low Effort)
+
+⬥ Due to the way Necromancy has been designed, kills per hour will increase as your Necromancy level (and hence accuracy and damage) increases.
+
+.
+## __Desirable drops__
+.tag:drops
+⬥ Kal'gerion battle commendation
+    • Required for the Trimmed Completionist Cape
+⬥ Demon slayer equipment <:demonslayercirclet:1004325697503907910> <:demonslayerbody:1004325695520002068> <:demonslayerlegs:1004325693519302706> <:demonslayergloves:1004325689836716103> <:demonslayerboots:1004325691510231041>
+    • Required for the Daemonheim Slayer collection log
+⬥ Adrenaline Urn <:adrenurn:656426717413507074>
+    • Required for the Daemonheim Slayer collection log
+
+.
+### Useful Items and Unlocks
+.
+{
+  "embed": {
+    "description":"Owning the following increases the efficiency of your sessions, but is by no means mandatory",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Items__",
+        "value": "⬥ [Lantadyme Incense Sticks](https://runescape.wiki/w/Lantadyme_incense_sticks) <:lantasticks:565726489404899368>\n\u00a0\u00a0\u00a0\u00a0• Increases potion timers by 30 seconds, up to a maximum 2 minute increase.\n⬥ [Attuned Ectoplasmator](https://runescape.wiki/w/Attuned_ectoplasmator) <:ectoplasmator:1023152065431744542>\n\u00a0\u00a0\u00a0\u00a0• Brought to restore 150 prayer points every kill in combination with the <:demonhornnecklace:975765831248130079>\n⬥ [Demon horn necklace](https://runescape.wiki/w/demon_horn_necklace) <:demonhornnecklace:975765831248130079>\n\u00a0\u00a0\u00a0\u00a0• Brought to restore 150 prayer points every kill in combination with the <:ectoplasmator:1023152065431744542>"
+      },
+      {
+        "name": "__Other__",
+        "value": "⬥ [Demon slayer perk](https://runescape.wiki/w/Demon_Slayer_(perk) <:demonslayerperk:689502842653900818>"
+      }
+    ]
+   }
+}
+.embed:json
+
+.
+## __Location and How to Get there__
+.tag:location
+⬥ Player-owned Slayer Dungeon (3 spawns)
+    • Right click teleport on the Slayer Codex
+⬥ Kal'gerion Demons resource dungeon (13 spawns)
+    • Option 0→9 <:dgcape:976732922545586246> will take you directly outside the resource dungeon entrance.
+    • Teleport to Daemonheim using a Ring of Kinship and run South-West to the entrance.
+
+.
+## __Methods: Necromancy__
+.tag:method1
+### AFK
+The AFK method uses <:holyaggroverload:1049230112849133589> but this method could also use <:elderovl:841419289831800882> or <:elderovlsalve:648976643687317532> in combination with <:aggressionpotion:925794592199147581>. Some notes for this method are:
+⬥ Pray <:deflectmelee:544195488447201300> and <:ruination:1137940996391452772>
+⬥ Sustain <:prayer:1005450651347730533> using <:demonhornnecklace:975765831248130079> and <:ectoplasmator:1023152065431744542>
+⬥ Have your <:scriptureofful:902209626412560395> turned **on**
+⬥ Use a <:icenihil:854475442164334592>
+.
+### Low Effort
+The resource dungeon is not AFK for this method as there are more spawns. It is safer than the Wilderness as there are less surrounding mobs such as Abyssal Lords and Abyssal Beasts which can overwhelm the player.
+
+⬥ The "Drag" mechanic will bind the player without leaving a status icon indicating such and cannot be blocked. On rare occasions this will take you out of range of your target and cause you to stop attacking - simply re-click your target.
+⬥ Rarely, this same mechanic will take you out of auto-refill range of you cannon. Simply click a Kal'gerion Demon on the opposite side of your cannon.
+⬥ Pray <:deflectmelee:544195488447201300> and <:sorrow:1137941003895046284> / <:ruination:1137940996391452772>
+⬥ <:reaverpouch:839903693837959228> with <:reaverscroll:1022562484378419284> set to autofire every 10s
+⬥ Sustain <:prayer:1005450651347730533> using <:demonhornnecklace:975765831248130079>, <:elderovlsalve:648976643687317532> and <:ectoplasmator:1023152065431744542>
+⬥ Alternatively, sustain <:prayer:1005450651347730533> using <:elderovlsalve:648976643687317532> and <:powderofpenance:928221126360969226>
+⬥ Ensure <:darkness:1137809209782698024>, <:elderovlsalve:648976643687317532> and <:aggressionpotion:925794592199147581> / <:aggressionscrim:1022562486588821555> are active at all times.
+
+.
+## __Presets and Relics__
+
+⬥ [Necromancy - Low Effort](https://presets.pvme.io/?id=TBtqoqHcvRYHFG3y4iYT) <:necromancy:1148995625896120460>
+
+.
+### Ability Bars
+**AFK:** The bar below is for off-task. Swap <:conjureskeleton:1159434516658651147> for <:tuskas:513201065513058306> when on--task. Undead Army uses Skeleton, Ghost and Zombie
+.img:https://img.pvme.io/images/njc2yrKgX6.png
+**Low Effort:** Undead Army uses Skeleton, Ghost and Zombie
+.img:https://img.pvme.io/images/ChPNNEesTd.png
+
+.
+### Example Kills
+.
+⬥ [Necro AFK](<https://youtu.be/EE6LoGvNReE>) - Sunken Pyramid (POSD)
+⬥ [Necro Low Effort](<https://youtu.be/2ht2HVEd3og>) - Resource Dungeon
+
+.
+Content Provided by: <@269513930949263363> and <@788941461952397332>
+Formatting Maintained by: <@788941461952397332>
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*",
+    "color": 39423,
+    "fields": [
+     {
+        "name": "__Overview__",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Desirable Drops]($linkmsg_drops$)\n⬥ [Location and How to Get There]($linkmsg_location$)",
+        "inline": true
+      },
+      {
+        "name": "__Methods__",
+        "value": "⬥ [Necro]($linkmsg_method1$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete

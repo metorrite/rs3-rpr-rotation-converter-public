@@ -1,0 +1,195 @@
+# Rasial, the First Necromancer
+.img:https://img.pvme.io/images/D6M7KtAfBS.png
+*Note: a **Table of Contents** can be found in the pins.*
+
+.
+## __Introduction__
+.tag:intro
+In order to fight Rasial you must complete the [Alpha vs Omega](<https://runescape.wiki/w/Alpha_vs_Omega>) quest. Rasial deals Necromancy and typeless damage, and can only be killed using Necromancy.
+
+.
+## __Positioning__
+.tag:positioning
+.img:https://img.pvme.io/images/z4ifLrUqck.png
+⬥ The tile shown above serves as a safespot for the ghost wall mechanic.
+    • This tile is ideal as it keeps you 5 tiles away for quicker <:deathskulls:1159434663903899728>
+    • For the soul obelisks, you may run 4 tiles west (toward obelisk), and 2-4 east.
+        ⬩ Doing this allows <:deathskulls:1159434663903899728> to kill one of the soul obelisks.
+        ⬩ This is only recommended if you have the ruthless perk.
+⬥ For an in-game example of the correct tile being used, [click here](<https://img.pvme.io/images/N8u6ViKvDL.mp4>).
+
+.
+## __Mechanics__
+.tag:mechanics
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Dive__",
+        "value": "⬥ Before the last phase, Rasial uses <:dive:1049378668197195808> to avoid the player if the player stands within a 2 square radius (scythe range) of him.\n\u00a0\u00a0\u00a0\u00a0• It is not feasible to use <:spectralscythe:1137809145706319892> against him.\n\u00a0\u00a0\u00a0\u00a0• Getting this mechanic may cancel <:deathskulls:1159434663903899728> bounces.\n\u200B"
+      },
+      {
+        "name": "__Conjure familiars__",
+        "value": "⬥ Rasial can conjure skeletal warriors <:conjureskeleton:1159434516658651147> and putrid zombies <:conjurezombie:1137809200219684924> to attack the player.\n\u00a0\u00a0\u00a0\u00a0• Unlike the player, he can conjure multiple of each.\n\u00a0\u00a0\u00a0\u00a0• It's recommended to ignore them throughout the fight.\n\u200B"
+      },
+      {
+        "name": "__Soul stacks__",
+        "value": "⬥ Rasial can gain <:residualsoul:1139453152169558046> and use <:soulsap:1137809140476031057> like the player, and holds up to 5 stacks, shown by green orbs under his health bar.\n\u00a0\u00a0\u00a0\u00a0• At 5 stacks, he shouts **'This is true power!'** and uses <:volleyofsouls:1159435029592686642>. Flick <:deflectnecromancy:1137809111178813471> (+ <:devo:513190158728953857> if needed) to avoid taking heavy damage.\n\u00a0\u00a0\u00a0\u00a0• The rotations outlined below should skip this mechanic consistently.\n\u200B"
+      },
+      {
+        "name": "__Soul obelisk__",
+        "value": "⬥ At 700k HP, Rasial summons 2 soul obelisks with 12,000 HP each.\n\u00a0\u00a0\u00a0\u00a0• They each have a bar which fills repeatedly. Upon filling, Rasial will get a <:residualsoul:1139453152169558046> stack.\n\u00a0\u00a0\u00a0\u00a0• It's recommended to ignore this mechanic and focus on DPSing the boss.\n\u200B"
+      },
+      {
+        "name": "__Spirit wall__",
+        "value": "⬥ Rasial summons a wall of 7 ghosts behind the player which moves forward, dealing heavy typeless damage upon contact.\n\u00a0\u00a0\u00a0\u00a0• If using movement abilities <:surge:535533810004262912> <:dive:1049378668197195808> to avoid this stay within 5 tiles of Rasial for <:deathskulls:1159434663903899728>\n\u200B\u00a0\u00a0\u00a0\u00a0• Standing next to the barrier will avoid ghosts entirely.\n\u200B"
+      },
+      {
+        "name": "__Spectral scythe__",
+        "value": "⬥ Rasial pulls the player to him and uses <:spectralscythe:1137809145706319892>, shouting **'I will reap your soul!'**\n\u200B"
+      },
+      {
+        "name": "__Phase 4__",
+        "value": "⬥ At 200K HP, Rasial jumps to the upper deck of the citadel and briefly becomes immune, remaining stationary and stopping all mechanics mentioned above.\n\u00a0\u00a0\u00a0\u00a0• Necrotic explosions will occur, following the player. If hit, players take heavy Necromancy damage. Rasial's auto attacks are also always empowered, dealing double damage and disabling protection prayers <:antitheism:787523880281047040>"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __Requirements__
+.tag:reqs
+The rotations may not work as well as intended if any of the following are missing:
+⬥ Undead damage boosts <:salveamulet:797899945730244648> / <:undeadslayer:641339922019516416> / <:undeadslayerperk:689502804720615441>
+⬥ <:igneouskalmor:1139200072438005851> / <:igneouskalzuk:902209626479685734> for <:deathskulls:1159434663903899728>
+⬥ Conservation of Energy <:conservationofenergy:697808773711921195>
+⬥ Fury of the Small <:furyofthesmall:697808773917573233>
+⬥ Invigorating 4 <:invig4:712073087859949570>
+⬥ Equilibrium 4 <:eq4:712073088589627505> (Can downgrade at the cost of damage)
+⬥ Use <:hellhoundpouch:921410226475925514> to mitigate damage taken or <:ripperpouch:703581275453128714> without <:ripperscroll:703581275155464203>
+⬥ The Lunar spellbook can be used for <:veng:543478434953822208>
+⬥ All of the Necromancy talent tree unlocked.
+    • Greater bone shield <:greaterboneshield:1137809118283976814> active.
+
+.
+## __Presets and Relics__
+.tag:preset
+⬥ [T90 Equilibrium](<https://presets.pvme.io?id=63366c75-7dcb-4514-a8a4-723577a98b92>)
+⬥ [Equilibrium](https://presets.pvme.io?id=b0990b37-3c9e-43c2-9cd0-d22570a3a8f6)
+.
+
+.
+## __T90 Equilibrium Rotation__ <:eq4:712073088589627505>
+.tag:rot_t90_equi
+**WRITTEN BEFORE THE REMOVAL OF AURAS.**
+**EQUILIBRIUM PERK SHOULD WORK BUT NEEDS VERIFICATION**
+
+⬥ This rotation seeks to consistently hit around ~1:45 kill times.
+    • Will require more improv for lower level setups.
+⬥ <:undeadslayer:641339922019516416> and <:nip:537336877900890135> help but are **not** required.
+⬥ Skip <:invokedeath:1137809121983336548> if using <:dealertop80:1142783476169441401> armour.
+
+.
+### Pre-build
+<:conjurearmy:1166094935066423348> → <:lifetransfer:1137809128136388819> → <:invokedeath:1137809121983336548> + *enter instance* → <:commandghost:1159434409913634816> + <:surge:535533810004262912> + <:enhancedexcalibur:513200949016264727> → <:commandskeleton:1137809194423160883> → <:reflect:535541258786177064> + <:nip:537336877900890135>
+
+.
+### Phase 1-3
+Pre Living Death
+(tc) + <:vulnbomb:655341074235129858> + <:bloat:1159433682403201044> → <:soulsap:1137809140476031057> → <:deathskulls:1159434663903899728> → <:touchofdeath:1137809175980810380>
+
+<:soulsap:1137809140476031057> → <:necrobasic:1482849360462086244> → <:necrobasic:1482849360462086244> → <:soulsap:1137809140476031057> → <:commandskeleton:1137809194423160883>
+
+Living Death
+<:livingdeath:1159434908486357072> + <:adrenrenewal:736298121704767538> → <:touchofdeath:1137809175980810380> → <:deathskulls:1159434663903899728> → <:divert:787904334377648130> → <:splitsoul:1137809168368148490> → <:volleyofsouls:1159435029592686642> → <:soulsap:1137809140476031057> → <:fingerofdeath:1159434801938432010> → <:commandskeleton:1137809194423160883>
+
+<:deathskulls:1159434663903899728> + *2t* <:undeadslayer:641339922019516416> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:fingerofdeath:1159434801938432010> → <:soulsap:1137809140476031057> → <:volleyofsouls:1159435029592686642> → <:necrobasic:1482849360462086244> / <:fingerofdeath:1159434801938432010> (*if stacks*) → <:deathskulls:1159434663903899728>
+
+*Note: <:livingdeath:1159434908486357072> and <:adrenrenewal:736298121704767538> are used on the same tick.*
+
+Post Living Death
+<:soulsap:1137809140476031057> → <:bloat:1159433682403201044> → <:commandskeleton:1137809194423160883> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:soulstrike:1137809142376058910> → <:necrobasic:1482849360462086244> / <:fingerofdeath:1159434801938432010> → <:soulsap:1137809140476031057> → <:soulstrike:1137809142376058910> → <:necrobasic:1482849360462086244> / <:fingerofdeath:1159434801938432010> → *improv*
+
+.
+### Phase 4
+<:lifetransfer:1137809128136388819> + <:vulnbomb:655341074235129858> → <:deathskulls:1159434663903899728> → <:limitless:641339233638023179> + <:powerburstofvitality:654618235097972737> + <:reflect:535541258786177064> → <:commandskeleton:1137809194423160883> → <:fingerofdeath:1159434801938432010> → <:deathguard90:1138809243143766118> <:spec:537340400273195028> → <:soulsap:1137809140476031057> → <:volleyofsouls:1159435029592686642> → <:touchofdeath:1137809175980810380> → <:commandzombie:1137809191231295549> → <:fingerofdeath:1159434801938432010> → *improv*
+
+*Note: <:lifetransfer:1137809128136388819> is optional, but may be used during immunity or phase 3.*
+
+.
+## __Equilibrium Rotation__ <:eq4:712073088589627505>
+.tag:rotequi
+⬥ This rotation seeks to consistently hit around ~1:03-1:13.2 kill times.
+    • Will be slower without Innate Mastery enhancement <:shardofgenesisessence:1266418218264694954>
+    • <:scriptureofjas:869284342839513108> has the potential for better times but is more variable due to proc timings
+⬥ At specific points during the encounter you may <:veng:543478434953822208>
+    • After the 3rd <:soulsap:1137809140476031057>
+    • **Tank** the first explosion of P4, and then <:disrupt:535614336207552523>
+⬥ **NOTE:** Using <:deathskulls:1159434663903899728> too early will result in the first bounce becoming immune.
+    • The correct timing of <:deathskulls:1159434663903899728> is the **same tick** as the "Ha! No more games!" message.
+
+.
+### Pre-build
+<:conjurearmy:1166094935066423348> + *enter instance* → <:invokedeath:1137809121983336548> + <:surge:535533810004262912> → <:commandghost:1159434409913634816> + <:surge:535533810004262912> → <:commandskeleton:1137809194423160883> + <:vulnbomb:655341074235129858> *(walk to tile shown above)*
+
+.
+### Phase 1-3
+Pre Living Death
+(tc) → <:deathskulls:1159434663903899728> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:necrobasic:1482849360462086244> → <:soulsap:1137809140476031057>
+
+Living Death
+<:livingdeath:1159434908486357072> + <:adrenrenewal:736298121704767538> → <:touchofdeath:1137809175980810380> → <:deathskulls:1159434663903899728> → <:soulsap:1137809140476031057> → <:splitsoul:1137809168368148490> → <:divert:787904334377648130> → <:bloat:1159433682403201044> → <:soulsap:1137809140476031057> → <:commandskeleton:1137809194423160883>
+
+<:deathskulls:1159434663903899728> + *2t* <:undeadslayer:641339922019516416> → <:fingerofdeath:1159434801938432010> → <:touchofdeath:1137809175980810380> → <:soulsap:1137809140476031057> → <:volleyofsouls:1159435029592686642> → <:fingerofdeath:1159434801938432010> → <:soulsap:1137809140476031057>
+
+<:deathskulls:1159434663903899728> → <:bloat:1159433682403201044> → <:soulsap:1137809140476031057> → <:touchofdeath:1137809175980810380> → <:necrobasic:1482849360462086244> → <:soulsap:1137809140476031057> → *improv*
+
+*Note: <:livingdeath:1159434908486357072> and <:adrenrenewal:736298121704767538> are used on the same tick.*
+
+.
+### Phase 4
+<:commandskeleton:1137809194423160883> / <:necrobasic:1482849360462086244> → <:deathskulls:1159434663903899728> → <:soulsap:1137809140476031057> → <:omniguard:1138809234922934282> <:spec:537340400273195028> / <:fingerofdeath:1159434801938432010> → <:volleyofsouls:1159435029592686642> → <:touchofdeath:1137809175980810380> / <:necrobasic:1482849360462086244> → <:deathguard90:1138809243143766118> <:spec:537340400273195028> → *improv*
+
+.
+.tag:optimisation
+{
+  "embed": {
+  "title": "Optimisation Notes",
+    "description":"⬥ Rasial can be lured near to one of the soul obelisks, allowing <:deathskulls:1159434663903899728> to bounce to it and kill it, granting an additional ruthless stack and slowing his soul buildup.\n\n⬥ <:salveamulet:797899945730244648> boost is applied on cast and <:eof:787526151978614824> on hit, swapping between these amulets can boost your <:splitsoul:1137809168368148490> damage for major hits <:deathskulls:1159434663903899728> <:volleyofsouls:1159435029592686642> <:fingerofdeath:1159434801938432010>\n\u00a0\u00a0\u00a0\u00a0• Swapping to <:eof:787526151978614824> before the pre-build allows conjures to spawn with higher ability damage.\n\n",
+    "color": 39423
+   }
+}
+.embed:json
+
+.tag:example
+{
+  "embed": {
+"title": "",
+    "description": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Example Kills__",
+        "value": "⬥ [T90 Equilibrium Example Kill](https://www.youtube.com/watch?v=dmGZMGVz9X0)\n⬥ [Fast Equilibrium Example Kill](https://youtu.be/8P7oT87aq4k)\n⬥ [Equilibrium Example Kills](https://youtu.be/DXIcm1rL0XA)"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+Content Provided by: <@333479049680650241>
+Formatting Maintained by: <@1080778657917833246>
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Positioning]($linkmsg_positioning$)\n⬥ [Mechanics]($linkmsg_mechanics$)\n⬥ [Requirements]($linkmsg_reqs$)\n⬥ [Preset and Relics]($linkmsg_preset$)\n⬥ [T90 Equilibrium Rotation]($linkmsg_rot_t90_equi$)\n⬥ [Equilibrium Rotation]($linkmsg_rotequi$)\n⬥ [Optimisation Notes]($linkmsg_optimisation$)\n⬥ [Example Kills]($linkmsg_example$)",
+    "color": 39423
+    }
+}
+.embed:json
+.pin:delete

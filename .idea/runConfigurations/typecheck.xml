@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="typecheck" type="js.build_tools.npm" nameIsGenerated="false" folderName="Build &amp; Test">
+    <description value="tsc --noEmit: type-check the whole project without producing output." />
+    <package-json value="$PROJECT_DIR$/package.json" />
+    <command value="run" />
+    <scripts>
+      <script value="typecheck" />
+    </scripts>
+    <node-interpreter value="project" />
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>

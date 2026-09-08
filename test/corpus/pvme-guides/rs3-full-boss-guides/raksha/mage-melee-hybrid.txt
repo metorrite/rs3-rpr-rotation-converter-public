@@ -1,0 +1,59 @@
+# Magic-Melee Hybrid Raksha Guide
+.img:https://img.pvme.io/images/84XEYnJq1T.png
+*Note: a **Table of Contents** can be found in the pins.*
+
+.
+## __Introduction__
+.tag:intro
+This is an **advanced guide** which assumes a strong underlying knowledge of all mechanics and information presented in <#1020559920669663304>.
+
+.
+## __Presets and Relics__
+.tag:presets
+⬥ [Magic-Melee Hybrid](https://presets.pvme.io?id=d6864245-5879-45e7-9ad0-b88c0b3deb60)
+.
+
+.
+## __Rotations__
+.tag:rotations
+### Pre-fight
+**War's Retreat**
+<:dba:603979368850653216> <:spec:537340400273195028> → s<:meteor_strike:1478070401702821938>
+
+**Instance Dummy**
+r<:meteor_strike:1478070401702821938> + <:annihilation:796989662983094275> <:eofspec:1257438999794946099> → s<:adaptivestrike:1478062906057949417> → <:berserk:535532854004678657> → <:gbarge:535532879250456578> → <:gfury:535532879334080527> → s<:overpower:535532879334080517>
+
+*Note: may use curses but regular prayers are slightly faster.*
+
+.
+### Phase 1
+r<:overpower:535532879334080517> + <:assault:535532855191928842> → <:varanussmercy:1448697873603498045> <:eofspec:1257438999794946099> → <:rend:1478166426190741584> → <:smokecloud:856635090641879050> (if not phased use <:adaptive_strike:1478062906057949417> or <:lengmh:883134308146098227> <:spec:537340400273195028>)
+
+.
+### Phase 2
+<:overpower:535532879334080517> → (5t) <:assault:535532855191928842> → <:chaos_roar:1478062908767211640> → <:varanussmercy:1448697873603498045> <:eofspec:1257438999794946099>
+
+.
+### Phase 3
+(7t) <:gflurry:535532879283879977> → <:overpower:535532879334080517> → <:lengmh:883134308146098227> <:spec:537340400273195028> → <:fsoa:869284271595069451> <:spec:537340400273195028> + <:adrenrenewal:736298121704767538>
+
+.
+### Phase 4
+<:gconc:1478063111104757760> → <:dbreath:535533833391702017> → <:exsanguinate:856635090745950258> + <:tsunami:535533809995874304> → <:gsonic:1478063117211668584> → <:gsunshine:994644352871714836> → <:gconc:1478063111104757760> → <:asphyx:535533833072672778> → <:runic_charge:1478063122345361562> + <:gconc:1478063111104757760> → <:omni:535533809664262179> → <:wm:535533809978966037> → improv
+
+.
+## __Example Kills__
+.tag:example
+⬥ [Magic-Melee Hybrid Example](https://youtu.be/iCcT2sbQaaQ)
+.
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Preset]($linkmsg_presets$)\n⬥ [Rotations]($linkmsg_rotations$)\n⬥ [Example Kills]($linkmsg_example$)",
+    "color": 39423
+  }
+}
+.embed:json
+.pin:delete

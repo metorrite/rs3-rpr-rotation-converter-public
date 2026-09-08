@@ -1,0 +1,283 @@
+> ## ⚠️ Disclaimer
+> **Some methods in this guide may not work after the combat changes made in Q1 of 2026.**
+> Know of a newer method/rotation? Got a video? Share it in <#1020853673317908500>!
+
+.
+## __Introduction__
+.tag:intro
+.
+⬥ There are 4 types of dinosaurs (slayer monster), all of which are found on Anachronia:
+    • Feral dinosaurs <:feraldinosaur:1004107322882261072> - 90 <:slayer:797896049548066857>
+    • Venomous dinosaurs <:venomousdinosaur:1004107319166107689> - 105 <:slayer:797896049548066857>
+    • Brutish dinosaurs <:brutishdinosaur:1004107321087103179> - 99 <:slayer:797896049548066857>
+    • Ripper dinosaurs <:ripperdinosaur:1004107317450641438> - 114 <:slayer:797896049548066857>
+
+⬥ Dinosaurs are only assigned by Laniakea <:laniakea:975284345411600426> and **CANNOT** be placed in the player owned dungeon.
+
+⬥ All of them attack with <:melee:1096130867279171706>
+    • This makes the best style to use against them <:magic:689504724159823906>, followed by <:melee:1096130867279171706>
+    • <:range:580168050121113623> should not be used for any dinosaur tasks.
+
+.
+### Desirable Drops
+.tag:drops
+.
+All dinosaurs have the **same drop rates for uniques and Totem pieces**. It is thus recommended to kill **Venomous Dinosaurs** <:venomousdinosaur:1004107319166107689> if your <:slayer:797896049548066857> level is high enough as they have the highest KPH.
+
+⬥ Dinosaur tooth - 1/800
+    • Needed for T3 Slayer Lodge for Slayer Helmet <:slayerhelm:798285340460449792> stand
+⬥ Blowpipe pieces <:upgradedboneblowpipe:925794591830056961> - 1/6,000 on-task, 1/20,000 off-task
+⬥ Totem of auras middle <:vitalitytotem:643507594811670538> - 1/300
+⬥ Totem of Summoning middle <:summtotem:643507594811539499> - 1/300
+⬥ Totem of intimidation base <:intimidationtotem:643507594794631198> - 1/300
+⬥ Dinosaur rib bone - 1/1,000
+    • Needed for T3 Player Lodge for Skillcape stand
+
+**During the Roar of Osseous, blowpipe and totem pieces have a 10% increase in drop rate.**
+
+.
+### Useful Items
+.tag:items
+.
+{
+  "embed": {
+    "title": "__Useful Items and Unlocks__",
+    "description": "Improves KPH/Exp rates/QoL.",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Items__",
+        "value": "⬥ [**Abyssal Armour Spikes (alloy)**](https://runescape.wiki/w/Abyssal_armour_spikes_(alloy)) <:abyssalarmourspikesalloy:947871842541129768>\n\u00a0\u00a0\u00a0\u00a0• Increases <:poisonicon:944649693500154006> hits and healing via the <:VampScrim:513201294262009874>\n\u00a0\u00a0\u00a0\u00a0• Other tiers of armour spikes <:armourspike:1004090524669587517> <:armourspikealloy:756235792053174332> work as well.\n⬥ [**Essence of Finality**](https://runescape.wiki/w/Essence_of_Finality_amulet) with a [**Dragon Halberd**](https://runescape.wiki/w/Dragon_halberd) <:eof:787526151978614824> <:dragonhalberd:841409589261238282>\n\u00a0\u00a0\u00a0\u00a0• Good AoE spec to use if killing them actively with <:melee:1096130867279171706>\n⬥ [**Necklace of Salamancy**](https://runescape.wiki/w/Necklace_of_Salamancy) <:necklaceofsalamancy:970657245312467004>\n\u00a0\u00a0\u00a0\u00a0• Provides a 10% accuracy and damage buff wild fighting dinosaurs.\n\u200B"
+      },
+      {
+        "name": "__Passive unlocks__",
+        "value": "⬥ [**Restocking Cannon Ability**](https://runescape.wiki/w/Artisans'_Workshop_Reward_Shop)\n\u00a0\u00a0\u00a0\u00a0• Allows <:cannon:869283142350041098> restocking without user input.\n⬥ [**Anachronia slayer lodge**](https://runescape.wiki/w/Anachronia_base_camp#Slayer_Lodge)\n\u00a0\u00a0\u00a0\u00a0• Tiers 1, 2 and 3 increases damage dealt on Anachronia monsters by 1%. 3%, and 6% respectively."
+      }
+    ]
+   }
+}
+.embed:json
+.
+.img:https://img.pvme.io/images/Cq64oeS.png
+.
+## __Venomous Dinosaurs__
+.tag:venomous
+.
+Venomous dinosaurs are the go-to for dinosaur tasks as they have the highest kills per hour of any dinosaur.
+
+.
+### Stats
+⬥ <:combat:797896050370281523> XP per kill : 1378 + 454.7 <:Constitution:689509250887712902>
+⬥ <:slayer:797896049548066857> XP per kill : 1332
+⬥ Optimal kills per hour: 480
+⬥ Optimal <:slayer:797896049548066857> XP per hour : ~640k
+
+.
+### Location and How to Get There
+.tag:location
+.
+⬥ Venomous Dinosaurs are located on the northwestern part of Anachronia, easily accessed by using <:nwanachronia:1354420110772928512> and heading east.
+
+⬥ Place the cannon <:cannon:869283142350041098> on the yellow square and stand on the green square shown in the image below. This effectively aggros 5 dinosaurs. This works for all three methods.
+    • If a dinosaur is getting stuck on the bone to the south while using Melee <:melee:1096130867279171706>, stand 1 tile east.
+
+.img:https://img.pvme.io/images/WOzKMPVw24.png
+
+.
+## __Method: Active and AFK Melee__
+.tag:venomelee
+⬥ Pray <:DeflectMelee:544195488447201300> and <:turmoil:583429936606347280> / <:malevolence:513190159416557573>
+⬥ Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226> / <:penanceaspect:1494069332584693810>
+⬥ <:enhdev4:712073087507628035> may be used to prevent excess damage.
+⬥ The Corbicula Rex <:corbicula:690136117273821280> perk from Ranch out of Time can increase KPH.
+
+.
+## __Presets and Relics__
+⬥ [Melee preset](https://presets.pvme.io?id=51882ae9-509d-4e67-be76-59f676e6a71c) <:melee:1096130867279171706>
+.
+
+.
+### Action Bar
+.
+.img:https://img.pvme.io/images/bLMRGXzCII.png
+
+.
+## __Method: AFK Magic__
+.tag:afkvenomage
+Thanks to the Venomous Dinosaurs' higher affinity to <:Magic:689504724159823906> (and susceptibility to <:inquisitorstaff:694566917553520680>) and damage reduction provided by <:animatedead:856635090453135382> and Cryptbloom Armour <:cryptbloomtop:1334336168363561041>, <:magic:689504724159823906> can achieve a similar or slightly higher KPH than melee at **~480** KPH, while being both very safe and AFK.
+
+.
+## __Presets and Relics__
+⬥ [Magic preset](https://presets.pvme.io/?id=MopjYBuvJUpsaspbD93p) <:magic:689504724159823906>
+.
+***Note**: Prism of Restoration <:prismofrestoration:938475261366784070> should be cast at least every 5min to keep <:reaverpouch:839903693837959228> alive.*
+***Note**: This preset assumes the player has their <:slayerhelm:798285340460449792> in the Anachronia Stand.*
+
+.
+### Action Bar
+.img:https://img.pvme.io/images/1sj0CK2.png
+    • *Note: if <:magmatempest:902209626509025290> and/or <:gchain:1257440278512537740> are not owned, simply ignore them and move the remaining abilities closer to the left. <:gsunshine:994644352871714836> is by no means a requirement, but can slightly improve KPH.*
+
+.
+## __Method: AFK Necromancy__
+.tag:afkvenonecro
+Thanks to Necromancies sustain with <:conjureghost:1137809206423060632> and <:bloodsiphon:1159434279311380532>, as well as its strong aoe damage potential with <:soulstrike:1137809142376058910> and <:spectralscythe:1137809145706319892>, it can effectively AFK Venomous Dinosaurs. Around 450-470kph can be achieved on task with this method while being safe and AFK with low input costs.
+
+⬥ Pray <:DeflectMelee:544195488447201300> and <:sorrow:1137941003895046284> / <:ruination:1137940996391452772>
+⬥ Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226> / <:penanceaspect:1494069332584693810>
+⬥ Upkeep <:elderovl:841419289831800882>, <:aggressionpotion:925794592199147581>, <:superprayerrenewal:547603714681339915> and <:weppoison:689525476158472288> at all times.
+⬥ Use <:cannon:869283142350041098> to help aggroing the dinosaurs.
+
+.
+## __Presets and Relics__
+⬥ [Necromancy preset](https://presets.pvme.io?id=758cb45a-c742-4df1-92fb-ac1698546b93) <:necromancy:1148995625896120460>
+.
+
+.
+### Action Bar
+.img:https://img.pvme.io/images/aVsKFtymtR.png
+
+.
+### Video Example
+.tag:venomousvideo
+[Melee active](<https://youtu.be/wSqeBdw2cVE>)
+[Necromancy AFK](<https://www.youtube.com/watch?v=3Z3n6q4v0ps>)
+
+.
+.img:https://img.pvme.io/images/lqGkdJ79ji.png
+.
+## __Other dinosaurs__
+.tag:others
+.
+It is only recommended to kill other dinosaurs if you do not have the level for Venomous dinosaurs or if collecting their souls in <:ushabti:1097515642749468752>. Bars for all these dinosaurs might be sub-optimal, if you find a better bar please make a post in <#1020853673317908500>.
+
+.
+### Rates
+⬥ Feral Dinosaur <:feraldinosaur:1004107322882261072> ~300kph
+⬥ Brutish Dinosaur <:brutishdinosaur:1004107321087103179> ~200kph
+⬥ Ripper Dinosaur <:ripperdinosaur:1004107317450641438> ~200kph
+
+.
+### Location and How to Get There
+.tag:locationothers
+⬥ <:brutishdinosaur:1004107321087103179> are located east of <:venomousdinosaur:1004107319166107689>, following the **northern** path at the fork in the road.
+    • <:feraldinosaur:1004107322882261072> are in the same area, but found by following the **south** path.
+⬥ For <:ripperdinosaur:1004107317450641438>, teleport to <:laniakea:975284345411600426> using the <:slayercape:975284344123953164> and walk north.
+
+.
+### Method: Melee AFK - Feral and Brutish
+.tag:feralafk
+This method is viable for both <:feraldinosaur:1004107322882261072> and <:brutishdinosaur:1004107321087103179>, but not <:ripperdinosaur:1004107317450641438>
+
+⬥ Pray <:DeflectMelee:544195488447201300> and <:turmoil:583429936606347280> / <:Malevolence:513190159416557573>
+⬥ Upkeep <:elderovl:841419289831800882> and <:weppoison:689525476158472288> at all times.
+⬥ Bring some emergency food or <:reaverscroll:1022562484378419284> for healing if having issues with HP.
+⬥ Ensure <:vampscrim:513201294262009874> is active.
+⬥ Ensure <:autoretaliate:1084799717726228530> is active.
+⬥ Use <:cannon:869283142350041098> for aggro.
+
+.
+## __Presets and Relics__
+
+⬥ [Melee preset](https://presets.pvme.io/?id=N1yeCIBMIEm8BgJvhRZN) <:melee:1096130867279171706>
+
+.
+### Where to Stand
+Player position (yellow) and cannon position (red) for Feral and Brutish dinosaurs respectively.
+.
+.img:https://img.pvme.io/images/xdwdy8F.png
+.
+.img:https://img.pvme.io/images/NsU5cgR.png
+.
+### Action bar
+⬥ Feral dinosaurs <:feraldinosaur:1004107322882261072> - Remove <:zerk:535532854004678657> and <:Tuskas:513201065513058306> if off-task.
+.
+.img:https://img.pvme.io/images/gQpI1Gv.png
+.
+⬥ Brutish dinosaurs <:brutishdinosaur:1004107321087103179> - Remove <:Tuskas:513201065513058306> if off-task.
+.
+.img:https://img.pvme.io/images/BUlsZhU.png
+.
+### Method: AFK Magic - Ripper
+.tag:ripperafk
+Ripper dinosaurs <:ripperdinosaur:1004107317450641438> are highly damaging and generally not worth doing unless getting a soul <:ushabti:1097515642749468752>. They can only be reliably AFK'd with multiple pieces of Cryptbloom <:cryptbloomhelm:1334336169336373339> and with Vampyrism aura <:vampaura:643505653079343144>. The method below may not work if cutting corners such as not having <:omnipowerigneous:1179505745654448208>
+
+⬥ Pray <:DeflectMelee:544195488447201300> and <:torment:583429936958930964> / <:Affliction:513190158468907008>
+⬥ Ensure <:animatedead:856635090453135382> is active at all times.
+⬥ Ensure <:elderovl:841419289831800882> and <:weppoison:689525476158472288> is active.
+⬥ Ensure <:autoretaliate:1084799717726228530> is active before stocking the <:cannon:869283142350041098>
+
+.
+## __Presets and Relics__
+
+⬥ [Magic preset](https://presets.pvme.io/?id=fu9akCKqeq84DP1a5xGi) <:magic:689504724159823906>
+
+
+.
+### Action bar
+.
+.img:https://img.pvme.io/images/cpC7pDh.png
+.
+### Where to Stand
+Place the cannon on the tile as shown below and stand close to it (specific tile not important).
+.
+.img:https://img.pvme.io/images/GJYFEsW.png
+.
+### Video Examples
+.tag:othervideos
+[Melee AFK (Feral dinosaurs)](<https://youtu.be/46Ce1ZpU4BY?si=SQfm-dEwAUapCW8g>)
+[Melee AFK (Brutish dinosaurs)](<https://youtu.be/lzzZCmpRJRg>)
+[Magic AFK (Ripper dinosaurs)](<https://youtu.be/pox00C4NLJI>)
+
+.
+## Method: AFK Necromancy - Ripper
+.tag:afkrippernecro
+⬥ Pray <:DeflectMelee:544195488447201300> and <:sorrow:1137941003895046284> or <:ruination:1137940996391452772>
+⬥ Upkeep <:elderovl:841419289831800882>, <:superprayerrenewal:547603714681339915> and <:weppoison:689525476158472288> at all times.
+⬥ Use <:cannon:869283142350041098> to help aggroing the dinosaurs.
+
+.
+## __Presets and Relics__
+
+⬥ [Necromancy preset](https://presets.pvme.io/?id=9mYyxkdP3FCGVGtk3hbS) <:necromancy:1148995625896120460>
+
+
+.
+### Action Bar
+.img:https://img.pvme.io/images/VzU5UPLxwl.png
+
+.
+### Video Example
+.tag:necroripper
+.
+⬥ [Necromancy Rippers](<https://www.youtube.com/watch?v=KlNjVQmRSks>)
+⬥ [Necromancy Feral](<https://youtu.be/vhxLU3bQWOE>)
+.
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*",
+    "color": 15158332,
+    "fields": [
+      {
+        "name": "__Overview__",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Desirable Drops]($linkmsg_drops$)\n⬥ [Useful Items and Unlocks]($linkmsg_items$)",
+        "inline": true
+      },
+      {
+        "name": "__Venomous dinosaurs__",
+        "value": "⬥ [Introduction]($linkmsg_venomous$)\n⬥ [Location and How to Get There]($linkmsg_location$)\n⬥ [Method: Active/AFK Melee]($linkmsg_venomelee$)\n⬥ [Method: AFK Magic]($linkmsg_afkvenomage$)\n⬥ [Method: AFK Necro]($linkmsg_afkvenonecro$)\n⬥ [Video Examples]($linkmsg_venomousvideo$)",
+        "inline": true
+      },
+      {
+        "name": "__Other dinosaurs__",
+        "value": "⬥ [Introduction]($linkmsg_others$)\n⬥ [Location and How to Get There]($linkmsg_locationothers$)\n⬥ [Method: AFK Melee - Feral and Brutish]($linkmsg_feralafk$)\n⬥ [Method: AFK Magic - Ripper]($linkmsg_ripperafk$)\n⬥ [Video Examples]($linkmsg_othervideos$)\n⬥ [Method: AFK Necro - Ripper]($linkmsg_afkrippernecro$)\n⬥ [Video Examples]($linkmsg_necroripper$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete

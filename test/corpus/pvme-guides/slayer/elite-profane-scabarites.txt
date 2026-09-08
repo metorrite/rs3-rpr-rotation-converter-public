@@ -1,0 +1,166 @@
+# Elite Profane Scabarites
+*Note: a **Table of Contents** can be found in the pins.*
+
+.
+## __Introduction__
+.tag:intro
+[Elite Profane Scabarites](<https://runescape.wiki/w/Elite_Profane_Scabarite>) <:profanescabarite:1333926854666621019> are slayer monsters requiring 87 <:slayer:797896049548066857> to kill. They can be killed off-task, or with either a "Scabarites" or "Profane Scabarites" task for on-task bonuses.
+
+.
+### Stats
+⬥ <:slayer:797896049548066857> level required: 87
+⬥ <:slayer:797896049548066857> XP per kill: 1,890
+⬥ Optimal kills per hour: ~460 <:magic:689504724159823906>, ~618 <:melee:1096130867279171706>
+⬥ Optimal <:slayer:797896049548066857> XP per hour: ~869k <:magic:689504724159823906>, ~1.17m <:melee:1096130867279171706>
+
+.
+### __Desirable drops__
+.tag:drops
+⬥ The Spectral Lens <:spectrallens:1334309383831818342> which is the Necromancy slayer helm component.
+⬥ Killing 200 Elite Profane Scabarites while wielding the [Primed keris](<https://runescape.wiki/w/Primed_keris>) <:primedkeris:1334318822269780028> upgrades it to a [Consecrated keris](<https://runescape.wiki/w/Consecrated_keris>) <:consecratedkeris:1334318846202478615>
+
+.
+## __Location and How to Get there__
+.tag:location
+⬥ Elite Profane Scabarites can be fought in the [Temple of Isolation](<https://runescape.wiki/w/Temple_of_Isolation>) or the [Sunken Pyramid](<https://runescape.wiki/w/Sunken_Pyramid>).
+    • The [Temple of Isolation](<https://runescape.wiki/w/Temple_of_Isolation>) can be reached by taking the boat in the [Scabarite Cavern](<https://runescape.wiki/w/Scabarite_Cavern>).
+    • Once inside the cavern, cross the bridge and take the boat to the temple area.
+
+**Temple of Isolation**
+⬥ If using Melee:
+    • Run up the hill and across the bridge.
+    • Place your cannon south-east of the bridge, just south of the fallen pillar.
+    • Stand underneath your cannon.
+.img:https://img.pvme.io/images/lpLpqZGa6v.png
+⬥ If using Magic:
+    • Run up the hill and across the bridge.
+    • Place your cannon at the top of the stairs, in the middle of the platform outside the door.
+    • Stand underneath your cannon.
+.img:https://img.pvme.io/images/k8SWWEzgSJ.png
+
+.
+**Sunken Pyramid**
+.img:https://img.pvme.io/images/mGGioEKQkA.png
+⬥ If killing Elite Profane Scabarites in the [Sunken Pyramid](<https://runescape.wiki/w/Sunken_Pyramid>), use a <:slayercodex:1097517249499254875>
+    • Relocating your house to Menaphos and using a teleport to house tablet also works.
+    • Place 5 Elite Profane Scabarites in the small room, and position yourself 7 tiles south of the northern statue.
+
+.
+## __Method: Sunken Pyramid AFK__
+.tag:pod
+Before starting the session, check the following:
+
+**Magic** <:magic:689504724159823906>
+⬥ Pray <:deflectmelee:544195488447201300> and <:torment:583429936958930964> or <:affliction:513190158468907008>
+    • Sustain <:prayer:1005450651347730533> with <:holyscarab:929773040273862656> and <:ancientshard:656426717505650708> **or** <:powderofpenance:928221126360969226>
+⬥ Ensure <:holyaggroverload:1049230112849133589> and <:weppoison:689525476158472288> are active at all times.
+⬥ Ensure <:vampyrismaspect:1494069423047442573> is active at all times.
+⬥ Autocast <:incitefear:856635090783567902>
+    • If accuracy issues, use earth spells.
+⬥ Use <:iritsticks:690987265371144202> or <:venomblood:841419289714229258> as antipoison effects are drained.
+
+**Melee** <:melee:1096130867279171706>
+⬥ Equilibrium 4 <:eq4:712073088589627505> > Biting 4 <:biting4:712073087809617931>
+⬥ Pray <:deflectmelee:544195488447201300> and <:turmoil:583429936606347280> or <:malevolence:513190159416557573>
+    • Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226> **or** <:penanceaspect:1494069332584693810> (if not using <:darkness:1137809209782698024>)
+⬥ Ensure <:elderovlsalve:648976643687317532>, <:aggressionpotion:925794592199147581>, and <:weppoison:689525476158472288> are active at all times.
+⬥ Check <:vampscrim:513201294262009874> is active, and ensure <:powderofprotection:933079947419983912> and / or <:darkness:1137809209782698024> are active at all times.
+⬥ Use <:iritsticks:690987265371144202> or <:venomblood:841419289714229258> as antipoison effects are drained.
+
+.
+### __Presets and Relics__
+⬥ [Magic preset](<https://presets.pvme.io?id=72c94344-5d06-4fd9-8b69-c187a32610cd>) <:magic:689504724159823906>
+⬥ [Melee preset](https://presets.pvme.io?id=d575871a-bd6f-4fc1-842e-4c50b6fcdd3f) <:melee:1096130867279171706>
+.
+
+.
+### Ability Bars
+⬥ Magic
+.img:https://img.pvme.io/images/b57yUjEgRL.png
+⬥ Melee
+.img:https://img.pvme.io/images/8C8OjLz5OP.png
+
+.
+### Example Kills
+⬥ [Sunken Pyramid AFK Magic](<https://youtu.be/5N2kGe1fRYM>) <:magic:689504724159823906>
+⬥ [Sunken Pyramid AFK Melee](<https://youtu.be/f8Jdy3gjVdU>) <:melee:1096130867279171706>
+
+.
+## __Method: Temple of Isolation AFK Melee__ <:melee:1096130867279171706>
+.tag:toimelee
+
+.
+> ## ⚠️ Disclaimer
+> **It may be difficult to survive with this method after the Aura changes made on 13/4/2026.**
+
+.
+This method is primarily used to upgrade the [Primed keris](<https://runescape.wiki/w/Primed_keris>) <:primedkeris:1334318822269780028> to a [Consecrated keris](<https://runescape.wiki/w/Consecrated_keris>) <:consecratedkeris:1334318846202478615>
+
+Before loading your <:cannon:869283142350041098> and starting the session, check the following:
+⬥ Pray <:deflectmelee:544195488447201300> and <:turmoil:583429936606347280> or <:malevolence:513190159416557573>
+    • Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226>
+⬥ Ensure <:elderovl:841419289831800882> and <:weppoison:689525476158472288> are active at all times.
+⬥ Upkeep <:darkness:1137809209782698024>
+⬥ Use <:iritsticks:690987265371144202> or <:venomblood:841419289714229258> as antipoison effects are drained.
+⬥ Set an Alt1 alarm for 50% HP in case of bad RNG.
+    • Active <:excal:641337999170207763> when it does.
+
+.
+### __Presets and Relics__
+⬥ [Melee preset](https://presets.pvme.io/?id=KvlhiUI1Ha94ZwCTcd3q) <:melee:1096130867279171706>
+.
+
+.
+### Ability Bars
+.img:https://img.pvme.io/images/soKppb1G6B.png
+
+.
+## __Method: Temple of Isolation AFK Magic__ <:magic:689504724159823906>
+.tag:toimagic
+This method is primarily used to gather souls or for tasks if you don't have souls already, the highest kph can only achieved in the Sunken Pyramid so it is recommended to kill them there instead.
+
+Before loading your <:cannon:869283142350041098> and starting the session, check the following:
+⬥ Pray <:deflectmelee:544195488447201300> and <:torment:583429936958930964> or <:affliction:513190158468907008>
+    • Sustain <:prayer:1005450651347730533> with <:holyscarab:929773040273862656> and <:ancientshard:656426717505650708> **or** <:powderofpenance:928221126360969226>
+⬥ Ensure <:elderovlsalve:648976643687317532> and <:weppoison:689525476158472288> are active at all times.
+⬥ Ensure <:vampyrismaspect:1494069423047442573> is active at all times.
+⬥ Autocast <:bloodbarrage:537338981747261446>
+    • If accuracy issues, use earth spells.
+⬥ Use <:iritsticks:690987265371144202> or <:venomblood:841419289714229258> as antipoison effects are drained.
+⬥ If the south-east Scabarite is stuck on rocks, manually kill it to fix method - will only happen when starting trip.
+
+.
+### __Presets and Relics__
+⬥ [Magic preset](https://presets.pvme.io?id=54f148fb-f6c4-4329-b825-5429ac84affb) <:magic:689504724159823906>
+.
+
+.
+### Ability Bars
+.img:https://img.pvme.io/images/b57yUjEgRL.png
+
+.
+### Example Kills
+⬥ [Temple of Isolation AFK Magic](<https://youtu.be/PZCZR-lNh2s>) <:magic:689504724159823906>
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*",
+    "color": 39423,
+    "fields": [
+     {
+        "name": "__Overview__",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Desirable drops]($linkmsg_drops$)\n⬥ [Location & How to Get there]($linkmsg_location$)",
+        "inline": true
+      },
+      {
+        "name": "__Methods__",
+        "value": "⬥ [Sunken Pyramid AFK]($linkmsg_pod$)\n⬥ [Temple of Isolation AFK Melee]($linkmsg_toimelee$)\n⬥ [Temple of Isolation AFK Magic]($linkmsg_toimagic$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete

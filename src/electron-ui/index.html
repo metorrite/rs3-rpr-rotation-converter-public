@@ -2,37 +2,143 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <title>RSAnalysis to RotationMaster JSON export converter</title>
+    <title>RS3 Rotation Converter</title>
     <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
 <div class="app">
-    <h1>RSAnalysis to RotationMaster JSON export converter</h1>
-    <p class="subtitle">
-        Select the .json file exported from RSAnalysis website to convert to a readable format for Rotation Master Alt1 app.
-    </p>
+    <h1>RS3 Rotation Converter</h1>
 
-    <div class="field-group">
-        <label>Input file</label>
-        <div class="row">
-            <input id="inputFile" type="text" readonly />
-            <button id="browseInputBtn">Browse</button>
+    <div class="tabs">
+        <button class="tab active" data-tab="convert">Convert a file</button>
+        <button class="tab" data-tab="library">Rotation library</button>
+        <button class="tab" data-tab="settings">Settings</button>
+    </div>
+
+    <!-- ============ Convert ============ -->
+    <section id="tab-convert" class="tab-panel active">
+        <p class="subtitle">
+            Convert a rotation between RS Analysis, RotationMaster, and PVME notation.
+        </p>
+
+        <div class="field-group">
+            <label for="inputFile">Input file</label>
+            <div class="row">
+                <input id="inputFile" type="text" readonly placeholder="RSA / RM .json or PVME .txt" />
+                <button id="browseInputBtn">Browse…</button>
+            </div>
         </div>
-    </div>
 
-    <div class="field-group">
-        <label>Output folder</label>
-        <div class="row">
-            <input id="outputFolder" type="text" readonly />
-            <button id="browseOutputBtn">Browse</button>
+        <div class="field-group">
+            <label>Direction</label>
+            <div class="row">
+                <select id="fromFormat">
+                    <option value="auto" selected>Auto-detect</option>
+                    <option value="rsa">RS Analysis</option>
+                    <option value="rm">RotationMaster</option>
+                    <option value="pvme">PVME</option>
+                </select>
+                <span class="arrow">&rarr;</span>
+                <select id="toFormat">
+                    <option value="rm" selected>RotationMaster</option>
+                    <option value="rsa">RS Analysis</option>
+                    <option value="pvme">PVME</option>
+                </select>
+            </div>
         </div>
-    </div>
 
-    <div class="actions">
-        <button id="convertBtn">Convert</button>
-    </div>
+        <div class="field-group">
+            <label for="outputFolder">Output folder</label>
+            <div class="row">
+                <input id="outputFolder" type="text" readonly />
+                <button id="browseOutputBtn">Browse…</button>
+            </div>
+        </div>
 
-    <div id="status" class="status"></div>
+        <div class="actions"><button id="convertBtn">Convert</button></div>
+        <div id="status" class="status"></div>
+        <pre id="report" class="report" hidden></pre>
+    </section>
+
+    <!-- ============ Library ============ -->
+    <section id="tab-library" class="tab-panel">
+        <p class="subtitle">
+            Pick a boss guide, a rotation from it, and a format — then save the file.
+            Rotations come from the bundled PVME guides.
+        </p>
+
+        <div class="field-group">
+            <label for="guideSelect">Boss / guide</label>
+            <select id="guideSelect"><option>Loading…</option></select>
+        </div>
+
+        <div class="field-group">
+            <label for="rotationSelect">Rotation</label>
+            <select id="rotationSelect" disabled></select>
+        </div>
+
+        <div class="field-group">
+            <label for="libFormat">Format</label>
+            <select id="libFormat">
+                <option value="rm" selected>RotationMaster (.json)</option>
+                <option value="rsa">RS Analysis (.json)</option>
+                <option value="pvme">PVME notation (.txt)</option>
+            </select>
+        </div>
+
+        <div class="actions"><button id="saveRotationBtn" disabled>Save rotation…</button></div>
+        <div id="libStatus" class="status"></div>
+        <pre id="libReport" class="report" hidden></pre>
+    </section>
+
+    <!-- ============ Settings ============ -->
+    <section id="tab-settings" class="tab-panel">
+        <p class="subtitle">
+            Tunables for the grey areas where the formats don't map 1:1.
+            Saved on this machine and applied to every conversion.
+        </p>
+
+        <label class="check">
+            <input type="checkbox" id="setWeaponSpec" />
+            <span>
+                <strong>RM &rarr; RSA: treat a lone weapon as its special attack</strong><br />
+                A weapon in a RotationMaster rotation is almost always there to use its
+                special (RS Analysis has no "swap weapon" action). Off = weapons become
+                gear swaps in the extras row.
+            </span>
+        </label>
+
+        <div class="field-group" style="margin-top:16px">
+            <label for="setGcd">RM / PVME &rarr; RSA: ticks between GCD actions</label>
+            <input type="number" id="setGcd" min="1" max="10" style="max-width:90px" />
+            <span class="hint">3 = one global cooldown (1.8s). Channelled abilities always use their real duration.</span>
+        </div>
+
+        <label class="check" style="margin-top:12px">
+            <input type="checkbox" id="setKeepNotes" />
+            <span>
+                <strong>RM &rarr; RSA: keep dropped notes in the rotation name</strong><br />
+                RS Analysis has no per-tick text field. When on, notes like "Portal" are
+                appended to the rotation name instead of being lost.
+            </span>
+        </label>
+
+        <label class="check" style="margin-top:12px">
+            <input type="checkbox" id="setPhaseBlocks" />
+            <span>
+                <strong>PVME &rarr; RM: one block per phase / section</strong><br />
+                Each PVME section (Pre-build, Wars, Phase 1, &hellip;) becomes its own
+                named RotationMaster block. Off = everything in one block.
+            </span>
+        </label>
+
+        <div class="actions">
+            <button id="resetSettingsBtn" class="secondary">Reset to defaults</button>
+        </div>
+        <div id="settingsStatus" class="status"></div>
+    </section>
+
+    <div id="dataVersion" class="data-version"></div>
 </div>
 
 <script src="./renderer.js"></script>

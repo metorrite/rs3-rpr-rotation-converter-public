@@ -1,0 +1,86 @@
+# __Glacors__
+*Note: a **Table of Contents** can be found in the pins.*
+
+.
+## __Introduction__
+.tag:intro
+Glacors are profitable monsters that can be fought on or off task effectively, usually for their Slayer collection log items, or due to consistent profit from making <:armadylbattlestaff:881962727705280512> and opening <:eldertrovewent3:869284271452479488> if fought at the Elder God Wars Dungeon.
+The ability to be assigned Glacors can be unlocked at any Slayer master after completion of Ritual of the Mahjarrat, which also unlocks access to the Glacor Cave.
+
+.
+### __Stats__
+.tag:stats
+⬥ <:slayer:797896049548066857> level: 1
+⬥ XP per kill: 4,810
+⬥ Optimal kills/hr: ~100
+⬥ Optimal XP/hr: ~481,000
+
+.
+### __Desirable drops__
+.tag:drops
+⬥ Steadfast Boots
+⬥ Ragefire Boots
+⬥ Glaiven Boots
+
+.
+## __Location and where to stand__
+Glacors can be found at the Elder God Wars Dungeon, Glacor Cave, and Frozen Plateau (Wilderness), but are best killed at the Elder God Wars Dungeon due to dropping <:eldertrovewent3:869284271452479488> and being generally easier to AFK.
+    • The Glacor Front of the EGWD can be accessed quickly using a boss portal leading to Arch-Glacor.
+There are two viable spots to kill Glacors, which each having pros and cons:
+
+.
+.img:https://img.pvme.io/images/55ufEq0vvx.png
+⬥ This spot allows for the consistent killing of 2 Glacor spawns.
+    • The long spawn time of Glacors can cause a lot of downtime which may cause issues with maintaining <:prayer:1005450651347730533>
+
+.
+.img:https://img.pvme.io/images/KrGtsWEcVF.png
+⬥ This spot allows for the consistent killing of 3 Glacor spawns.
+    • This location is more gear/luck dependant as maintaining max KPH requires fast killing of the Glacors and good Enduring Glacyte luck.
+⬥ Glacytes further North will be killed by some AoE abilities, which may cause them to drop hard to reach <:eldertrovewent3:869284271452479488> as well as being less efficient XP per Glacor kill while on task.
+
+.
+## <:magic:689504724159823906> __AFK Magic__
+.tag:afkmagic
+Magic is the only viable style to AFK Glacors due to Dragon Breath <:dbreath:535533833391702017> and Greater Chain <:gchain:1478063106914779166> being able to hit the spawned Glacytes while targetting the Glacor.
+
+*Note: When starting your hour or killing too slow, you may take the aggro of 2 Glacors at once, be sure to click on the one your character can actually attack, as one will be unable to be damaged*
+
+⬥ Pray <:soulsplit:615613924506599497> and <:torment:583429936958930964> or <:affliction:513190158468907008>
+⬥ Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226> / <:penanceaspect:1494069332584693810>
+⬥ Ensure <:elderovlsalve:648976643687317532> is active.
+
+.
+### __Preset Suggestions__
+⬥ [AFK Magic](https://presets.pvme.io?id=7230797f-23bc-4ea6-b91f-0298a5fb7feb)
+
+.
+### __Action Bars__
+.img:https://img.pvme.io/images/lKvUUdplfY.png
+⬥ Greater Chain <:gchain:1478063106914779166> is required for the 3 Glacor spot.
+
+.
+## __Example Kills__
+.tag:examples
+AFK Magic <:magic:689504724159823906> 2 Glacors spot - [Youtube Link](<https://youtu.be/eJC2tiX20N4>)
+AFK Magic <:magic:689504724159823906> 3 Glacors spot - [Youtube Link](<https://youtu.be/HELoda2mCE8>)
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*",
+    "fields": [
+      {
+        "name": "__Information__",
+        "value": "⬥ [Intro]($linkmsg_intro$)\n⬥ [Stats]($linkmsg_stats$)\n⬥ [Drops]($linkmsg_drops$)",
+        "inline": true
+      },
+      {
+        "name": "__Methods__",
+        "value": "⬥ [AFK Magic <:magic:689504724159823906>]($linkmsg_afkmagic$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json

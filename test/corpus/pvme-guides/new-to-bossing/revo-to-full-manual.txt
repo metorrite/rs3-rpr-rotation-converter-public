@@ -1,0 +1,210 @@
+## __Introduction__
+.tag:intro
+*Note: a **Table of Contents** can be found in the pinned messages.*
+
+Runescape has 3 different combat modes: **revolution (revo)**, **revolution++ (revo++)** and **full manual (FM)**.
+This guide aims to cover what these different game modes are, what a player just starting out might want to use, and how to transition to using full manual.
+
+Combat modes can be configured by going to **Esc > Gameplay Settings > Combat & Action Bar > Combat Mode**.
+
+.
+## __Related Channels__
+.tag:related
+For further information and reading, you can refer to the following resources.
+.
+{
+  "embed": {
+    "title": "__Quick Navigation Links__",
+    "description": "Links to related channels and resources for more info about PvM and DPS.\nUse the **Help Channels** if you want to ask any questions, or post clips/videos for review and feedback.",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Getting Started__",
+        "value": "⬥ <#1020546518941454438>\n⬥ <#1020546905865986068>\n⬥ <#1020547206303985714>",
+        "inline": true
+      },
+      {
+        "name": "__DPM-Advice Channels__",
+        "value": "⬥ <#1252196386452144249>\n⬥ <#1252196384321568893>\n⬥ <#1252196381851127870>\n⬥ <#1236774392936009839>\n⬥ <#1252196383159484519>",
+        "inline": true
+      },
+      {
+        "name": "__Help Channels__",
+        "value": "⬥ <#656898197561802760>\n⬥ <#1021152606455873686>\n⬥ <#1019648841965916220>",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __Revolution (Revo)__
+.tag:revo
+*Note: For a list of of revo/revo++bars, see `!revo`, `!revo++` and `!aoe`.*
+⬥ **Revolution lets the game automatically activate abilities on your ability bar in sequential order** (based on adrenaline and cooldowns).
+⬥ Revo can be configured to activate any combination of:
+    • Basic abilities
+    • Threshold abilities
+    • Enhanced abilities
+    • Ultimate abilities
+⬥ If configured to also use enhanced and ultimate abilities for you, it is referred to as **revo++**.
+⬥ **Remember, you can still provide user input to override revo/revo++ when you want**.
+    • This may be easier with ability queueing on.
+
+.
+### Is Revolution Good?
+⬥ It gives up some control over using your basics but also means less user input is required.
+⬥ Some reasons revo can helpful include:
+    • You're just getting into PvM
+    • Combat seems to have too much to focus on
+    • You want the game to use basics but still have control over stronger abilities.
+⬥ **For most combat situations, you *can* get away with using Revo**
+⬥ There are helpful guides and ability bar setups that can make it work.
+
+.
+### Is Revolution++ Good?
+⬥ Revo++ makes the game far more AFK, by reducing user input significantly.
+⬥ This comes at the cost of flexibility and adaptability to different combat situations.
+⬥ Places where Revo++ is useful:
+    • AFK tasks like Slayer <:slayer:797896049548066857>
+    • Special Revo++ bars *specifically designed for a particular boss*
+⬥ **Ideally avoid Revo++ *outside the above scenarios* → prefer normal Revo everywhere else.**
+
+.
+### Full Manual
+.tag:fm
+### What Is Full Manual
+⬥ **In full manual, you must use every ability you want yourself - the game activates nothing for you.**
+⬥ If no inputs are given, full manual will only use auto attacks.
+⬥ It has a higher skill floor, but also rewards the player for the effort they put into it.
+
+.
+### Is Full Manual Required?
+⬥ Full manual is not required to play or enjoy the game, but progressively harder content will benefit from using it.
+⬥ **It is recommended to learn full manual *at some point*.**
+⬥ Full manual offers more control over what you use:
+    • You can slow down or burst your DPS at important times in a boss fight
+    • You can save abilities for specific scenarios (e.g. stuns for when you need them, or AoE abilities
+
+.
+## __Revo vs. Full Manual - Why You Should Switch!__
+.tag:compare
+In this section, we cover some reasons why full manual is preferable. Afterwards, in __**How to Switch to Full Manual**__, we discuss how you can progress there.
+
+.
+### Ultimate Abilities
+⬥ **You should use ultimates manually even if using Revo** (except for stuff like full AFK slayer, etc.)
+⬥ Good Revo bars will have stronger abilities near the front of the bar so they get used more frequently.
+⬥ This is good for general usage but detrimental for damage-boosting ultimates.
+    • e.g. Sunshine <:sunshine:994921119381463070> / Death's Swiftness <:deathsswift:994921434633744455> / Berserk <:zerk:535532854004678657> / Living Death <:livingdeath:1159434908486357072>
+    • Stronger abilities will likely be on cooldown at the when you use your ultimate, due to being at the front of the revo bar.
+    • Some of the best abilities are bleeds which will be near the front of the revo bar, but bleeds are NOT boosted by damage boosting ultimates.
+⬥ Whereas if you use full manual, you have full control:
+    • Strong abilities can be saved until you are within the ultimate to get more out of them.
+    • Use of bleeds can be reduced/avoided in damage boosting ultimates since you can just choose to not press them.
+    • You can even choose the right time to use your ultimate (e.g. don't use it before the boss becomes immune, etc.)
+
+⬥ The clip below will demonstrate how Revo can make someone use bad abilities in a damage-boosting ultimate. See what abilities were used right after Sunshine <:sunshine:994921119381463070>:
+.img:https://img.pvme.io/images/iwArsuMX77.mp4
+⬥ If using full manual instead, they could have better planned out what abilities to use before using <:sunshine:994921119381463070>
+    • They could have made sure the good abilities like Dragon Breath <:dbreath:535533833391702017> are off cooldown and ready immediately after <:sunshine:994921119381463070>, by using other abilities to build adrenaline like Combust <:combust:1478063107908702482> or the Basic Attack <:magicbasic:1478063104146411713>.
+
+.
+### Boss Mechanics
+As you progress in PvM and face tougher and tougher bosses, you will encounter bosses with mechanics where revolution could greatly hinder your combat ability. Here are a few scenarios where Revo could cause more harm than good:
+
+⬥ **Araxxor** <:Araxxi:513213019543699466>
+    • During his web shield, players must manually input to stop attacking, otherwise all damage dealt gets reflected onto the player, potentially killing them.
+⬥ **Vorago** <:vorago:572867742613635082>
+    • During his reflect mechanic, similar to Araxxor, players must manually stop attacking to prevent killing themselves or another person via reflect damage.
+⬥ **Telos** <:Telos:513212949033123840>
+    • For his "Hold Still, Invader" attack, you Anticipate <:anti:535541306475151390> and use Resonance <:res:535541258844635148>
+    • This requires somewhat precise timing and there's a chance Revolution activates an ability while you are waiting to Resonance <:res:535541258844635148>, triggering the global cooldown which can mess up the timing.
+.
+⬥ **Kalphite King** <:KalphiteKing:513212971409866765>
+    • During his 'Green' attack, a player needs to provoke <:voke:535541259465392143> the boss and use either Devotion <:devo:513190158728953857> or Resonance <:res:535541258844635148> to avoid dying
+    • If Revolution uses something else and delays the defensives, it might kill them.
+⬥ **Nex** <:Nex:513213159071547395>
+    • Any attacks during her 'Blood Siphon' will heal Nex rather than hurt her, requiring manual input to prevent Revolution from attacking her.
+    • During Blood Phase, Nex heals from bleeds, requiring manual input to avoid using bleeds.
+⬥ **Helwyr** <:Helwyr:513213019635843100>
+    • A common way to deal with his 'You Will Bleed!' swipe attack is to Resonance <:res:535541258844635148> it to heal some HP.
+    • This needs somewhat precise timing and there's a chance that Revolution activates an ability while you are waiting to Resonance <:res:535541258844635148>, triggering the global cooldown which can mess up the timing.
+⬥ **Arch-Glacor** <:archglacor:891948878583189514>
+    • During his 'Arms' mechanic, players must quickly deal damage on one of his arms to break free.
+    • Revolution might waste a strong ability on the boss (who is immune at this point) before you switch to target his arms, lowering your DPS output.
+⬥ **Zamorak** <:zamorak:994914159969976440>
+    • During his Infernal Tomb mechanic, players must Anticipate <:anti:535541306475151390> and then stun on a specific tick.
+    • Missing this stun could cost you the kill or force you to use Immortality <:immort:535541258538582017> at higher enrages.
+
+.
+### Revo with (Mostly) Manual Inputs
+⬥ There is not much difference between using Full Manual *without* Revolution, vs. Full Manual *with* Revolution *as a backup*.
+    • The main difference is it ensures you don't suddenly use an ability that you didn't intend to.
+
+.
+## __How to Switch from Revolution to Full Manual__
+.tag:transition
+**Learning full manual can take time - this is normal.** However, just like with any other game, its not unreasonable to expect players to pick up the required skill over time.
+.
+### Step by Step
+⬥ **Set good keybinds.**
+    • It is very important that your **keybinds are comfortable to reach** and **make sense to you**.
+    • It is up to you to decide what works best for you.
+    • See the **Action Bars** and **Keybinds** sections in <#1020546905865986068> for some ideas.
+
+⬥ **Practice the keybinds.**
+    • You need to be able to use your keybinds effectively - **this means committing them to muscle memory.**
+    • Your goal is to not need to think about what keybind does what ability - you should know what ability you want to do, and the muscle memory should do the rest for you.
+    • **It is normal for this to take some time**, but trust the process!
+
+⬥ **Choose - gradual transition, or full sending it.**
+    • Some players find it easier to start to keep Revo on for backup, but focus on using more manual inputs until they can turn off Revo entirely.
+    • Others may just jump in and turn off Revo, and practice until they can effectively use their binds, and not lose time trying to use abilities.
+    • **It is up to you to decide what works best for you.**
+
+⬥ **Focused practice**
+    • When practicing keybinds, *make sure the focus is practicing keybinds*.
+    • This means you shouldn't try to learn too many other things at the same time, such as prayer flicking or new boss mechanics, etc.
+    • Get used to full manual doing PvM you're already familiar with.
+
+⬥ **Good places to practice keybinds:**
+    • **Combat Dummies** <:dummy:656844963522281473> - to initially learn your keybinds.
+    • **Full manual slayer** - makes you think about prioritising abilities and using AoEs properly.
+    • **GWD2** - relatively easy bosses with few mechanics and high health to practice rotations on (plus decent <:coins:698816156961603654> profit!)
+    • **Arch-Glacor** <:archglacor:891948878583189514> - toggleable mechanics for a customised fight to practice movement, defensives, and DPS checks.
+    • Check out <#1020546518941454438> for more ideas.
+
+.
+### Keybinds Guide
+⬥ As a reference, check out this very well thought out guide to setting up your keybinds that can help you plan your own keybinds.
+https://www.youtube.com/watch?v=zn_y-_2giZg
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Overview__",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Related Channels]($linkmsg_related$)",
+        "inline": true
+      },
+      {
+        "name": "__Combat Modes__",
+        "value": "⬥ [Revolution]($linkmsg_revo$)\n⬥ [Full Manual]($linkmsg_fm$)",
+        "inline": true
+      },
+      {
+        "name": "__Using Full Manual (FM)__",
+        "value": "⬥ [Why Switch to FM?]($linkmsg_compare$)\n⬥ [How to Switch to FM]($linkmsg_transition$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete

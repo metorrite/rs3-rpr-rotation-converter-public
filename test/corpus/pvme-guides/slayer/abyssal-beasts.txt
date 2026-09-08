@@ -1,0 +1,165 @@
+# Abyssal Beasts
+*Note: a **Table of Contents** can be found in the pins.*
+
+.
+## __Introduction__
+.tag:intro
+[Abyssal beasts](<https://runescape.wiki/w/Abyssal_beast>) <:abyssalbeast:1004107328964014100> are a higher level alternative for Abyssal Slayer creature assignments. They are mainly killed for Slayer <:slayer:797896049548066857> tasks, the [Senntisten collection log](<https://runescape.wiki/w/Slayer_collection_log#Senntisten>), combat <:combat:797896050370281523> / <:invention:689509250946695292> item experience, profit, and <:eliteclue:1123586941057769552>
+
+⬥ Abyssal beasts can be assigned as a Slayer <:slayer:797896049548066857> assignment by Mandrith, Laniakea, Morvran, Kuradal, Duradel, Sumona, and The Raptor.
+    • Abyssal beasts specific tasks may be assigned by Mandrith.
+    • Demon cluster tasks also work, they may be assigned by Laniakea, and The Raptor.
+        ⬩ Laniakea assigns almost twice as many.
+⬥ The level 35 Wilderness location yields the highest kph.
+
+.
+### Stats
+⬥ <:slayer:797896049548066857> level: 105
+⬥ <:slayer:797896049548066857> XP per kill: 1448.4
+⬥ Optimal kills per hour: ~809 <:magic:689504724159823906>, ~790 <:range:580168050121113623>, ~742 <:melee:1096130867279171706>, ~809 <:necromancy:1148995625896120460> (All AFK)
+⬥ Optimal <:slayer:797896049548066857> XP per hour: ~1.17m <:magic:689504724159823906>, ~1.15m <:range:580168050121113623>, ~1.07m <:melee:1096130867279171706>, ~1.17m <:necromancy:1148995625896120460> (All AFK)
+
+.
+### __Desirable drops__
+.tag:drops
+⬥ [Jaws of the Abyss](<https://runescape.wiki/w/Jaws_of_the_Abyss>) <:jawsoftheabyss:947871842595639306>
+    • Required for the Slayer collection log.
+    • 5 times rarer off-task.
+⬥ [Abyssal flesh](<https://runescape.wiki/w/Abyssal_flesh>) <:abyssalflesh:947871842520170576>
+    • Required to craft <:abyssalarmourspike:1004107347259555981>
+⬥ [Revenant drop enhancer](<https://runescape.wiki/w/Revenant_drop_enhancer>) <:revenantdropenhancer:1006481325076787240>
+    • Required for the Slayer collection log.
+    • Only dropped if killed in the Wilderness.
+
+.
+### Useful Items and Unlocks
+.tag:useful
+{
+  "embed": {
+    "description":"Owning the following increases the efficiency of your sessions, but is by no means mandatory.",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Items__",
+        "value": "⬥ [Slayer Codex](https://runescape.wiki/w/Slayer_Codex) <:slayercodex:1097517249499254875>\n\u00a0\u00a0\u00a0\u00a0• Once 50 souls are added, it can be used to teleport to the Sunken Pyramid.\n⬥ [Portable obelisk](https://runescape.wiki/w/Portable_obelisk) <:portableobelisk:1137735861937655900> / [Obelisk shard](https://runescape.wiki/w/Obelisk_shard)\n\u00a0\u00a0\u00a0\u00a0• Allows for an easy teleport to the lvl 35 wilderness obelisk.\n⬥ [Demon horn necklace](https://runescape.wiki/w/Demon_horn_necklace) <:demonhornnecklace:975765831248130079> and [attuned ectoplasmator](https://runescape.wiki/w/Attuned_ectoplasmator) <:ectoplasmator:1023152065431744542>\n\u00a0\u00a0\u00a0\u00a0• Helps sustain your prayer.\n⬥ [Dwarven siege engine](https://runescape.wiki/w/Dwarven_siege_engine) <:cannon:869283142350041098> or [Kinetic cyclone](https://runescape.wiki/w/Kinetic_cyclone) <:kineticcyclone:798285651405438997>\n\u00a0\u00a0\u00a0\u00a0• Make sure to have the [Restocking Cannon](https://runescape.wiki/w/Artisans'_Workshop_Reward_Shop#Rewards) ability unlocked."
+      },
+      {
+        "name": "__Other__",
+        "value": "⬥ Armour perked with [Demon Slayer](https://runescape.wiki/w/Demon_Slayer_(perk)) <:demonslayerperk:689502842653900818>\n\u00a0\u00a0\u00a0\u00a0• +7% damage against demons.\n⬥ [Stone of Jas buff](https://runescape.wiki/w/Stone_of_Jas_(status)) <:jasboost:1006121672790773770>\n\u00a0\u00a0\u00a0\u00a0• 3% damage bonus for 4 hours after visiting the cave.\n⬥ [Infernal Puzzle Box (tier 6)](https://runescape.wiki/w/Infernal_Puzzle_Box) <:infernalpuzzlebox:994189299681607800>\n\u00a0\u00a0\u00a0\u00a0• 14% damage reduction and 9% damage increase whilst in the Wilderness.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0⬩ This effect scales with the tier of your puzzle box.\n\u00a0\u00a0\u00a0\u00a0• Tier 6 allows you to put it in your tool belt."
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __Location and How to Get there__
+.tag:location
+Abyssal beasts can be fought in the Senntisten Asylum, the Wilderness, or the Sunken Pyramid.
+
+**Senntisten Asylum**
+.img:https://img.pvme.io/images/ZRpoxozL1P.png
+⬥ If killing Abyssal beasts at the Senntisten Asylum, use a <:pontifexshadowring:870326852361789501>
+    • Go to the second room of the Senntisten Asylum and position yourself 5 tiles east of the west drain.
+    • Place <:cannon:869283142350041098> 4 tiles east of you.
+        ⬩ If using an <:oldakcoil:798285651387613194> place it 3 tiles north of you.
+
+.
+**Level 35 Wilderness**
+.img:https://img.pvme.io/images/5LslOc41ka.png
+⬥ If killing Abyssal beasts at the level 35 Wilderness location, use a <:portableobelisk:1137735861937655900>
+    • Go just north of the level 35 Wilderness obelisk and position yourself 2 tiles north of the skeleton.
+    • Place <:cannon:869283142350041098> 1 tile north, and 9 tiles east of the skeleton.
+
+.
+**Sunken Pyramid**
+.img:https://img.pvme.io/images/mGGioEKQkA.png
+⬥ If killing Abyssal beasts in the Sunken Pyramid, use a <:slayercodex:1097517249499254875>
+    • Relocating your house to Menaphos and using a teleport to house tablet also works.
+    • Place 5 Abyssal beasts in the small room, and position yourself 7 tiles south of the northern statue.
+
+.
+## __Method: AFK (All Styles)__
+.tag:method1
+Before loading your <:cannon:869283142350041098> and starting the session, check the following:
+
+⬥ Ensure <:elderovl:841419289831800882>, <:weppoison:689525476158472288> and <:aggressionpotion:925794592199147581> are active at all times.
+    • <:aggressionpotion:925794592199147581> only needed in the Sunken Pyramid.
+⬥ Sustain <:prayer:1005450651347730533> with <:demonhornnecklace:975765831248130079> <:ectoplasmator:1023152065431744542> or <:powderofpenance:928221126360969226> / <:penanceaspect:1494069332584693810>
+⬥ Use Stone of Jas <:jasboost:1006121672790773770> boost at the level 35 Wilderness location.
+⬥ Senntisten asylum offers more kph than Wilderness, but requires cannon to maintain kph.
+
+.
+**Magic** <:magic:689504724159823906>
+⬥ Equilibrium 4 <:eq4:712073088589627505> > Biting 4 <:biting4:712073087809617931>
+⬥ Pray <:soulsplit:615613924506599497> and <:torment:583429936958930964> or <:affliction:513190158468907008>
+⬥ Autocast <:exsanguinate:856635090745950258>
+⬥ Ensure that <:scriptureofamascut:1266417822188437569> is active.
+
+.
+**Range** <:range:580168050121113623>
+⬥ Equilibrium 4 <:eq4:712073088589627505> > Biting 4 <:biting4:712073087809617931>
+⬥ Pray <:soulsplit:615613924506599497> and <:anguish:583429936665198592> or <:desolation:513190159018098713>
+⬥ <:scriptureofful:902209626412560395> > <:scriptureofamascut:1266417822188437569>
+⬥ <:jasdemonbanearrow:971025697055334491> arrows are crucial, ideally in <:pernixsquiver:902209626450296892>
+⬥ Upkeep <:darkness:1137809209782698024>, especially if using <:scriptureofful:902209626412560395>. Slight chance of death otherwise.
+⬥ <:caroming4:791281588792590336> on weapon preferred but not crucial.
+
+.
+**Melee** <:melee:1096130867279171706>
+⬥ Pray <:soulsplit:615613924506599497> and <:turmoil:583429936606347280> or <:malevolence:513190159416557573>
+⬥ Ensure that <:vampscrim:513201294262009874> is active.
+
+.
+**Necromancy** <:necromancy:1148995625896120460>
+⬥ Pray <:soulsplit:615613924506599497> and <:leechnecromancystrength:1392985027201208350>
+⬥ If low level gear upkeep <:darkness:1137809209782698024>
+⬥ Ensure that <:scriptureofwen:883134307902816297> is active.
+
+.
+### __Presets and Relics__
+⬥ [Magic](https://presets.pvme.io?id=0cbb704a-2bb5-4a6d-821b-654e72e8db78) <:magic:689504724159823906>
+⬥ [Melee](<https://presets.pvme.io?id=76f30b37-a3e5-4578-a195-39742b9b6069>) <:melee:1096130867279171706>
+⬥ [Necromancy](<https://presets.pvme.io?id=6475b8b3-a334-4d3f-9052-0378d25262ca>) <:necromancy:1148995625896120460>
+⬥ [Range](<https://presets.pvme.io?id=6c4b1dd9-e862-4161-9451-97a5ac80a4b7>) <:range:580168050121113623>
+.
+
+.
+### Ability Bars
+⬥ Magic
+.img:https://img.pvme.io/images/phoemFu0Ae.png
+⬥ Melee
+.img:https://img.pvme.io/images/JHjpSWzDC5.png
+⬥ Necromancy
+.img:https://img.pvme.io/images/QAtQUjRge3.png
+⬥ Range
+.img:https://img.pvme.io/images/hCgywZl8B2.png
+
+.
+### Example Kills
+⬥ [Magic (Sunken Pyramid)](<https://www.youtube.com/watch?v=VTyWGWUKduw>) <:magic:689504724159823906>
+⬥ [Necromancy (Sunken Pyramid)](<https://www.youtube.com/watch?v=R0RiIii1p8o>) <:necromancy:1148995625896120460>
+⬥ [Necromancy (Wilderness)](<https://youtu.be/2jp5PEtG3A4>) <:necromancy:1148995625896120460>
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*",
+    "color": 39423,
+    "fields": [
+     {
+        "name": "__Overview__",
+        "value": "⬥ [Introduction]($linkmsg_intro$)\n⬥ [Desirable drops]($linkmsg_drops$)\n⬥ [Useful Items & Unlocks]($linkmsg_useful$)\n⬥ [Location & How to Get there]($linkmsg_location$)",
+        "inline": true
+      },
+      {
+        "name": "__Methods__",
+        "value": "⬥ [AFK (All Styles)]($linkmsg_method1$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete

@@ -1,0 +1,214 @@
+# Metal Dragons
+*Note: a **Table of Contents** can be found in the pins.*
+
+.
+## __Useful Items and unlocks__
+.tag:usefulitems
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Items__",
+        "value": "⬥ [**Kethsi Ring**](https://runescape.wiki/w/Kethsi_ring) <:kethsiring:937093437881192498>\n\u00a0\u00a0\u00a0\u00a0• Provides a 4% damage boost towards metal dragons, making it the BIS ring to use if owned."
+      },
+      {
+        "name": "__Passives / Unlocks__",
+        "value": "⬥ [**Dragon slayer (perk)**](https://runescape.wiki/w/Dragon_Slayer_(perk)) <:dragonslayerperk:689502927731163170>\n\u00a0\u00a0\u00a0\u00a0• Increases damage and KPH.\n⬥ [**Dragon slayer (sigil)**](https://runescape.wiki/w/Dragon_Slayer_(ability) <:dragonslayer:641339921814126594>\n\u00a0\u00a0\u00a0\u00a0• Increases damage and KPH if slaying actively.\n⬥ [**Death Note (relic)**](https://runescape.wiki/w/Death_Note) <:deathnote:1023150755093426216>\n\u00a0\u00a0\u00a0\u00a0• Useful for AFK looting valuable metal dragon bones."
+      }
+    ]
+   }
+}
+.embed:json
+.
+.
+## __Desirable Drops__
+.tag:desirabledrops
+⬥ **Dragon Full Helm**
+    • <:mithrildragon:1080862292016644176> Mithril dragons - 1/8,192 (includes Chewed Bones chance)
+    • <:adamantdragon:1080862288006873138> Adamant dragons - 1/16,384
+
+⬥ **Forcae's Journal pages**
+    • <:adamantdragon:1080862288006873138> Adamant and <:runedragon:1004107341374963852> Rune dragons - 1/20
+        ⬩ 20 are required for MQC <:masterquestcape:1091050888828813412>
+
+⬥ **Kethsi Ring** <:kethsiring:937093437881192498>
+    • <:runedragon:1004107341374963852> Rune dragons - 1/1024 or 1/512 from elites
+
+⬥ **Kethsi outfit scroll**
+    • <:runedragon:1004107341374963852> Rune dragons - 1/200 from elites only or guaranteed from 'Barry the Destroyer'
+    • Only 1 is required for the Slayer log
+
+⬥ **Boot upgrades** for Steadfast, Glaiven and Ragefire Boots
+    • <:runedragon:1004107341374963852> Rune dragons - 1/768 on-task only
+    • Can also be found in Elite Dungeons with Lucky Charms <:ed1luckycharm:841409588561707009> <:ed2luckycharm:841409588694876222> <:ed3luckycharm:841409588938276874>
+
+.
+## __Mithril Dragons__
+.tag:mithrildragons
+.img:https://img.pvme.io/images/5clGyMHybb.png
+Mithril Dragons are often killed for their drops of Ancient Pages and Chewed bones/Dragon Full helm. You can obtain both all of these items in your PSD, making it a desirable AFK method and location for players hunting the Dragon Full Helm or the [Barbarian Scavenger](<https://runescape.wiki/w/Barbarian_Scavenger>) achievement.
+
+.
+### __Stats__
+⬥ <:slayer:797896049548066857> level: 1
+⬥ <:slayer:797896049548066857> XP per kill: 564.4
+⬥ Optimal kills per hour: ~700-730 <:necromancy:1148995625896120460>
+⬥ Optimal <:slayer:797896049548066857> XP per hour: ~412k <:necromancy:1148995625896120460>
+
+.
+### __Location and Where to Stand__
+.tag:mdlocs
+.
+Due to bad respawn timers in habitat locations, it is highly recommended to kill Mithril Dragons in a large room in your PSD.
+There is no precise positioning required as you may need to move for chewed bones to be in area loot range. Due to this, setting up an alt1 loot beam notifier is recommended if hunting for the Dragon Full Helm.
+.
+.img:https://img.pvme.io/images/kbHDJj9td7.png
+
+.
+### __Method - AFK Necromancy__
+.tag:mdnecro
+⬥ Pray <:soulsplit:615613924506599497> and <:sorrow:1137941003895046284> / <:ruination:1137940996391452772>
+⬥ Sustain <:prayer:1005450651347730533> with <:demonhornnecklace:975765831248130079> and <:bonecrusher:975284344526602240>
+⬥ Ensure <:elderovlsalve:648976643687317532> and <:aggressionpotion:925794592199147581> are active
+
+.
+### __Presets and Relics__
+⬥ [AFK Necromancy](https://presets.pvme.io/?id=a5MVeBuXRpQmSnwDYSS0)
+
+.
+### __Ability Bar__
+.img:https://img.pvme.io/images/BKS5KD9HLn.png
+
+.
+### __Video Example__
+⬥ [Necro AFK](<https://www.youtube.com/watch?v=YhpV_1vEeeg>)
+
+.
+## __Adamant Dragons__
+.tag:adamantdrags
+.img:https://img.pvme.io/images/QndSJaR.png
+
+.
+### __Stats__
+⬥ <:slayer:797896049548066857> level: 1
+⬥ <:slayer:797896049548066857> XP per kill: 655.6
+⬥ Optimal kills per hour: ~420 <:magic:689504724159823906>
+⬥ Optimal <:slayer:797896049548066857> XP per hour: ~275k <:magic:689504724159823906>
+
+.
+### __Location and Where to Stand__
+.tag:adlocs
+Place the <:cannon:869283142350041098> on the yellow tile and stand under it as in the below image. If you're taking too much damage using <:cannon:869283142350041098>, you can use an <:oldakcoil:798285651387613194> instead on the purple tile marked on the same map for a slower but safer experience.
+<:dgcape:976732922545586246> 0,6 teleport or metal dragon trinkets are a fast way to get to the location.
+.img:https://img.pvme.io/images/NEsoqPNzDz.png
+
+.
+### __Method - AFK Magic__
+.tag:admagic
+
+.
+> ## ⚠️ Disclaimer
+> **This method may not work after the combat changes made in Q1 of 2026**
+> Know of a newer method/rotation? Got a video? Share it in <#1020853673317908500>!
+
+.
+⬥ Pray <:soulsplit:615613924506599497> and <:torment:583429936958930964> / <:Affliction:513190158468907008>
+⬥ Ensure <:elderovlsalve:648976643687317532> and <:animatedead:856635090453135382> are active, with <:exsanguinate:856635090745950258> being on autocast
+⬥ Sustain <:prayer:1005450651347730533> with <:powderofpenance:928221126360969226>
+    • Alternatively you can use <:bonecrusher:975284344526602240> and <:demonhornnecklace:975765831248130079> but this will reduce profits
+
+.
+### __Presets and Relics__
+⬥ [AFK Magic](https://presets.pvme.io/?id=9YAjVWTEtCakVmPgqplj) <:magic:689504724159823906>
+.
+### __Action Bar__ (Outdated)
+.
+.img:https://img.pvme.io/images/z0KB6YR.png
+.
+### __Video Example__
+⬥ [Magic AFK](<https://youtu.be/P2UvKbKyVIg>)
+
+.
+## __Rune Dragon__
+.tag:runedrags
+.img:https://img.pvme.io/images/TI73Be4.png
+
+.
+### __Stats__
+⬥ <:slayer:797896049548066857> level: 76
+⬥ <:slayer:797896049548066857> XP per kill: 2051
+⬥ Optimal kills per hour: ~270 <:range:580168050121113623>
+⬥ Optimal <:slayer:797896049548066857> XP per hour: ~550k <:range:580168050121113623>
+
+.
+### __Location and Where to Stand__
+.tag:rdlocs
+.
+⬥ Travel to Kethsi via the World Gate
+    • Teleport to the <:eaglespeaklode:1032552307595948052> Eagle's Peak Lodestone and run south, or
+    • Teleport directly to the World Gate with the <:sixthagecircuit:937093290245894154>
+⬥ Place your <:cannon:869283142350041098> on the yellow tile and stand on the red tile marked in the below image.
+.img:https://img.pvme.io/images/wZpSBqnHsh.png
+
+.
+## __Method: Ranged (AFK)__
+.tag:rdranged
+
+.
+You should kill all rune dragons around the statues when you initially arrive the spot to reset their spawn points. **For the most part, 2-3 dragons should be the be targeting you at any time.**
+
+⬥ Pray <:soulsplit:615613924506599497> and <:desolation:513190159018098713> / <:anguish:583429936665198592>
+⬥ Sustain <:prayer:1005450651347730533> with <:penanceaspect:1494069332584693810>
+    • Can alternatively use <:powderofpenance:928221126360969226> + <:holyscarab:929773040273862656> to use <:darkness:1137809209782698024> instead if sustain is a concern
+⬥ The pillar often blocks area loot, so you may wish to use <:telekeneticgrab:866551637970255872> to loot without moving
+⬥ Can replace <:ripperpouch:703581275453128714> with a Legendary Pet to pick up some drops
+⬥ Set an Alt1 alert for Elite spawns if fully AFK as Elites often require manual intervention to prevent KO
+
+.
+### __Presets and Relics__
+⬥ [AFK Ranged](https://presets.pvme.io?id=2f53ca65-bac5-40ba-b75b-eb6214e4d854) <:range:580168050121113623>
+
+.
+### __Action Bar__
+.
+.img:https://img.pvme.io/images/vVKZJSO6Nc.png
+
+.
+### __Video Examples__
+⬥ [Legendary Pet](<https://youtu.be/AhmstH9B2w0>)
+⬥ [Ripper Demon](<https://youtu.be/1JLp0pjNq9w>) <:ripperpouch:703581275453128714>
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*",
+    "color": 15158332,
+    "fields": [
+     {
+        "name": "__Overview__",
+        "value": "⬥ [Useful items and unlocks]($linkmsg_usefulitems$)\n⬥ [Desirable drops]($linkmsg_desirabledrops$)",
+        "inline": true
+      },
+            {
+        "name": "__Mithril dragon__",
+        "value": "⬥ [Introduction]($linkmsg_mithrildragons$)\n⬥ [Location and how to get there]($linkmsg_mdlocs$)\n⬥ [Method: Necro <:necromancy:1148995625896120460> (AFK)]($linkmsg_mdnecro$)",
+        "inline": true
+      },
+      {
+        "name": "__Adamant dragon__",
+        "value": "⬥ [Introduction]($linkmsg_adamantdrags$)\n⬥ [Location and how to get there]($linkmsg_adlocs$)\n⬥ [Method: Magic <:magic:689504724159823906> (AFK)]($linkmsg_admagic$)",
+        "inline": true
+      },
+      {
+        "name": "__Rune dragon__",
+        "value": "⬥ [Introduction]($linkmsg_runedrags$)\n⬥ [Location and Where to stand]($linkmsg_rdlocs$)\n⬥ [Method: Ranged <:range:580168050121113623> (AFK)]($linkmsg_rdranged$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete

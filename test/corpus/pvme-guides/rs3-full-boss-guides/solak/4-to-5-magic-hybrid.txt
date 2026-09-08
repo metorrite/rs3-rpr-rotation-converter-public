@@ -1,0 +1,111 @@
+# Magic-Hybrid 4-5s guide
+.
+.img:https://img.pvme.io/images/gmrKIcfK2P.png
+.
+## __Introduction__
+.tag:Introduction
+This guide will cover a magic-melee hybrid strategy for base and dps, with the aim of 2:15 storm tanking kills with minimal prebuild.
+.
+## __Presets and Relics__
+.tag:presets
+⬥ [Magic / Melee Hybrid](https://presets.pvme.io/?id=BosZhz3IohAiiPlA7Hcb)
+
+### Preset Notes
+.tag:notes
+⬥ Base can choose to bring a <:blessedflask:659122178704408598> if using <:darkform:659122103269982228>
+⬥ Kwuarm <:KwuarmSticks:565726489341984779> active
+⬥ Spirit Weed <:SpiritSticks:565726489136463894> active
+⬥ <:elderovlsalve:648976643687317532> + <:weppoison:689525476158472288> sipped at bank
+    • Base should also apply <:summrenewal:854475161809190913> at bank
+
+.
+## __Phase 1__
+.tag:Phase_1
+### __Wars__
+s <:tsunamiincite:958989794757730307>
+### __P0 (Start on signal by base)__
+r <:tsunamiincite:958989794757730307> + <:gsonic:1478063117211668584> → <:gsunshine:994644352871714836>
+### __P1__
+<:gconc:1478063111104757760> → <:fsoa:869284271595069451> <:spec:537340400273195028> → (autocast <:exsanguinate:856635090745950258> ) <:dbreath:535533833391702017> → <:gconc:1478063111104757760> + <:runic_charge:1478063122345361562> → 8t <:asphyx:535533833072672778> → <:gconc:1478063111104757760> → <:omnipowerigneous:1179505745654448208> → <:reflect:535541258786177064> → <:ezk:903244090953588787> <:spec:537340400273195028> → <:rend:1478166426190741584> → s <:gchaincaroming:1478668630265958471>
+***Note**: Make sure to <:reflect:535541258786177064> with <:magic:689504724159823906> to avoid nulling <:fsoa:869284271595069451> time strikes*
+### __Arms Legs and Core__
+⬥ Wait 2t + (autocast <:incitefear:856635090783567902> ) r <:gchaincaroming:1478668630265958471> + <:gconc:1478063111104757760> → <:dbreath:535533833391702017> + swap to vestments set + <:adrenrenewal:736298121704767538>
+⬥ Wait 2t + <:berserk:535532854004678657> → <:gbarge:535532879250456578> (leg) → <:meteorstrike:1478070401702821938> (<:dummy:656844963522281473>)
+⬥ Wait 1t + <:gflurry:535532879283879977> → <:chaosroar:1478062908767211640> → <:cane:535532878969438210> → <:punish:535532879439069184>
+
+.
+## __Phase 2__
+.tag:Phase_2
+### __Eruptions__
+<:rend:1478166426190741584> (<:dummy:656844963522281473>) → s <:overpowerigneous:959089455640215633> → wait 2t + r <:overpowerigneous:959089455640215633> + <:varanussmercy:1448697873603498045> <:eofspec:1257438999794946099>
+.
+### __Solak__
+<:reflect:535541258786177064> → wait 2t + <:gbarge:535532879250456578> → <:rend:1478166426190741584> → s <:overpowerigneous:959089455640215633> → r <:overpowerigneous:959089455640215633> + <:gflurry:535532879283879977> → 7t <:assault:535532855191928842> → <:cane:535532878969438210>
+(Autocast <:incitefear:856635090783567902> ) <:runic_charge:1478063122345361562> + <:gsonic:1478063117211668584> → <:gsunshine:994644352871714836> → <:gconc:1478063111104757760> → <:dbreath:535533833391702017> → (autocast <:exsanguinate:856635090745950258> ) <:tsunami:535533809995874304> → <:fsoa:869284271595069451> <:spec:537340400273195028> → 8t <:asphyx:535533833072672778> → <:gconc:1478063111104757760> → <:wm:535533809978966037> → ???
+
+.
+## __Phase 3__
+.tag:Phase_3
+Target <:dummy:656844963522281473> <:dba:603979368850653216> <:spec:537340400273195028> → <:rubyaurora:574292444791963659> → <:rubyaurora:574292444791963659>
+Target <:solak:580167371310891029> <:gconc:1478063111104757760> → 8t <:asphyx:535533833072672778> → <:gconc:1478063111104757760> → <:runic_charge:1478063122345361562> + <:dbreath:535533833391702017> → <:meteorstrike:1478070401702821938> → <:gfury:535532879334080527> → <:divert:787904334377648130> → <:berserk:535532854004678657> → <:gbarge:535532879250456578>
+.
+### __Outside__
+<:gflurry:535532879283879977> → <:overpowerigneous:959089455640215633> → <:chaosroar:1478062908767211640> → <:ezk:903244090953588787> <:spec:537340400273195028>
+.
+### __Elf__
+s <:overpowerigneous:959089455640215633> + enter elf → r <:overpowerigneous:959089455640215633> + <:assault:535532855191928842> → <:varanussmercy:1448697873603498045> <:eofspec:1257438999794946099> → <:punish:535532879439069184> + <:gmaul:796989663051120640> <:eofspec:1257438999794946099>
+
+.
+## __Phase 4__
+.tag:Phase_4
+### __Outside__
+s <:overpowerigneous:959089455640215633> → <:invokelordofbones:1176968330582700174> to hold combat until damageable → r <:overpowerigneous:959089455640215633> + <:overpower:535532879334080517> → wait 2t + <:gmaul:796989663051120640> <:eofspec:1257438999794946099>
+### __Elf__
+<:chaosroar:1478062908767211640> → s <:overpowerigneous:959089455640215633> → r <:overpowerigneous:959089455640215633> → wait 1t + <:ezk:903244090953588787> <:spec:537340400273195028> → wait 1t + <:gmaul:796989663051120640> <:eofspec:1257438999794946099>
+.
+## __Example Kills__
+.tag:Example_Kills
+.
+{
+  "embed": {
+"title": "",
+    "description": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Example Kills__",
+        "value": "⬥ [DPS - 4s - (2:16.2)](https://youtu.be/_4QSvXikwEg)"
+      }
+    ]
+  }
+}
+.embed:json
+Content Provided by: <@301111712336052225>
+Formatting Maintained by: <@213496083882442753>
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__General Information__",
+        "value": "⬥ [Introduction]($linkmsg_Introduction$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Notes]($linkmsg_notes$)",
+        "inline": true
+      },
+      {
+        "name": "__Strategy__",
+        "value": "⬥ [Phase 1]($linkmsg_Phase_1$)\n⬥ [Phase 2]($linkmsg_Phase_2$)\n⬥ [Phase 3]($linkmsg_Phase_3$)\n⬥ [Phase 4]($linkmsg_Phase_4$)",
+        "inline": true
+      },
+      {
+        "name": "__Example Kills__",
+        "value": "⬥ [Example Kills]($linkmsg_Example_Kills$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete

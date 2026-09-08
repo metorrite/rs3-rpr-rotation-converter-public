@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Generate samples/" type="js.build_tools.npm" nameIsGenerated="false" folderName="Convert">
+    <description value="Build, then convert every rotation in the PVME guide corpus to RM + RSA + PVME under samples/ (git-ignored), with samples/INDEX.md listing them all. Use --only &lt;name&gt; from the npm tool window to limit it." />
+    <package-json value="$PROJECT_DIR$/package.json" />
+    <command value="run" />
+    <scripts>
+      <script value="samples" />
+    </scripts>
+    <node-interpreter value="project" />
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>

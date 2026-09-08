@@ -1,0 +1,89 @@
+# Ranged Nex (BoLG)
+.img:https://img.pvme.io/images/EHBFVhLaE2.png
+*Note: a **Table of Contents** can be found in the pins.*
+
+.
+## __Introduction__
+.tag:intro
+When Nex spawns for the first time in an instance she will be praying <:DeflectMage:544195487926845462> for the majority of the kill, making Ranged the meta for fast consistent kills. After every kill you will teleport out of the instance and re-enter in order to force Nex to always be praying <:DeflectMage:544195487926845462>.
+
+*Note: It is strongly advised to complete the **Ritual of the Mahjarrat** quest in order to get access to the Stone of Jas <:jasboost:1006121672790773770> boost, which gives a +5% damage boost in GWD1 (including Nex). This can be done via Fairy ring code D.K.Q.*
+
+.
+## __Presets and Relics__
+.tag:presets
+⬥ [Ranged Nex (BoLG)](https://presets.pvme.io?id=271ab9d3-3a6f-4c5f-bc03-e3fadd435b2e) <:range:580168050121113623>
+.
+<:mob:689501908628799488> should be combo'd with either <:biting4:712073087809617931> or <:ultimatums4:1478090603026710648>
+<:as1:689502339891331093> is not recommended with <:p6:712073088769982475> here as it can proc on the Umbra phase transition and null the <:perfectequilibrium:1006119102814887957> hit.
+Due to this, <:p6:712073088769982475> <:ruthless1:712244800924942396> is recommended instead.
+.
+## __Rotation__
+.tag:rotation
+.
+### __Pre-Fight__
+Use <:vampyrismaspect:1494069423047442573>
+(6.0s) <:ecb:615618531937222657> <:eofspec:1257438999794946099> → <:imbueshadows:1478061866193518744> → <:anticlearheaded:867678154071998464>
+.
+### __Smoke Phase__
+(tc) + <:vulnbomb:655341074235129858> + 7 hit <:rapid:535541270521708566> → <:bolg:994189289623662702> <:spec:537340400273195028>
+**Fumus**
+<:vulnbomb:655341074235129858> + <:grico:787904334812807238> → <:gdeathsswift:994644354536837121> + <:adrenrenewal:736298121704767538> → <:ecb:615618531937222657> <:eofspec:1257438999794946099>
+.
+### __Shadow Phase__
+<:shadowtend:642713547142332416> → <:snapshot:1478061855732666439> → <:piercingshot:1478061863723073636> if not phased
+**Umbra**
+<:vulnbomb:655341074235129858> + <:grico:787904334812807238>
+.
+### __Blood Phase__
+<:deadshot:1478061860371828929>
+**Cruor**
+<:vulnbomb:655341074235129858> + <:piercingshot:1478061863723073636> → <:ecb:615618531937222657> <:eofspec:1257438999794946099> → <:piercingshot:1478061863723073636>
+.
+### __Ice Phase__
+<:gloomfirebow:1446178203608809472> <:eofspec:1257438999794946099> → <:piercingshot:1478061863723073636>
+**Glacies**
+<:vulnbomb:655341074235129858> + <:grico:787904334812807238>
+.
+### __Zaros Phase__
+<:piercingshot:1478061863723073636> → <:bolg:994189289623662702> <:spec:537340400273195028> → <:ecb:615618531937222657> <:eofspec:1257438999794946099> → <:galeshot:1478061864943616122> → <:rapid:535541270521708566> → <:grico:787904334812807238>
+
+.
+## __Positioning__
+.tag:positioning
+{
+  "embed": {
+  "description": "⬥ Movement for most of the phases can be seen in the example kill linked below, the only transition where different positioning yields better results is Blood → Ice.",
+  "color": 39423,
+  "fields": [
+      {
+        "name": "__Blood → Ice__",
+        "value": "⬥ [Example](https://i.gyazo.com/1809d6f0e2cc636442fd9673a25e994d.mp4)"
+      },
+      {
+        "name": "__Alternate Blood → Ice__",
+        "value": "⬥ [Example](https://i.gyazo.com/4b95ab751478b2e5d41385f6a184cf8f.mp4)"
+      },
+      {
+        "name": "__Perfect Blood → Ice__",
+        "value": "⬥ [Example](https://i.gyazo.com/ec1807b815601c7867562f08fb090110.mp4)"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+## __Example Kills__
+.tag:example
+⬥ [Kill Example](https://www.youtube.com/watch?v=bEpImft0S3M) <:range:580168050121113623>
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Intro]($linkmsg_intro$)\n⬥ [Presets]($linkmsg_presets$)\n⬥ [Rotation]($linkmsg_rotation$)\n⬥ [Positioning]($linkmsg_positioning$)\n⬥ [Example]($linkmsg_example$)",
+    "color": 39423
+  }
+}
+.embed:json
+.pin:delete

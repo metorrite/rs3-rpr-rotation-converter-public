@@ -1,0 +1,92 @@
+# Seiryu Combat Achievements
+.img:https://img.pvme.io/images/dksAPM9sP5.png
+*Note: a **Table of Contents** can be found in the pins.*
+
+.
+## __Introduction__
+.tag:intro
+This guide will go over how to complete the Combat achievements for Seiryu, and assumes you are already familiar with the basic mechanics of the encounter which can be found in <#1020559553848418394>.
+
+.
+## __Presets and Relics__
+.tag:preset
+⬥ [Range Melee Hybrid](<https://presets.pvme.io?id=81d8bf4c-143d-4bc2-9f06-fdce73980e89>)
+⬥ [Melee Camp](https://presets.pvme.io?id=14a0bfba-1426-4a00-bd7b-56eda223a13a)
+
+.
+## __Ranged-Melee Hybrid Seiryu Grandmaster Speed Killer__
+.tag:rangemelee
+⬥ This rotation is **NOT** recommended for standard kills, only for the achievement
+    • The setup takes extra time, thus lowering average kills per hour
+⬥ With this rotation it is possible to hit ~0:39.0 kill times
+
+### __Wars__
+<:deathsporearrows:900758234527301642> s<:grico:787904334812807238>
+
+### __Prebuild__
+r<:grico:787904334812807238> + <:grico:787904334812807238> → <:gdeathsswift:994644354536837121> → <:wenarrows:971025697046925362> + <:imbueshadows:1478061866193518744> → <:piercingshot:1478061863723073636> → <:bolg:994189289623662702> <:spec:537340400273195028> → <:piercingshot:1478061863723073636> → <:anti:535541306475151390> → <:dba:603979368850653216> <:spec:537340400273195028> → <:piercingshot:1478061863723073636> → <:grico:787904334812807238> → <:ecb:615618531937222657> <:eofspec:1257438999794946099> → <:galeshot:1478061864943616122> + 2t <:surge:535533810004262912> + <:dive:1049378668197195808>
+
+### __Seiryu__
+<:surge:535533810004262912> + tc <:rapid:535541270521708566> → <:deadshot:1478061860371828929> → <:gloomfirebow:1446178203608809472> <:eofspec:1257438999794946099> → <:grico:787904334812807238> → <:shadowtend:642713547142332416> → <:meteorstrike:1478070401702821938> + <:dive:1049378668197195808> + **Climb**
+
+### __Crystal 1__
+1: <:berserk:535532854004678657> + <:adrenrenewal:736298121704767538> → <:gbarge:535532879250456578> + <:dommine:662249620579155968> →  <:assault:535532855191928842> → <:overpower:535532879334080517> → (<:chaosroar:1478062908767211640>)
+
+### __Crystal 2__
+2: <:chaosroar:1478062908767211640> → <:varanussmercy:1448697873603498045> <:eofspec:1257438999794946099> → <:varanussmercy:1448697873603498045> <:eofspec:1257438999794946099> → <:lengmh:883134308146098227> <:spec:537340400273195028> → (<:punish:535532879439069184>)
+
+### __Crystal 3__
+3: <:overpower:535532879334080517> → <:varanussmercy:1448697873603498045> <:eofspec:1257438999794946099> → <:cane:535532878969438210>
+
+.
+## __Melee Camp Seiryu Grandmaster Speed Killer__
+.tag:melee
+### __Wars__
+<:dba:603979368850653216> → s<:meteorstrike:1478070401702821938> + Enter
+
+.
+### __Prebuild__
+<:dummy:656844963522281473> → <:annihilation:796989662983094275> <:eofspec:1257438999794946099> + r<:meteorstrike:1478070401702821938> → <:rend:1478166426190741584> → <:anti:535541306475151390> + <:surge:535533810004262912>
+
+.
+### __Seiryu__
+<:vulnbomb:655341074235129858> + <:gbarge:535532879250456578> → <:zgs:626465964325601290> <:eofspec:1257438999794946099> → (Equip <:amhej:1448070604937891921> ) <:assault:535532855191928842>  → <:overpower:535532879334080517> → (Equip <:eof:745279787471470713> ) <:chaosroar:1478062908767211640> → <:varanussmercy:1448697873603498045> <:eofspec:1257438999794946099> → <:rend:1478166426190741584> → s<:varanussmercy:1448697873603498045> <:eofspec:1257438999794946099> → r<:varanussmercy:1448697873603498045> <:eofspec:1257438999794946099> + <:varanussmercy:1448697873603498045> <:eofspec:1257438999794946099> → <:gfury:535532879334080527> → <:divert:787904334377648130> + climb
+
+.
+### __Crystal 1__
+<:berserk:535532854004678657> + <:adrenrenewal:736298121704767538> → <:gbarge:535532879250456578> + <:vulnbomb:655341074235129858> + <:dommine:662249620579155968> → <:meteorstrike:1478070401702821938>  → <:gflurry:535532879283879977> → <:rend:1478166426190741584> → <:varanussmercy:1448697873603498045> <:eofspec:1257438999794946099> → <:punish:535532879439069184> (if not dead)
+
+.
+### __Crystal 2__
+<:vulnbomb:655341074235129858> + <:overpower:535532879334080517> → <:assault:535532855191928842> → <:lengmh:883134308146098227> <:spec:537340400273195028>
+
+.
+### __Crystal 3__
+<:vulnbomb:655341074235129858> + <:overpower:535532879334080517> → <:rend:1478166426190741584> → <:varanussmercy:1448697873603498045> <:eofspec:1257438999794946099> → <:varanussmercy:1448697873603498045> <:eofspec:1257438999794946099> → <:punish:535532879439069184>
+
+.tag:example
+{
+  "embed": {
+"title": "",
+    "description": "",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Example Kills__",
+        "value": "⬥ [Range Melee Hybrid](https://www.youtube.com/watch?v=WAKz_1EGRj4)\n⬥ [Melee Camp](https://www.youtube.com/watch?v=CCdyOLFV44c)"
+      }
+    ]
+  }
+}
+.embed:json
+
+.
+{
+  "embed": {
+    "title": "__Table of Contents__",
+    "description": "*To edit this guide in our web editor [click here](<https://pvme.io/guide-editor/?id={{channel:id}}>), or visit <id:customize> and select Entry Editor*\n⬥ [Introduction]($linkmsg_intro$)\n⬥ [Preset and Relics]($linkmsg_preset$)\n⬥ [Ranged-Melee Hybrid]($linkmsg_rangemelee$)\n⬥ [Melee Camp]($linkmsg_melee$)\n⬥ [Example Kills]($linkmsg_example$)",
+    "color": 39423
+    }
+}
+.embed:json
+.pin:delete

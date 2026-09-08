@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="CLI: extract Rasial guide" type="js.build_tools.npm" nameIsGenerated="false" folderName="Convert">
+    <description value="Demo of guide ingestion: pull every rotation out of the Rasial PVME guide and write RM JSON into out/. Swap --to rsa or pvme, add --list to just see what was detected, or --section &lt;name&gt; for one." />
+    <package-json value="$PROJECT_DIR$/package.json" />
+    <command value="run" />
+    <scripts>
+      <script value="cli" />
+    </scripts>
+    <arguments value="-- extract test/corpus/pvme-guides/rs3-full-boss-guides/rasial.txt --to rm -o out" />
+    <node-interpreter value="project" />
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>

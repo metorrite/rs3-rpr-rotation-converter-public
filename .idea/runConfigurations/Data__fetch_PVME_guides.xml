@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Data: fetch PVME guides" type="js.build_tools.npm" nameIsGenerated="false" folderName="Data">
+    <description value="Re-download the PVME guide corpus into test/corpus/pvme-guides/ and repin test/corpus/CORPUS_MANIFEST.json. Review the diff and rerun tests before committing." />
+    <package-json value="$PROJECT_DIR$/package.json" />
+    <command value="run" />
+    <scripts>
+      <script value="fetch-guides" />
+    </scripts>
+    <node-interpreter value="project" />
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>

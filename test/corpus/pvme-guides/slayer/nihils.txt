@@ -1,0 +1,147 @@
+> ## ⚠️ Disclaimer
+> **Some methods in this guide may not work after the combat changes made in Q1 of 2026**
+> Know of a newer method/rotation? Got a video? Share it in <#1020853673317908500>!
+
+# Nihils
+*Note: a **Table of Contents** can be found in the pins.*
+
+.
+## __Introduction__
+.tag:introduction
+The quest Fate of the Gods is a requirement to fight Nihils or get them as a slayer task. Despite being a Nihil, Nex <:Nex:513213159071547395> is not affected by being on a task.
+
+⬥ As Nihils are not technically demons, the various demon slayer buffs <:demonslayerperk:689502842653900818> <:demonslayer:641339921675845633> do not work on them.
+
+⬥ They are permanently aggressive unless the player is wielding a Shard of Zaros and run at the same speed as the player.
+
+⬥ Each nihil variant has their own unique special they will use after a few autos.
+    • Smoke nihil: Reduces combat stats.
+        ⬩ This effect is easily nullified by overloads.
+    • Shadow nihil: Deals 500 typeless damage 3 times.
+    • Blood nihil: Stops attacking, becomes invulnerable to styled damage and absorbs incoming damage.
+        ⬩ Blood Nihils will not heal from damage in a player-owned dungeon.
+        ⬩ Poison <:poisonicon:944649693500154006> will still damage them normally.
+    • Ice nihil: Drains 50 prayer points per attack. Also stuns and binds the player <:stunicon:841419289428492369> <:bindicon:1102897815073603685>
+
+.
+### Stats
+.
+⬥ These rates are calculated with **blood Nihils**.
+⬥ <:combat:797896050370281523> XP per kill : 2,532.6 + 835.7 <:constitution:689509250887712902>
+⬥ <:slayer:797896049548066857> XP per kill : 705.4
+⬥ Optimal kills per hour: ~790 (AFK)
+⬥ Optimal <:slayer:797896049548066857> XP per hour : ~557K (AFK)
+
+.
+### Desirable drops
+.tag:desirabledrops
+⬥ Summoning ingredient drops (Aviansie talons, Demon horn, Vampyre fangs, Icyene feather)
+    • Dropped from the Smoke, Shadow, Blood and Ice Nihils respectively.
+    • Used to craft Nihil familiar pouches <:smokenihil:854475442227642388> <:shadownihil:854475441946230855> <:bloodnihil:854475442169053194> <:icenihil:854475442164334592>
+
+⬥ They also have a very small chance to drop the <:zarytebow:791280228377952276>, though one has a much better chance of obtaining this drop by killing Nex.
+
+.
+### Useful Items
+.tag:usefulitems
+.
+{
+  "embed": {
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__Items__",
+        "value": "⬥ [**Shard of Zaros**](https://runescape.wiki/w/Shard_of_Zaros)\n\u00a0\u00a0\u00a0\u00a0• Removes nihil aggression.\n\u00a0\u00a0\u00a0\u00a0• This is absolutely essential if gathering souls or killing them individually.\n⬥ [**Sixth-Age Circuit**](https://runescape.wiki/w/Sixth-Age_circuit) <:sixthagecircuit:937093290245894154>\n\u00a0\u00a0\u00a0\u00a0• Allows for an easy teleport to the World Gate.\n⬥ [**Grace of the Elves**](https://runescape.wiki/w/Grace_of_the_elves) <:gote:900765150678749204>\n\u00a0\u00a0\u00a0\u00a0• Highly useful as a swap to automatically bank nihil materials.\n\u200B"
+      }
+    ]
+   }
+}
+.embed:json
+.
+### Location and How to Get There
+.tag:location
+Teleport to the World Gate with <:sixthagecircuit:937093290245894154>, set it to Freneskae and select the option "The Pit" to teleport to where Nihils are. Walking on the center tile will provide the option to spawn Nihils for slayer.
+
+⬥ Alternatively, teleport to Eagles' Peak lodestone <:eaglespeaklode:1032552307595948052> and run south to the World Gate.
+
+.
+## __Method: Low effort Magic__
+.tag:methodmage_loweffort
+Magic can utilise the terrain and Nihils' natural aggression to group them up, followed by barraging them down with <:bloodbarrage:537338981747261446>. The use of tank armour and <:animatedead:856635090453135382> also helps it withstand the attacks of multiple Nihils.
+
+.
+.
+### Preset
+
+⬥ [Low effort Magic](https://presets.pvme.io/?id=0BUcOGXcnqpjDNocpL0Z)
+
+.
+### Strategy
+⬥ Spawn the Nihils and run around the pillars to group them up. Make sure to have less than 9 on you else <:bloodbarrage:537338981747261446> will not hit all of them.
+
+⬥ If done properly, this achieves ~500kph, getting around 70-100 Nihil pouch ingredients + ~5m in other commons (mostly from onyx bolts and herbs). Being on task helps but the short length of Nihil slayer tasks makes this method mostly impractical for XP.
+
+.
+## __Method: AFK Magic [PoSD]__
+.tag:afk
+.
+As players can place specific nihil variants in a dungeon, the best method of killing Nihils is AoEing **blood Nihils** in the player owned dungeon. This can be done with both revo++ or legacy.
+
+⬥ Revo++ vs Legacy:
+    • Legacy benefits: Tank armour not required.
+    • Revo++ benefits: Significantly lower rune cost and higher kph (~120 more with a BIS setup).
+
+⬥ If using legacy with <:inquisitorstaff:694566917553520680>, use <:bloodburst:841419289714098246>, otherwise, use <:bloodbarrage:537338981747261446>. Cast <:exsanguinate:856635090745950258> if using revo++
+
+.
+### Presets
+
+⬥ [Active Magic (Soul Gathering)](<https://presets.pvme.io/?id=caAj2jaWsxNWFUEWn8md>)
+⬥ [AFK Magic (PoSD)](https://presets.pvme.io/?id=q7fGOb0BeX1VgOsu5JPB)
+
+
+.
+### Strategy - Gathering souls
+⬥ As blood Nihils cannot be isolated from the other nihil variants, they must be fought in an active manner. Magic is suggested for this although it may also be viable to use ranged with sufficient accuracy boosts.
+    • Do NOT have multi-hitting abilities on your bar to avoid aggroing other Nihils. This includes <:dbreath:535533833391702017> <:tsunami:535533809995874304> <:deto:535533833358016512>
+    • <:corruptblast:513190159194259467> can be used as it does not aggro other Nihils.
+    • Melee is not as viable as you will spend a lot of time chasing Nihils around due to their high mobility.
+
+⬥ Stand in the western area of The Pit where the blood Nihils spawn.
+
+⬥ Do not spend excessive amounts of time chasing the nihil. Target close-by Nihils as fast as possible after they spawn to prevent them from running away.
+
+### Strategy - PoSD slaying
+⬥ Place the Nihils in the small room. Stand in the middle of the room if using revo++.
+    • Stand in the northeast corner (yellow box) if using legacy.
+.img:https://img.pvme.io/images/dONoLgJiU7.png
+.
+### Revo bar
+.img:https://img.pvme.io/images/HwPgJ9wsim.png
+.
+### Video Example
+.tag:afkexample
+⬥ [Gathering souls](<https://youtu.be/t8Mi0XjLwoo>)
+⬥ [AFK](<https://www.youtube.com/watch?v=kVTAmGkarzw>)
+
+.
+{
+  "embed": {
+    "title": "Table of Contents",
+    "color": 39423,
+    "fields": [
+      {
+        "name": "__introduction__",
+        "value": "⬥ [Introduction]($linkmsg_introduction$)\n⬥ [Desirable drops]($linkmsg_desirabledrops$)\n⬥ [Useful Items]($linkmsg_usefulitems$)\n⬥ [Location and how to get there]($linkmsg_location$)",
+        "inline": true
+      },
+      {
+        "name": "__Method: Mage (Low Effort)__",
+        "value": "⬥ [Mage (Low Effort)]($linkmsg_methodmage_loweffort$)\n⬥ [AFK Magic [PoSD]]($linkmsg_afk$)",
+        "inline": true
+      }
+    ]
+  }
+}
+.embed:json
+.pin:delete
