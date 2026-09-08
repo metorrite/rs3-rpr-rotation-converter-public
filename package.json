@@ -2,6 +2,7 @@
   "name": "rs3-rpr-rotation-converter",
   "version": "0.1.0",
   "description": "Convert RuneScape 3 PvM ability rotations between RS Analysis, RotationMaster, and PVME-guide notation.",
+  "author": "Drake Forness",
   "type": "module",
   "private": true,
   "main": "dist/electron/main.js",
@@ -38,6 +39,9 @@
   "dependencies": {
     "commander": "^14.0.0"
   },
+  "overrides": {
+    "@noble/hashes": "1.8.0"
+  },
   "build": {
     "appId": "com.drake.rsanalysis.rotationmaster.converter",
     "productName": "RSAnalysis to RotationMaster Converter",
@@ -56,6 +60,13 @@
         "nsis",
         "portable"
       ]
+    },
+    "nsis": {
+      "differentialPackage": false,
+      "artifactName": "${productName}-${version}-Setup.${ext}"
+    },
+    "portable": {
+      "artifactName": "${productName}-${version}-Portable.${ext}"
     }
   }
 }
